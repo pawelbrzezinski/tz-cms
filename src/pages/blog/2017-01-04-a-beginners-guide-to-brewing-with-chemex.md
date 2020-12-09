@@ -11,6 +11,7 @@ tags:
   - brewing
   - chemex
   - paweł
+  - Agnieszka
 ---
 ![chemex](/img/chemex.jpg)
 
