@@ -8,13 +8,15 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: ''
+media_folder: static/img
 public_folder: /img
 
 collections:
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
+    media_folder: ''
+    public_folder: ''
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
