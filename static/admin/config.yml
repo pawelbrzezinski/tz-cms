@@ -15,7 +15,7 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
-    media_folder: ''
+    media_folder: 'img'
     public_folder: ''
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
