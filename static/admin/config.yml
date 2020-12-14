@@ -16,6 +16,8 @@ collections:
     label: "Blog2"
     folder: "src/pages/blog"
     create: true
+    media_folder: img
+    public_folder: "./img"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
