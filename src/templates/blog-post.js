@@ -10,12 +10,13 @@ export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
+  date,
   tags,
   title,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
-
+console.log(date,"DATE!")
   return (
     <section className="section">
       {helmet || ''}
@@ -23,8 +24,11 @@ export const BlogPostTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
+              {title} 
             </h1>
+            <h2>
+            {date}
+            </h2>
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
@@ -56,11 +60,11 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
-
   return (
     <Layout>
       <BlogPostTemplate
         content={post.html}
+        date={post.frontmatter.date}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
@@ -93,7 +97,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD.MM.YYYY")
         title
         description
         tags
