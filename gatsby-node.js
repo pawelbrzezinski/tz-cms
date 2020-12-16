@@ -5,7 +5,8 @@ const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 const { union } = require('lodash')
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
+
 
   return graphql(`
     {
@@ -42,6 +43,9 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
+    createRedirect({ fromPath: '/poznan', toPath: '/poznan/badanie-znamion', isPermanent: true });
+
+
     const posts = result.data.allMarkdownRemark.edges
     const articles = result.data.allMdx.edges
 
@@ -63,7 +67,7 @@ exports.createPages = ({ actions, graphql }) => {
     // Tag pages:
     let tags = []
     // Iterate through each post, putting all found tags into `tags`
-    union(posts,articles).forEach((edge) => {
+    union(posts, articles).forEach((edge) => {
       if (_.get(edge, `node.frontmatter.tags`)) {
         tags = tags.concat(edge.node.frontmatter.tags)
       }
