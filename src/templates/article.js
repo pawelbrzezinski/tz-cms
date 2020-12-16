@@ -49,11 +49,3 @@ const ArticlePage = ({ children, ...props }) => {
 
 export default ArticlePage
 
-export const pageQuery = graphql`
-  query ArticleQuery($id: String!) {
-    mdx(id: { eq: $id }) {
-      body
-      timeToRead
-    }
-  }
-`

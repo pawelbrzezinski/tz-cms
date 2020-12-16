@@ -45,7 +45,7 @@ exports.createPages = ({ actions, graphql }) => {
     const posts = result.data.allMarkdownRemark.edges
     const articles = result.data.allMdx.edges
 
-    union(posts,articles).forEach((edge) => {
+    posts.forEach((edge) => {
       const id = edge.node.id
       createPage({
         path: edge.node.slug || edge.node.fields.slug,
