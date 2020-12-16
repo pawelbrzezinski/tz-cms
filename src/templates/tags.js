@@ -1,24 +1,27 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import { union } from 'lodash'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
-    const postLinks = posts.map((post) => (
-      <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
-        </Link>
-      </li>
-    ))
+    const articles = this.props.data.allMdx.edges
+
+    const links = union(posts, articles).map((post) => {
+      const slug = post.node.slug ? `/${post.node.slug}` : post.node.fields.slug
+
+      return (
+        <li key={slug}>
+          <Link to={slug}>
+            <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
+          </Link>
+        </li>
+      )
+    })
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
-    const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const tagHeader = `${totalCount} post${
-      totalCount === 1 ? '' : 's'
-    } tagged with “${tag}”`
 
     return (
       <Layout>
@@ -30,8 +33,7 @@ class TagRoute extends React.Component {
                 className="column is-10 is-offset-1"
                 style={{ marginBottom: '6rem' }}
               >
-                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
+                <ul className="taglist">{links}</ul>
                 <p>
                   <Link to="/tags/">Browse all tags</Link>
                 </p>
@@ -64,6 +66,21 @@ export const tagPageQuery = graphql`
           fields {
             slug
           }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+    allMdx(
+      limit: 1000
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
+    ) {
+      totalCount
+      edges {
+        node {
+          slug
           frontmatter {
             title
           }

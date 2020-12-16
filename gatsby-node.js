@@ -2,6 +2,7 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const { union } = require('lodash')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -22,6 +23,18 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
+      allMdx(limit: 1000) {
+        edges {
+          node {
+            id
+            slug
+            frontmatter {
+              tags
+              templateKey
+            }
+          }
+        }
+      }
     }
   `).then((result) => {
     if (result.errors) {
@@ -30,11 +43,12 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
+    const articles = result.data.allMdx.edges
 
-    posts.forEach((edge) => {
+    union(posts,articles).forEach((edge) => {
       const id = edge.node.id
       createPage({
-        path: edge.node.fields.slug,
+        path: edge.node.slug || edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
@@ -49,7 +63,7 @@ exports.createPages = ({ actions, graphql }) => {
     // Tag pages:
     let tags = []
     // Iterate through each post, putting all found tags into `tags`
-    posts.forEach((edge) => {
+    union(posts,articles).forEach((edge) => {
       if (_.get(edge, `node.frontmatter.tags`)) {
         tags = tags.concat(edge.node.frontmatter.tags)
       }

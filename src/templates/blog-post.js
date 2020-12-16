@@ -16,7 +16,6 @@ export const BlogPostTemplate = ({
   helmet,
 }) => {
   const PostContent = contentComponent || Content
-console.log(date,"DATE!")
   return (
     <section className="section">
       {helmet || ''}
