@@ -88,9 +88,11 @@ module.exports = {
       options: {
         serialize: ({ site, allSitePage }) => {
           const { allPages } = getNodes(allSitePage) || []
-          return allPages?.map(page => {
+          
+          return allPages.map(page => {
+            const url = site.siteMetadata ? site.siteMetadata.siteUrl : ''
             return {
-              url: `${site.siteMetadata?.siteUrl ?? ``}${page.path}`,
+              url: `${url}${page.path}`,
               lastmodISO: new Date().toISOString(),
               priority: 0.9,
             }
@@ -109,8 +111,9 @@ function getNodes(results) {
   }
 
   if (`edges` in results) {
+    
     return {
-      allPages: results?.edges?.map(edge => edge.node),
+      allPages: results && results.edges ? results.edges.map(edge => edge.node) : [],
       originalType: `edges`,
     }
   }
