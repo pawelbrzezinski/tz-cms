@@ -87,7 +87,7 @@ module.exports = {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         serialize: ({ site, allSitePage }) => {
-          const { allPages } = getNodes(allSitePage)
+          const { allPages } = getNodes(allSitePage) || []
           return allPages?.map(page => {
             return {
               url: `${site.siteMetadata?.siteUrl ?? ``}${page.path}`,
