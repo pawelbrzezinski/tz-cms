@@ -1,0 +1,12 @@
+@import "colors";
+@import "typography";
+
+body {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: $black;
+  margin: 0;
+  padding: 0;
+}

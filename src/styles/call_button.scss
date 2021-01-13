@@ -1,0 +1,31 @@
+@import "colors";
+
+.call_button {
+  background: $blue10;
+  border: none;
+  outline: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 58px;
+  padding: 14px;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  &-S{
+    background: $blue10;
+    border: none;
+    outline: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 58px;
+    padding: 10px;
+  
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}

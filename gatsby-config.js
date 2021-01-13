@@ -15,6 +15,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-typescript',
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -84,11 +85,19 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Poppins:Bold,Semi-Bold,Regular,400,600,700']
+        }
+      }
+    },
+    {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         serialize: ({ site, allSitePage }) => {
           const { allPages } = getNodes(allSitePage) || []
-          
+
           return allPages.map(page => {
             const url = site.siteMetadata ? site.siteMetadata.siteUrl : ''
             return {
@@ -111,7 +120,7 @@ function getNodes(results) {
   }
 
   if (`edges` in results) {
-    
+
     return {
       allPages: results && results.edges ? results.edges.map(edge => edge.node) : [],
       originalType: `edges`,
