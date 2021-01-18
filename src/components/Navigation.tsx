@@ -8,7 +8,7 @@ import Button from "./Button";
 
 const Navigation = () => {
   return (
-    <nav className="navigation" role="navigation" aria-label="main-navigation">
+    <nav className="navigation sticky" role="navigation" aria-label="main-navigation">
       <div className="logo">
         <Link to="/" title="Logo">
           <img src={logo} alt="Twoje Znamiona" />
@@ -16,16 +16,19 @@ const Navigation = () => {
       </div>
       <div className="navigation-items">
         <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
-          Badanie Znamion
+          Diagnostyka Znamion
         </Link>
-        <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
+        {/* <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
           Usuwanie Znamion
-        </Link>
-        <Link className="navigation-item" to="/czerniak">
+        </Link> */}
+        {/* <Link className="navigation-item" to="/czerniak">
           Konsultacje onkologiczne
-        </Link>
+        </Link> */}
         <Link className="navigation-item" to="/czerniak">
           Nowotwory skóry
+        </Link>
+        <Link className="navigation-item" to="/czerniak">
+          Nasze ośrodki
         </Link>
         <Link className="navigation-item" to="/czerniak">
           O nas
@@ -38,11 +41,11 @@ const Navigation = () => {
         </Link>
       </div>
       <div className="navigation-contact">
-        <div>
-          <CallButton />
-          <span>+48 781 445 685</span>
+        <div className="phone-wrapper">
+          <CallButton className="normal-icon" />
+          <span className="phone-number">+48 781 445 685</span>
         </div>
-        <Button size="M">
+        <Button size="M" className="normal-button">
           <Link to="/contact">Umów się</Link>
         </Button>
       </div>

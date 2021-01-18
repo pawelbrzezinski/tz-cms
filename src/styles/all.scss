@@ -9,4 +9,27 @@ body {
   color: $black;
   margin: 0;
   padding: 0;
+
+  background: url("../img/bg.svg");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  padding-top: 120px;
 }
+
+// @mixin media-max-width($width) {
+//   @media (max-width: $width) {
+//     @content;
+//   }
+// }
+
+// @mixin media-min-width($width) {
+//   @media (min-width: $width) {
+//     @content;
+//   }
+// }
+
+// @mixin media-min-max-width($min-width, $max-width) {
+//   @media (min-width: $min-width) and (max-width: $max-width) {
+//     @content;
+//   }
+// }

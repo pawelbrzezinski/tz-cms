@@ -2,7 +2,7 @@ import React from "react";
 
 import "../styles/button.scss";
 
-const Button = ({ children, type = "primary", size = "L" }) => {
+const Button = ({ children, type = "primary", size = "L", className="" }) => {
   const types = {
     primary: "button-primary",
     secondary: "button-secondary",
@@ -15,7 +15,7 @@ const Button = ({ children, type = "primary", size = "L" }) => {
   };
 
   return (
-    <button className={`button ${types[type]} ${sizes[size]}`}>
+    <button className={`button ${className} ${types[type]} ${sizes[size]}`}>
       {children}
     </button>
   );

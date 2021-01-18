@@ -15,9 +15,11 @@ import Surgery from "./Surgery";
 import Videodermoscopy from "./Videodermoscopy";
 import WhyUs from "./WhyUs";
 
+import "../../styles/home.scss";
+
 const HomePage = () => (
   <Layout>
-    <Button size="L">Primary button</Button>
+    {/* <Button size="L">Primary button</Button>
     <Button size="M">Primary button</Button>
     <Button size="S">Primary button</Button>
     <Button type="secondary" size="L">
@@ -30,17 +32,18 @@ const HomePage = () => (
       Secondary button
     </Button>
     <CallButton />
-    <CallButton size="S" />
-    <Hero />
+    <CallButton size="S" /> */}
+    <Hero h1="Ogólnopolskie Centrum Diagnostyki Znamion" oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
+          nowotwory z życia milionów ludzi!" ctaPrimary="Umów się" ctaSecondary="Jak to działa?" />
     <Locations />
-    <Offer />
-    <WhyUs />
-    <Reviews />
+    <Offer className="home_offer" />
+    <WhyUs className="home_why_us" />
+    <Reviews className="home_reviews"/>
     <Melanoma />
-    <Faq />
+    <Faq className="home_faq"/>
     <Dermoscopy />
     <Videodermoscopy />
-    <RiskGroup />
+    <RiskGroup className="home_risk_group"/>
     <Abcde />
     <Surgery />
   </Layout>

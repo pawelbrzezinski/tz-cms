@@ -1,7 +1,12 @@
 import React from "react";
+import BubbleSection from "../../components/BubbleSection";
 
-import "../../styles/faq.scss";
-
-const Faq = () => <div className="faq">Najczęstsze pytania pacjentów</div>;
+const Faq = ({ className = "" }) => (
+  <div className={className}>
+    <BubbleSection introText="FAQ" h2="Najczęstsze pytania pacjentów" color="gray">
+      <div>dupa</div>
+    </BubbleSection>
+  </div>
+);
 
 export default Faq;

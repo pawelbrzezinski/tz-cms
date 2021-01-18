@@ -1,16 +1,29 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from './Footer'
-import Navigation from './Navigation'
-import '../styles/all.scss'
-import useSiteMetadata from './useSiteMetadata'
-import { withPrefix } from 'gatsby'
+import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
+import Footer from "./Footer";
+import Navigation from "./Navigation";
+import "../styles/all.scss";
+import useSiteMetadata from "./useSiteMetadata";
+import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description } = useSiteMetadata();
+
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    window.onscroll = () => {
+      setOffset(window.pageYOffset);
+    };
+  }, []);
+
+  const bodyClass = {
+    class: offset > 80 ? "sticky" : "",
+  };
+
   return (
     <div>
-      <Helmet>
+      <Helmet bodyAttributes={bodyClass}>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -18,24 +31,24 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
+          href={`${withPrefix("/")}img/apple-touch-icon.png`}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
+          href={`${withPrefix("/")}img/favicon-32x32.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
+          href={`${withPrefix("/")}img/favicon-16x16.png`}
           sizes="16x16"
         />
 
         <link
           rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
+          href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
@@ -45,14 +58,14 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
       <Navigation />
       <div>{children}</div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;

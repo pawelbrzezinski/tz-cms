@@ -1,14 +1,33 @@
 @import "colors";
 
 .navigation {
-  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: grid;
+  grid-template-columns: 20fr 56fr 24fr;
+  height: 120px;
 
-  .logo{
+  &,
+  * {
+    transition: all 0.1s;
+  }
 
+  .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 11%;
+
+    a,
+    img {
+      height: 48px;
+    }
   }
 
   .navigation-items {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   .navigation-item {
@@ -20,9 +39,70 @@
   }
 
   .navigation-contact {
-    
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 88px;
+      width: 1px;
+      background: rgba(0, 0, 0, 0.08);
+    }
+
+    .phone-wrapper {
+      display: flex;
+      align-items: center;
+      margin-right: 24px;
+    }
+
+    .phone-number {
+      margin-left: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+
+      @media (max-width: 1350px) {
+        font-size: 12px;
+        margin-left: 8px;
+      }
+    }
+
+    .normal-icon,
+    .normal-button {
+      @media (max-width: 1350px) {
+        transform: scale(0.75);
+      }
+    }
+
+    .normal-button {
+      @media (max-width: 1350px) {
+        transform-origin: left;
+      }
+    }
+  }
 }
 
+.sticky {
+  .navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: $white;
+    height: 80px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 0 0 8px 8px;
 
+    .navigation-contact {
+      &::before {
+        content: "";
+        height: 64px;
+      }
+    }
+  }
+}

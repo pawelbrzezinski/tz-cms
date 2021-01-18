@@ -1,0 +1,47 @@
+@import "colors";
+
+.bubble-section {
+  border-radius: 88px 8px;
+  width: 100%;
+  padding: 112px 0;
+
+  &-reverse-border {
+    border-radius: 8px 88px;
+  }
+
+  &-white {
+    background: $white;
+  }
+
+  &-violet {
+    background: $violet10;
+  }
+
+  &-yellow {
+    background: $yellow10;
+  }
+
+  &-gray {
+    background: $gray10;
+  }
+
+  &-blue {
+    background: $blue10;
+  }
+
+  header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .smallbody {
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    margin-bottom: 65px;
+    max-width: 650px;
+  }
+}
