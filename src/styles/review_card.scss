@@ -1,0 +1,31 @@
+@import "colors";
+
+.review_card {
+  background-image: url("../img/ic_quote.svg");
+  background-repeat: no-repeat;
+  background-position: 32px 32px;
+  background-color: $white;
+  border-radius: 8px;
+  margin-right: 24px;
+  min-height: 348px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 32px;
+  box-sizing: border-box;
+  text-align: left;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  .review_body {
+    margin-bottom: 24px;
+  }
+  h6 {
+    display: inline;
+  }
+
+  .smallbody{
+    color: $gray80;
+  }
+}

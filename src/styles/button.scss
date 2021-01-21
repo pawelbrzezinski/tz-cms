@@ -7,6 +7,7 @@
   border: none;
   outline: none;
   cursor: pointer;
+  white-space: nowrap;
 
   &,
   * {
@@ -17,10 +18,14 @@
 }
 
 .button-primary {
-  background: $violet;
+  background: $violet60;
   &,
   * {
     color: $white !important;
+  }
+
+  &:hover {
+    background: $violet80;
   }
 }
 
@@ -32,6 +37,15 @@
   &,
   * {
     color: $gray !important;
+  }
+
+  &:hover {
+    &,
+    * {
+      color: $violet80 !important;
+    }
+
+    border: 1px solid $gray60;
   }
 }
 

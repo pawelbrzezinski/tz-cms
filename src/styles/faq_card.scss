@@ -1,0 +1,28 @@
+@import "colors";
+
+.faq_card {
+  background: $white;
+  border-radius: 8px;
+  margin-right: 24px;
+  display: flex;
+  padding: 16px 0 16px 16px;
+  box-sizing: border-box;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  img {
+    display: block;
+  }
+
+  h4 {
+    margin: 0 24px 8px 24px;
+  }
+  .smallbody {
+    margin: 0 24px;
+    color: $gray;
+    font-size: 12px;
+    margin-bottom: 0!important;
+  }
+}

@@ -19,20 +19,6 @@ import "../../styles/home.scss";
 
 const HomePage = () => (
   <Layout>
-    {/* <Button size="L">Primary button</Button>
-    <Button size="M">Primary button</Button>
-    <Button size="S">Primary button</Button>
-    <Button type="secondary" size="L">
-      Secondary button
-    </Button>
-    <Button type="secondary" size="M">
-      Secondary button
-    </Button>
-    <Button type="secondary" size="S">
-      Secondary button
-    </Button>
-    <CallButton />
-    <CallButton size="S" /> */}
     <Hero h1="Ogólnopolskie Centrum Diagnostyki Znamion" oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
           nowotwory z życia milionów ludzi!" ctaPrimary="Umów się" ctaSecondary="Jak to działa?" />
     <Locations />
