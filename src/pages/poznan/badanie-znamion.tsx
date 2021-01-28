@@ -1,21 +1,15 @@
 import React from "react";
 import Hero from "../../components/Hero";
 import Layout from "../../components/Layout";
-import Abcde from "./Abcde";
-import Dermoscopy from "./Dermoscopy";
 import Faq from "./Faq";
-import Locations from "./Locations";
-import Melanoma from "./Melanoma";
 import Offer from "./Offer";
 import Reviews from "./Reviews";
 import RiskGroup from "./RiskGroup";
-import Surgery from "./Surgery";
-import Videodermoscopy from "./Videodermoscopy";
 import WhyUs from "./WhyUs";
 
 import "../../styles/home.scss";
 
-const HomePage = () => (
+const PoznanBadanieZnamionPage = () => (
   <Layout>
     <Hero
       h1="Ogólnopolskie Centrum Diagnostyki Znamion"
@@ -24,18 +18,18 @@ const HomePage = () => (
       ctaPrimary="Umów się"
       ctaSecondary="Jak to działa?"
     />
-    <Locations />
     <Offer className="home_offer" />
     <WhyUs className="home_why_us" />
+    <div>CEENNNIIK</div>
+    <div>COVID</div>
+    <div>Contact FORM</div>
+    <div>MAP</div>
     <Reviews className="home_reviews" />
-    <Melanoma />
-    <Faq className="home_faq"/>
-    <Dermoscopy />
-    <Videodermoscopy />
-    <RiskGroup className="home_risk_group"/>
-    <Abcde className="home_abcde" />
-    <Surgery />
+    <div>Przebieg badania</div>
+    <div>Co warto wiedziec o badaniu</div>
+    <Faq className="home_faq" />
+    <RiskGroup className="home_risk_group" />
   </Layout>
 );
 
-export default HomePage;
+export default PoznanBadanieZnamionPage;

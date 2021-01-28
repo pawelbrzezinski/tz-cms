@@ -11,6 +11,7 @@ $scale-down-breakpoint: 1350px;
   display: grid;
   grid-template-columns: 20fr 56fr 24fr;
   height: 120px;
+  z-index: 1;
 
   @media (max-width: $screeen-lg) {
     grid-template-columns: 35% 1fr 7%;

@@ -1,0 +1,126 @@
+@import "colors";
+@import "variables";
+
+.contact {
+  max-width: $screeen-lg;
+  margin: 0 auto;
+  margin-top: 110px;
+  display: grid;
+  grid-template-columns: 49fr 41fr;
+  grid-column-gap: 120px;
+
+  @media (max-width: $screeen-lg) {
+    padding: 0 20px;
+  }
+
+  .contact_cities {
+    h1 {
+      margin-bottom: 24px;
+    }
+    .contact_cities_instructions {
+      color: $gray;
+      margin-bottom: 56px;
+    }
+    
+    .contact_cities_list_wrapper {
+      .contact_list_item {
+        border: 1px solid $gray40;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+
+        .address {
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          color: $gray;
+
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .contact_details_wrappper {
+    .contact_details_wrappper_sticky {
+      position: sticky;
+      top: 100px;
+    }
+
+    .registration_wrappper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 40px 56px;
+
+      width: 466px;
+      height: 351px;
+
+      background: $blue10;
+      border-radius: 88px 8px;
+      margin-bottom: 32px;
+
+      h4 {
+        margin-bottom: 16px;
+      }
+
+      .registration_hours {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 50px;
+
+        p {
+          margin: 0;
+        }
+      }
+
+      .contact_info_wrapper {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 24px;
+
+        button {
+          margin-right: 16px;
+        }
+      }
+    }
+
+    .operations_wrappper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 40px 56px;
+
+      width: 466px;
+      height: 208px;
+
+      background: $yellow10;
+      border-radius: 8px 88px;
+
+      h4 {
+        margin-bottom: 16px;
+      }
+
+      .contact_person {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+      .contact_person_details {
+        font-size: 16px;
+        line-height: 24px;
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

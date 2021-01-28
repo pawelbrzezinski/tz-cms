@@ -10,6 +10,7 @@ body {
   background: url("../img/bg.svg");
   background-position-x: right;
   background-repeat: no-repeat;
+  background-size: 100%;
   padding-top: 120px;
 
   @media (max-width: $screeen-md) {
