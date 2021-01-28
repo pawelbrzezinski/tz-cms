@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => {
   }, []);
 
   const bodyClass = {
-    class: offset > 80 ? "sticky" : "",
+    class: offset > 40 ? "sticky" : "",
   };
 
   return (

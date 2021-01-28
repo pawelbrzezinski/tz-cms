@@ -24,7 +24,7 @@ const WhyUs = ({ className = "" }) => (
             desc="Wydajemy wynik lekarski"
           />
         </div>
-        <div>
+        <div className="buttons">
           <Button type="secondary">Umów się na wizytę</Button>
         </div>
       </div>

@@ -1,65 +1,98 @@
 @import "colors";
 @import "variables";
 
-.home_offer {
+@mixin home_section {
   padding: 0 64px;
 
-  .offer_container {
+  @media (max-width: $screeen-lg) {
+    padding: 0;
+  }
+}
+
+@mixin cards_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 24px;
+  margin-bottom: 65px;
+
+  @media (max-width: $screeen-md) {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: $screeen-lg;
-    margin: 0 auto;
+    margin-bottom: 0;
+  }
+}
+
+@mixin container_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: $screeen-lg;
+  margin: 0 auto;
+
+  @media (max-width: $screeen-xs) {
+    align-items: initial;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    @media (max-width: $screeen-md) {
+      margin-top: 40px;
+    }
+
+    .button {
+      @media (max-width: $screeen-sm) {
+        width: 45%;
+        margin-right: 0;
+      }
+      
+      @media (max-width: $screeen-xs) {
+        width: 80%;
+      }
+    }
+  }
+}
+
+.home_offer {
+  @include home_section;
+
+  .offer_container {
+    @include container_section;
 
     .cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      padding: 0 24px;
-      margin-bottom: 65px;
+      @include cards_section;
     }
   }
 }
 
 .home_why_us {
-  padding: 0 64px;
+  @include home_section;
 
   .why_us_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: $screeen-lg;
-    margin: 0 auto;
+    @include container_section;
 
     .cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      padding: 0 24px;
-      margin-bottom: 65px;
+      @include cards_section;
     }
   }
 }
 
 .home_reviews {
-  padding: 0 64px;
+  @include home_section;
 
   .reviews_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: $screeen-lg;
-    margin: 0 auto;
+    @include container_section;
 
     .cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      padding: 0 24px;
-      margin-bottom: 65px;
+      @include cards_section;
     }
   }
 }
 
 .home_faq {
-  padding: 0 64px;
+  @include home_section;
 
   .faq_container {
     display: flex;
@@ -78,7 +111,7 @@
 }
 
 .home_risk_group {
-  padding: 0 64px;
+  @include home_section;
 
   .risk_group_container {
     display: flex;
@@ -97,10 +130,10 @@
   }
 }
 
-.home_abcde{
-  padding: 0 64px;
+.home_abcde {
+  @include home_section;
 
-  .abcde_container{
+  .abcde_container {
     display: flex;
     flex-direction: column;
     align-items: center;

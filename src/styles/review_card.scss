@@ -1,6 +1,9 @@
 @import "colors";
+@import "variables";
 
 .review_card {
+  font-size: 20px;
+  line-height: 32px;
   background-image: url("../img/ic_quote.svg");
   background-repeat: no-repeat;
   background-position: 32px 32px;
@@ -14,6 +17,11 @@
   box-sizing: border-box;
   text-align: left;
 
+  @media (max-width: $screeen-md) {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
   &:last-of-type {
     margin-right: 0;
   }
@@ -25,7 +33,7 @@
     display: inline;
   }
 
-  .smallbody{
+  .smallbody {
     color: $gray80;
   }
 }

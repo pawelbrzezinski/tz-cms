@@ -1,4 +1,5 @@
 @import "colors";
+@import "variables";
 
 .offer_card {
   background: $white;
@@ -12,6 +13,15 @@
   box-sizing: border-box;
   text-align: center;
 
+  @media (max-width: $screeen-md) {
+    margin-right: 0;
+    margin-bottom: 16px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
   &:last-of-type {
     margin-right: 0;
   }
@@ -23,6 +33,7 @@
   h5 {
     margin-bottom: 4px;
   }
+
   .smallbody{
     color: $gray;
   }

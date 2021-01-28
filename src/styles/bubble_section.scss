@@ -1,9 +1,14 @@
 @import "colors";
+@import "variables";
 
 .bubble-section {
   border-radius: 88px 8px;
   width: 100%;
   padding: 112px 0;
+
+  @media (max-width: $screeen-lg) {
+    padding: 64px 0;
+  }
 
   &-reverse-border {
     border-radius: 8px 88px;
@@ -38,6 +43,12 @@
     max-width: 760px;
     margin: 0 auto;
     margin-bottom: 65px;
+
+    @media (max-width: $screeen-lg) {
+      margin-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 
   .smallbody {
@@ -47,11 +58,9 @@
   h2 {
     max-width: 650px;
   }
-  
-  h5 {
-    font-weight: normal;
-    margin-top: 16px;
-    color: $gray80;
-  }
 
+  h5 {
+    margin-top: 16px;
+    color: $black;
+  }
 }

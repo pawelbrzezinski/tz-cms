@@ -20,7 +20,7 @@ const Offer = ({ className = "" }) => (
           <OfferCard image={UsuwanieZnamionImage} title="Usuwanie znamion" desc="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis." />
           <OfferCard image={KonsultacjeImage} title="Konsultacje onkologiczne" desc="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis." />
         </div>
-        <div><Button>Umów się na wizytę</Button></div>
+        <div className="buttons"><Button>Umów się na wizytę</Button></div>
         
       </div>
     </BubbleSection>
