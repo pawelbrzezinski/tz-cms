@@ -4,16 +4,127 @@
 .abcde_tabs {
   background: $white;
   width: 100%;
-  padding: 32px;
+  padding: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
+  margin-bottom: 64px;
+
+  @media (max-width: $screeen-xs) {
+    padding: 24px 12px;
+  }
 
   .tabs_body {
     margin: 0 24px;
     font-size: 16px;
     line-height: 24px;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+
+    @media (max-width: $screeen-sm) {
+      margin: 0;
+    }
+
+    .tabs_letter_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+
+      &--active,
+      &:hover {
+        .tabs_letter {
+          background: $blue10;
+          color: $blue;
+        }
+
+        .tabs_letter_label {
+          color: $black;
+        }
+      }
+    }
+
+    .tabs_letter {
+      width: 48px;
+      font-size: 28px;
+      height: 48px;
+      background: $gray10;
+      border-radius: 999px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+    }
+
+    .tabs_letter_label {
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 20px;
+      color: $gray80;
+
+      @media (max-width: $screeen-sm) {
+        display: none;
+      }
+    }
+  }
+}
+
+.abcde_tabs_content {
+  background: $white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 36px;
+
+  @media (max-width: $screeen-sm) {
+    display: block;
+  }
+
+  .abcde_tabs_content_desc {
+    h2 {
+      margin-bottom: 16px;
+    }
+
+    .abcde_tabs_content_desc_sub {
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 16px;
+    }
+
+    .abcde_tabs_content_desc_txt {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: $gray80;
+    }
+  }
+
+  .abcde_tabs_content_video {
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    justify-content: center;
+
+    @media (max-width: $screeen-sm) {
+      display: none;
+    }
+
+    iframe {
+      width: 100%;
+    }
+
+    .abcde_tabs_content_video_source {
+      margin-top: 8px;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 20px;
+      color: $gray40;
+      text-align: right;
+    }
   }
 }

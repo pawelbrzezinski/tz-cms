@@ -19,7 +19,7 @@ import "../../styles/home.scss";
 
 const HomePage = () => (
   <Layout>
-    <Hero
+    {/* <Hero
       h1="Ogólnopolskie Centrum Diagnostyki Znamion"
       oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
           nowotwory z życia milionów ludzi!"
@@ -34,7 +34,7 @@ const HomePage = () => (
     <Faq className="home_faq"/>
     <Dermoscopy />
     <Videodermoscopy />
-    <RiskGroup className="home_risk_group"/>
+    <RiskGroup className="home_risk_group"/> */}
     <Abcde className="home_abcde" />
     <Surgery />
   </Layout>

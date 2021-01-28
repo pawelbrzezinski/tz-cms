@@ -124,7 +124,7 @@
 
       @media (max-width: $screeen-xs) {
         gap: 30px 22px;
-        
+
         margin-bottom: 40px;
       }
     }
@@ -141,5 +141,17 @@
     max-width: $screeen-lg;
     margin: 0 auto;
     padding: 0 20px;
+
+    .top_iframe {
+      display: none;
+      width: 100%;
+      height: calc(100vw / 1.77);
+
+      margin-bottom: 40px;
+
+      @media (max-width: $screeen-sm) {
+        display: block;
+      }
+    }
   }
 }
