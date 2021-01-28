@@ -1,12 +1,9 @@
 @import "colors";
 @import "typography";
+@import "variables";
 
 body {
-  font-family: Poppins;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  color: $black;
+
   margin: 0;
   padding: 0;
 
@@ -14,6 +11,14 @@ body {
   background-position-x: right;
   background-repeat: no-repeat;
   padding-top: 120px;
+
+  @media (max-width: $screeen-md) {
+    background-size: 145%;
+  }
+
+  @media (max-width: $screeen-lg) {
+    padding-top: 55px;
+  }
 
   &,
   * {

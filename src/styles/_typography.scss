@@ -1,3 +1,23 @@
+@import "variables";
+
+body {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: $black;
+
+  @media (max-width: $screeen-md) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  @media (max-width: $screeen-sm) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
 .smallbody {
   font-size: 14px;
   line-height: 20px;
@@ -13,6 +33,16 @@ h1 {
   font-size: 48px;
   line-height: 60px;
   margin: 0;
+
+  @media (max-width: $screeen-md) {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  @media (max-width: $screeen-sm) {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
 
 h2 {

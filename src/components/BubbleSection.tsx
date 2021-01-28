@@ -7,6 +7,7 @@ const BubbleSection = ({
   introText = "",
   color = "white",
   h2 = "",
+  h5 = "",
   reverse = false,
 }) => {
   const reverseClassName = reverse ? "bubble-section-reverse-border" : "";
@@ -18,6 +19,7 @@ const BubbleSection = ({
       <header>
         <div className="smallbody">{introText}</div>
         <h2>{h2}</h2>
+        {h5 && <h5>{h5}</h5>}
       </header>
 
       <div>{children}</div>

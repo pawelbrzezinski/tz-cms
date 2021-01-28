@@ -22,7 +22,7 @@ const HomePage = () => (
     <Hero h1="Ogólnopolskie Centrum Diagnostyki Znamion" oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
           nowotwory z życia milionów ludzi!" ctaPrimary="Umów się" ctaSecondary="Jak to działa?" />
     <Locations />
-    <Offer className="home_offer" />
+    {/* <Offer className="home_offer" />
     <WhyUs className="home_why_us" />
     <Reviews className="home_reviews"/>
     <Melanoma />
@@ -30,8 +30,8 @@ const HomePage = () => (
     <Dermoscopy />
     <Videodermoscopy />
     <RiskGroup className="home_risk_group"/>
-    <Abcde />
-    <Surgery />
+    <Abcde className="home_abcde" />
+    <Surgery /> */}
   </Layout>
 );
 

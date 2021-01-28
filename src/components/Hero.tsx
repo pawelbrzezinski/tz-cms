@@ -23,7 +23,6 @@ const Hero = ({
           </Button>
         </div>
       </div>
-      <div></div>
 
       <div className="image-wrapper">
         <img src={heroImage} alt={h1} />

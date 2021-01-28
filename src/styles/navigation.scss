@@ -1,4 +1,8 @@
 @import "colors";
+@import "variables";
+
+
+$scale-down-breakpoint: 1350px;
 
 .navigation {
   position: fixed;
@@ -7,6 +11,23 @@
   display: grid;
   grid-template-columns: 20fr 56fr 24fr;
   height: 120px;
+
+  @media (max-width: $screeen-lg) {
+    grid-template-columns: 35% 1fr 7%;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  @media (max-width: $screeen-md) {
+    grid-template-columns: 35% 1fr 10%;
+    height: auto;
+    margin-top: 5px;
+  }
+  @media (max-width: $screeen-xs) {
+    grid-template-columns: 35% 1fr 15%;
+    height: auto;
+    margin-top: 5px;
+  }
 
   &,
   * {
@@ -18,9 +39,39 @@
     align-items: center;
     padding-left: 11%;
 
+    @media (max-width: $screeen-lg) {
+      padding-left: 20px;
+    }
+
+    @media (max-width: $screeen-sm) {
+      padding-left: 10px;
+    }
+
+  
     a,
     img {
       height: 48px;
+
+      @media (max-width: $screeen-lg) {
+        height: 34px;
+      }
+    }
+  }
+
+  .navigation-items-mobile {
+    display: none;
+
+    @media (max-width: $screeen-lg) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+
+    > img {
+      @media (min-width: $screeen-xs) {
+        transform: scale(1.5);
+      }
     }
   }
 
@@ -28,6 +79,10 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    @media (max-width: $screeen-lg) {
+      display: none;
+    }
   }
 
   .navigation-item {
@@ -37,9 +92,8 @@
     font-size: 14px;
     line-height: 20px;
 
-    &:hover{
+    &:hover {
       color: $violet60;
-      
     }
   }
 
@@ -49,6 +103,10 @@
     align-items: center;
     position: relative;
 
+    @media (max-width: $screeen-lg) {
+      justify-content: flex-end;
+    }
+
     &::before {
       content: "";
       position: absolute;
@@ -57,12 +115,20 @@
       height: 88px;
       width: 1px;
       background: rgba(0, 0, 0, 0.08);
+
+      @media (max-width: $screeen-lg) {
+        display: none;
+      }
     }
 
     .phone-wrapper {
       display: flex;
       align-items: center;
       margin-right: 24px;
+
+      @media (max-width: $screeen-lg) {
+        display: none;
+      }
     }
 
     .phone-number {
@@ -70,8 +136,9 @@
       font-size: 14px;
       font-weight: 600;
       line-height: 20px;
+      white-space: nowrap;
 
-      @media (max-width: 1350px) {
+      @media (max-width: $scale-down-breakpoint) {
         font-size: 12px;
         margin-left: 8px;
       }
@@ -79,14 +146,14 @@
 
     .normal-icon,
     .normal-button {
-      @media (max-width: 1350px) {
+      @media (max-width: $scale-down-breakpoint) {
         transform: scale(0.75);
       }
     }
 
     .normal-button {
-      @media (max-width: 1350px) {
-        transform-origin: left;
+      @media (max-width: $screeen-lg) {
+        transform-origin: right;
       }
     }
   }
@@ -102,6 +169,11 @@
     height: 80px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.06);
     border-radius: 0 0 8px 8px;
+    margin-top: 0;
+
+    @media (max-width: $screeen-lg) {
+      height: auto;
+    }
 
     .navigation-contact {
       &::before {

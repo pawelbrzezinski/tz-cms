@@ -4,29 +4,83 @@
 .hero {
   padding: 88px 0;
 
+  @media (max-width: $screeen-lg) {
+    padding: 50px 0;
+  }
+
   .hero-inner {
     max-width: $screeen-lg;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 50fr 3fr 45fr;
+    grid-template-columns: 50fr 45fr;
+    grid-gap: 20px;
+
+    @media (max-width: $screeen-lg) {
+      margin: 0 20px;
+    }
+
+    @media (max-width: $screeen-sm) {
+      display: flex;
+      grid-gap: 0;
+      flex-direction: column;
+    }
 
     .one-liner-wrapper {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
 
+      @media (max-width: $screeen-sm) {
+        text-align: center;
+      }
+
+      h1 {
+        @media (max-width: $screeen-lg) {
+          margin-bottom: 8px;
+        }
+        @media (max-width: $screeen-sm) {
+          margin-top: 16px;
+        }
+      }
+
       .one-liner-text {
         color: $gray;
+
+        @media (max-width: $screeen-lg) {
+          margin-bottom: 10px;
+        }
+
+        @media (max-width: $screeen-sm) {
+          margin-bottom: 20px;
+        }
       }
 
       .buttons {
         .button {
           margin-right: 16px;
+
+          @media (max-width: $screeen-sm) {
+            width: 45%;
+          }
+          
+          @media (max-width: $screeen-xs) {
+            width: 80%;
+          }
+        }
+        .button-secondary {
+          @media (max-width: $screeen-sm) {
+            display: none;
+          }
         }
       }
     }
 
     .image-wrapper {
+      @media (max-width: $screeen-sm) {
+        order: -1;
+        text-align: center;
+      }
+
       img {
         max-width: 100%;
       }
