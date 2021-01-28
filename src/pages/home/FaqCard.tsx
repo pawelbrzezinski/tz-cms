@@ -2,11 +2,12 @@ import React from "react";
 
 import "../../styles/faq_card.scss";
 
-const FaqCard = ({ image, title = "", children = "" }) => {
+const FaqCard = ({ image, imageMobile, title = "", children = "" }) => {
   return (
     <div className="faq_card">
       <div>
-        <img src={image} alt={title} title={title} />
+        <img className="image" src={image} alt={title} title={title} />
+        <img className="image_mobile" src={imageMobile} alt={title} title={title} />
       </div>
       <div>
         <h4>{title}</h4>

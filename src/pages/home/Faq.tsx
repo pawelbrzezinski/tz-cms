@@ -4,7 +4,9 @@ import Button from "../../components/Button";
 import FaqCard from "./FaqCard";
 
 import Faq1Image from "../../img/faq1.png";
+import Faq1ImageMobile from "../../img/faq-1-mobile.png";
 import Faq2Image from "../../img/faq2.png";
+import Faq2ImageMobile from "../../img/faq-2-mobile.png";
 
 const Faq = ({ className = "" }) => (
   <div className={className}>
@@ -17,6 +19,7 @@ const Faq = ({ className = "" }) => (
         <div className="cards">
           <FaqCard
             image={Faq1Image}
+            imageMobile={Faq1ImageMobile}
             title="Czym różni się zwykły pieprzyk od czerniaka?"
           >
             Czerniak we wczesnym stadium na pierwszy rzuta oka może wyglądać tak
@@ -29,6 +32,7 @@ const Faq = ({ className = "" }) => (
           </FaqCard>
           <FaqCard
             image={Faq2Image}
+            imageMobile={Faq2ImageMobile}
             title="Jak często powinno się badać znamiona za pomocą dermatoskopu?"
           >
             Każdy z nas raz do roku powinien poddać badaniu dermatoskopowemu
@@ -39,7 +43,7 @@ const Faq = ({ className = "" }) => (
             nawet co kilka miesięcy.
           </FaqCard>
         </div>
-        <div>
+        <div className="buttons">
           <Button type="secondary">Zobacz wszystkie pytania</Button>
         </div>
       </div>
