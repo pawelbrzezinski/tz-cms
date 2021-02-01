@@ -79,6 +79,21 @@
   }
 }
 
+.home_important_info {
+  @include home_section;
+
+  .container {
+    @include container_section;
+
+    .cards {
+      @include cards_section;
+
+      grid-gap: 0 24px;
+      padding: 0;
+    }
+  }
+}
+
 .home_reviews {
   @include home_section;
 

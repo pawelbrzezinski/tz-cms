@@ -10,6 +10,7 @@ import WhyUs from "./WhyUs";
 import "../../styles/home.scss";
 import Covid from "./Covid";
 import PriceList from "./PriceList";
+import ImportantInfo from "./ImportantInfo";
 
 const PoznanBadanieZnamionPage = () => (
   <Layout>
@@ -21,14 +22,14 @@ const PoznanBadanieZnamionPage = () => (
       ctaSecondary="Jak to działa?"
     /> */}
     {/* <Offer className="home_offer" /> */}
-    {/* <WhyUs className="home_why_us" /> */}
-    <PriceList className="home_price_list" />
-    <Covid className="home_covid"  />
-    <div>Contact FORM</div>
-    <div>MAP</div>
-    <Reviews className="home_reviews" />
-    <div>Przebieg badania</div>
-    <div>Co warto wiedziec o badaniu</div>
+    <WhyUs className="home_why_us" />
+    {/* <PriceList className="home_price_list" /> */}
+    {/* <Covid className="home_covid"  /> */}
+    {/* <div>Contact FORM</div> */}
+    {/* <div>MAP</div> */}
+    {/* <Reviews className="home_reviews" /> */}
+    {/* <div>Przebieg badania</div> */}
+    <ImportantInfo  className="home_important_info" />
     <Faq className="home_faq" />
     <RiskGroup className="home_risk_group" />
   </Layout>
