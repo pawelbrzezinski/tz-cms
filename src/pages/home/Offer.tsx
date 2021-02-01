@@ -14,7 +14,7 @@ const Offer = ({ className = "" }) => (
       h2="Jak możemy Ci pomóc?"
       color="violet"
     >
-      <div className="offer_container">
+      <div className="container">
         <div className="cards">
           <OfferCard image={BadanieZnamionImage} title="Badanie znamion" desc="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis." />
           <OfferCard image={UsuwanieZnamionImage} title="Usuwanie znamion" desc="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis." />

@@ -10,7 +10,7 @@ const Reviews = ({ className = "" }) => (
       color="yellow"
       reverse
     >
-      <div className="reviews_container">
+      <div className="container">
         <div className="cards">
           <ReviewCard author="Katarzyna K."
             city="Poznań">

@@ -15,7 +15,7 @@ const Faq = ({ className = "" }) => (
       h2="Najczęstsze pytania pacjentów"
       color="gray"
     >
-      <div className="faq_container">
+      <div className="container">
         <div className="cards">
           <FaqCard
             image={Faq1Image}

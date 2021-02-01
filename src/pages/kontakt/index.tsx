@@ -1,69 +1,11 @@
 import React from "react";
 import Layout from "../../components/Layout";
-
+import { Helmet } from "react-helmet";
 import "../../styles/contact.scss";
-import CallIcon from "../../img/call_icon_dark.svg";
-import MailIcon from "../../img/mail_icon_dark.svg";
 import CallButton from "../../components/CallButton";
 import MailButton from "../../components/MailButton";
 import Button from "../../components/Button";
-
-const CITIES = [
-  {
-    label: "Poznań",
-    address1: "ul. Dąbrowskiego 77A",
-    address2: "60-101 Poznań",
-    link: "poznan/badanie-znamion",
-  },
-  {
-    label: "Warszawa",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
-  },
-  {
-    label: "Wrocław",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
-  },
-  {
-    label: "Kraków",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
-  },
-  {
-    label: "Szczecin",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
-  },
-  {
-    label: "Łódź",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
-  },
-  {
-    label: "Katowice",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
-  },
-  {
-    label: "Bydgoszcz",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
-  },
-  {
-    label: "Ustka",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
-  },
-];
+import CITIES from "../../config/cities";
 
 const CityItem = ({ label = "", address1 = "", address2 = "" }) => (
   <div className="contact_list_item">
@@ -82,6 +24,9 @@ const CityItem = ({ label = "", address1 = "", address2 = "" }) => (
 
 const ContactPage = () => (
   <Layout>
+    <Helmet>
+      <title>Kontakt</title>
+    </Helmet>
     <div className="contact">
       <div className="contact_cities">
         <h1>Nasze ośrodki</h1>

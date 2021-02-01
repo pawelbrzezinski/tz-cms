@@ -25,6 +25,7 @@
   }
 
   .image {
+    display: block;
     @media (max-width: $screeen-md) {
       display: none;
     }

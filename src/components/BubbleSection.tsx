@@ -17,7 +17,7 @@ const BubbleSection = ({
       className={`bubble-section ${className} bubble-section-${color} ${reverseClassName}`}
     >
       <header>
-        <div className="smallbody">{introText}</div>
+        {introText && <div className="smallbody">{introText}</div>}
         <h2>{h2}</h2>
         {h5 && <h5>{h5}</h5>}
       </header>

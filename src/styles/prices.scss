@@ -1,0 +1,66 @@
+@import "colors";
+@import "variables";
+
+.prices {
+  max-width: $screeen-lg;
+  margin: 0 auto;
+  margin-top: 110px;
+
+  @media (max-width: $screeen-lg) {
+    padding: 0 20px;
+  }
+
+  .prices_instructions {
+    max-width: 560px;
+    h1 {
+      margin-bottom: 24px;
+    }
+    .prices_cities_instructions {
+      color: $gray;
+      margin-bottom: 56px;
+    }
+  }
+
+  .prices_cities_list_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 24px 24px;
+
+    .prices_list_item {
+      background: $white;
+      border: 1px solid $gray40;
+      box-sizing: border-box;
+      border-radius: 8px;
+      padding: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      cursor: pointer;
+
+      &:hover{
+        background: $violet10;
+      }
+
+      .button {
+        margin-top: 16px;
+      }
+
+      h4 {
+        margin-bottom: 8px;
+      }
+
+      .address {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: $gray80;
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

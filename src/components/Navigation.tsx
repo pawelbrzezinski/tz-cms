@@ -38,7 +38,7 @@ const Navigation = () => {
         <Link className="navigation-item" to="/czerniak">
           O nas
         </Link>
-        <Link className="navigation-item" to="/czerniak">
+        <Link className="navigation-item" to="/cennik">
           Cennik
         </Link>
         <Link className="navigation-item" to="/blog">
@@ -51,7 +51,7 @@ const Navigation = () => {
           <span className="phone-number">+48 781 445 685</span>
         </div>
         <Button size="M" className="normal-button">
-          <Link to="/contact">Umów się</Link>
+          <Link to="/kontakt">Umów się</Link>
         </Button>
       </div>
       <div className="navigation-items-mobile">

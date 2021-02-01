@@ -21,7 +21,7 @@ na wystąpienie raka skóry?"
       color="blue"
       reverse
     >
-      <div className="risk_group_container">
+      <div className="container">
         <div className="cards">
           <RiskGroupCard image={Risk1Image} title="Srednica znamion > 6 mm">
             Srednica znamion <br /> &gt; 6 mm

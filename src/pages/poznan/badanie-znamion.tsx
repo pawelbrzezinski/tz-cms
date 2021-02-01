@@ -8,20 +8,22 @@ import RiskGroup from "./RiskGroup";
 import WhyUs from "./WhyUs";
 
 import "../../styles/home.scss";
+import Covid from "./Covid";
+import PriceList from "./PriceList";
 
 const PoznanBadanieZnamionPage = () => (
   <Layout>
-    <Hero
+    {/* <Hero
       h1="Ogólnopolskie Centrum Diagnostyki Znamion"
       oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
           nowotwory z życia milionów ludzi!"
       ctaPrimary="Umów się"
       ctaSecondary="Jak to działa?"
-    />
-    <Offer className="home_offer" />
-    <WhyUs className="home_why_us" />
-    <div>CEENNNIIK</div>
-    <div>COVID</div>
+    /> */}
+    {/* <Offer className="home_offer" /> */}
+    {/* <WhyUs className="home_why_us" /> */}
+    <PriceList className="home_price_list" />
+    <Covid className="home_covid"  />
     <div>Contact FORM</div>
     <div>MAP</div>
     <Reviews className="home_reviews" />

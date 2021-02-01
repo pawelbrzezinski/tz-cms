@@ -10,7 +10,7 @@ import WynikImage from "../../img/Wynik.svg";
 const WhyUs = ({ className = "" }) => (
   <div className={className}>
     <BubbleSection introText="O nas" h2="Dlaczego my?" color="white">
-      <div className="why_us_container">
+      <div className="container">
         <div className="cards">
           <WhyUsCard image={BadamyImage}>
             Badamy <strong>wszystkie</strong> znamiona na całym ciele

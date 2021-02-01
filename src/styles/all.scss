@@ -3,18 +3,23 @@
 @import "variables";
 
 body {
-
   margin: 0;
   padding: 0;
 
   background: url("../img/bg.svg");
   background-position-x: right;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
   padding-top: 120px;
 
-  @media (max-width: $screeen-md) {
-    background-size: 145%;
+
+  @media (max-width: $screeen-xs) {
+    background-size: 170%;
+    background-position-x: 80%;
+  }
+
+  @media (max-width: $screeen-sm) {
+    background-size: 125%;
   }
 
   @media (max-width: $screeen-lg) {

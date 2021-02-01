@@ -39,12 +39,6 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix("/")}img/favicon-32x32.png`}
           sizes="32x32"
         />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix("/")}img/favicon-16x16.png`}
-          sizes="16x16"
-        />
 
         <link
           rel="mask-icon"
@@ -58,7 +52,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix("/")}img/og-image.jpg`}
+          content={`${withPrefix("/")}img/logo.png`}
         />
       </Helmet>
       <Navigation />

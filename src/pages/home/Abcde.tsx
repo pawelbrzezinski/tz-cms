@@ -67,7 +67,7 @@ const Abcde = ({ className = "" }) => {
         h2="Jakie są objawy czerniaka?"
         h5="Większość czerniaków w Polsce rozpoznawanych jest zbyt późno, co znacznie utrudnia późniejsze leczenie tego niebezpiecznego nowotworu."
       >
-        <div className="abcde_container">
+        <div className="container">
             <Iframe className="top_iframe" />
           <div className="abcde_tabs">
             <div className="tabs_body">
