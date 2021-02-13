@@ -3,11 +3,97 @@ import Layout from "../../components/Layout";
 import { Helmet } from "react-helmet";
 import "../../styles/about.scss";
 
-import CeiImage from "../../img/ceo.png";
+import CeoImage from "../../img/ceo.png";
+import doctroPlaceholderFemale from "../../img/doctor_female.svg";
+import doctroPlaceholderMale from "../../img/doctor_male.svg";
+
 
 import Cta from "../../components/Cta";
 import BubbleSection from "../../components/BubbleSection";
 import Doctor from "./Doctor";
+
+const DOCTORS = [
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: doctroPlaceholderFemale
+  },
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: doctroPlaceholderMale
+  },
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: CeoImage
+  },
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: CeoImage
+  },
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: CeoImage
+  },
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: CeoImage
+  },
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: CeoImage
+  },
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: CeoImage
+  },
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: CeoImage
+  },
+  {
+    name: "Łukasz Galus",
+    title: "specjalista onkologii klinicznej",
+    description:
+      "Absolwent Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Wydziale Lekarskim. Jest specjalistą w dziedzinie onkologii klinicznej. Pracuje w Szpitalu Klinicznym im. Heliodora Święcickiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu na Oddziale Onkologii Klinicznej i Doświadczalnej oraz w Wielkopolskim Centrum Onkologii. Członek PTOK (Polskiego Towarzystwa Onkologii Klinicznej) oraz ESMO (European Society of Medical Oncology). Autor publikacji w czasopismach naukowych. Bierze udział w wielu badaniach klinicznych (próbach eksperymentalnych) oceniających nowe leki stosowane u chorych na nowotwory złośliwe. Jego zainteresowania i główny zakres działalności klinicznej obejmuje pacjentów cierpiących z powodu nowotworów skóry w szczególności czerniaka. Strefa zainteresowań naukowych obejmuje nowe strategie leczenia systemowego w tym immunoterapię nowotworów i możliwości jej wykorzystania w praktyce leczniczej. Rolą onkologa klinicznego jest integracja wszystkich metod leczenia przeciwnowotworowego - planowanie i koordynacja leczenia chirurgicznego, radioterapii i terapii systemowej dlatego onkolog pełni kluczową rolę w procesie diagnostyczno-terapeutycznym pacjenta z chorobą nowotworową.",
+    city: "Poznań",
+    img: CeoImage
+  },
+];
 
 const AboutUsPage = () => (
   <Layout>
@@ -51,17 +137,14 @@ const AboutUsPage = () => (
         </div>
         <div>
           <img
-            src={CeiImage}
+            src={CeoImage}
             alt="Agnieszka Czyżewska - specjalista onkologii klinicznej, CEO"
             title="Agnieszka Czyżewska - specjalista onkologii klinicznej, CEO"
           />
         </div>
       </div>
       <div className="map">
-        <BubbleSection
-          color="gray"
-          reverse
-        >
+        <BubbleSection color="gray" reverse>
           <div className="container">
             <div className="cards">asd</div>
           </div>
@@ -72,15 +155,11 @@ const AboutUsPage = () => (
           h2="Nasz zespół"
           h5="Lekarze z naszych ośrodków mają, w razie potrzeby, możliwość dokonania zdalnej konsultacji między sobą. Daje to niespotykaną możliwość ciągłego podnoszenia jakości świadczonych przez nas usług, które bezpośrednio przekładają się na zdrowie naszych Pacjentów."
           color="blue"
-          
         >
           <div className="container">
             <div className="cards">
-              <Doctor />
-              <Doctor />
-              <Doctor />
-              <Doctor />
-              <Doctor />
+              {DOCTORS.map(doctor=> <Doctor data={doctor} />)}
+              
             </div>
           </div>
         </BubbleSection>

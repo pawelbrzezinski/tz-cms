@@ -121,7 +121,7 @@
 
   .team {
     margin-top: 112px;
-    
+
     padding: 0 64px;
 
     @media (max-width: $screeen-lg) {
@@ -129,6 +129,12 @@
     }
     .container {
       @include section;
+
+      .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 24px;
+      }
     }
   }
 }
