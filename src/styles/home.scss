@@ -208,3 +208,10 @@
 .home_location {
   @include home_section;
 }
+
+.home_cta {
+  @include home_section;
+  
+  margin-top: 64px;
+  margin-bottom: 64px;
+}

@@ -278,6 +278,10 @@
           grid-column-start: 2;
         }
 
+        &:hover {
+          color: $violet60;
+        }
+
         @media (max-width: $screeen-md) {
           font-size: 14px;
           line-height: 24px;

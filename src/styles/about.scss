@@ -1,0 +1,134 @@
+@import "colors";
+@import "variables";
+
+@mixin section {
+  max-width: $screeen-lg;
+  margin: 0 auto;
+
+  @media (max-width: $screeen-lg) {
+    margin: 0 20px;
+  }
+}
+
+.about {
+  padding: 88px 0;
+
+  @media (max-width: $screeen-lg) {
+    padding: 50px 0;
+  }
+
+  .heading {
+    @include section;
+
+    background: url("../img/about_bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    padding-bottom: 190px;
+
+    @media (max-width: $screeen-lg) {
+      padding-bottom: 180px;
+      background-size: cover;
+    }
+
+    @media (max-width: $screeen-md) {
+      padding-bottom: 80px;
+    }
+
+    @media (max-width: $screeen-sm) {
+      padding-bottom: 80px;
+      background-size: auto auto;
+      background-position-y: center;
+    }
+    @media (max-width: $screeen-xs) {
+      padding-bottom: 80px;
+      background: none;
+    }
+
+    h1 {
+      max-width: 750px;
+
+      .colored {
+        color: $blue;
+      }
+    }
+  }
+  .ceo {
+    @include section;
+
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 140px;
+    width: 100%;
+
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 65px;
+
+    @media (max-width: $screeen-md) {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
+    .content_wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h2 {
+      margin-bottom: 16px;
+    }
+
+    .subheading {
+      margin-bottom: 16px;
+    }
+
+    .text {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 32px;
+      color: $gray;
+    }
+
+    .signature {
+      font-weight: bold;
+      color: $gray;
+      line-height: 24px;
+
+      .ceo_title {
+        font-weight: normal;
+      }
+    }
+
+    .medical_title {
+      color: $gray80;
+      font-weight: normal;
+      font-size: 14px;
+    }
+  }
+
+  .map {
+    padding: 0 64px;
+
+    @media (max-width: $screeen-lg) {
+      padding: 0;
+    }
+    .container {
+      @include section;
+    }
+  }
+
+  .team {
+    margin-top: 112px;
+    
+    padding: 0 64px;
+
+    @media (max-width: $screeen-lg) {
+      padding: 0;
+    }
+    .container {
+      @include section;
+    }
+  }
+}

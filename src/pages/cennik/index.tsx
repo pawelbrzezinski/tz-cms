@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import { Helmet } from "react-helmet";
+import Cta from "../../components/Cta";
+
 import "../../styles/prices.scss";
 import CITIES from "../../config/cities";
 
@@ -35,6 +37,7 @@ const PricesPage = () => (
         ))}
       </div>
     </div>
+    <Cta className="home_cta" />
   </Layout>
 );
 

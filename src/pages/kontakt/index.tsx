@@ -5,6 +5,7 @@ import "../../styles/contact.scss";
 import CallButton from "../../components/CallButton";
 import MailButton from "../../components/MailButton";
 import Button from "../../components/Button";
+import Cta from "../../components/Cta";
 import CITIES from "../../config/cities";
 
 const CityItem = ({ label = "", address1 = "", address2 = "" }) => (
@@ -76,6 +77,7 @@ const ContactPage = () => (
         </div>
       </div>
     </div>
+    <Cta className="home_cta" />
   </Layout>
 );
 

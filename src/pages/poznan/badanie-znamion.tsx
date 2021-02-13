@@ -14,6 +14,7 @@ import ImportantInfo from "./ImportantInfo";
 import ProcedureDetails from "./ProcedureDetails";
 
 import Location from "./Location";
+import Cta from "../../components/Cta";
 
 const PoznanBadanieZnamionPage = () => (
   <Layout>
@@ -24,7 +25,7 @@ const PoznanBadanieZnamionPage = () => (
       ctaPrimary="Umów się"
       ctaSecondary="Jak to działa?"
     />
-    {/* <Offer className="home_offer" />
+    <Offer className="home_offer" />
     <WhyUs className="home_why_us" />
     <PriceList className="home_price_list" />
     <Covid className="home_covid" />
@@ -43,7 +44,9 @@ const PoznanBadanieZnamionPage = () => (
     <Faq className="home_faq" />
 
     <ImportantInfo className="home_important_info" />
-    <RiskGroup className="home_risk_group" /> */}
+    <RiskGroup className="home_risk_group" />
+    <Cta className="home_cta"  />
+
   </Layout>
 );
 

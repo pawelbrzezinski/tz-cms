@@ -67,7 +67,7 @@ const Navigation = () => {
         </NavigationItemWithSubmenu>
 
         <NavigationItemWithSubmenu label="Nowotwory skóry">
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
+          <Link className="navigation-item" to="/czerniak">
             Czerniak
           </Link>
           <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
@@ -76,10 +76,10 @@ const Navigation = () => {
         </NavigationItemWithSubmenu>
 
         <NavigationItemWithSubmenu label="Nasze ośrodki">
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
+          <Link className="navigation-item" to="/poznan/badanie-znamion">
             Poznań
           </Link>
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
+          <Link className="navigation-item" to="/warszawa/badanie-znamion">
             Warszawa
           </Link>
           <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
@@ -96,7 +96,7 @@ const Navigation = () => {
           </Link>
         </NavigationItemWithSubmenu>
 
-        <Link className="navigation-item" to="/czerniak">
+        <Link className="navigation-item" to="/o-nas">
           <div className="heading">O nas</div>
         </Link>
         <Link className="navigation-item" to="/cennik">
