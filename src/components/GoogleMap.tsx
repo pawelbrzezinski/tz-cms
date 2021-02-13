@@ -274,7 +274,7 @@ const mapStyles = [
   },
 ];
 
-const Marker = () => {
+const Marker = ({ lat, lng }) => {
   return (
     <div className="google_marker_wrapper">
       <div className="marker_bubble">
@@ -297,7 +297,7 @@ const Marker = () => {
   );
 };
 
-const GoogleMap = ({ coords }) => {
+const GoogleMap = ({ coords = { lat: 0, lng: 0 } }) => {
   return (
     <div className="google_map_wrapper">
       <div className="google_map">

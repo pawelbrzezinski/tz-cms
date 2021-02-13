@@ -35,7 +35,7 @@ const Footer = () => {
             <p className="hide_mobile">Zadzwoń</p>
             <a href="#" className="footer_contact_phone_number">
               <img src={call} alt="Twoje Znamiona - Zadzwoń" />
-              <span>+48 510 211 836</span>
+              <span>+48 781 445 685</span>
             </a>
           </div>
           <div className="footer_contact_email_wrapper">
