@@ -173,6 +173,11 @@
 
 .home_covid {
   @include home_section;
+  margin-top: 64px;
+
+  @media (max-width: $screeen-lg) {
+    padding: 0 20px;
+  }
 }
 
 .home_price_list {
@@ -180,5 +185,26 @@
 
   .container {
     @include container_section;
+    padding: 0 24px;
   }
+}
+
+.home_procedure_details {
+  @include home_section;
+
+  .container {
+    @include container_section;
+
+    .cards {
+      @include cards_section;
+
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0 48px;
+      width: 100%;
+    }
+  }
+}
+
+.home_location {
+  @include home_section;
 }

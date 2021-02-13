@@ -12,6 +12,10 @@ body {
   background-size: 90%;
   padding-top: 120px;
 
+  &[navigation-state="opened"] {
+    background: $white !important;
+    overflow: hidden !important;
+  }
 
   @media (max-width: $screeen-xs) {
     background-size: 170%;
@@ -31,21 +35,3 @@ body {
     box-sizing: border-box;
   }
 }
-
-// @mixin media-max-width($width) {
-//   @media (max-width: $width) {
-//     @content;
-//   }
-// }
-
-// @mixin media-min-width($width) {
-//   @media (min-width: $width) {
-//     @content;
-//   }
-// }
-
-// @mixin media-min-max-width($min-width, $max-width) {
-//   @media (min-width: $min-width) and (max-width: $max-width) {
-//     @content;
-//   }
-// }

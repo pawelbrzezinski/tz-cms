@@ -18,7 +18,13 @@
       cursor: pointer;
       font-weight: 600;
 
+      @media (max-width: $screeen-sm) {
+        padding: 16px;
+      }
+
       .accordion_prices_category_label {
+        font-size: 16px;
+        line-height: 24px;
       }
 
       .accordion_prices_category_expand {
@@ -32,6 +38,12 @@
 
           &.flip {
             transform: rotate(180deg);
+          }
+        }
+
+        .accordion_label {
+          @media (max-width: $screeen-sm) {
+            display: none;
           }
         }
       }
@@ -54,9 +66,23 @@
     justify-content: space-between;
     border-bottom: 1px solid $gray20;
 
+    @media (max-width: $screeen-sm) {
+      margin: 0;
+      padding: 16px;
+    }
+
+    .accordion_prices_name {
+      padding-right: 30px;
+    }
+
     .accordion_prices_item_label {
       font-size: 16px;
       line-height: 24px;
+
+      @media (max-width: $screeen-sm) {
+        font-size: 14px;
+        line-height: 20px;
+      }
     }
 
     .accordion_prices_item_sub {
@@ -69,6 +95,7 @@
       font-size: 16px;
       line-height: 24px;
       color: $violet60;
+      white-space: nowrap;
     }
   }
 }

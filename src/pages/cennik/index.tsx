@@ -4,13 +4,12 @@ import { Helmet } from "react-helmet";
 import "../../styles/prices.scss";
 import CITIES from "../../config/cities";
 
-const CityItem = ({ label = "", address1 = "", address2 = "" }) => (
+const CityItem = ({ label = "", address1 = "" }) => (
   <div className="prices_list_item">
     <div>
       <h4>{label}</h4>
       <div className="address">
         <p>{address1}</p>
-        <p>{address2}</p>
       </div>
     </div>
   </div>

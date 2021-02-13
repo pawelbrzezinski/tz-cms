@@ -1,0 +1,122 @@
+@import "colors";
+@import "variables";
+
+// .google_map_wrapper {
+//   margin-bottom: 112px;
+// }
+
+.google_map {
+  height: 500px;
+  width: 100%;
+  border-radius: 88px 8px 8px;
+  overflow: hidden;
+}
+
+.google_marker_wrapper {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: $black;
+
+  @media (max-width: $screeen-xs) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .marker_bubble {
+    z-index: 1;
+    background: $white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(-50%, -130%);
+    width: 414px;
+    height: 128px;
+    color: $gray;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 64px rgba(0, 0, 0, 0.15);
+
+    @media (max-width: $screeen-sm) {
+      width: 90vw;
+      padding: 0 16px;
+    }
+
+    &::before {
+      content: " ";
+      width: 35px;
+      height: 35px;
+      background: $white;
+      position: absolute;
+      bottom: -10px;
+      border-radius: 8px;
+      transform: rotate(45deg);
+      z-index: 0;
+    }
+
+    * {
+      z-index: 2;
+      text-align: center;
+    }
+
+    .buble_title {
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .buble_address {
+      margin: 0;
+    }
+
+    .buble_link {
+      margin: 0;
+      margin-top: 6px;
+
+      a {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: $violet80;
+      }
+    }
+  }
+
+  .marker_dot_wrapper {
+    position: relative;
+
+    .marker_pointer_transparent {
+      background: $blue;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      opacity: 0.3;
+      width: 86px;
+      height: 86px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 86px;
+    }
+
+    .marker_pointer_white {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      background: $white;
+      width: 32px;
+      height: 32px;
+      border-radius: 32px;
+      box-shadow: 0px 8px 64px #06c3c6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .marker_pointer_point {
+      background: $blue;
+      border-radius: 12px;
+      width: 12px;
+      height: 12px;
+    }
+  }
+}

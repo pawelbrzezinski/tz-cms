@@ -5,7 +5,7 @@ import ChevronIcon from "../img/chevron-up.svg";
 
 const AccordionItem = ({ price, label, sub }) => (
   <div className="accordion_prices_item">
-    <div>
+    <div className="accordion_prices_name">
       <div className="accordion_prices_item_label">{label}</div>
       {sub && <div className="accordion_prices_item_sub">{sub}</div>}
     </div>
@@ -23,7 +23,7 @@ const AccordionCategory = ({
     <div className="accordion_prices_category" onClick={() => toggle()}>
       <div className="accordion_prices_category_label">{label}</div>
       <div className="accordion_prices_category_expand">
-        <span>{isOpened ? "Zwiń" : "Rozwiń"}</span>
+        <span className="accordion_label">{isOpened ? "Zwiń" : "Rozwiń"}</span>
         <span>
           <img
             className={isOpened ? "" : "flip"}

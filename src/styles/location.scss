@@ -1,0 +1,113 @@
+@import "colors";
+@import "variables";
+
+.location {
+  padding-top: 112px;
+
+  @media (max-width: $screeen-lg) {
+    padding-top: 64px;
+  }
+
+  .location_wrapper {
+    background: url("../img/location_bg.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding: 0 24px;
+    max-width: $screeen-lg;
+    margin: 0 auto;
+
+    @media (max-width: $screeen-xs) {
+      background: none;
+    }
+  }
+
+  h5 {
+    margin-bottom: 16px;
+    color: $black;
+    font-weight: 400;
+  }
+
+  h2 {
+    margin-bottom: 24px;
+
+    @media (max-width: 425px) {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+
+  .location_additional_details {
+    color: $gray;
+    max-width: 570px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 64px;
+    @media (max-width: $screeen-md) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .location_info_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0 50px;
+    color: $gray;
+    margin-bottom: 80px;
+
+    @media (max-width: $screeen-md) {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
+    div {
+      padding-left: 32px;
+      position: relative;
+
+      @media (max-width: $screeen-md) {
+        margin-bottom: 32px;
+      }
+
+      &::before {
+        content: " ";
+        position: absolute;
+        left: 0;
+        top: 7px;
+
+        background-repeat: no-repeat;
+      }
+
+      &.location_info_address {
+        &::before {
+          width: 16px;
+          height: 20px;
+          background: url("../img/location_icon.svg");
+        }
+      }
+      &.location_info_hours {
+        &::before {
+          width: 18px;
+          height: 18px;
+          background: url("../img/clock_icon.svg");
+        }
+      }
+      &.location_info_transportation {
+        &::before {
+          width: 20px;
+          height: 16px;
+          background: url("../img/bus_icon.svg");
+        }
+      }
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .title {
+      font-weight: 600;
+    }
+  }
+}

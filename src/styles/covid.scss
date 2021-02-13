@@ -5,9 +5,15 @@
   background: url("../img/covid-bg.png");
   background-repeat: no-repeat;
   background-color: $gray;
-  padding: 30px 0;
+  padding: 30px 32px;
+  width: 100%;
   background-size: cover;
   border-radius: 8px;
+
+  @media (max-width: $screeen-sm) {
+    // border-radius: 2px 40px;
+    padding: 30px 16px;
+  }
 
   .covid_container {
     display: flex;
@@ -16,18 +22,36 @@
     max-width: $screeen-lg;
     margin: 0 auto;
 
+    @media (max-width: $screeen-sm) {
+      flex-direction: column;
+    }
+
     .covid_container_text_wrapper {
       max-width: 585px;
       display: flex;
       align-items: center;
 
+      @media (max-width: $screeen-sm) {
+        margin-bottom: 24px;
+        flex-direction: column;
+        text-align: center;
+      }
+
       h5 {
         color: $white;
+       
+        @media (max-width: $screeen-sm) {
+          font-weight: normal;
+        }
       }
 
       img {
         display: block;
         margin-right: 16px;
+        @media (max-width: $screeen-sm) {
+          margin: 0;
+          margin-bottom: 24px;
+        }
       }
     }
   }

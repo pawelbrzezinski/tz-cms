@@ -6,7 +6,7 @@ import CovidIcon from "../../img/covid_icon.svg";
 import Modal from "../../components/Modal";
 
 const Covid = ({ className = "" }) => {
-  const [isModalOpened, setModalOpened] = useState(false); 
+  const [isModalOpened, setModalOpened] = useState(false);
 
   return (
     <div className={className}>
@@ -34,7 +34,8 @@ const Covid = ({ className = "" }) => {
                 </div>
                 <div>
                   <h5>
-                    Specjalne procedury, <br />obowiązujące przed i podczas wizyty.
+                    Specjalne procedury, <br />
+                    obowiązujące przed i podczas wizyty.
                   </h5>
                   <ol>
                     <li>

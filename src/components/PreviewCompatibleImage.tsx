@@ -2,6 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 
+
+//https://www.gatsbyjs.com/plugins/gatsby-image/#how-to-use
+
+
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = { borderRadius: '5px' }
   const { alt = '', childImageSharp, image } = imageInfo
