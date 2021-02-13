@@ -65,6 +65,11 @@
       img {
         width: 128px;
         display: block;
+
+
+        @media (max-width: $screeen-xs) {
+          width: 64px;
+        }
       }
     }
 

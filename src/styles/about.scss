@@ -64,16 +64,36 @@
     margin-top: 20px;
     margin-bottom: 65px;
 
+    @media (max-width: $screeen-lg) {
+      margin: 0;
+      margin-bottom: 40px;
+      padding: 0 20px;
+    }
+
     @media (max-width: $screeen-md) {
       display: flex;
-      flex-direction: column;
-      margin-bottom: 0;
+      flex-direction: column-reverse;
     }
 
     .content_wrapper {
       display: flex;
       flex-direction: column;
       justify-content: center;
+    }
+
+    .img_wrapper {
+      @media (max-width: $screeen-md) {
+        margin-bottom: 24px;
+      }
+
+      img {
+        width: 100%;
+        display: block;
+
+        @media (max-width: $screeen-md) {
+          width:70%;
+        }
+      }
     }
 
     h2 {
@@ -130,10 +150,19 @@
     .container {
       @include section;
 
-      .cards{
+      padding: 0 20px;
+
+      .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 24px;
+
+        @media (max-width: $screeen-md) {
+          grid-template-columns: 1fr 1fr;
+        }
+        @media (max-width: $screeen-sm) {
+          grid-template-columns: 1fr;
+        }
       }
     }
   }

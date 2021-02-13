@@ -16,7 +16,7 @@
   background-position-y: bottom;
   display: flex;
   flex-direction: column;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
   background-size: 100% auto;
 
   &--opened {
@@ -48,6 +48,11 @@
   .modal_body {
     padding: 0 64px;
     overflow: scroll;
+
+    @media (max-width: $screeen-xs) {
+      padding: 0 32px;
+    }
+
   }
 }
 
