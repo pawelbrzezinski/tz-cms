@@ -24,7 +24,7 @@ const HomePage = () => (
       ctaPrimary="Umów się"
       ctaSecondary="Jak to działa?"
     />
-    <Locations />
+    <Locations  />
     <Offer className="home_offer" />
     <WhyUs className="home_why_us" />
     <Reviews className="home_reviews" />

@@ -1,0 +1,58 @@
+@import "colors";
+@import "variables";
+
+.home_locations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 76px;
+  max-width: $screeen-lg;
+  margin: 0 auto;
+  margin-bottom: 112px;
+
+  .map_section {
+    display: flex;
+    align-items: center;
+  }
+
+  .cities_section {
+    .cities_section_text {
+      max-width: 590px;
+
+      h5 {
+        margin-bottom: 16px;
+        color: $black;
+        font-weight: 400;
+      }
+
+      h2 {
+        margin-bottom: 16px;
+
+        @media (max-width: 425px) {
+          font-size: 20px;
+          line-height: 32px;
+        }
+      }
+
+      p {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 36px;
+
+        font-size: 16px;
+        line-height: 24px;
+        width: 90%;
+
+        @media (max-width: $screeen-md) {
+          width: 100%;
+        }
+      }
+    }
+
+    .cities_list_section {
+      .cities_list_section-inner {
+        width: 50vw;
+        margin-top: 24px;
+      }
+    }
+  }
+}

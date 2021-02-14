@@ -13,8 +13,8 @@ const CityItem = ({ label = "", address1 = "", address2 = "" }) => (
     <div>
       <h4>{label}</h4>
       <div className="address">
-        <p>{address1}</p>
-        <p>{address2}</p>
+        {/* <p>{address1}</p>
+        <p>{address2}</p> */}
       </div>
     </div>
     <Button type="secondary" size="M">

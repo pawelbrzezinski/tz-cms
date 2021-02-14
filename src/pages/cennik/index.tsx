@@ -11,7 +11,7 @@ const CityItem = ({ label = "", address1 = "" }) => (
     <div>
       <h4>{label}</h4>
       <div className="address">
-        <p>{address1}</p>
+        {/* <p>{address1}</p> */}
       </div>
     </div>
   </div>

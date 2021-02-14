@@ -1,0 +1,21 @@
+@import "colors";
+@import "variables";
+
+.cities_list {
+  .cities_list_wrapper {
+    display: flex;
+    overflow: scroll;
+    
+    .map_pin_wrapper {
+      .map_pin {
+        padding: 30px;
+      }
+
+      &--hovered {
+        .map_pin {
+          background-color: yellow;
+        }
+      }
+    }
+  }
+}
