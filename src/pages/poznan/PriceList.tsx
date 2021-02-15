@@ -76,6 +76,7 @@ const prices = [
 
 const PriceList = ({ className = "" }) => (
   <div className={className}>
+    <a className="anchor" id="cennik"></a>
     <BubbleSection h2="Cennik naszych usług" color="gray">
       <div className="container">
         <AccordionPrices priceList={prices} />

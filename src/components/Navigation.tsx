@@ -33,9 +33,7 @@ const NavigationItemWithSubmenu = ({ label = "", children = null }) => {
   );
 };
 
-const Navigation = ({
-  constactCtaComponent = <Link to="/kontakt">Umów się</Link>,
-}) => {
+const Navigation = ({ constactCtaComponent = null }) => {
   const [isMenuOpened, setIsMenuOpened] = useState(false);
 
   return (
@@ -114,10 +112,10 @@ const Navigation = ({
           <span className="phone-number">+48 781 445 685</span>
         </div>
         <Button size="M" className="normal-button">
-          {constactCtaComponent}
+          {constactCtaComponent || <Link to="/kontakt">Umów się</Link>}
         </Button>
         <Button size="S" className="small-button">
-          {constactCtaComponent}
+          {constactCtaComponent || <Link to="/kontakt">Umów się</Link>}
         </Button>
       </div>
       <div

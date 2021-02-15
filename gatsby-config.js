@@ -72,6 +72,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -50,
+        duration: 1
+      }
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,

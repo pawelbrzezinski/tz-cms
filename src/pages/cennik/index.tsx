@@ -2,17 +2,21 @@ import React from "react";
 import Layout from "../../components/Layout";
 import { Helmet } from "react-helmet";
 import Cta from "../../components/Cta";
+import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "../../styles/prices.scss";
 import CITIES from "../../config/cities";
 
-const CityItem = ({ label = "", address1 = "" }) => (
+const CityItem = ({ label = "", link = "", address1 = "" }) => (
   <div className="prices_list_item">
     <div>
-      <h4>{label}</h4>
-      <div className="address">
-        {/* <p>{address1}</p> */}
-      </div>
+      <h4>
+        <Link to={`/${link}/#cennik`} title={label}>
+          {label}
+        </Link>
+      </h4>
+      <div className="address">{/* <p>{address1}</p> */}</div>
     </div>
   </div>
 );
