@@ -41,9 +41,9 @@ const Pin = ({
       {data.type === "current" && (
         <div className="marker_bubble">
           <p className="buble_title">{data.city}</p>
-          <p className="buble_link">
+          {/* <p className="buble_link">
             <span title="Wybierz miasto">Wybierz miasto</span>
-          </p>
+          </p> */}
         </div>
       )}
       {data.type === "current" && <div className="map_pin_backdrop"></div>}

@@ -12,6 +12,7 @@ import RiskGroup from "./RiskGroup";
 import Surgery from "./Surgery";
 import Videodermoscopy from "./Videodermoscopy";
 import WhyUs from "./WhyUs";
+import Cta from "../../components/Cta";
 
 import "../../styles/home.scss";
 
@@ -24,17 +25,18 @@ const HomePage = () => (
       ctaPrimary="Umów się"
       ctaSecondary="Jak to działa?"
     />
-    <Locations  />
+    <Locations />
     <Offer className="home_offer" />
     <WhyUs className="home_why_us" />
     <Reviews className="home_reviews" />
     <Melanoma />
-    <Faq className="home_faq"/>
+    <Faq className="home_faq" />
     <Dermoscopy />
     <Videodermoscopy />
-    <RiskGroup className="home_risk_group"/>
+    <RiskGroup className="home_risk_group" />
     <Abcde className="home_abcde" />
     <Surgery />
+    <Cta className="home_cta" />
   </Layout>
 );
 

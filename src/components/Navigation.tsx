@@ -11,7 +11,7 @@ import CallButton from "./CallButton";
 import Button from "./Button";
 
 const NavigationItemWithSubmenu = ({ label = "", children = null }) => {
-  const [isMenuOpened, setIsMenuOpened] = useState(false); 
+  const [isMenuOpened, setIsMenuOpened] = useState(false);
 
   return (
     <div
@@ -33,8 +33,10 @@ const NavigationItemWithSubmenu = ({ label = "", children = null }) => {
   );
 };
 
-const Navigation = () => {
-  const [isMenuOpened, setIsMenuOpened] = useState(false); 
+const Navigation = ({
+  constactCtaComponent = <Link to="/kontakt">Umów się</Link>,
+}) => {
+  const [isMenuOpened, setIsMenuOpened] = useState(false);
 
   return (
     <nav
@@ -112,7 +114,10 @@ const Navigation = () => {
           <span className="phone-number">+48 781 445 685</span>
         </div>
         <Button size="M" className="normal-button">
-          <Link to="/kontakt">Umów się</Link>
+          {constactCtaComponent}
+        </Button>
+        <Button size="S" className="small-button">
+          {constactCtaComponent}
         </Button>
       </div>
       <div

@@ -6,7 +6,7 @@ import "../styles/all.scss";
 import useSiteMetadata from "./useSiteMetadata";
 import { withPrefix } from "gatsby";
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ children , constactCtaComponent}) => {
   const { title, description } = useSiteMetadata();
 
   const [offset, setOffset] = useState(0);
@@ -55,7 +55,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/logo.png`}
         />
       </Helmet>
-      <Navigation />
+      <Navigation constactCtaComponent={constactCtaComponent} />
       <div>{children}</div>
       <Footer />
     </div>

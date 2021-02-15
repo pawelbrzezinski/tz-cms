@@ -17,7 +17,15 @@ const LOCATIONS = [
     },
     type: CURRENT,
   },
-
+  {
+    city: "Warszawa",
+    link: "warszawa/badanie-znamion",
+    position: {
+      left: 70,
+      top: 48,
+    },
+    type: CURRENT,
+  },
   {
     city: "Wrocław",
     link: "wroclaw/badanie-znamion",
@@ -54,15 +62,7 @@ const LOCATIONS = [
     },
     type: CURRENT,
   },
-  {
-    city: "Warszawa",
-    link: "warszawa/badanie-znamion",
-    position: {
-      left: 70,
-      top: 48,
-    },
-    type: CURRENT,
-  },
+
   {
     city: "Bydgoszcz",
     link: "bydgoszcz/badanie-znamion",
@@ -149,7 +149,7 @@ const Locations = () => {
           </p>
         </div>
         <div className="cities_list_section">
-          <h3>Nasze lokalizacje</h3>
+          {/* <h3>Nasze lokalizacje</h3> */}
           <div className="cities_list_section-inner">
             <CitiesList
               data={locations.filter((location) => location.type === CURRENT)}

@@ -21,10 +21,9 @@ const Doctor = ({
   className = "",
   data = { name: "", title: "", img: null, city: "", description: "" },
   image,
-  graph = {},
 }) => {
   const [isModalOpened, setModalOpened] = useState(false);
-  console.log(image, "image");
+  
   return (
     <div className={className}>
       <div className="doctor_wrapper">
