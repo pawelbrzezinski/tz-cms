@@ -7,7 +7,7 @@ import CallIcon from "../img/call_icon_dark.svg";
 const CallButton = ({ size = "M", className = "", type = "normal" }) => {
   const sizes = {
     M: "call_button",
-    S: "call_button-S",
+    S: "call_button call_button-S",
   };
 
   const types = {
@@ -18,9 +18,9 @@ const CallButton = ({ size = "M", className = "", type = "normal" }) => {
   const icon = types[type] || NormalIcon;
 
   return (
-    <button className={`${sizes[size]} ${className} call_button-${type}`}>
+    <span className={`${sizes[size]} ${className} call_button-${type}`}>
       <img src={icon} alt="Zadzwoń" />
-    </button>
+    </span>
   );
 };
 

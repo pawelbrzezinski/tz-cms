@@ -57,16 +57,13 @@
     @include section;
 
     grid-template-columns: 1fr 1fr;
-    grid-gap: 0 140px;
+    grid-gap: 0 80px;
     width: 100%;
-
     display: grid;
     margin-top: 20px;
-    margin-bottom: 65px;
 
     @media (max-width: $screeen-lg) {
-      margin: 0;
-      margin-bottom: 40px;
+      grid-gap: 0 20px;
       padding: 0 20px;
     }
 
@@ -91,7 +88,7 @@
         display: block;
 
         @media (max-width: $screeen-md) {
-          width:70%;
+          width: 70%;
         }
       }
     }
@@ -129,13 +126,55 @@
   }
 
   .map {
+    margin-top: 112px;
     padding: 0 64px;
 
     @media (max-width: $screeen-lg) {
       padding: 0;
+      margin-top: 64px;
     }
+
     .container {
       @include section;
+
+      .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0 80px;
+        padding: 0 20px;
+
+        @media (max-width: $screeen-lg) {
+          grid-gap: 0 20px;
+        }
+
+        @media (max-width: $screeen-md) {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+
+        .card_map {
+          display: flex;
+          justify-content: center;
+          @media (max-width: $screeen-xs) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    h2 {
+      margin-bottom: 16px;
+    }
+
+    .subheading {
+      margin-bottom: 16px;
+    }
+
+    .text {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 32px;
+      color: $gray;
     }
   }
 
@@ -146,6 +185,7 @@
 
     @media (max-width: $screeen-lg) {
       padding: 0;
+      margin-top: 64px;
     }
     .container {
       @include section;

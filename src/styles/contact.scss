@@ -57,7 +57,7 @@
           line-height: 24px;
         }
 
-        button {
+        .phone_button, .mail_button {
           margin-right: 0;
         }
       }
@@ -131,7 +131,7 @@
     line-height: 32px;
     margin-bottom: 24px;
 
-    button {
+    .phone_button, .mail_button {
       margin-right: 16px;
     }
   }
@@ -218,20 +218,11 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 16px;
+        color: $black;
 
         &:hover {
           background: $violet10;
-        }
-
-        .address {
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 24px;
-          color: $gray;
-
-          p {
-            margin: 0;
-          }
+          color: $violet60;
         }
       }
     }

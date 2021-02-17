@@ -1,56 +1,96 @@
-export default [
+export const CURRENT = "current";
+export const FUTURE = "future";
+
+export const LOCATIONS = [
   {
-    label: "Poznań",
-    address1: "ul. Dąbrowskiego 77A",
-    address2: "60-101 Poznań",
+    city: "Poznan",
     link: "poznan/badanie-znamion",
+    position: {
+      left: 29,
+      top: 45,
+    },
+    type: CURRENT,
   },
   {
-    label: "Warszawa",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
+    city: "Warszawa",
     link: "warszawa/badanie-znamion",
+    position: {
+      left: 70,
+      top: 48,
+    },
+    type: CURRENT,
   },
   {
-    label: "Wrocław",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
+    city: "Wrocław",
+    link: "wroclaw/badanie-znamion",
+    position: {
+      left: 30,
+      top: 65,
+    },
+    type: CURRENT,
   },
   {
-    label: "Kraków",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
+    city: "Kraków",
+    link: "krakow/badanie-znamion",
+    position: {
+      left: 57,
+      top: 90,
+    },
+    type: CURRENT,
   },
   {
-    label: "Szczecin",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
+    city: "Szczecin",
+    link: "szczecin/badanie-znamion",
+    position: {
+      left: 7,
+      top: 30,
+    },
+    type: CURRENT,
   },
   {
-    label: "Łódź",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
+    city: "Łódź",
+    link: "lodz/badanie-znamion",
+    position: {
+      left: 53,
+      top: 57,
+    },
+    type: CURRENT,
+  },
+
+  {
+    city: "Bydgoszcz",
+    link: "bydgoszcz/badanie-znamion",
+    position: {
+      left: 37,
+      top: 35,
+    },
+    type: CURRENT,
   },
   {
-    label: "Katowice",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
+    city: "Katowice",
+    link: false,
+    position: {
+      left: 48,
+      top: 85,
+    },
+    type: FUTURE,
   },
   {
-    label: "Bydgoszcz",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
+    city: "Ustka",
+    link: false,
+    position: {
+      left: 28,
+      top: 10,
+    },
+    type: FUTURE,
   },
   {
-    label: "Ustka",
-    address1: "ul. Sokołowska 9/U-02",
-    address2: "01-142 Warszawa  ",
-    link: "warszawa/badanie-znamion",
+    city: "Gdańsk",
+    link: false,
+    position: {
+      left: 43,
+      top: 11,
+    },
+    type: FUTURE,
   },
 ];

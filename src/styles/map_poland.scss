@@ -7,6 +7,16 @@
   background-size: contain;
   width: 485px;
 
+  &.nointeraction {
+    .map_pins_wrapper {
+      overflow: hidden;
+      
+      .map_pin_wrapper {
+        cursor: auto;
+      }
+    }
+  }
+
   .map_pins_wrapper {
     position: relative;
 

@@ -10,7 +10,7 @@ import WhyUs from "./WhyUs";
 import "../../styles/home.scss";
 import Covid from "./Covid";
 import PriceList from "./PriceList";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { Link } from "gatsby";
 
 import ImportantInfo from "./ImportantInfo";
 import ProcedureDetails from "./ProcedureDetails";
@@ -20,20 +20,27 @@ import Cta from "../../components/Cta";
 
 const CtaUmowSie = () => {
   return (
-    <AnchorLink to="#cennik" title="Umów się">
+    <Link to="#cennik" title="Umów się">
       Umów się
-    </AnchorLink>
+    </Link>
+  );
+};
+const CtaCennik = () => {
+  return (
+    <Link to="#cennik" title="Cennik">
+      Ile to kosztuje?
+    </Link>
   );
 };
 
 const PoznanBadanieZnamionPage = () => (
   <Layout>
     <Hero
-      h1="Ogólnopolskie Centrum Diagnostyki Znamion"
+      h1="Poznańskie Centrum Diagnostyki Znamion"
       oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
           nowotwory z życia milionów ludzi!"
       ctaPrimary={<CtaUmowSie />}
-      ctaSecondary="Jak to działa?"
+      ctaSecondary={<CtaCennik />}
     />
 
     <Offer className="home_offer" />

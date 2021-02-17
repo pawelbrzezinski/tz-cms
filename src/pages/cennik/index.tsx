@@ -3,22 +3,15 @@ import Layout from "../../components/Layout";
 import { Helmet } from "react-helmet";
 import Cta from "../../components/Cta";
 import { Link } from "gatsby";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "../../styles/prices.scss";
-import CITIES from "../../config/cities";
 
-const CityItem = ({ label = "", link = "", address1 = "" }) => (
-  <div className="prices_list_item">
-    <div>
-      <h4>
-        <Link to={`/${link}/#cennik`} title={label}>
-          {label}
-        </Link>
-      </h4>
-      <div className="address">{/* <p>{address1}</p> */}</div>
-    </div>
-  </div>
+import { LOCATIONS } from "../../config/cities";
+
+const CityItem = ({ city = "", link = "" }) => (
+  <Link className="prices_list_item" to={`/${link}/#cennik`} title={city}>
+    <h4>{city}</h4>
+  </Link>
 );
 
 const PricesPage = () => (
@@ -36,8 +29,8 @@ const PricesPage = () => (
         </div>
       </div>
       <div className="prices_cities_list_wrapper">
-        {CITIES.map((city) => (
-          <CityItem key={city.label} {...city} />
+        {LOCATIONS.map((city) => (
+          <CityItem key={city.city} {...city} />
         ))}
       </div>
     </div>

@@ -80,6 +80,7 @@ const CitiesList = ({
         >
           {data.map((pin) => (
             <City
+              key={pin.city}
               data={pin}
               onMouseOver={highlightLocation}
               onMouseOut={unHighlightLocation}

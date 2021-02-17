@@ -5,9 +5,9 @@ import Icon from "../img/mail_icon_dark.svg";
 
 const MailButton = ({ className = "" }) => {
   return (
-    <button className={`mail_button ${className}`}>
+    <span className={`mail_button ${className}`}>
       <img src={Icon} alt="Napisz do nas" />
-    </button>
+    </span>
   );
 };
 

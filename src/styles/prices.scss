@@ -23,11 +23,24 @@
 
   .prices_cities_list_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 24px 24px;
+
+    @media (max-width: $screeen-lg) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (max-width: $screeen-sm) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: $screeen-xs) {
+      grid-template-columns: 1fr;
+    }
 
     .prices_list_item {
       background: $white;
+      color: $black;
       border: 1px solid $gray40;
       box-sizing: border-box;
       border-radius: 8px;
@@ -39,16 +52,13 @@
       text-align: center;
       cursor: pointer;
 
-      &:hover{
+      &:hover {
         background: $violet10;
+        color: $violet60;
       }
 
       .button {
         margin-top: 16px;
-      }
-
-      h4 {
-        margin-bottom: 8px;
       }
 
       .address {

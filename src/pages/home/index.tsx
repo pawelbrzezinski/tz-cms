@@ -13,8 +13,17 @@ import Surgery from "./Surgery";
 import Videodermoscopy from "./Videodermoscopy";
 import WhyUs from "./WhyUs";
 import Cta from "../../components/Cta";
+import { Link } from "gatsby";
 
 import "../../styles/home.scss";
+
+const CtaUmowSie = () => {
+  return (
+    <Link to="/kontakt" title="Umów się">
+      Umów się
+    </Link>
+  );
+};
 
 const HomePage = () => (
   <Layout>
@@ -22,8 +31,8 @@ const HomePage = () => (
       h1="Ogólnopolskie Centrum Diagnostyki Znamion"
       oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
           nowotwory z życia milionów ludzi!"
-      ctaPrimary="Umów się"
-      ctaSecondary="Jak to działa?"
+      ctaPrimary={<CtaUmowSie />}
+      ctaSecondary={null}
     />
     <Locations />
     <Offer className="home_offer" />

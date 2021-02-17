@@ -42,10 +42,10 @@ const TABS = {
 
 const Iframe = ({ className = "" }) => (
   <iframe
-    frameborder="0"
+    frameBorder="0"
     width="560" height="315"
-    allowfullscreen="1"
-    class={`lazyload ${className}`}
+    allowFullScreen="1"
+    className={`lazyload ${className}`}
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     data-src="https://www.youtube.com/embed/ljtZ99i5QKY?mute=0&amp;start=76&amp;modestbranding=1&amp;controls=0&amp;autoplay=1&amp;disablekb=1&amp;showinfo=0&amp;rel=0&amp;fs=0&amp;loop=1&amp;iv_load_policy=3&amp;theme=light&amp;color=white&amp;vq=hd1080&amp;enablejsapi=1"
   ></iframe>

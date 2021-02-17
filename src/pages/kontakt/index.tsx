@@ -1,27 +1,25 @@
 import React, { useState } from "react";
 import Layout from "../../components/Layout";
 import { Helmet } from "react-helmet";
+import { Link } from "gatsby";
+
 import CallButton from "../../components/CallButton";
 import MailButton from "../../components/MailButton";
 import Button from "../../components/Button";
 import Modal from "../../components/Modal";
-import CITIES from "../../config/cities";
+import { LOCATIONS } from "../../config/cities";
 
 import "../../styles/contact.scss";
 
-const CityItem = ({ label = "", address1 = "", address2 = "" }) => (
-  <div className="contact_list_item">
+const CityItem = ({ city = "", link = "" }) => (
+  <Link className="contact_list_item" to={`/${link}/#kontakt`} title={city}>
     <div>
-      <h4>{label}</h4>
-      <div className="address">
-        {/* <p>{address1}</p>
-        <p>{address2}</p> */}
-      </div>
+      <h4>{city}</h4>
     </div>
     <Button type="secondary" size="M">
-      Wybierz
+      <span>Wybierz</span>
     </Button>
-  </div>
+  </Link>
 );
 
 const ContactInfo = () => {
@@ -65,11 +63,11 @@ const RegistrationInfo = () => (
         </p>
       </div>
       <div className="contact_info_wrapper">
-        <CallButton type="dark" size="S" />
+        <CallButton className="phone_button" type="dark" size="S" />
         <span className="phone-number">+48 781 445 685</span>
       </div>
       <div className="contact_info_wrapper">
-        <MailButton />
+        <MailButton className="mail_button" />
         <span className="phone-number">zbadamy@twojeznamiona.pl</span>
       </div>
     </div>
@@ -77,11 +75,11 @@ const RegistrationInfo = () => (
       <h4>Dział Operacyjny</h4>
       <div className="contact_person">Ida Słowicka</div>
       <div className="contact_info_wrapper">
-        <CallButton type="dark" size="S" />
+        <CallButton className="phone_button" type="dark" size="S" />
         <span className="phone-number">+48 794 445 685</span>
       </div>
       <div className="contact_info_wrapper">
-        <MailButton />
+        <MailButton className="mail_button" />
         <span className="phone-number">ida.slowicka@twojeznamiona.pl</span>
       </div>
       <div className="contact_person_details">
@@ -107,8 +105,8 @@ const ContactPage = () => (
           zamieszkania!
         </div>
         <div className="contact_cities_list_wrapper">
-          {CITIES.map((city) => (
-            <CityItem key={city.label} {...city} />
+          {LOCATIONS.map((location) => (
+            <CityItem key={location.city} {...location} />
           ))}
         </div>
       </div>

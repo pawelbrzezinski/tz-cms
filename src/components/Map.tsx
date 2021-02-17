@@ -2,9 +2,11 @@ import React from "react";
 
 import "../styles/map_poland.scss";
 
+import { CURRENT } from "../config/cities";
+
 const Pin = ({
   data = {
-    type: "current",
+    type: CURRENT,
     city: "",
     hovered: false,
     position: { left: 0, top: 0 },
@@ -28,7 +30,7 @@ const Pin = ({
   return (
     <div
       className={`map_pin_wrapper ${
-        (data.hovered && data.type === "current") ? "map_pin_wrapper--hovered" : ""
+        data.hovered && data.type === CURRENT ? "map_pin_wrapper--hovered" : ""
       }`}
       style={{
         left: `${data.position.left}%`,
@@ -38,7 +40,7 @@ const Pin = ({
       onClick={onClickCb}
       onMouseOut={onMouseOutCb}
     >
-      {data.type === "current" && (
+      {data.type === CURRENT && (
         <div className="marker_bubble">
           <p className="buble_title">{data.city}</p>
           {/* <p className="buble_link">
@@ -46,7 +48,7 @@ const Pin = ({
           </p> */}
         </div>
       )}
-      {data.type === "current" && <div className="map_pin_backdrop"></div>}
+      {data.type === CURRENT && <div className="map_pin_backdrop"></div>}
 
       <div className={`map_pin map_pin--${data.type}`}></div>
     </div>
@@ -55,15 +57,17 @@ const Pin = ({
 
 const Map = ({
   data = [],
-  highlightLocation,
-  unHighlightLocation,
-  goToLocation,
+  className = "",
+  highlightLocation = (x) => null,
+  unHighlightLocation = () => null,
+  goToLocation = () => null,
 }) => {
   return (
-    <div className="map_poland">
+    <div className={`map_poland ${className}`}>
       <div className="map_pins_wrapper">
         {data.map((pin) => (
           <Pin
+            key={pin.city}
             data={pin}
             onMouseOver={highlightLocation}
             onMouseOut={unHighlightLocation}

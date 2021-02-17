@@ -9,7 +9,7 @@ const Hero = ({
   h1 = "",
   oneLiner = "",
   ctaPrimary = null,
-  ctaSecondary = "",
+  ctaSecondary = null,
 }) => (
   <div className={`hero ${className}`}>
     <div className="hero-inner">
@@ -18,9 +18,11 @@ const Hero = ({
         <div className="one-liner-text">{oneLiner}</div>
         <div className="buttons">
           <Button>{ctaPrimary}</Button>
-          <Button type="secondary" size="L">
-            {ctaSecondary}
-          </Button>
+          {ctaSecondary && (
+            <Button type="secondary" size="L">
+              {ctaSecondary}
+            </Button>
+          )}
         </div>
       </div>
 

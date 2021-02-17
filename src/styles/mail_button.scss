@@ -9,6 +9,21 @@
   border-radius: 58px;
   padding: 10px;
 
+  display: inline-flex;
+  appearance: auto;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  cursor: default;
+
   img {
     width: 16px;
     height: 16px;

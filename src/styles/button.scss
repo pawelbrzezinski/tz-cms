@@ -51,8 +51,13 @@
 }
 
 .button-L {
-  padding: 16px 24px;
   height: 56px;
+
+  > *:first-child {
+    padding: 16px 24px;
+    display: inline-block;
+  }
+
   &,
   * {
     font-size: 16px;
@@ -60,8 +65,12 @@
   }
 
   @media (max-width: $screeen-sm) {
-    padding: 14px 16px;
     height: 48px;
+
+    > *:first-child {
+      padding: 14px 16px;
+      display: inline-block;
+    }
     &,
     * {
       font-size: 14px;
@@ -71,8 +80,13 @@
 }
 
 .button-M {
-  padding: 14px 16px;
   height: 48px;
+
+  > *:first-child {
+    padding: 14px 16px;
+    display: inline-block;
+  }
+
   &,
   * {
     font-size: 14px;
@@ -81,8 +95,14 @@
 }
 
 .button-S {
-  padding: 9px 12px;
   height: 36px;
+
+  > *:first-child {
+    padding: 9px 12px;
+
+    display: inline-block;
+  }
+
   &,
   * {
     font-size: 12px;

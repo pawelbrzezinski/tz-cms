@@ -23,7 +23,7 @@ const Doctor = ({
   image,
 }) => {
   const [isModalOpened, setModalOpened] = useState(false);
-  
+
   return (
     <div className={className}>
       <div className="doctor_wrapper">
@@ -55,7 +55,16 @@ const Doctor = ({
             >
               <div className="doctor_modal_body">
                 <div className="doctor_modal_body_icon_wrapper">
-                  <img src={data.img} alt={data.name} />
+                  {image ? (
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: image,
+                        alt: data.name,
+                      }}
+                    />
+                  ) : (
+                    <img className="raw_img" src={data.img} alt={data.name} />
+                  )}
                 </div>
                 <div className="doctor_modal_body_name">{data.name}</div>
                 <div className="doctor_modal_body_title">{data.title}</div>
