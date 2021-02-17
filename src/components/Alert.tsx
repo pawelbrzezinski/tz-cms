@@ -10,8 +10,9 @@ const Alert = () => {
       <img src={IconImage} alt="Question" />
       <div className="alert_body">
         Osoby <strong>szczególnie narażone</strong> na wystąpienie raka skóry
-        powinny poddawać się dermatoskopowemu badaniu znamion z większą
-        częstotliwością niż standardowe badania przeprowadzane raz do roku.
+        powinny poddawać się dermatoskopowemu badaniu znamion{" "}
+        <strong>z większą częstotliwością</strong> niż standardowe badania
+        przeprowadzane raz do roku.
       </div>
       <Button>Umów się </Button>
     </div>

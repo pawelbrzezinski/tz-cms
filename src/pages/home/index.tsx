@@ -38,13 +38,13 @@ const HomePage = () => (
     <Offer className="home_offer" />
     <WhyUs className="home_why_us" />
     <Reviews className="home_reviews" />
-    <Melanoma />
+    <Melanoma className="home_melanoma"/>
     <Faq className="home_faq" />
-    <Dermoscopy />
-    <Videodermoscopy />
+    <Dermoscopy className="home_dermoscopy"/>
+    <Videodermoscopy className="home_videodermoscopy"/>
     <RiskGroup className="home_risk_group" />
     <Abcde className="home_abcde" />
-    <Surgery />
+    <Surgery className="home_surgery" />
     <Cta className="home_cta" />
   </Layout>
 );
