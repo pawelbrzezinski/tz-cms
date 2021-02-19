@@ -106,6 +106,14 @@
   }
 }
 
+.home_contact {
+  @include home_section;
+
+  .container {
+    @include container_section;
+  }
+}
+
 .home_melanoma {
   @include home_section;
 

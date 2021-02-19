@@ -1,7 +1,6 @@
 import React from "react";
 import BubbleSection from "../../components/BubbleSection";
 import WhyUsCard from "./WhyUsCard";
-import Button from "../../components/Button";
 
 import BadamyImage from "../../img/Badamy.svg";
 import ZapisujemyImage from "../../img/Zapisujemy.svg";
@@ -24,9 +23,7 @@ const WhyUs = ({ className = "" }) => (
             desc="Wydajemy wynik lekarski"
           />
         </div>
-        <div className="buttons">
-          <Button type="secondary">Umów się na wizytę</Button>
-        </div>
+
       </div>
     </BubbleSection>
   </div>

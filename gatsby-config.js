@@ -85,6 +85,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop

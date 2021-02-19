@@ -28,7 +28,7 @@ const CtaUmowSie = () => {
 const HomePage = () => (
   <Layout>
     <Hero
-      h1="Ogólnopolskie Centrum Diagnostyki Znamion"
+      h1="Ogólnopolskie Centrum Dermatoskopowego Badania Znamion"
       oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
           nowotwory z życia milionów ludzi!"
       ctaPrimary={<CtaUmowSie />}
