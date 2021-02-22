@@ -27,6 +27,17 @@ const TemplateWrapper = ({ children, constactCtaComponent = null }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="googlebot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta
+          name="bingbot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta property="og:locale" content="pl_PL" />
 
         <link
           rel="apple-touch-icon"
@@ -48,9 +59,9 @@ const TemplateWrapper = ({ children, constactCtaComponent = null }) => {
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix("/")}img/logo.png`} />
+        <meta name="twitter:image" content={`${withPrefix("/")}img/logo.png`} />
       </Helmet>
       <Navigation constactCtaComponent={constactCtaComponent} />
       <div>{children}</div>

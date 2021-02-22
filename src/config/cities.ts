@@ -13,7 +13,7 @@ export const LOCATIONS = [
   },
   {
     city: "Warszawa",
-    link: "warszawa/badanie-znamion",
+    link: "warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia",
     position: {
       left: 70,
       top: 48,
@@ -68,7 +68,7 @@ export const LOCATIONS = [
   },
   {
     city: "Katowice",
-    link: false,
+    link: undefined,
     position: {
       left: 48,
       top: 85,
@@ -77,7 +77,7 @@ export const LOCATIONS = [
   },
   {
     city: "Ustka",
-    link: false,
+    link: undefined,
     position: {
       left: 28,
       top: 10,
@@ -86,7 +86,7 @@ export const LOCATIONS = [
   },
   {
     city: "Gdańsk",
-    link: false,
+    link: undefined,
     position: {
       left: 43,
       top: 11,

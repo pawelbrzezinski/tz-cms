@@ -36,6 +36,7 @@ import Faq1Image from "../../img/faq1.png";
 import Faq1ImageMobile from "../../img/faq-1-mobile.png";
 import Faq2Image from "../../img/faq2.png";
 import Faq2ImageMobile from "../../img/faq-2-mobile.png";
+import SEO from "../../components/landingPage/SEO";
 
 const REVIEWS = [
   {
@@ -185,6 +186,11 @@ const CtaCennik = () => {
 
 const PoznanBadanieZnamionPage = () => (
   <Layout constactCtaComponent={<CtaUmowSie />}>
+    <SEO
+      title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
+      description="Warszawa - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."
+      keywords="badanie znamion, warszawa, dermatoskopia"
+    />
     <Hero
       h1="Warszawskie Centrum Dermatoskopowego Badania Znamion"
       oneLiner="Wszystkie swoje działania skupiamy na kompleksowej diagnostyce znamion aby wyeliminować nowotwory skóry z życia milionów ludzi."

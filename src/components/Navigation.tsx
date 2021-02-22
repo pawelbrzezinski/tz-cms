@@ -5,7 +5,7 @@ import hamburgerIcon from "../img/hamburger_menu.svg";
 import CloseIcon from "../img/close.svg";
 import ChevronIcon from "../img/chevron-up.svg";
 import { Helmet } from "react-helmet";
-
+import { LOCATIONS } from "../config/cities";
 import "../styles/navigation.scss";
 import CallButton from "./CallButton";
 import Button from "./Button";
@@ -76,24 +76,15 @@ const Navigation = ({ constactCtaComponent = null }) => {
         </NavigationItemWithSubmenu>
 
         <NavigationItemWithSubmenu label="Nasze ośrodki">
-          <Link className="navigation-item" to="/poznan/badanie-znamion">
-            Poznań
-          </Link>
-          <Link className="navigation-item" to="/warszawa/badanie-znamion">
-            Warszawa
-          </Link>
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
-            Wrocław
-          </Link>
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
-            Kraków
-          </Link>
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
-            Szczecin
-          </Link>
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
-            Łódź
-          </Link>
+          {LOCATIONS.filter((location) => location.link).map((location) => (
+            <Link
+              key={location.city}
+              className="navigation-item"
+              to={`/${location.link}`}
+            >
+              {location.city}
+            </Link>
+          ))}
         </NavigationItemWithSubmenu>
 
         <Link className="navigation-item" to="/o-nas">

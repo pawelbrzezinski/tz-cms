@@ -44,6 +44,12 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     createRedirect({ fromPath: '/poznan', toPath: '/poznan/badanie-znamion', isPermanent: true });
+    createRedirect({ fromPath: '/warszawa', toPath: '/warszawa/badanie-znamion', isPermanent: true });
+    createRedirect({ fromPath: '/lodz', toPath: '/lodz/badanie-znamion', isPermanent: true });
+    createRedirect({ fromPath: '/szczecin', toPath: '/szczecin/badanie-znamion', isPermanent: true });
+    createRedirect({ fromPath: '/krakow', toPath: '/krakow/badanie-znamion', isPermanent: true });
+    createRedirect({ fromPath: '/wroclaw', toPath: '/wroclaw/badanie-znamion', isPermanent: true });
+    createRedirect({ fromPath: '/bydgoszcz', toPath: '/bydgoszcz/badanie-znamion', isPermanent: true });
 
 
     const posts = result.data.allMarkdownRemark.edges

@@ -1,9 +1,16 @@
 import React from "react";
-import GoogleMap from "../../components/GoogleMap";
+import GoogleMap from "../GoogleMap";
 
 import "../../styles/location.scss";
 
-const Location = ({ coords, additionalDetails, className = "" }) => (
+const Location = ({
+  coords,
+  additionalDetails,
+  locationInfo = { title: "", data: "" },
+  hoursInfo = { data: "" },
+  transportationInfo = { data: "" },
+  className = "",
+}) => (
   <div className={`${className} location`}>
     <div className="location_wrapper">
       <h5>Lokalizacja</h5>
@@ -13,16 +20,17 @@ const Location = ({ coords, additionalDetails, className = "" }) => (
       )}
       <div className="location_info_wrapper">
         <div className="location_info_address">
-          <p className="title">Nobel Tower</p>
-          <p>ul. Dąbrowskiego 77A, 60-101 Poznań</p>
+          <p className="title">{locationInfo.title}</p>
+          <p>{locationInfo.data}</p>
         </div>
         <div className="location_info_hours">
           <p className="title">Godziny otwarcia</p>
-          <p>ul. Dąbrowskiego 77A, 60-101 Poznań</p>
+          <p>{hoursInfo.data}</p>
+          
         </div>
         <div className="location_info_transportation">
           <p className="title">Komunikacja miejska</p>
-          <p>ul. Dąbrowskiego 77A, 60-101 Poznań</p>
+          <p>{transportationInfo.data}</p>
         </div>
       </div>
     </div>

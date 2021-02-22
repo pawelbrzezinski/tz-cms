@@ -105,8 +105,12 @@ const ContactPage = () => (
           zamieszkania!
         </div>
         <div className="contact_cities_list_wrapper">
-          {LOCATIONS.map((location) => (
-            <CityItem key={location.city} {...location} />
+          {LOCATIONS.filter((location) => location.link).map((location) => (
+            <CityItem
+              key={location.city}
+              city={location.city}
+              link={location.link}
+            />
           ))}
         </div>
       </div>

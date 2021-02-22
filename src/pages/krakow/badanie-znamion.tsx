@@ -186,7 +186,7 @@ const CtaCennik = () => {
 const PoznanBadanieZnamionPage = () => (
   <Layout constactCtaComponent={<CtaUmowSie />}>
     <Hero
-      h1="Warszawskie Centrum Dermatoskopowego Badania Znamion"
+      h1="Krakowskie Centrum Dermatoskopowego Badania Znamion"
       oneLiner="Wszystkie swoje działania skupiamy na kompleksowej diagnostyce znamion aby wyeliminować nowotwory skóry z życia milionów ludzi."
       oneLinerMore=" Upewnij się, że czerniak nie ukrywa się w jednym z niepozornych pieprzyków na Twojej skórze."
       ctaPrimary={<CtaUmowSie />}

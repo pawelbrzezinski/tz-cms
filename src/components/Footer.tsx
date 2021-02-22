@@ -7,6 +7,9 @@ import email from "../img/mail_icon.svg";
 import fb from "../img/fb_icon.svg";
 import instagram from "../img/instagram_icon.svg";
 import ChevronIcon from "../img/chevron-up.svg";
+
+import { LOCATIONS } from "../config/cities";
+
 import "../styles/footer.scss";
 
 const Footer = () => {
@@ -138,35 +141,14 @@ const Footer = () => {
             }`}
           >
             <div>
-              <a href="#" className="footer_link">
-                Poznań
-              </a>
-              <a href="#" className="footer_link">
-                Warszawa
-              </a>
-              <a href="#" className="footer_link">
-                Wrocław
-              </a>
-              <a href="#" className="footer_link">
-                Kraków
-              </a>
-              <a href="#" className="footer_link">
-                Szczecin
-              </a>
-              <a href="#" className="footer_link">
-                Łódź
-              </a>
-              <a href="#" className="footer_link">
-                Bydgoszcz
-              </a>
+              {LOCATIONS.filter((location) => location.link).map((location) => (
+                <a key={location.city} href={`/${location.link}`} className="footer_link">
+                  {location.city}
+                </a>
+              ))}
             </div>
             <div>
-              <a href="#" className="footer_link">
-                Katowice
-              </a>
-              <a href="#" className="footer_link">
-                Ustka
-              </a>
+             
             </div>
           </div>
         </div>

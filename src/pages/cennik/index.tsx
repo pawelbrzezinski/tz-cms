@@ -29,8 +29,12 @@ const PricesPage = () => (
         </div>
       </div>
       <div className="prices_cities_list_wrapper">
-        {LOCATIONS.map((city) => (
-          <CityItem key={city.city} {...city} />
+        {LOCATIONS.filter((location) => location.link).map((location) => (
+          <CityItem
+            key={location.city}
+            city={location.city}
+            link={location.link}
+          />
         ))}
       </div>
     </div>
