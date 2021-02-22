@@ -1,11 +1,11 @@
 import { Link } from "gatsby";
 import React from "react";
-import Button from "../../components/Button";
+import Button from "../Button";
 import TwoColumnSection, {
   H2_CLASS_NAME,
   H5_CLASS_NAME,
   INTRO_TEXT_CLASS_NAME,
-} from "../../components/TwoColumnSection";
+} from "../TwoColumnSection";
 import Image from "../../img/home_dermoscopy.png";
 
 const Surgery = ({ className = "" }) => (

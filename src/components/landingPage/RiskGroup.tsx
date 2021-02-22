@@ -1,6 +1,6 @@
 import React from "react";
-import BubbleSection from "../../components/BubbleSection";
-import RiskGroupCard from "./RiskGroupCard";
+
+import BubbleSection from "../BubbleSection";
 
 import Risk1Image from "../../img/risk1.png";
 import Risk2Image from "../../img/risk2.png";
@@ -10,14 +10,26 @@ import Risk5Image from "../../img/risk5.png";
 import Risk6Image from "../../img/risk6.png";
 import Risk7Image from "../../img/risk7.png";
 import Risk8Image from "../../img/risk8.png";
-import Alert from "../../components/Alert";
+import Alert from "../Alert";
+
+import "../../styles/risk_group_card.scss";
+
+const RiskGroupCard = ({ image, title = "", children = null }) => {
+  return (
+    <div className="risk_group_card">
+      <div>
+        <img src={image} alt={title} title={title} />
+      </div>
+      <h5>{children || title}</h5>
+    </div>
+  );
+};
 
 const RiskGroup = ({ className = "" }) => (
   <div className={className}>
     <BubbleSection
       introText="Grupy ryzka"
-      h2="Kto jest szczególnie narażony 
-na wystąpienie raka skóry?"
+      h2="Kto jest szczególnie narażony na wystąpienie raka skóry?"
       color="blue"
       reverse
     >

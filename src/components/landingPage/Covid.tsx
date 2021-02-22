@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Button from "../../components/Button";
+import Button from "../Button";
 
 import "../../styles/covid.scss";
 import CovidIcon from "../../img/covid_icon.svg";
-import Modal from "../../components/Modal";
+import Modal from "../Modal";
 
 const Covid = ({ className = "" }) => {
   const [isModalOpened, setModalOpened] = useState(false);

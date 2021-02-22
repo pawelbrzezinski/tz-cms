@@ -1,19 +1,19 @@
 import { Link } from "gatsby";
 import React from "react";
-import Button from "../../components/Button";
+import Button from "../Button";
 import TwoColumnSection, {
   H2_CLASS_NAME,
   H5_CLASS_NAME,
   INTRO_TEXT_CLASS_NAME,
-} from "../../components/TwoColumnSection";
+} from "../TwoColumnSection";
 import Image from "../../img/home_dermoscopy.png";
 
-const Dermoscopy = ({ className = "" }) => (
+const Oncology = ({ className = "" }) => (
   <div className={`${className}`}>
     <TwoColumnSection color="white" containerClassName="container">
       <div>
         <div className={INTRO_TEXT_CLASS_NAME}>Na czym to polega?</div>
-        <h2 className={H2_CLASS_NAME}>Dermatoskopowe badanie znamion</h2>
+        <h2 className={H2_CLASS_NAME}>Konsultacje onkologiczne</h2>
         <h5 className={H5_CLASS_NAME}>
           Dermatoskopia polega na oglądaniu wszystkich znamion na skórze, w
           dużym powiększeniu, przy zastosowaniu urządzenia zwanego
@@ -40,4 +40,4 @@ const Dermoscopy = ({ className = "" }) => (
   </div>
 );
 
-export default Dermoscopy;
+export default Oncology;

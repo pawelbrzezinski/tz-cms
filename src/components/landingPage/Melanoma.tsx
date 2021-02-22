@@ -1,10 +1,10 @@
 import React from "react";
-import CheckList from "../../components/CheckList";
+import CheckList from "../CheckList";
 import TwoColumnSection, {
   H2_CLASS_NAME,
   H5_CLASS_NAME,
   INTRO_TEXT_CLASS_NAME,
-} from "../../components/TwoColumnSection";
+} from "../TwoColumnSection";
 import czerniakImage from "../../img/home_czerniak.svg";
 
 const CHECKLIST = [

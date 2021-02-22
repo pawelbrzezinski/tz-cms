@@ -1,13 +1,14 @@
 import React from "react";
-import "../styles/hero.scss";
+import "../../styles/hero.scss";
 
-import heroImage from "../img/doctor_home.svg";
-import Button from "./Button";
+import heroImage from "../../img/doctor_home.svg";
+import Button from "../Button";
 
 const Hero = ({
   className = "",
   h1 = "",
   oneLiner = "",
+  oneLinerMore = "",
   ctaPrimary = null,
   ctaSecondary = null,
 }) => (
@@ -16,6 +17,7 @@ const Hero = ({
       <div className="one-liner-wrapper">
         <h1>{h1}</h1>
         <div className="one-liner-text">{oneLiner}</div>
+        {oneLinerMore && <div className="one-liner-text">{oneLinerMore}</div>}
         <div className="buttons">
           <Button>{ctaPrimary}</Button>
           {ctaSecondary && (

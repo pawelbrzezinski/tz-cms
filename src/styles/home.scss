@@ -102,6 +102,26 @@
 
     .cards {
       @include cards_section;
+
+      grid-gap: 0 24px;
+    }
+  }
+}
+
+.home_gallery {
+  @include home_section;
+
+  .container {
+    @include container_section;
+
+    .cards {
+      @include cards_section;
+
+      grid-gap: 24px;
+
+      @media (max-width: $screeen-lg) {
+        grid-template-columns: 1fr 1fr;
+      }
     }
   }
 }
@@ -201,7 +221,6 @@
   }
 }
 
-
 .home_surgery {
   @include home_section;
 
@@ -215,10 +234,6 @@
 
   .section_buttons {
     margin-top: 32px;
-  }
-
-  .two_column_section {
-    padding-bottom: 0;
   }
 
   .container {
@@ -236,7 +251,6 @@
     }
   }
 }
-
 
 .home_faq {
   @include home_section;

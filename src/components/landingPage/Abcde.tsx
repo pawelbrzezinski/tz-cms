@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import BubbleSection from "../../components/BubbleSection";
+import BubbleSection from "../BubbleSection";
 import "../../styles/abcde_tabs.scss";
 
 const TABS = {

@@ -2,12 +2,14 @@ import React from "react";
 import TextField from "@material-ui/core/TextField";
 
 import { makeStyles } from "@material-ui/core/styles";
-import Button from "../../components/Button";
-import BubbleSection from "../../components/BubbleSection";
-import MailButton from "../../components/MailButton";
-import CallButton from "../../components/CallButton";
+import Button from "../Button";
+import BubbleSection from "../BubbleSection";
+import MailButton from "../MailButton";
+import CallButton from "../CallButton";
 
+import CheckIcon from "../../img/ic_check.svg";
 import "../../styles/contact_section.scss";
+import { Link } from "gatsby";
 
 const useLabelStyles = makeStyles({
   root: {
@@ -37,6 +39,7 @@ const Contact = ({ className = "" }) => {
 
   return (
     <div className={`contact_section ${className}`}>
+      <a className="anchor" id="kontakt"></a>
       <BubbleSection
         h2="Umów się na wizytę"
         h5=" W celu umówienia terminu wizyty lekarskiej umów się online, zadzwoń lub napisz. Możesz wysłać e-mail bądź skorzystać z formularza kontaktowego."
@@ -44,6 +47,14 @@ const Contact = ({ className = "" }) => {
       >
         <div className="container">
           <div className="columns_wrapper">
+            <div className="form_thanks">
+              <img src={CheckIcon} alt="Dziękujemy za wiadomość"/>
+              <h3>Dziękujemy za wiadomość</h3>
+              <div>
+                Odezwiemy się do ciebie najszybciej jak to tylko będzie możliwe.
+                Staramy się odpowiadać na wiadomości w ciagu 24 godzin.
+              </div>
+            </div>
             <div className="form_section">
               <p className="form_title">Formularz kontaktowy</p>
               <h3>Napisz do nas</h3>
@@ -81,7 +92,7 @@ const Contact = ({ className = "" }) => {
                 <TextField
                   fullWidth
                   multiline
-                  rows={2}
+                  rows={4}
                   rowsMax={4}
                   InputLabelProps={{
                     classes: labelClasses,
@@ -94,9 +105,23 @@ const Contact = ({ className = "" }) => {
                 <Button>
                   <span>Wyślij wiadomość</span>
                 </Button>
+                <p className="rodo">
+                  Administratorem danych osobowych podanych w formularzu jest
+                  Medify.me Sp. z o. o. Dane będą przetwarzane w celu odpowiedzi
+                  na zapytanie użytkownika. Pełna informacja o przetwarzaniu
+                  danych osobowych znajduje się{" "}
+                  <Link to="/polityka">tutaj</Link>
+                </p>
               </div>
             </div>
             <div className="contact_info_section">
+              <div className="online_registration_wrappper">
+                <h3>Zarejestruj sie online</h3>
+                <p>Szybko i łatwo! 24 h/ dobę</p>
+                <Button>
+                  <span>Umów się onlin</span>
+                </Button>
+              </div>
               <div className="registration_wrappper">
                 <h4>Rejestracja telefoniczna:</h4>
                 <div className="registration_hours">
@@ -117,25 +142,6 @@ const Contact = ({ className = "" }) => {
                 <div className="contact_info_wrapper">
                   <MailButton className="mail_button" />
                   <span className="phone-number">zbadamy@twojeznamiona.pl</span>
-                </div>
-              </div>
-              <div className="operations_wrappper">
-                <h4>Dział Operacyjny</h4>
-                <div className="contact_person">Ida Słowicka</div>
-                <div className="contact_info_wrapper">
-                  <CallButton className="phone_button" type="dark" size="S" />
-                  <span className="phone-number">+48 794 445 685</span>
-                </div>
-                <div className="contact_info_wrapper">
-                  <MailButton className="mail_button" />
-                  <span className="phone-number">
-                    ida.slowicka@twojeznamiona.pl
-                  </span>
-                </div>
-                <div className="contact_person_details">
-                  <p>+48 794 445 685</p>
-
-                  <p>ida.slowicka@twojeznamiona.pl</p>
                 </div>
               </div>
             </div>

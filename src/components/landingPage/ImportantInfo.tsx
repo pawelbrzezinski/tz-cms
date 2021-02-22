@@ -1,10 +1,22 @@
 import React from "react";
-import BubbleSection from "../../components/BubbleSection";
-import ImportantInfoCard from "./ImportantInfoCard";
+import BubbleSection from "../BubbleSection";
 
 import CheckIcoImage1 from "../../img/check_ico_1.svg";
 import CheckIcoImage2 from "../../img/check_ico_2.svg";
 import CheckIcoImage3 from "../../img/check_ico_3.svg";
+
+import "../../styles/important_info_card.scss";
+
+const ImportantInfoCard = ({ image, desc = "", children = null }) => {
+  return (
+    <div className="important_info_card">
+      <div>
+        <img src={image} alt={desc} title={desc} />
+      </div>
+      <div>{children}</div>
+    </div>
+  );
+};
 
 const ImportantInfo = ({ className = "" }) => (
   <div className={className}>

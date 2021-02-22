@@ -1,4 +1,5 @@
 import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import Button from "./Button";
 import "../styles/alert.scss";
@@ -14,7 +15,11 @@ const Alert = () => {
         <strong>z większą częstotliwością</strong> niż standardowe badania
         przeprowadzane raz do roku.
       </div>
-      <Button>Umów się </Button>
+      <Button>
+        <AnchorLink href="#kontakt" title="Umów się">
+          Umów się
+        </AnchorLink>
+      </Button>
     </div>
   );
 };

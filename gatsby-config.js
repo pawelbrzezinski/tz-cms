@@ -71,13 +71,13 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: "gatsby-plugin-anchor-links",
-      options: {
-        offset: -50,
-        duration: 1
-      }
-    },
+    // {
+    //   resolve: "gatsby-plugin-anchor-links",
+    //   options: {
+    //     offset: -50,
+    //     duration: 1
+    //   }
+    // },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {

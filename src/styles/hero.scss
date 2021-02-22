@@ -29,13 +29,14 @@
     .one-liner-wrapper {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
 
       @media (max-width: $screeen-sm) {
         text-align: center;
       }
 
       h1 {
+        margin-bottom: 16px;
+
         @media (max-width: $screeen-lg) {
           margin-bottom: 8px;
         }
@@ -46,6 +47,7 @@
 
       .one-liner-text {
         color: $gray;
+        margin-bottom: 16px;
 
         @media (max-width: $screeen-lg) {
           margin-bottom: 10px;

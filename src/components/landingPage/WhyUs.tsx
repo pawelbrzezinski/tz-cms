@@ -1,11 +1,22 @@
 import React from "react";
-import BubbleSection from "../../components/BubbleSection";
-import WhyUsCard from "./WhyUsCard";
-import Button from "../../components/Button";
+import BubbleSection from "../BubbleSection";
 
 import BadamyImage from "../../img/Badamy.svg";
 import ZapisujemyImage from "../../img/Zapisujemy.svg";
 import WynikImage from "../../img/Wynik.svg";
+
+import "../../styles/why_us_card.scss";
+
+const WhyUsCard = ({ image, desc = "", children = null }) => {
+  return (
+    <div className="why_us_card">
+      <div>
+        <img src={image} alt={desc} title={desc} />
+      </div>
+      <div>{desc || children}</div>
+    </div>
+  );
+};
 
 const WhyUs = ({ className = "" }) => (
   <div className={className}>
@@ -19,13 +30,7 @@ const WhyUs = ({ className = "" }) => (
             image={ZapisujemyImage}
             desc="Zapisujemy znamiona do obserwacji"
           />
-          <WhyUsCard
-            image={WynikImage}
-            desc="Wydajemy wynik lekarski"
-          />
-        </div>
-        <div className="buttons">
-          <Button type="secondary">Umów się na wizytę</Button>
+          <WhyUsCard image={WynikImage} desc="Wydajemy wynik lekarski" />
         </div>
       </div>
     </BubbleSection>
