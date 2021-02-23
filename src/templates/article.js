@@ -2,11 +2,10 @@ import React from 'react'
 import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/Layout'
-import { Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import { MDXProvider } from "@mdx-js/react"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 
 
 import Agnieszka from "../img/agnieszka-czyzewska.png"
@@ -37,22 +36,11 @@ const components = {
   More
 };
 
-function isElementInViewport(el) {
-  var rect = el.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
-
 
 const ArticlePage = ({ children, ...props }) => {
-  console.log(props, "PROPS")
-  const { title, toc, description, keywords, date, author, authorsTitle, readingTime, tags } = props.data.mdx.frontmatter
+  const { title, toc = [], date, author, authorsTitle, readingTime, tags } = props.pageContext.frontmatter
 
-  console.log(title, description, keywords, new Date(date.split(".").reverse().join("-")).toISOString(), 'SEO')
+  // console.log(title, description, keywords, new Date(date.split(".").reverse().join("-")).toISOString(), 'SEO')
 
   return (
     <MDXProvider components={components}>
@@ -105,7 +93,7 @@ const ArticlePage = ({ children, ...props }) => {
 
             </div>
             <div className="article_content">
-              <MDXRenderer>{props.data.mdx.body}</MDXRenderer>
+              {children}
             </div>
 
             {tags && tags.length ? (
@@ -130,25 +118,3 @@ const ArticlePage = ({ children, ...props }) => {
 
 
 export default ArticlePage
-
-export const pageQuery = graphql`
-  query mdxPostDetails($id: String) {
-    mdx(id: { eq: $id }) {
-      id
-      body
-      frontmatter {
-        toc{
-          link
-          label
-        }
-        title
-        description
-        keywords
-        date
-        author
-        authorsTitle
-        readingTime
-        tags
-      }
-    }
-  }`
