@@ -97,12 +97,6 @@ module.exports = {
         ],
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-netlify-cms',
-    //   options: {
-    //     modulePath: `${__dirname}/src/cms/cms.js`,
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-material-ui`,
       // options: {
@@ -141,6 +135,12 @@ module.exports = {
             }
           })
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
     'gatsby-plugin-client-side-redirect', // keep it in last in list
