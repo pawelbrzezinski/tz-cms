@@ -55,7 +55,8 @@ exports.createPages = ({ actions, graphql }) => {
     const posts = result.data.allMarkdownRemark.edges
     const articles = result.data.allMdx.edges
 
-    posts.forEach((edge) => {
+    //union added while working on the article to have a hot reload
+    union(posts, articles).forEach((edge) => {
       const id = edge.node.id
       createPage({
         path: edge.node.slug || edge.node.fields.slug,
