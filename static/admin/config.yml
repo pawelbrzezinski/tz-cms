@@ -69,8 +69,8 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown", minimize_collapsed: true }
       - { label: "Tags", name: "tags", widget: "list" }
-      - label: "Sourcs"
-        name: "sourcs"
+      - label: "Sources"
+        name: "sources"
         required: false
         minimize_collapsed: true
         widget: "list"
