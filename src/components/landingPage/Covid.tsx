@@ -22,7 +22,7 @@ const Covid = ({ className = "" }) => {
 
           <div>
             <Button type="secondary" onClick={() => setModalOpened(true)}>
-              Dowiedz się więcej{" "}
+              <span>Dowiedz się więcej</span>
             </Button>
             <Modal
               isOpened={isModalOpened}

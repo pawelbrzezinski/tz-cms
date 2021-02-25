@@ -119,7 +119,7 @@ const Contact = ({ className = "" }) => {
                 <h3>Zarejestruj sie online</h3>
                 <p>Szybko i łatwo! 24 h/ dobę</p>
                 <Button>
-                  <span>Umów się onlin</span>
+                  <span>Umów się online</span>
                 </Button>
               </div>
               <div className="registration_wrappper">

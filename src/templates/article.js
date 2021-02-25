@@ -7,38 +7,66 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import { MDXProvider } from "@mdx-js/react"
 
+import MoreIcon from '../img/more-icon.png';
 
 import Agnieszka from "../img/agnieszka-czyzewska.png"
 
 import "../styles/article.scss"
+import Button from '../components/Button'
 
 const MyImg = (props) => {
   return (
     <>
-      <img {...props} />
+      <img {...props} alt={props.alt} />
       <span className="image_caption">{props.alt}</span>
     </>
   )
 }
 
-const More = ({ link = "", text = "" }) => {
+const MyTable = (props) => {
   return (
-    <div>
-      <Link to={link} >
-        {text}
-      </Link>
+    <div className="article-table-wrapper">
+      <table {...props} />
     </div>
+  )
+}
+
+const More = ({ link = "", cta = "", text = "" }) => {
+  return (
+    <Link to={link} alt={text} title={text} className="more-link">
+      <div className="more-wrapper">
+        <div className="more-container">
+          <img src={MoreIcon} alt={text} />
+          <div className="more-content">
+            <p className="label">
+              Zobacz również:
+          </p>
+            <div>
+              {text}
+            </div>
+          </div>
+        </div>
+        <div className="button-wrapper">
+          <Button type="secondary">
+
+            <span>  {cta}</span>
+          </Button>
+        </div>
+      </div>
+    </Link>
+
   )
 }
 
 const components = {
   img: MyImg,
-  More
+  More,
+  table: MyTable
 };
 
 
 const ArticlePage = ({ children, ...props }) => {
-  const { title, toc = [], date, author, authorsTitle, readingTime, tags } = props.pageContext.frontmatter
+  const { title, toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.pageContext.frontmatter
 
   // console.log(title, description, keywords, new Date(date.split(".").reverse().join("-")).toISOString(), 'SEO')
 
@@ -60,7 +88,7 @@ const ArticlePage = ({ children, ...props }) => {
                 </li>
                 {toc.map(item => (
                   <li key={item.label}>
-                    <AnchorLink offset='100' href={`#${item.link}`} title={item.label}>{item.label}</AnchorLink>
+                    <AnchorLink offset='60' href={`#${item.link}`} title={item.label}>{item.label}</AnchorLink>
                   </li>
                 ))}
               </ol>)}
@@ -69,7 +97,7 @@ const ArticlePage = ({ children, ...props }) => {
 
           </div>
           <div className="article_content_wrapper">
-            <a id="intro" />
+            <span id="intro" />
             <h1>
               {title}
             </h1>
@@ -96,16 +124,27 @@ const ArticlePage = ({ children, ...props }) => {
               {children}
             </div>
 
-            {tags && tags.length ? (
-              <div className="tags">
-                <h4>Tags</h4>
-                <ul >
-                  {tags.map((tag) => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+            {sources.length && (
+              <div className="sources">
+                <h4>Źródła:</h4>
+                <ol>
+                  <li>
+                    <AnchorLink offset='100' href={`#intro`} title="Wstęp">Wstęp</AnchorLink>
+                  </li>
+                  {sources.map(item => (
+                    <li key={item.label}>
+                      {item.link ? <Link to={`${item.link}`} title={item.label}>{item.label}</Link> : item.label}
                     </li>
                   ))}
-                </ul>
+                </ol>
+              </div>
+            )}
+
+            {tags && tags.length ? (
+              <div className="tags">
+                {tags.map((tag) => (
+                  <Link to={`/tags/${kebabCase(tag)}/`} key={tag + `tag`} className="tag_item">{tag}</Link>
+                ))}
               </div>
             ) : null}
           </div>

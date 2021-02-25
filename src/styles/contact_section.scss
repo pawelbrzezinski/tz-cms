@@ -7,11 +7,24 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 122px;
 
+    @media (max-width: $screeen-lg) {
+      grid-gap: 80px;
+      margin-right: 20px;
+    }
+
+    @media (max-width: $screeen-md) {
+      grid-gap: 0;
+      display: flex;
+      flex-direction: column-reverse;
+      margin-right: 0;
+    }
+
     .form_thanks {
       // display: flex;
       display: none;
       flex-direction: column;
       align-items: center;
+      padding: 0 24px;
       padding-top: 100px;
       text-align: center;
 
@@ -33,7 +46,7 @@
     }
 
     .form_section {
-      
+      padding: 0 24px;
       padding-top: 12px;
 
       .form_title {
@@ -85,12 +98,20 @@
         align-items: center;
         justify-content: center;
         padding: 48px 56px;
-
-        width: 466px;
-
         background: $violet10;
         border-radius: 88px 8px;
         margin-bottom: 32px;
+        width: 466px;
+        text-align: center;
+
+        @media (max-width: $screeen-md) {
+          width: 100%;
+        }
+        @media (max-width: $screeen-xs) {
+          padding: 48px 16px;
+
+          border-radius: 8px;
+        }
 
         h3 {
           font-weight: bold;
@@ -99,6 +120,10 @@
           color: $black;
           margin: 0;
           margin-bottom: 16px;
+
+          @media (max-width: $screeen-xs) {
+            font-size: 23px;
+          }
         }
         p {
           color: $black;
@@ -107,6 +132,10 @@
           line-height: 32px;
           margin: 0;
           margin-bottom: 26px;
+
+          @media (max-width: $screeen-xs) {
+            font-size: 18px;
+          }
         }
       }
 
@@ -115,13 +144,19 @@
         flex-direction: column;
         align-items: flex-start;
         padding: 40px 56px;
-
-        width: 466px;
-        height: 351px;
-
         background: $blue10;
         border-radius: 8px 88px;
         margin-bottom: 32px;
+        width: 466px;
+        height: 351px;
+
+        @media (max-width: $screeen-md) {
+          width: 100%;
+        }
+        @media (max-width: $screeen-xs) {
+          padding: 48px 16px;
+          border-radius: 8px;
+        }
 
         h3 {
           margin-bottom: 16px;
@@ -131,6 +166,11 @@
           font-size: 16px;
           line-height: 24px;
           margin-bottom: 50px;
+
+          @media (max-width: $screeen-md) {
+            font-size: 16px;
+            line-height: 24px;
+          }
 
           p {
             margin: 0;
@@ -142,10 +182,21 @@
           font-size: 20px;
           line-height: 32px;
           margin-bottom: 24px;
+          display: flex;
+          align-items: center;
+
+          @media (max-width: $screeen-md) {
+            font-size: 16px;
+            line-height: 24px;
+          }
 
           .phone_button,
           .mail_button {
             margin-right: 16px;
+
+            @media (max-width: $screeen-xs) {
+              margin-right: 5px;
+            }
           }
         }
       }
