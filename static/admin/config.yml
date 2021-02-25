@@ -67,12 +67,13 @@ collections:
           widget: image,
           required: false,
         }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown", minimize_collapsed: true }
       - { label: "Tags", name: "tags", widget: "list" }
       - label: "Sourcs"
         name: "sourcs"
         required: false
+        minimize_collapsed: true
         widget: "list"
         fields:
-          - { label: "Label", name: "string", widget: "string" }
-          - { label: "Link", name: "string", widget: "string" }
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Link", name: "link", widget: "string", required: false }
