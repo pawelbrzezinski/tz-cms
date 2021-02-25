@@ -30,7 +30,7 @@ const Reviews = ({ className = "", data = [] }) => (
       <div className="container">
         <div className="cards">
           {data.map((item = { author: "", city: "", review: "" }) => (
-            <ReviewCard key="author" author={item.author} city={item.city}>
+            <ReviewCard key={item.author} author={item.author} city={item.city}>
               {item.review}
             </ReviewCard>
           ))}

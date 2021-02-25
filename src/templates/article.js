@@ -132,7 +132,7 @@ const ArticlePage = ({ children, ...props }) => {
                     <AnchorLink offset='100' href={`#intro`} title="Wstęp">Wstęp</AnchorLink>
                   </li>
                   {sources.map(item => (
-                    <li key={item.label}>
+                    <li key={`${item.label}_${item.link}`}>
                       {item.link ? <Link to={`${item.link}`} title={item.label}>{item.label}</Link> : item.label}
                     </li>
                   ))}
