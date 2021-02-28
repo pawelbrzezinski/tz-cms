@@ -6,6 +6,14 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
+
+
+import { MDXProvider } from "@mdx-js/react"
+
+import MoreIcon from '../img/more-icon.png';
+import Button from '../components/Button'
+import "../styles/article.scss"
+
 export const BlogPostTemplate = ({
   content,
   contentComponent,
@@ -23,10 +31,10 @@ export const BlogPostTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title} 
+              {title}
             </h1>
             <h2>
-            {date}
+              {date}
             </h2>
             <p>{description}</p>
             <PostContent content={content} />
@@ -57,34 +65,97 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
+
+////COPY PASTA!!!!!
+
+
+const MyImg = (props) => {
   return (
-    <Layout>
-      <BlogPostTemplate
-        content={post.html}
-        date={post.frontmatter.date}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
-      />
-    </Layout>
+    <>
+      <img {...props} alt={props.alt} />
+      <span className="image_caption">{props.alt}</span>
+    </>
+  )
+}
+
+const MyTable = (props) => {
+  return (
+    <div className="article-table-wrapper">
+      <table {...props} />
+    </div>
+  )
+}
+
+const More = ({ link = "", cta = "", text = "" }) => {
+  return (
+    <Link to={link} alt={text} title={text} className="more-link">
+      <div className="more-wrapper">
+        <div className="more-container">
+          <img src={MoreIcon} alt={text} />
+          <div className="more-content">
+            <p className="label">
+              Zobacz również:
+          </p>
+            <div>
+              {text}
+            </div>
+          </div>
+        </div>
+        <div className="button-wrapper">
+          <Button type="secondary">
+
+            <span>  {cta}</span>
+          </Button>
+        </div>
+      </div>
+    </Link>
+
+  )
+}
+
+const components = {
+  img: MyImg,
+  More,
+  table: MyTable
+};
+
+
+/////
+
+const BlogPost = ({ data, ...rest }) => {
+
+  console.log(data, rest, "PROPS blog")
+  const { mdx: post } = data
+  return (
+    <MDXProvider components={components}>
+      <Layout>
+        <BlogPostTemplate
+          content={post.body}
+          date={post.frontmatter.date}
+          contentComponent={HTMLContent}
+          description={post.frontmatter.description}
+          helmet={
+            <Helmet titleTemplate="%s | Blog" bodyAttributes={{
+              "type": "article",
+            }}>
+              <title>{`${post.frontmatter.title}`}</title>
+              <meta
+                name="description"
+                content={`${post.frontmatter.description}`}
+              />
+            </Helmet>
+          }
+          tags={post.frontmatter.tags}
+          title={post.frontmatter.title}
+        />
+      </Layout>
+    </MDXProvider>
   )
 }
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
+    mdx: PropTypes.object,
   }),
 }
 
@@ -92,9 +163,9 @@ export default BlogPost
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    mdx(id: { eq: $id }) {
       id
-      html
+      body
       frontmatter {
         date(formatString: "DD.MM.YYYY")
         title

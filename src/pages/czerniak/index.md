@@ -4,7 +4,7 @@ title: Czerniak złośliwy (melanoma malignum)
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 15
-date: 08.11.2020
+date: 2020-12-14T22:56:47.666Z
 description: asd
 sources: 
   - link: http://twojeznamiona.pl/

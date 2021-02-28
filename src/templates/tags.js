@@ -6,11 +6,10 @@ import Layout from '../components/Layout'
 
 class TagRoute extends React.Component {
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges
     const articles = this.props.data.allMdx.edges
 
-    const links = union(posts, articles).map((post) => {
-      const slug = post.node.slug ? `/${post.node.slug}` : post.node.fields.slug
+    const links = union(articles).map((post) => {
+      const slug = `/${post.node.slug}`
 
       return (
         <li key={slug}>
@@ -53,23 +52,6 @@ export const tagPageQuery = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    allMarkdownRemark(
-      limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
       }
     }
     allMdx(

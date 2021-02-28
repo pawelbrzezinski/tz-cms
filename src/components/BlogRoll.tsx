@@ -6,7 +6,7 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { edges: posts } = data.allMdx
 
     return (
       <div className="columns is-multiline">
@@ -32,7 +32,7 @@ class BlogRoll extends React.Component {
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
+                      to={"/" + post.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
@@ -46,7 +46,7 @@ class BlogRoll extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="button" to={"/" + post.slug}>
                     Keep Reading →
                   </Link>
                 </p>
@@ -60,7 +60,7 @@ class BlogRoll extends React.Component {
 
 BlogRoll.propTypes = {
   data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
+    allMdx: PropTypes.shape({
       edges: PropTypes.array,
     }),
   }),
@@ -70,7 +70,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
-        allMarkdownRemark(
+        allMdx(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
         ) {
@@ -78,9 +78,7 @@ export default () => (
             node {
               excerpt(pruneLength: 400)
               id
-              fields {
-                slug
-              }
+              slug
               frontmatter {
                 title
                 templateKey

@@ -9,7 +9,6 @@ const TagsPage = ({
 }) => {
 
   const {
-    allMarkdownRemark: { group: blogTags },
     allMdx: { group: articleTags },
     site: {
       siteMetadata: { title },
@@ -29,7 +28,7 @@ const TagsPage = ({
             >
               <h1 className="title is-size-2 is-bold-light">Tags</h1>
               <ul className="taglist">
-                {uniqBy(union(articleTags, blogTags), "fieldValue").map((tag) => (
+                {uniqBy(union(articleTags), "fieldValue").map((tag) => (
                   <li key={tag.fieldValue}>
                     <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                       {tag.fieldValue}
@@ -52,11 +51,6 @@ export const tagPageQuery = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    allMarkdownRemark(limit: 1000) {
-      group(field: frontmatter___tags) {
-        fieldValue
       }
     }
     allMdx(limit: 1000) {

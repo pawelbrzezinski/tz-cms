@@ -48,7 +48,6 @@ const CitiesList = ({
 
   const scrollToIndex = useCallback((idx) => {
     const child = sliderRef.current?.children[idx] as HTMLDivElement;
-    console.log("scrollToIndex",  idx);
 
     if (child) {
       sliderRef.current.scrollTo({

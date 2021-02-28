@@ -2,17 +2,16 @@ import React from 'react'
 import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/Layout'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
 import { MDXProvider } from "@mdx-js/react"
-
+import Content from '../components/Content'
 import MoreIcon from '../img/more-icon.png';
+import Button from '../components/Button'
 
 import Agnieszka from "../img/agnieszka-czyzewska.png"
 
 import "../styles/article.scss"
-import Button from '../components/Button'
 
 const MyImg = (props) => {
   return (
@@ -65,8 +64,10 @@ const components = {
 };
 
 
-const ArticlePage = ({ children, ...props }) => {
-  const { title, toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.pageContext.frontmatter
+const ArticlePage = (props) => {
+  console.log(props, "PROPS article")
+
+  const { title, toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.data.mdx.frontmatter
 
   // console.log(title, description, keywords, new Date(date.split(".").reverse().join("-")).toISOString(), 'SEO')
 
@@ -82,7 +83,7 @@ const ArticlePage = ({ children, ...props }) => {
           <div className="side_toc">
             <div className="sticky">
               <h4>Spis treści:</h4>
-              {toc.length && (<ol>
+              {toc && toc.length && (<ol>
                 <li>
                   <AnchorLink offset='100' href={`#intro`} title="Wstęp">Wstęp</AnchorLink>
                 </li>
@@ -121,10 +122,10 @@ const ArticlePage = ({ children, ...props }) => {
 
             </div>
             <div className="article_content">
-              {children}
+              <Content content={props.data.mdx.body} />
             </div>
 
-            {sources.length && (
+            {sources && sources.length && (
               <div className="sources">
                 <h4>Źródła:</h4>
                 <ol>
@@ -140,7 +141,7 @@ const ArticlePage = ({ children, ...props }) => {
               </div>
             )}
 
-            {tags && tags.length ? (
+            {tags && tags && tags.length ? (
               <div className="tags">
                 {tags.map((tag) => (
                   <Link to={`/tags/${kebabCase(tag)}/`} key={tag + `tag`} className="tag_item">{tag}</Link>
@@ -157,3 +158,29 @@ const ArticlePage = ({ children, ...props }) => {
 
 
 export default ArticlePage
+
+export const pageQuery = graphql`
+  query ArticleByID($id: String!) {
+    mdx(id: { eq: $id }) {
+      id
+      body
+      frontmatter {
+        date(formatString: "DD.MM.YYYY")
+        title
+        description
+        tags
+        toc {
+          link,
+          label
+        },
+        sources {
+          link,
+          label
+        },
+        author,
+        authorsTitle, 
+        readingTime
+      }
+    }
+  }
+`
