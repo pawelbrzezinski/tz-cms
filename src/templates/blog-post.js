@@ -13,15 +13,15 @@ import MyArticleMore from '../components/cms/MyArticleMore'
 import Sources from '../components/cms/Sources'
 import Tags from '../components/cms/Tags'
 import AuthorHeader from '../components/cms/AuthorHeader'
+import SEO from '../components/SEO';
 
-import "../styles/article.scss"
+import "../styles/blog-post.scss"
 
 export const BlogPostTemplate = ({
   content,
   date,
   tags,
   title,
-  helmet,
   sources,
   author,
   authorsTitle,
@@ -29,26 +29,21 @@ export const BlogPostTemplate = ({
   renderer
 }) => {
 
-  const Renderer  = renderer || Content
+  const Renderer = renderer || Content
   return (
-    <>
-      {helmet || ''}
-      <div className="article_container">
-        <div className="side_toc">
-
-        </div>
-        <div className="article_content_wrapper">
-          <span id="intro" />
-          <h1>
-            {title}
-          </h1>
-          <AuthorHeader author={author} authorsTitle={authorsTitle} date={date} readingTime={readingTime} />
-          <Renderer content={content} className="article_content" />
-          <Sources data={sources} />
-          <Tags data={tags} />
-        </div>
+    <div className="article_container">
+      <div className="DO_NOT_REMOVE_ME" />
+      <div className="article_content_wrapper">
+        <span id="intro" />
+        <h1>
+          {title}
+        </h1>
+        <AuthorHeader author={author} authorsTitle={authorsTitle} date={date} readingTime={readingTime} />
+        <Renderer content={content} className="article_content" />
+        <Sources data={sources} />
+        <Tags data={tags} />
       </div>
-    </>
+    </div>
   )
 }
 
@@ -65,21 +60,19 @@ const BlogPost = ({ data }) => {
   return (
     <MDXProvider components={components}>
       <Layout>
+        <Helmet bodyAttributes={{
+          "type": "blog",
+        }} />
+        <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description}
+          keywords={post.frontmatter.keywords}
+        />
         <BlogPostTemplate
           content={post.body}
           date={post.frontmatter.date}
           description={post.frontmatter.description}
-          helmet={
-            <Helmet titleTemplate="%s | Blog" bodyAttributes={{
-              "type": "article",
-            }}>
-              <title>{`${post.frontmatter.title}`}</title>
-              <meta
-                name="description"
-                content={`${post.frontmatter.description}`}
-              />
-            </Helmet>
-          }
+
           tags={post.frontmatter.tags}
           sources={post.frontmatter.sources}
           author={post.frontmatter.author}
@@ -109,6 +102,7 @@ export const pageQuery = graphql`
         date(formatString: "DD.MM.YYYY")
         title
         description
+        keywords
         tags
         sources {
           link,

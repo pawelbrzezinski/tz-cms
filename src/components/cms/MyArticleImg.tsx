@@ -5,8 +5,8 @@ import "../../styles/cms.scss";
 const MyArticleImg = (props) => {
   return (
     <>
-      <img {...props} alt={props.alt} />
-      <span className="image_caption">{props.alt}</span>
+      <img {...props} alt={props.alt} title={props.title} />
+      <span className="image_caption">{props.title}</span>
     </>
   )
 }

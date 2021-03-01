@@ -9,7 +9,7 @@ const Tags = ({ data = [] }) => {
     data &&
     data &&
     data.length && (
-      <div className="tags">
+      <div className="article-tags">
         {data.map((tag) => (
           <Link
             to={`/tags/${kebabCase(tag)}/`}

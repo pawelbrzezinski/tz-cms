@@ -15,6 +15,7 @@ import AuthorHeader from '../components/cms/AuthorHeader'
 
 
 import "../styles/article.scss"
+import SEO from '../components/SEO';
 
 
 const components = {
@@ -24,9 +25,9 @@ const components = {
 };
 
 const ArticlePage = (props) => {
-  const { title, toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.data.mdx.frontmatter
+  const { title,description, keywords,toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.data.mdx.frontmatter
 
-  // console.log(title, description, keywords, new Date(date.split(".").reverse().join("-")).toISOString(), 'SEO')
+  console.log(title, description, keywords, new Date(date.split(".").reverse().join("-")).toISOString(), 'SEO')
 
   return (
     <MDXProvider components={components}>
@@ -35,7 +36,13 @@ const ArticlePage = (props) => {
           bodyAttributes={{
             "type": "article",
           }}
-          title={title} />
+           />
+        <SEO
+          title={title}
+          description={description}
+          keywords={keywords}
+        />
+
         <div className="article_container">
           <div className="side_toc">
             <div className="sticky">
@@ -80,6 +87,7 @@ export const pageQuery = graphql`
         date(formatString: "DD.MM.YYYY")
         title
         description
+        keywords,
         tags
         toc {
           link,

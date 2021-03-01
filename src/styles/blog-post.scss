@@ -1,0 +1,27 @@
+@import "colors";
+@import "variables";
+
+body {
+  &[type="blog"] {
+    .article_container {
+      display: grid;
+      grid-template-columns: minmax(120px, 300px) auto;
+      grid-gap: 90px;
+
+      @media (max-width: $screeen-lg) {
+        grid-gap: 20px;
+      }
+
+      @media (max-width: $screeen-md) {
+        grid-gap: 0;
+      }
+
+      @media (max-width: $screeen-sm) {
+        grid-template-columns: 1fr;
+      }
+
+      .ads {
+      }
+    }
+  }
+}

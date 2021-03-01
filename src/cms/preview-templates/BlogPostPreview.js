@@ -1,6 +1,7 @@
 import React from 'react'
 import MDX from "@mdx-js/runtime";
 import PropTypes from 'prop-types'
+import { Helmet } from 'react-helmet'
 import { BlogPostTemplate } from '../../templates/blog-post'
 
 import MyArticleTable from "../../components/cms/MyArticleTable";
@@ -14,8 +15,8 @@ const BlogPostPreview = ({ entry, getAsset }) => {
     img: (props) => {
       return (
         <>
-          <img {...props} alt={props.alt} src={getAsset(props.src).url} />
-          <span className="image_caption2">{props.alt}</span>
+          <img {...props} alt={props.alt} title={props.title} src={getAsset(props.src).url} />
+          <span className="image_caption">{props.title}</span>
         </>
       )
     },
@@ -24,22 +25,30 @@ const BlogPostPreview = ({ entry, getAsset }) => {
   };
 
   return (
-    <BlogPostTemplate
-      content={entry.getIn(['data', 'body'])}
-      description={entry.getIn(['data', 'description'])}
-      date={entry.getIn(['data', 'date']).toLocaleDateString()}
-      author={entry.getIn(['data', 'author'])}
-      authorsTitle={entry.getIn(['data', 'authorsTitle'])}
-      readingTime={entry.getIn(['data', 'readingTime'])}
-      tags={tags && tags.toJS()}
-      sources={sources && sources.toJS()}
-      title={entry.getIn(['data', 'title'])}
-      renderer={({ content, className = "" }) => (
-        <div className={className}>
-          <MDX components={components}>{content}</MDX>
-        </div>
-      )}
-    />
+    <>
+
+      <Helmet
+        bodyAttributes={{
+          "type": "article",
+        }} />
+      <BlogPostTemplate
+        content={entry.getIn(['data', 'body'])}
+        description={entry.getIn(['data', 'description'])}
+        date={entry.getIn(['data', 'date']).toLocaleDateString()}
+        author={entry.getIn(['data', 'author'])}
+        authorsTitle={entry.getIn(['data', 'authorsTitle'])}
+        readingTime={entry.getIn(['data', 'readingTime'])}
+        tags={tags && tags.toJS()}
+        sources={sources && sources.toJS()}
+        title={entry.getIn(['data', 'title'])}
+        renderer={({ content, className = "" }) => (
+          <div className={className}>
+            <MDX components={components}>{content}</MDX>
+          </div>
+        )}
+      />
+    </>
+
   )
 }
 

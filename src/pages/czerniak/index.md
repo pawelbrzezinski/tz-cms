@@ -66,6 +66,8 @@ Na samej powierzchni skóry nowotwór pojawia się najczęściej na skórze tuł
 
 Do tej pory wyróżniono kilka typów czerniaka:
 * czerniaka szerzącego się powierzchownie SSM – 60-70% wszystkich przypadków,
+![tekst alternatywny](img/czerniak43.jpg "TYTUL")
+![Lol Czerniak](img/czerniak43.jpg)
 ![Lol Czerniak](img/czerniak43.jpg)
 * czerniaka wywodzącego się z plamy soczewicowatej LMM – 5-20% przypadków, występującego głównie u pacjentów po 70 roku,
 ![Lol Czerniak](img/czerniak43.jpg)

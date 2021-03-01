@@ -1,6 +1,5 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { Link } from "gatsby";
 
 import Hero from "../../components/landingPage/Hero";
 import Layout from "../../components/Layout";
@@ -36,7 +35,7 @@ import Faq1Image from "../../img/faq1.png";
 import Faq1ImageMobile from "../../img/faq-1-mobile.png";
 import Faq2Image from "../../img/faq2.png";
 import Faq2ImageMobile from "../../img/faq-2-mobile.png";
-import SEO from "../../components/landingPage/SEO";
+import SEO from "../../components/SEO";
 
 const REVIEWS = [
   {
