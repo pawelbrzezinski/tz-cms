@@ -126,11 +126,3 @@ o co tutaj chodzi
 
 
 
----
-
-
-
-`Raesent tempor odio quis auctor iaculis. Nunc sed augue id elit ultrices iaculis. Etiam sit amet nisi sit ame`
-
-Dlatego _kladzieemy_ tak ***duży*** **nacisk** na [badanie wszystkich znamion na ciele](https://twojeznamiona.pl/badanie-znamion "Badanie Znamion"), w celu usunięcia chirurgicznego tych, które mogą przekształcić się w czerniaka.
-

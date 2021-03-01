@@ -65,10 +65,12 @@
     @media (max-width: $screeen-lg) {
       grid-gap: 0 20px;
       padding: 0 20px;
+      margin: 0;
     }
 
     @media (max-width: $screeen-md) {
       display: flex;
+      grid-gap: 0;
       flex-direction: column-reverse;
     }
 

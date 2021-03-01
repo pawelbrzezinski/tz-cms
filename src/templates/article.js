@@ -27,8 +27,6 @@ const components = {
 const ArticlePage = (props) => {
   const { title,description, keywords,toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.data.mdx.frontmatter
 
-  console.log(title, description, keywords, new Date(date.split(".").reverse().join("-")).toISOString(), 'SEO')
-
   return (
     <MDXProvider components={components}>
       <Layout>

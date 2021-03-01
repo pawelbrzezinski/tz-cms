@@ -18,7 +18,7 @@ collections:
     create: true
     media_folder: img
     public_folder: "./img"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - {
           label: "Template Key",
@@ -55,18 +55,6 @@ collections:
         }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Keywords", name: "keywords", widget: "list" }
-      - {
-          label: "Featured Post",
-          name: "featuredpost",
-          widget: "boolean",
-          required: false,
-        }
-      - {
-          label: "Featured Image",
-          name: "featuredimage",
-          widget: image,
-          required: false,
-        }
       - { label: "Body", name: "body", widget: "markdown", minimize_collapsed: true }
       - { label: "Tags", name: "tags", widget: "list" }
       - label: "Sources"

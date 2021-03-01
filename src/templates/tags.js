@@ -3,6 +3,10 @@ import { Helmet } from 'react-helmet'
 import { union } from 'lodash'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Button from '../components/Button'
+import AuthorHeader from "../components/cms/AuthorHeader";
+
+import "../styles/tags.scss"
 
 class TagRoute extends React.Component {
   render() {
@@ -12,11 +16,20 @@ class TagRoute extends React.Component {
       const slug = `/${post.node.slug}`
 
       return (
-        <li key={slug}>
-          <Link to={slug}>
-            <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
-          </Link>
-        </li>
+        <Link key={slug} to={slug} className="tag-item-preview">
+          <header>
+            <h2 >{post.node.frontmatter.title}</h2>
+            <AuthorHeader
+              author={post.node.frontmatter.author}
+              authorsTitle={post.node.frontmatter.authorsTitle}
+              date={post.node.frontmatter.date}
+              readingTime={post.node.frontmatter.readingTime}
+            />
+          </header>
+          <div>
+            {post.node.frontmatter.description}
+          </div>
+        </Link>
       )
     })
     const tag = this.props.pageContext.tag
@@ -24,20 +37,17 @@ class TagRoute extends React.Component {
 
     return (
       <Layout>
-        <section className="section">
+        <section className="tags-page">
           <Helmet title={`${tag} | ${title}`} />
-          <div className="container content">
-            <div className="columns">
-              <div
-                className="column is-10 is-offset-1"
-                style={{ marginBottom: '6rem' }}
-              >
-                <ul className="taglist">{links}</ul>
-                <p>
-                  <Link to="/tags/">Browse all tags</Link>
-                </p>
-              </div>
+          <div>
+            <h1>Wyniki dla tagu: <span className="tag-name">{tag}</span></h1>
+            <div className="article-tags-preview-wrapper">{links}</div>
+            <div className="show_all" >
+              <Button type="secondary" >
+                <Link to="/tags/">Zobacz wszystkie tagi</Link>
+              </Button>
             </div>
+
           </div>
         </section>
       </Layout>
@@ -65,6 +75,11 @@ export const tagPageQuery = graphql`
           slug
           frontmatter {
             title
+            description
+            author
+            authorsTitle
+            date(formatString: "DD.MM.YYYY")
+            readingTime
           }
         }
       }
