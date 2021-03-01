@@ -107,43 +107,6 @@ body {
           margin-bottom: 48px;
         }
 
-        .header {
-          color: $gray;
-          margin-bottom: 48px;
-
-          p {
-            margin: 0;
-          }
-
-          .author {
-            display: flex;
-
-            img {
-              width: 56px;
-              height: 56px;
-              margin-right: 16px;
-            }
-            .author_name {
-              color: $black;
-              font-size: 16px;
-              line-height: 24px;
-              margin-bottom: 2px;
-              font-weight: 600;
-            }
-
-            .title {
-              font-size: 12px;
-              line-height: 18px;
-              margin-bottom: 8px;
-            }
-
-            .reading_time {
-              font-size: 12px;
-              line-height: 18px;
-            }
-          }
-        }
-
         .article_content {
           h2,
           h3,
@@ -179,60 +142,7 @@ body {
               text-decoration: none;
             }
           }
-
-          .more-link {
-            color: $gray;
-            text-decoration: none !important;
-            font-weight: bold;
-          }
-
-          .more-wrapper {
-            box-shadow: 0px 2px 12px rgba(33, 35, 44, 0.06);
-            border-radius: 8px 16px;
-
-            padding: 32px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            @media (max-width: $screeen-sm) {
-              padding: 16px 12px;
-            }
-
-            .more-container {
-              display: flex;
-              align-items: center;
-
-              img {
-                margin-right: 24px;
-                height: 80px;
-                width: 80px;
-                display: block;
-              }
-
-              .more-content {
-                font-size: 16px;
-                line-height: 24px;
-                color: $black;
-                font-weight: bold;
-
-                .label {
-                  font-weight: normal;
-                  margin-bottom: 12px;
-                }
-
-                div {
-                  max-width: 95%;
-                }
-              }
-            }
-
-            .button-wrapper {
-              @media (max-width: $screeen-sm) {
-                display: none;
-              }
-            }
-          }
+          
 
           hr {
             border: none;
@@ -240,54 +150,6 @@ body {
             margin-top: 48px;
           }
 
-          .article-table-wrapper {
-            overflow-x: scroll;
-            // max-width: 200px;
-          }
-
-          table {
-            table-layout: fixed;
-            width: 100%;
-            border: 1px solid $gray40;
-            background-color: $gray10;
-            border-collapse: separate;
-            border-spacing: 0;
-            font-size: 14px;
-            line-height: 20px;
-            border-radius: 8px;
-            margin: 48px 0;
-
-            th {
-              padding: 16px 8px;
-              background-color: $gray20;
-              border-left: 1px solid $gray40;
-              font-size: 13px;
-              height: 30px;
-              font-weight: bold;
-              text-align: center;
-
-              &:first-child {
-                border-left: none;
-
-                border-radius: 8px 0 0 0;
-              }
-
-              &:last-child {
-                border-radius: 0 8px 0 0;
-              }
-            }
-
-            td {
-              border-left: 1px solid $gray40;
-              border-top: 1px solid $gray40;
-              padding: 16px 8px;
-              text-align: center;
-
-              &:first-child {
-                border-left: none;
-              }
-            }
-          }
 
           ul {
             padding-left: 36px;
@@ -306,113 +168,9 @@ body {
             color: $gray;
             margin: 0;
           }
-
-          span.gatsby-resp-image-wrapper {
-            max-width: 100% !important;
-            border-radius: 8px 88px;
-            margin-bottom: 48px;
-            margin-top: 48px;
-
-            @media (max-width: $screeen-sm) {
-              border-radius: 8px;
-            }
-
-            span {
-              border-radius: 8px 88px;
-
-              @media (max-width: $screeen-sm) {
-                border-radius: 8px;
-              }
-            }
-
-            .image_caption {
-              display: inline-block;
-              position: absolute;
-              bottom: -35px;
-              font-weight: normal;
-              font-size: 12px;
-              line-height: 30px;
-              width: 100%;
-              text-align: center;
-            }
-
-            img {
-              border-radius: 8px 88px;
-
-              @media (max-width: $screeen-sm) {
-                border-radius: 8px;
-              }
-            }
-          }
         }
 
-        .sources {
-          margin-top: 48px;
-
-          h4 {
-            margin-bottom: 24px;
-          }
-
-          ol {
-            list-style: none;
-            counter-reset: li;
-            padding: 0;
-            margin: 0;
-          }
-
-          li {
-            margin-bottom: 12px;
-            counter-increment: li;
-            font-size: 18px;
-            line-height: 36px;
-
-            @media (max-width: $screeen-sm) {
-              font-size: 14px;
-              line-height: 24px;
-            }
-
-            a {
-              color: $gray;
-              font-weight: normal;
-
-              &:hover {
-                color: $violet80;
-              }
-            }
-
-            &::before {
-              color: $gray;
-              content: "[" counter(li) "]";
-              display: inline-block;
-              width: 1em;
-              margin-right: 12px;
-            }
-          }
-        }
-
-        .tags {
-          display: flex;
-          margin-top: 48px;
-          margin-bottom: 48px;
-          flex-wrap: wrap;
-
-          .tag_item {
-            background-color: $gray20;
-            border-radius: 6px 12px;
-            padding: 8px 16px;
-
-            font-size: 16px;
-            line-height: 24px;
-            color: $gray;
-            margin-right: 16px;
-            margin-bottom: 12px;
-
-            &:hover {
-              background-color: $gray40;
-              color: $violet60;
-            }
-          }
-        }
+        
       }
 
       .ads {

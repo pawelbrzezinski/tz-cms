@@ -5,7 +5,6 @@ const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 const { union, trimEnd, trim } = require('lodash')
 
 
-
 const pagesToBeCreated = {};
 
 exports.createPages = ({ actions, graphql }) => {
@@ -113,8 +112,6 @@ exports.onCreatePage = ({ page, actions }) => {
   const cleanPath = trim(page.path, "/");
 
   if (pagesToBeCreated[cleanPath]) {
-    console.log(pagesToBeCreated[cleanPath].path, 'onCreatePage to be creeated path 3')
-
     deletePage(page)
     createPage(pagesToBeCreated[cleanPath])
 
@@ -127,15 +124,17 @@ exports.onCreatePage = ({ page, actions }) => {
     if (page.path !== oldPage.path) {
       // Replace old page with new page
 
-      console.log(page.path, oldPage.path, 'REPLACMENET')
       deletePage(oldPage)
       createPage(page)
     }
 
   }
+}
 
-  //nieutworone jeszcze ma koniec?
-
-  // console.log(pagesToBeCreated, "?????????")
-
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    node: {
+      fs: 'empty'
+    }
+  })
 }

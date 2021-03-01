@@ -142,6 +142,14 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+        customizeWebpackConfig: config => {
+          config.node = {
+            ...config.node,
+            fs: "empty",
+            child_process: "empty",
+            module: "empty",
+          };
+        },
       },
     },
     'gatsby-plugin-client-side-redirect', // keep it in last in list
