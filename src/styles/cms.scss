@@ -56,7 +56,8 @@
   font-weight: bold;
   background: $white;
   display: inline-block;
-
+  width: 100%;
+  
   .more-wrapper {
     box-shadow: 0px 2px 12px rgba(33, 35, 44, 0.06);
     border-radius: 8px 16px;
@@ -73,6 +74,7 @@
     .more-container {
       display: flex;
       align-items: center;
+      width: 100%;
 
       img {
         margin-right: 24px;
@@ -86,6 +88,7 @@
         line-height: 24px;
         color: $black;
         font-weight: bold;
+        width: 100%;
 
         .label {
           font-weight: normal;

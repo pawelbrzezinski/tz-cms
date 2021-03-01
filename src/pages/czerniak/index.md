@@ -80,7 +80,12 @@ Do tej pory wyróżniono kilka typów czerniaka:
 
 <More link="/costam/costam" text="Jak wyglądają różne rodzaje czerniaka - zdjęcia" cta="Sprawdź" />
 
-						
+
+```
+o co tutaj chodzi
+```
+
+`tutaj pozwole sobie zacytowac pana pana`
 						
 
 
