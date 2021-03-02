@@ -10,7 +10,7 @@ $scale-down-breakpoint: 1350px;
   display: grid;
   grid-template-columns: 20fr 56fr 24fr;
   height: 120px;
-  z-index: 2;
+  z-index: 3;
 
   @media (max-width: $scale-down-breakpoint) {
     grid-template-columns: 14fr 56fr 24fr;

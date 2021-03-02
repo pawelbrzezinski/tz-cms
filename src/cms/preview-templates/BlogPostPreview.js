@@ -6,6 +6,7 @@ import { BlogPostTemplate } from '../../templates/blog-post'
 
 import MyArticleTable from "../../components/cms/MyArticleTable";
 import MyArticleMore from "../../components/cms/MyArticleMore";
+import YoutubePlayer from "../../components/YoutubePlayer";
 
 const BlogPostPreview = ({ entry, getAsset }) => {
   const tags = entry.getIn(['data', 'tags'])
@@ -20,8 +21,9 @@ const BlogPostPreview = ({ entry, getAsset }) => {
         </>
       )
     },
-    More: MyArticleMore,
+    YoutubePlayer,
     table: MyArticleTable,
+    More: MyArticleMore,
   };
 
   return (

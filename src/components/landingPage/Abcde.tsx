@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import BubbleSection from "../BubbleSection";
 import "../../styles/abcde_tabs.scss";
+import YoutubePlayer from "../YoutubePlayer";
 
 const TABS = {
   A: {
@@ -40,16 +41,17 @@ const TABS = {
   },
 };
 
-const Iframe = ({ className = "" }) => (
-  <iframe
-    frameBorder="0"
-    width="560" height="315"
-    allowFullScreen="1"
-    className={`lazyload ${className}`}
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    data-src="https://www.youtube.com/embed/ljtZ99i5QKY?mute=0&amp;start=76&amp;modestbranding=1&amp;controls=0&amp;autoplay=1&amp;disablekb=1&amp;showinfo=0&amp;rel=0&amp;fs=0&amp;loop=1&amp;iv_load_policy=3&amp;theme=light&amp;color=white&amp;vq=hd1080&amp;enablejsapi=1"
-  ></iframe>
-);
+// const Iframe = ({ className = "" }) => (
+//   <iframe
+//     frameBorder="0"
+//     width="560"
+//     height="315"
+//     allowFullScreen="1"
+//     className={`lazyload ${className}`}
+//     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+//     data-src="https://www.youtube.com/embed/ljtZ99i5QKY?mute=0&amp;start=76&amp;modestbranding=1&amp;controls=0&amp;autoplay=1&amp;disablekb=1&amp;showinfo=0&amp;rel=0&amp;fs=0&amp;loop=1&amp;iv_load_policy=3&amp;theme=light&amp;color=white&amp;vq=hd1080&amp;enablejsapi=1"
+//   ></iframe>
+// );
 
 const Abcde = ({ className = "" }) => {
   const [activeTab, setActiveTab] = useState("A");
@@ -68,7 +70,12 @@ const Abcde = ({ className = "" }) => {
         h5="Większość czerniaków w Polsce rozpoznawanych jest zbyt późno, co znacznie utrudnia późniejsze leczenie tego niebezpiecznego nowotworu."
       >
         <div className="container">
-            <Iframe className="top_iframe" />
+          <div className="top_iframe">
+            <YoutubePlayer
+              url="https://www.youtube.com/embed/ljtZ99i5QKY"
+              start="76"
+            />
+          </div>
           <div className="abcde_tabs">
             <div className="tabs_body">
               <div
@@ -120,9 +127,11 @@ const Abcde = ({ className = "" }) => {
               </div>
             </div>
             <div className="abcde_tabs_content_video">
-              <Iframe className="right_iframe" />
-              <div className="abcde_tabs_content_video_source">
-                Źródło: https://www.youtube.com/embed/ljtZ99i5QKY
+              <div className="right_iframe">
+                <YoutubePlayer
+                  url="https://www.youtube.com/embed/ljtZ99i5QKY"
+                  start="76"
+                />
               </div>
             </div>
           </div>

@@ -1,42 +1,47 @@
+
 /* eslint-disable */
 import { trim } from 'lodash'
 
-const ctaEditor = props =>
-  `<More link="${props.link || ""}" text="${props.text || ""}" cta="${props.cta || ""}" />`
+const youtubeEditor = props =>
+  `<YoutubePlayer url="${props.url || ""}" start="${props.start || 0}" end="${props.end || 0}" />`
 
-export const ctaEditorConfig = {
+export const youtubeEditorConfig = {
   // Internal id of the component
-  id: "cta",
+  id: "youtube",
   // Visible label
-  label: "Zobacz wiecej",
+  label: "YouTube Player",
   // Fields the user need to fill out when adding an instance of the component
   fields: [
-    { label: "Text", name: "text", widget: "string"},
-    { label: "Call To Action", name: "cta", widget: "string", default: "Sprawdź" },
-    { label: "Link", name: "link", widget: "string" },
+    { label: "URL", name: "url", widget: "string", default: "https://www.youtube.com/watch?v=1TcRqoI02cU"  },
+    { label: "Start", name: "start", widget: "string", default: "0", required: false },
+    { label: "End", name: "end", widget: "string", default: "0", required: false },
   ],
   // Pattern to identify a block as being an instance of this component
-  pattern: /<More link="(\S+)" text="(.*)" cta="(.*)" \/>/g,
+  pattern: /<YoutubePlayer url="(\S+)" start="(.*)" end="(.*)" \/>/g,
   // pattern: ,
   // Function to extract data elements from the regexp match
   fromBlock: function (match) {
+    console.log(match, "match2")
+
     const props = match[0].match(/(\"([^"]*)\")/g)
+    
+    console.log(props, "props2")
 
     return {
-      link: trim(props[0], '"'),
-      text: trim(props[1], '"'),
-      cta: trim(props[2], '"'),
+      url: trim(props[0], '"'),
+      start:trim(props[1], '"'),
+      end: trim(props[2], '"'),
     }
   },
   // Function to create a text block from an instance of this component
   toBlock: function (props) {
     // console.log("TO BLOCK", props)
-    return ctaEditor(props)
+    return youtubeEditor(props)
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
   toPreview: function (props) {
     // console.log(" toPreview", props)
-    return ctaEditor(props)
+    return youtubeEditor(props)
   },
 }

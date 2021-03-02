@@ -1,0 +1,105 @@
+@import "colors";
+@import "variables";
+
+.youtube-player {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  .react-player {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 88px;
+    overflow: hidden;
+
+    @media (max-width: $screeen-xs) {
+      border-radius: 8px;
+    }
+  }
+
+  .source_label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: $gray80;
+    text-align: right;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    z-index: 1;
+
+    @media (max-width: $screeen-xs) {
+      font-size: 9px;
+    }
+  }
+
+  .disableTop {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    pointer-events: revert;
+    z-index: 1;
+  }
+
+  .disableBottom {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    height: 170px;
+    background-color: transparent;
+    pointer-events: revert;
+    width: 100%;
+
+    @media (max-width: 500px) {
+      height: 40px;
+    }
+  }
+
+  .youtube-overlay {
+    position: absolute;
+    top: 0;
+    background: url("../img/youtube_overlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px 88px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    @media (max-width: $screeen-xs) {
+      border-radius: 8px;
+    }
+
+    &:hover {
+      .play_button {
+        box-shadow: 0px 8px 24px rgba(255, 255, 255, 0.4);
+      }
+    }
+
+    .play_button {
+      width: 64px;
+      height: 64px;
+      background: white;
+      border-radius: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .play_button_arrow {
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid $violet60;
+      }
+    }
+  }
+}

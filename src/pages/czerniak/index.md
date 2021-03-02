@@ -6,7 +6,7 @@ authorsTitle: specjalista onkologii klinicznej
 readingTime: 15
 date: 2020-12-14T22:56:47.666Z
 description: asd
-sources: 
+sources:
   - link: http://twojeznamiona.pl/
     label: Praesent tempor odio quis auctor iaculis. Nunc sed augue id elit ultrices
   - label: Cos tam
@@ -60,51 +60,48 @@ Czerniak skóry jest złośliwym nowotworem wywodzącymi się z neuroektodermaln
 
 Na samej powierzchni skóry nowotwór pojawia się najczęściej na skórze tułowia. Dotyczy to dokładnie 37% przypadków. Praktycznie równie często powstaje w obszarze kończyn dolnych – 30%. Rzadziej dotyka skóry kończyn górnych (17%) oraz głowy i szyi (9%).
 
+<YoutubePlayer url="https://www.youtube.com/watch?v=IV0avSgIjsg" start="23" end="27" />
+
 <span id="id2" />
 
 ## Rodzaje czerniaka
 
 Do tej pory wyróżniono kilka typów czerniaka:
-* czerniaka szerzącego się powierzchownie SSM – 60-70% wszystkich przypadków,
-![tekst alternatywny](img/czerniak43.jpg "TYTUL")
-![Lol Czerniak](img/czerniak43.jpg)
-![Lol Czerniak](img/czerniak43.jpg)
-* czerniaka wywodzącego się z plamy soczewicowatej LMM – 5-20% przypadków, występującego głównie u pacjentów po 70 roku,
-![Lol Czerniak](img/czerniak43.jpg)
-* czerniaka guzkowatego NM – 10-30% przypadków,
-![Lol Czerniak](img/czerniak43.jpg)
-* [czerniaka akralnego na dłoniach i podeszwach stóp, ](/czerniak/rodzaje-czerniaka/czerniak-na-dloniach-i-podeszwach-stop "Czerniak akralny na dłoniach i podeszwach stóp")
-![Lol Czerniak](img/czerniak43.jpg)
-* czerniaka akralnego okolicy paznokci - najczęściej lokalizuje się na kciuku lub paluchu,
-![Lol Czerniak](img/czerniak43.jpg)
 
-
+- czerniaka szerzącego się powierzchownie SSM – 60-70% wszystkich przypadków,
+  ![tekst alternatywny](img/czerniak43.jpg "TYTUL")
+  ![Lol Czerniak](img/czerniak43.jpg)
+  ![Lol Czerniak](img/czerniak43.jpg)
+- czerniaka wywodzącego się z plamy soczewicowatej LMM – 5-20% przypadków, występującego głównie u pacjentów po 70 roku,
+  ![Lol Czerniak](img/czerniak43.jpg)
+- czerniaka guzkowatego NM – 10-30% przypadków,
+  ![Lol Czerniak](img/czerniak43.jpg)
+- [czerniaka akralnego na dłoniach i podeszwach stóp, ](/czerniak/rodzaje-czerniaka/czerniak-na-dloniach-i-podeszwach-stop "Czerniak akralny na dłoniach i podeszwach stóp")
+  ![Lol Czerniak](img/czerniak43.jpg)
+- czerniaka akralnego okolicy paznokci - najczęściej lokalizuje się na kciuku lub paluchu,
+  ![Lol Czerniak](img/czerniak43.jpg)
 
 <More link="/costam/costam" text="Jak wyglądają różne rodzaje czerniaka - zdjęcia" cta="Sprawdź" />
-
 
 ```
 o co tutaj chodzi
 ```
 
 `tutaj pozwole sobie zacytowac pana pana`
-						
 
+| Rok  | Liczba zachorowań |
+| :--: | :---------------: |
+| 1980 |        611        |
+| 1985 |        832        |
+| 1990 |        913        |
+| 1995 |       1294        |
+| 2000 |       1731        |
+| 2005 |       2189        |
+| 2010 |       2545        |
 
-|     Rok     | Liczba zachorowań  |
-|:-----------:|:------------------:|
-|      1980   |       611          | 
-|      1985   |       832          | 
-|      1990   |       913          | 
-|      1995   |       1294         | 
-|      2000   |       1731         | 
-|      2005   |       2189         | 
-|      2010   |       2545         | 
-
-
-|     Grubość guza pierwotnego wg Breslowa (mm)     | % przerzutów do regionalnych węzłów chłonnych  | 5-letnie przeżycie (%) |
-|:-----------:|:------------------:|:------------------:|
-|poniżej 1mm |	8 |	98|
+| Grubość guza pierwotnego wg Breslowa (mm) | % przerzutów do regionalnych węzłów chłonnych | 5-letnie przeżycie (%) |
+| :---------------------------------------: | :-------------------------------------------: | :--------------------: |
+|                poniżej 1mm                |                       8                       |           98           |
 
 <span id="id3" />
 
@@ -121,8 +118,3 @@ o co tutaj chodzi
 <span id="id6" />
 
 ## Czy czerniak może występować genetycznie?
-
-
-
-
-

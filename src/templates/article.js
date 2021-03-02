@@ -9,6 +9,8 @@ import Content from '../components/Content'
 import MyArticleTable from '../components/cms/MyArticleTable'
 import MyArticleImg from '../components/cms/MyArticleImg'
 import MyArticleMore from '../components/cms/MyArticleMore'
+import YoutubePlayer from "../components/YoutubePlayer";
+
 import Sources from '../components/cms/Sources'
 import Tags from '../components/cms/Tags'
 import AuthorHeader from '../components/cms/AuthorHeader'
@@ -21,7 +23,8 @@ import SEO from '../components/SEO';
 const components = {
   img: MyArticleImg,
   More: MyArticleMore,
-  table: MyArticleTable
+  table: MyArticleTable,
+  YoutubePlayer
 };
 
 const ArticlePage = (props) => {
