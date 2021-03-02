@@ -9,6 +9,7 @@ const YoutubePlayer = ({
   loop = false,
   start = "0",
   end = "0",
+  label = "",
 }) => {
   const player = useRef(null);
   const [playing, setPlaying] = useState(false);
@@ -76,6 +77,7 @@ const YoutubePlayer = ({
           <div className="play_button">
             <div className="play_button_arrow"></div>
           </div>
+          {label && <div className="label">{label}</div>}
         </div>
       )}
     </div>

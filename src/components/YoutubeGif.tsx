@@ -1,0 +1,30 @@
+import React, { useRef } from "react";
+import ReactPlayer from "react-player";
+
+import "../styles/youtube_gif.scss";
+
+const YoutubeGif = ({
+  url = "",
+}) => {
+  const player = useRef(null);
+
+  return (
+    <div className={`youtube-gif`}>
+      <ReactPlayer
+        url={url}
+        ref={player}
+        playing={true}
+        className="react-player"
+        width="100%"
+        height="100%"
+        muted={true}
+        loop={true}
+      />
+      <div className="source_label">{url}</div>
+
+      <div className="youtube-gif-overlay"></div>
+    </div>
+  );
+};
+
+export default YoutubeGif;

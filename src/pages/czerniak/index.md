@@ -54,13 +54,17 @@ tags:
 
 Czerniak skóry jest złośliwym nowotworem wywodzącymi się z neuroektodermalnych komórek melanocytarnych. Melanina to barwnik, który odpowiada za ciemniejszy odcień skóry w kontakcie z promieniowaniem ultrafioletowym – słonecznym lub w solarium. W związku z tym najczęstszym miejscem występowania tego nowotworu jest skóra, jednak może on występować również w okolicach: ust, nosa, warg sromowych czy w gałce ocznej. Natomiast czerniak w zaawansowanym stadium może dawać przerzuty do wszystkich organów.
 
+<YoutubeGif url="https://www.youtube.com/watch?v=U5CBLvj8jrI" />
+
 <span id="id1" />
 
 ## Lokalizacja czerniaka
 
 Na samej powierzchni skóry nowotwór pojawia się najczęściej na skórze tułowia. Dotyczy to dokładnie 37% przypadków. Praktycznie równie często powstaje w obszarze kończyn dolnych – 30%. Rzadziej dotyka skóry kończyn górnych (17%) oraz głowy i szyi (9%).
 
-<YoutubePlayer url="https://www.youtube.com/watch?v=IV0avSgIjsg" start="23" end="27" />
+
+
+<YoutubePlayer url="https://www.youtube.com/watch?v=IV0avSgIjsg" start="23" end="27" label="Jak wygląda czerniak" />
 
 <span id="id2" />
 

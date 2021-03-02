@@ -7,5 +7,5 @@ import { ctaEditorConfig, youtubeEditorConfig } from "./editor-components"
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 
 // Extend editor
-CMS.registerEditorComponent(youtubeEditorConfig)
 CMS.registerEditorComponent(ctaEditorConfig)
+CMS.registerEditorComponent(youtubeEditorConfig)

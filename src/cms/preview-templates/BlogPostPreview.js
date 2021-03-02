@@ -21,9 +21,9 @@ const BlogPostPreview = ({ entry, getAsset }) => {
         </>
       )
     },
-    YoutubePlayer,
     table: MyArticleTable,
     More: MyArticleMore,
+    YoutubePlayer,
   };
 
   return (

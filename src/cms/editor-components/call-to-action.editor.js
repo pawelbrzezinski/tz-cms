@@ -16,7 +16,7 @@ export const ctaEditorConfig = {
     { label: "Link", name: "link", widget: "string" },
   ],
   // Pattern to identify a block as being an instance of this component
-  pattern: /<More link="(\S+)" text="(.*)" cta="(.*)" \/>/g,
+  pattern: /^<More link="(\S+)" text="(.*)" cta="(.*)" \/>/g,
   // pattern: ,
   // Function to extract data elements from the regexp match
   fromBlock: function (match) {

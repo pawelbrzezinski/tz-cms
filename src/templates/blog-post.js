@@ -11,6 +11,7 @@ import MyArticleTable from '../components/cms/MyArticleTable'
 import MyArticleImg from '../components/cms/MyArticleImg'
 import MyArticleMore from '../components/cms/MyArticleMore'
 import YoutubePlayer from "../components/YoutubePlayer";
+import YoutubeGif from "../components/YoutubeGif";
 import Sources from '../components/cms/Sources'
 import Tags from '../components/cms/Tags'
 import AuthorHeader from '../components/cms/AuthorHeader'
@@ -52,7 +53,8 @@ const components = {
   img: MyArticleImg,
   More: MyArticleMore,
   table: MyArticleTable,
-  YoutubePlayer
+  YoutubePlayer,
+  YoutubeGif,
 };
 
 

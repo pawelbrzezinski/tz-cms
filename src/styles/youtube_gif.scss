@@ -1,0 +1,51 @@
+@import "colors";
+@import "variables";
+
+.youtube-gif {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  .react-player {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 88px;
+    overflow: hidden;
+
+    @media (max-width: $screeen-xs) {
+      border-radius: 8px;
+    }
+  }
+
+  .source_label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: $gray80;
+    text-align: right;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    z-index: 1;
+
+    @media (max-width: $screeen-xs) {
+      font-size: 9px;
+    }
+  }
+
+  .youtube-gif-overlay {
+    position: absolute;
+    top: 0;
+    background: transparent;
+    border-radius: 8px 88px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    pointer-events: revert;
+
+    @media (max-width: $screeen-xs) {
+      border-radius: 8px;
+    }
+  }
+}
