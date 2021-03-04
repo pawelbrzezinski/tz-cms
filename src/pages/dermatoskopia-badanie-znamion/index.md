@@ -5,9 +5,33 @@ author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 19
 date: 2020-11-03T22:56:47.666Z
-description: test
+description: Jest to oglądanie skóry za pomocą narzędzia zwanego dermatoskopem, który jak szkło powiększające umożliwia bardzo dokładną obserwację i analizę struktur barwnikowych oglądanych znamion, pieprzyków, przebarwień skóry czy plam soczewicowatych. Dermatoskopia pozwala odróżnić lekarzowi zmiany łagodne od niebezpiecznych. 
 keywords:
-  - test
+  - wideodermatoskopia
+  - dermatoskopia
+  - ocena znamion
+  - profilaktyka
+  - brodawki
+  - włókniak
+  - czerniak
+  - nowotwór skóry
+  - onkologia
+  - nowotwór złośliwy
+  - czerniak diagnostyka
+  - czerniak rokowania
+  - leczenie czerniaka
+  - nowotwór przerzuty
+  - rak skóry
+  - twojeznamiona
+  - znamiona
+  - czerniak leczenie
+  - czerniak przerzuty
+  - czerniak zdjęcia
+  - czerniak złośliwy
+  - czerniak objawy
+  - usuwanie czerniaka
+  - znamiona barwnikowe
+  - znamiona dysplastyczne
 sources:
   - link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6492459/
     label: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6492459/
