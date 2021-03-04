@@ -85,7 +85,7 @@ Czerniak skóry jest złośliwym nowotworem wywodzącym się z neuroektodermalny
 
 
 ![Czerniak](img/1.png "www.mayoclinic.org")
-
+<br />
 <span id="id1" />
 
 ## Lokalizacja czerniaka
@@ -417,7 +417,7 @@ Pan profesor jest kierownikiem Kliniki Nowotworów Tkanek Miękkich, Kości i Cz
 
 <YoutubePlayer url="https://www.youtube.com/watch?v=ljtZ99i5QKY" start="76" label="Standardy postpowania w leczeniu pacjentów chorych na czerniaka" />
 
-
+<br />
 <span id="id11" />
 
 ## Programy lekowe - refundowane nowoczesne leczenie
@@ -479,6 +479,8 @@ Minister Zdrowia może wydać indywidualną zgodę na pokrycie kosztów leczenia
 * jeśli wyczerpano wszystkie dostępne możliwości leczenia refundowane przez NFZ
 
 ![Ratunkowy Dostęp do Technologii Lekowych](img/29.png "Ratunkowy Dostęp do Technologii Lekowych")
+
+<br />
 <span id="id13" />
 
 ## Badania kliniczne - szansa na nowoczesne leczenie.

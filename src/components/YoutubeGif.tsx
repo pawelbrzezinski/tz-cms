@@ -19,6 +19,20 @@ const YoutubeGif = ({
         height="100%"
         muted={true}
         loop={true}
+        config={{
+          youtube: {
+            playerVars: {
+              showinfo: 1,
+              modestbranding: 1,
+              controls: 0,
+              rel: 0,
+              iv_load_policy: 3,
+              theme: "light",
+              color: "white",
+              vq: "hd1080",
+            },
+          },
+        }}
       />
       <div className="source_label">{url}</div>
 

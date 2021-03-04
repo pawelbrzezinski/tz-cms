@@ -46,7 +46,6 @@ https://twojeznamiona.pl/polityka
 
 Czerniak skóry jest złośliwym nowotworem wywodzącymi się z neuroektodermalnych komórek melanocytarnych. Melanina to barwnik, który odpowiada za ciemniejszy odcień skóry w kontakcie z promieniowaniem ultrafioletowym – słonecznym lub w solarium. W związku z tym najczęstszym miejscem występowania tego nowotworu jest skóra, jednak może on występować również w okolicach: ust, nosa, warg sromowych czy w gałce ocznej. Natomiast czerniak w zaawansowanym stadium może dawać przerzuty do wszystkich organów.
 
-<YoutubeGif url="https://www.youtube.com/watch?v=U5CBLvj8jrI" />
 
 <span id="id1" />
 

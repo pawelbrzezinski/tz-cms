@@ -73,6 +73,22 @@ const YoutubePlayer = ({
         muted={muted}
         loop={loop}
         onProgress={handleProgress}
+        config={{
+          youtube: {
+            playerVars: {
+              showinfo: 0,
+              modestbranding: 1,
+              disablekb: 1,
+              controls: 0,
+              fs: 0,
+              rel: 0,
+              iv_load_policy: 3,
+              theme: "light",
+              color: "white",
+              vq: "hd1080",
+            },
+          },
+        }}
       />
       <div className="source_label">{url}</div>
 

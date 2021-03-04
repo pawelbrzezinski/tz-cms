@@ -129,8 +129,9 @@ const Abcde = ({ className = "" }) => {
             <div className="abcde_tabs_content_video">
               <div className="right_iframe">
                 <YoutubePlayer
-                  url="https://www.youtube.com/embed/ljtZ99i5QKY"
-                  start="76"
+                  url="https://www.youtube.com/watch?v=H-RQqWIOXcI"
+                  start="63"
+                  end="127"
                 />
               </div>
             </div>

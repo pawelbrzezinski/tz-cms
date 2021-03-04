@@ -73,7 +73,7 @@ Poniżej prezentujemy zdjęcia znamion, które powinny zostać poddane badaniu d
 
 ![Czerniak akralny pod stopą](img/czerniak_akralny_3.jpg "Czerniak akralny pod stopą")
 
-
+<br />
 <span id="id2" />
 
 ## Czy znamię na stopie to czerniak?
