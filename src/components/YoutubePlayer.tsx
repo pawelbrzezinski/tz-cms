@@ -17,6 +17,7 @@ const YoutubePlayer = ({
 
   const play = useCallback(() => {
     setOverlay(false);
+    player.current.seekTo(+start);
     setPlaying(!playing);
   }, [playing, setPlaying]);
 
@@ -42,17 +43,20 @@ const YoutubePlayer = ({
     [end, player, setPlaying, setOverlay]
   );
 
-  useEffect(() => {
-    if (player && !!player.current) {
-      try {
-        setTimeout(() => {
-          player.current.seekTo(+start);
-        }, 100);
-      } catch {
-        console.log(player.current, "player.current");
-      }
-    }
-  }, [player]);
+  // useEffect(() => {
+  //   console.log("1")
+  //   if (player && !!player.current) {
+  //     console.log("2")
+  //     try {
+  //       setTimeout(() => {
+  //         player.current.seekTo(+start);
+  //         console.log("3", start)
+  //       }, 100);
+  //     } catch {
+  //       console.log(player.current, "player.current");
+  //     }
+  //   }
+  // }, [player.current]);
 
   return (
     <div className={`youtube-player`}>

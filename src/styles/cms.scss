@@ -206,9 +206,9 @@
         }
       }
 
-      p {
+      > p {
         color: $gray;
-        margin: 0;
+        // margin: 0;
         position: relative;
 
         > .image_caption {
