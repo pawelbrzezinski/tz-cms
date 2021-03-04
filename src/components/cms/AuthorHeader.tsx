@@ -7,27 +7,29 @@ const AuthorHeader = ({
   author = "",
   authorsTitle = "",
   date = "",
-  readingTime = "",
+  readingTime = 0,
 }) => {
-  return (
+  return readingTime !== 0 && author ? (
     <div className="article_author_header">
       <div className="author">
         {author.indexOf("Agnieszka") !== -1 && (
           <img src={Agnieszka} alt={author} />
         )}
         <div>
-          <p className="author_name">{author}</p>
+          {author ? <p className="author_name">{author}</p> : null}
           {author.indexOf("Agnieszka") !== -1 && (
             <p className="title">{authorsTitle}</p>
           )}
-          <p className="reading_time">
-            {date} · {readingTime} min
-          </p>
+          {readingTime !== 0 ? (
+            <p className="reading_time">
+              {date} · {readingTime} min
+            </p>
+          ) : null}
         </div>
       </div>
       <div className="social"></div>
     </div>
-  );
+  ) : null;
 };
 
 export default AuthorHeader;

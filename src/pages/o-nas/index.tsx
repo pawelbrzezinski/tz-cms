@@ -5,7 +5,7 @@ import Layout from "../../components/Layout";
 import Map from "../../components/Map";
 import Cta from "../../components/Cta";
 import BubbleSection from "../../components/BubbleSection";
-import Doctor from "./Doctor";
+import Doctor from "../../components/about/Doctor";
 
 import CeoImage from "../../img/ceo.png";
 import doctroPlaceholderFemale from "../../img/doctor_female.svg";

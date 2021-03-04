@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { navigate } from "gatsby"
-import Map from "../../components/Map";
+import Map from "../Map";
 
 import "../../styles/home_locations.scss";
 import CitiesList from "./CitiesList";

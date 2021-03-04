@@ -13,7 +13,7 @@ import Faq from "../../components/landingPage/Faq";
 import RiskGroup from "../../components/landingPage/RiskGroup";
 import WhyUs from "../../components/landingPage/WhyUs";
 
-import Locations from "./Locations";
+import Locations from "../../components/home/Locations";
 import Cta from "../../components/Cta";
 import { Link } from "gatsby";
 

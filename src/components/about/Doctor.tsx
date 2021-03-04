@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 import "../../styles/doctor.scss";
-import Modal from "../../components/Modal";
-import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
+import Modal from "../Modal";
+import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
 const SplitedDescription = ({ text = "" }) => {
   const sentences = text.split(".");

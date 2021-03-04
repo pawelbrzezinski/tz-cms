@@ -61,7 +61,7 @@ const Navigation = ({ constactCtaComponent = null }) => {
           <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
             Badanie Znamion
           </Link>
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
+          <Link className="navigation-item" to="/chirurgiczne-usuwanie-znamion">
             Usuwanie Znamion
           </Link>
         </NavigationItemWithSubmenu>
