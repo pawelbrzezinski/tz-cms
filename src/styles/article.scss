@@ -1,6 +1,73 @@
 @import "colors";
 @import "variables";
 
+
+.article_container{
+  .side_toc {
+    border-right: 1px solid $gray40;
+    padding: 50px 20px 0 45px;
+    position: relative;
+
+    @media (max-width: $screeen-lg) {
+      padding-left: 30px;
+    }
+
+    @media (max-width: $screeen-md) {
+      padding-left: 20px;
+    }
+
+    @media (max-width: $screeen-sm) {
+      display: none;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 100px;
+      overflow: scroll;
+      height: 100vh;
+      padding-bottom: 100px;
+    }
+
+    h4 {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    ol {
+      list-style: none;
+      counter-reset: li -1;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 16px;
+      counter-increment: li;
+      font-size: 12px;
+      line-height: 18px;
+
+      a {
+        color: $gray80;
+        font-weight: normal;
+
+        &:hover {
+          color: $violet60;
+        }
+      }
+
+      &::before {
+        color: $gray80;
+        content: "." counter(li);
+        display: inline-block;
+        width: 1em;
+        margin-right: 0.5em;
+        text-align: right;
+        direction: rtl;
+      }
+    }
+  }
+}
+
 body {
   &[type="article"] {
     .article_container {
@@ -20,69 +87,7 @@ body {
         grid-template-columns: 1fr;
       }
 
-      .side_toc {
-        border-right: 1px solid $gray40;
-        padding: 50px 20px 0 45px;
-        position: relative;
-
-        @media (max-width: $screeen-lg) {
-          padding-left: 30px;
-        }
-
-        @media (max-width: $screeen-md) {
-          padding-left: 20px;
-        }
-
-        @media (max-width: $screeen-sm) {
-          display: none;
-        }
-
-        .sticky {
-          position: sticky;
-          top: 100px;
-          overflow: scroll;
-          height: 100vh;
-          padding-bottom: 100px;
-        }
-
-        h4 {
-          margin-top: 24px;
-          margin-bottom: 24px;
-        }
-
-        ol {
-          list-style: none;
-          counter-reset: li -1;
-          padding: 0;
-          margin: 0;
-        }
-
-        li {
-          margin-bottom: 16px;
-          counter-increment: li;
-          font-size: 12px;
-          line-height: 18px;
-
-          a {
-            color: $gray80;
-            font-weight: normal;
-
-            &:hover {
-              color: $violet60;
-            }
-          }
-
-          &::before {
-            color: $gray80;
-            content: "." counter(li);
-            display: inline-block;
-            width: 1em;
-            margin-right: 0.5em;
-            text-align: right;
-            direction: rtl;
-          }
-        }
-      }
+      
 
       .ads {
       }
