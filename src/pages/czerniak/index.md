@@ -49,9 +49,30 @@ toc:
   - link: id14
     label: Obserwacja po leczeniu - jakie badania?
 keywords:
-  - badanie znamion
+  - dermatoskopia
+  - ocena znamion
+  - profilaktyka
+  - brodawki
+  - włókniak
   - czerniak
-  - poznan
+  - nowotwór skóry
+  - onkologia
+  - nowotwór złośliwy
+  - czerniak diagnostyka
+  - czerniak rokowania
+  - leczenie czerniaka
+  - nowotwór przerzuty
+  - rak skóry
+  - twojeznamiona
+  - znamiona
+  - czerniak leczenie
+  - czerniak przerzuty
+  - czerniak zdjęcia
+  - czerniak złośliwy
+  - czerniak objawy
+  - usuwanie czerniaka
+  - znamiona barwnikowe
+  - znamiona dysplastyczne
 tags:
   - czerniak
   - rodzaje czerniaka
