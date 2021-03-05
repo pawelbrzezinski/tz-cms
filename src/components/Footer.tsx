@@ -11,6 +11,7 @@ import ChevronIcon from "../img/chevron-up.svg";
 import { LOCATIONS } from "../config/cities";
 
 import "../styles/footer.scss";
+import { Link } from "gatsby";
 
 const Footer = () => {
   const [isOpenedLinks, setIsOpenedLinks] = useState(false);
@@ -84,41 +85,50 @@ const Footer = () => {
             }`}
           >
             <div>
-              <a href="#" className="footer_link">
+              <Link to="/dermatoskopia-badanie-znamion" className="footer_link">
                 Badanie Znamion
-              </a>
-              <a href="#" className="footer_link">
-                Usuwanie Znamion
-              </a>
-              <a href="#" className="footer_link">
+              </Link>
+              <Link to="/wideodermatoskopia-komputerowe-badanie-znamion" className="footer_link">
+                Wideodrmatoskopia
+              </Link>
+              <Link to="/chirurgiczne-usuwanie-znamion" className="footer_link">
+                Chirurgiczne Usuwanie Znamion
+              </Link>
+              <Link to="/laserowe-usuwanie-znamion" className="footer_link">
+                Laserowe Usuwanie Znamion
+              </Link>
+              <Link to="#" className="footer_link">
                 Konsultacje onkologiczne
-              </a>
-              <a href="#" className="footer_link">
+              </Link>
+              <Link to="/czerniak" className="footer_link">
                 Czerniak
-              </a>
-              <a href="#" className="footer_link">
+              </Link>
+              <Link to="/czerniak/rodzaje-czerniaka-zdjecia" className="footer_link">
+                Czerniak rodzaje
+              </Link>
+              <Link to="/czerniak/rodzaje-czerniaka/czerniak-na-dloniach-i-podeszwach-stop" className="footer_link">
+                Czerniak akralny
+              </Link>
+              <Link to="#" className="footer_link">
                 Raki skóry
-              </a>
-              <a href="#" className="footer_link">
-                Cennik
-              </a>
-              <a href="#" className="footer_link">
-                O nas
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="#" className="footer_link">
+            <Link to="/cennik" className="footer_link">
+                Cennik
+              </Link>
+              <Link to="/o-nas" className="footer_link">
+                O nas
+              </Link>
+              <Link to="/kontakt" className="footer_link">
                 Kontakt
-              </a>
-              <a href="#" className="footer_link">
+              </Link>
+              <Link to="/blog" className="footer_link">
                 Blog
-              </a>
-              <a href="#" className="footer_link">
-                FAQ
-              </a>
-              <a href="#" className="footer_link">
+              </Link>
+              <Link to="/polityka" className="footer_link">
                 Dane osobowe
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -142,9 +152,9 @@ const Footer = () => {
           >
             <div>
               {LOCATIONS.filter((location) => location.link).map((location) => (
-                <a key={location.city} href={`/${location.link}`} className="footer_link">
+                <Link key={location.city} to={`/${location.link}`} className="footer_link">
                   {location.city}
-                </a>
+                </Link>
               ))}
             </div>
             <div>

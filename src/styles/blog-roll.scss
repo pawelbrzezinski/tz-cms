@@ -28,6 +28,11 @@
       border-radius: 8px;
       color: $black;
 
+      &:hover {
+        background: $violet10;
+        // color: $violet60;
+      }
+
       @media (max-width: $screeen-xs) {
         padding: 20px;
       }

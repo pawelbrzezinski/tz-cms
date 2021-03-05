@@ -82,6 +82,7 @@ const YoutubePlayer = ({
               controls: 0,
               fs: 0,
               rel: 0,
+              cc_load_policy: 0,
               iv_load_policy: 3,
               theme: "light",
               color: "white",
