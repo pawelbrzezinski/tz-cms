@@ -12,7 +12,7 @@ description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
   wiedzieć jak wygląda typowy czerniak.
 keywords:
   - czerniak zdjęcia
-  - czeerniak paznokcia
+  - czerniak paznokcia
   - czerniak podpaznokciowy
   - czerniak guguzkowaty
   - czerniak leczenie
@@ -28,7 +28,11 @@ tags:
   - badanie znamion
   - czerniak
 sources:
-  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski, Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
+  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
+      Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
+      Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
+      rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
+      ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
   - label: onet
     link: https://www.facebook.com/
 ---
