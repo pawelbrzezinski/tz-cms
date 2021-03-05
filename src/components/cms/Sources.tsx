@@ -13,7 +13,7 @@ const Sources = ({ data = [] }) => {
             <li key={`${item.label}_${item.link}`}>
               {item.link ? (
                 <a href={`${item.link}`} target="_blank" title={item.label}>
-                  {item.label}
+                  {item.label || item.link}
                 </a>
               ) : (
                 item.label
