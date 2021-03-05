@@ -107,7 +107,12 @@
       font-size: 16px;
       line-height: 24px;
       margin-bottom: 32px;
-      color: $gray;
+      color: $black;
+      margin-top: 20px;
+
+      @media (max-width: $screeen-lg) {
+        margin-top: 0;
+      }
     }
 
     .signature {
@@ -141,7 +146,7 @@
 
       .cards {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
         grid-gap: 0 80px;
         padding: 0 20px;
 
@@ -157,6 +162,14 @@
         .card_map {
           display: flex;
           justify-content: center;
+          max-width: 300px;
+          transform: scale(0.75);
+
+          @media (max-width: $screeen-md) {
+            transform: scale(1);
+            max-width: 100%;
+          }
+          
           @media (max-width: $screeen-xs) {
             display: none;
           }

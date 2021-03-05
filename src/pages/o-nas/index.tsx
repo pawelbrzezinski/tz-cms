@@ -128,21 +128,30 @@ const DOCTORS = [
     city: "Poznań",
     img: "natalia_pisz.jpg",
   },
-  {
-    name: "Dariusz Dziedzic",
-    title: "specjalista chirurgii ogólnej i chirurgii klatki piersiowej",
-    description:
-      "Jest absolwentem Akademii Medycznej we Wrocławiu. W roku 1996 uzyskał specjalizację z chirurgii ogólnej, a w 2000 roku specjalizację z chirurgii klatki piersiowej. W 2007 roku otrzymał certyfikat European Board of Thoracic and Cardio-Vascular Surgeons, członek Polskiego Towarzystwa Kardio-Torakochirurgów oraz European Association for Cardiothoracic Surgery. W 2018 roku uzyskał stopień doktora habilitowanego nauk medycznych za cykl prac zatytułownych: 'Nowe czynniki prognostyczne w chirurgicznym leczeniu niedrobnokomórkowego raka płuca i ich wpływ na klasyfikację TNM' nadanym przez Radę Naukową Instytutu Gruźlicy i Chorób Płuc w Warszawie.  Od wielu lat zajmuje sie tematyką diagnostyki i leczenia schorzeń nowotworowych. Współautor publikacji 'Zalecenia postepowania diagnostyczno- terapeutycznego w nowotworach złośliwych u dorosłych' pod auspicjami Polskiej Unii Onkologicznej stanowiącej obecnie w Polsce najważniejszy przewodnik postępowania terapuetycznego w onkologii.",
-    city: "Warszawa",
-    img: doctroPlaceholderMale,
-  },
+
   {
     name: "Magda Kutwin",
     title: "specjalista dermatologii i wenerologii",
     description:
       "Jest absolwentką Wydziału Wojskowo-Lekarskiego Uniwersytetu Medycznego w Łodzi. W 2015 r. rozpoczęła specjalizację z dermatologii i wenerologii. Od 2016 r. pracuje na stanowisku młodszego asystenta w Klinice Dermatologii i Wenerologii USK im. WAM – CSW w Łodzi, a od 2017 r. prowadzi zajęcia dydaktyczne dla studentów Wydziału Lekarskiego dla grup polsko- i anglojęzycznych. Pracę zawodową łączy z obowiązkami naukowymi w ramach dziennych studiów doktoranckich na Uniwersytecie Medycznym w Łodzi. W codziennej praktyce klinicznej zajmuje się leczeniem zarówno ostrych, jak i przewlekłych chorób skóry. W kręgu jej szczególnych zainteresowań znajduje się etiologia oraz terapia łuszczycy pospolitej. Wykonuje zabiegi z zakresu krio- i elektrochirurgii.",
     city: "Łódź",
-    img: doctroPlaceholderFemale,
+    img: "Magda_Kutwin.png",
+  },
+  {
+    name: "Katarzyna Tomaszewska",
+    title: "specjalista dermatologii i wenerologii",
+    description:
+      "Ukończyła Wydział Lekarski Uniwersytetu Medycznego w Łodzi. Specjalizację w zakresie Dermatologii i Wenerologii odbywała w Klinice Dermatologii, Dermatologii Dziecięcej i Onkologicznej Szpitala im. Wł. Biegańskiego w Łodzi. Pracę zawodową łączy z obowiązkami naukowo-dydaktycznymi w Zakładzie Psychodermatologii Uniwersytetu Medycznego w Łodzi. Jest autorką i współautorką licznych publikacji z zakresu dermatologii i wenerologii.  Specjalizuje się w leczeniu trądziku, łuszczycy, atopowego zapalenia skóry, alergicznych i zakaźnych chorób skóry, a także w dermatoskopii i trichoskopii zarówno u dorosłych jak i dzieci.  Stale poszerza swoją wiedzę i umiejętności poprzez uczestnictwo w licznych szkoleniach, kursach i konferencjach w kraju i za granicą.  Jest członkiem Polskiego Towarzystwa Dermatologicznego, European Academy of Dermatology and Venereology, Dermoscopy Society oraz International Trichoscopy Society.",
+    city: "Warszawa",
+    img: "Katarzyna_Tomaszewska.png",
+  },
+  {
+    name: "Małgorzata Dominiak",
+    title: "specjalista dermatologii i wenerologii",
+    description:
+      "Absolwentka Wydziału Lekarskiego Uniwersytetu Medycznego w Łodzi. Od 2015 r. pracuje w Klinice Dermatologii, Dermatologii Dziecięcej i Onkologicznej, gdzie zajmuje się leczeniem ostrych i przewlekłych chorób skóry. Członek wielu towarzystw dermatologicznych (m.in. Polskiego Towarzystwa Dermatologicznego, European Academy of Dermatology and Venerology, International Demoscopy Society). Stale podnosząca swoje umiejętności na krajowych i międzynarodowych szkoleniach, aby być na bieżąco z najnowszymi doniesieniami naukowymi.  Specjalizuje się w leczeniu zarówno u dzieci jak i u dorosłych: trądziku, atopowego zapalenia skóry, łuszczycy, chorób alergicznych, bakteryjnych i wirusowych. Autorka publikacji w tym zakresie w czasopismach naukowych.",
+    city: "Warszawa",
+    img: "Małgorzata_Dominiak.png",
   },
   {
     name: "Konrad Kędzia",
@@ -150,7 +159,7 @@ const DOCTORS = [
     description:
       "Absolwent Uniwersytetu Medycznego w Łodzi, aktualnie prowadzi doktorat oraz specjalizuje się w dziedzinie torakochirurgii w Uniwersyteckim Szpitalu Klinicznym im. Wojskowej Akademii Medycznej. Swoją pracę w zakresie medycyny estetycznej rozpoczął od szkoleń w Europejskim Centrum Lekarzy Estetycznych (ECLEST).  Wciąż podwyższa swoje kwalifikacje w zakresie laseroterapii i liposukcji biorąc udział w licznych szkoleniach i kursach w całej Polsce. Po pracy uwielbia pójść na dobry trening, a wieczorem do kina na jeden z filmów o superbohaterach. Jest ciepłym, empatycznym młodym lekarzem z dużymi ambicjami i chęcią ciągłego rozwoju.",
     city: "Łódź",
-    img: doctroPlaceholderMale,
+    img: "Konrad_Kędzia.png",
   },
   {
     name: "Mateusz Koziej",
@@ -158,7 +167,7 @@ const DOCTORS = [
     description:
       "Przeprowadza zabiegi z zakresu usuwania zmian skórnych. Ukończył Wydział Lekarski na Uniwersytecie Jagiellońskim. Aktualnie odbywa szkolenie specjalizacyjne z zakresu chirurgii plastycznej w Klinice Chirurgii Plastycznej, Rekonstrukcyjnej i Estetycznej w Łodzi. Jako nauczyciel akademicki prowadzi zajęcia z anatomii klinicznej w Katedrze Anatomii Uniwersytetu Jagiellońskiego  Uczestnik licznych kursów, szkoleń i konferencji medycyny estetycznej. Wielokrotny stypendysta nagród Ministra Nauki i Szkolnictwa Wyższego oraz zdobywca nagrody Laur Medyczny im. Dr Wacława Mayzla przyznawany przez Wydział Nauk Medycznych Państwowej Akademii Nauk.",
     city: "Łódź",
-    img: doctroPlaceholderMale,
+    img: "Mateusz_Koziej.png",
   },
   {
     name: "Beata Szymańska-Białek",
@@ -167,6 +176,14 @@ const DOCTORS = [
       "Absolwentka Wydziału Lekarskiego Pomorskiej Akademi Medycznej w Szczecinie. Od 1999 r. specjalista w dziedzinie dermatologii i wenerologii, a od 2011 r. specjalista w dziedzinie medycyny paliatywnej. Członek Polskiego Towarzystwa Dermatologicznego. Uczestniczy w krajowych i zagranicznych konferencjach naukowych w zakresie dermatologii i dermoskopii. Pracuje w Poradni Dermatologii Zachodniopomorskiego Centrum Onkologii, gdzie na co dzień zajmuje się dermatoskopowym badaniem znamion i nowotworów skóry.",
     city: "Szczecin",
     img: doctroPlaceholderFemale,
+  },
+  {
+    name: "Dariusz Dziedzic",
+    title: "specjalista chirurgii ogólnej i chirurgii klatki piersiowej",
+    description:
+      "Jest absolwentem Akademii Medycznej we Wrocławiu. W roku 1996 uzyskał specjalizację z chirurgii ogólnej, a w 2000 roku specjalizację z chirurgii klatki piersiowej. W 2007 roku otrzymał certyfikat European Board of Thoracic and Cardio-Vascular Surgeons, członek Polskiego Towarzystwa Kardio-Torakochirurgów oraz European Association for Cardiothoracic Surgery. W 2018 roku uzyskał stopień doktora habilitowanego nauk medycznych za cykl prac zatytułownych: 'Nowe czynniki prognostyczne w chirurgicznym leczeniu niedrobnokomórkowego raka płuca i ich wpływ na klasyfikację TNM' nadanym przez Radę Naukową Instytutu Gruźlicy i Chorób Płuc w Warszawie.  Od wielu lat zajmuje sie tematyką diagnostyki i leczenia schorzeń nowotworowych. Współautor publikacji 'Zalecenia postepowania diagnostyczno- terapeutycznego w nowotworach złośliwych u dorosłych' pod auspicjami Polskiej Unii Onkologicznej stanowiącej obecnie w Polsce najważniejszy przewodnik postępowania terapuetycznego w onkologii.",
+    city: "Warszawa",
+    img: doctroPlaceholderMale,
   },
   {
     name: "Sylwia Andrzejewska",
@@ -214,17 +231,24 @@ const AboutUsPage = ({ graph }) => {
         </div>
         <div className="ceo">
           <div className="content_wrapper">
-            <h2>Działamy dla ludzi</h2>
+            <h2>Działamy dla Was</h2>
             <div className="subheading">
-              Wykorzystujemy prostą, szybką i sprawdzoną metodę diagnostyczną,
-              jaką jest badanie dermatoskopowe.
+              Wiemy dokładnie jak wiele potrafi odebrać choroba nowotworowa,
+              dlatego wspólnie z wieloma specjalistami różnych dziedzin stawiamy
+              czoła wyzwaniu i stajemy do walki z rakiem. Wierzymy, że razem
+              zmniejszymy zachorowalność i umieralność z powodu nowotworów skóry
+              w Polsce.
             </div>
             <div className="text">
-              Wierzymy, że razem zmniejszymy zachorowalność i umieralność z
-              powodu nowotworów w Polsce. Łączymy dermatologów, onkologów,
-              chirurgów i innych specjalistów we wspólnej walce z rakiem. Tak
-              się składa, że jesteśmy najlepsi w badaniu znamion za pomocą
-              cyfrowej dermatoskopii.
+              Co roku obserwujemy stały i dynamiczny wzrost zachorowań na
+              czerniaka skóry. W ciągu ostatnich 30 lat ich liczba wzrosła
+              niemal trzykrotnie. Z powodu braku ogólnodostępnego publicznego
+              programu profilaktyki czerniaka wielu pacjentów umiera z powodu
+              zbyt późnego rozpoznania choroby. Wykorzystując szybką i
+              sprawdzoną metodę diagnostyczną, jaką jest dermatoskopowe badanie
+              znamion zmieniamy te przerażające statystyki. Wprowadzenie
+              dermatoskopowej oceny znamion do rutynowej diagnostyki poprawia
+              wykrywalność czerniaka o ok. 30%.
             </div>
             <div className="signature">
               <div>
@@ -253,18 +277,24 @@ const AboutUsPage = ({ graph }) => {
                 <div>
                   <h2>Ogólnopolskie Centrum Badania Znamion</h2>
                   <div className="subheading">
-                    Nasze liczne ośrodki tworzą kompleksowe ogólnopolskie
-                    centrum diagnostyki znamion barwnikowych.
+                    Stworzyliśmy sieć ośrodków w całym kraju, które kompleksowo
+                    zajmują się diagnostyka zmian skórnych. Nasi pacjenci
+                    otrzymują profesjonalną opiekę od momentu pierwszego badania
+                    wideodermatoskopowego, przez postawienie diagnozy, do
+                    zakończenia procesu terapeutycznego.
                   </div>
                   <div className="text">
-                    Jesteśmy ukierunkowani na diagnostykę zmian skórnych w
-                    zakresie profesjonalnych badań wideodermatoskopowych całego
-                    ciała. Stworzyliśmy miejsca, w których pacjent ma nie tylko
-                    możliwość uzyskania profesjonalnej diagnozy lekarskiej, ale
-                    dzięki współpracy z doświadczoną kadrą chirurgiczną może
-                    także usunąć niepokojące znamię metodą dostosowaną do jego
-                    potrzeb.
-                    </div>
+                    W naszych ośrodkach wykorzystujemy najwyższej klasy
+                    urządzenia medyczne, w tym cyfrowe wideodermatoskopy,
+                    umożliwiające mapowanie zmian skórnych oraz skrupulatną
+                    archiwizację danych pacjenta. Współpracujemy z lekarzami
+                    różnych specjalizacji, w tym z dermatologami, chirurgami i
+                    onkologami, którzy w swojej codziennej praktyce zajmują się
+                    leczeniem pacjentów z nowotworami skóry. Zapewniamy naszym
+                    pacjentom profesjonalną opiekę i możliwość konsultacji
+                    zarówno na etapie diagnostyki jak i leczenia choroby
+                    nowotworowej.
+                  </div>
                 </div>
               </div>
             </div>
@@ -273,13 +303,17 @@ const AboutUsPage = ({ graph }) => {
         <div className="team">
           <BubbleSection
             h2="Nasz zespół"
-            h5="Lekarze z naszych ośrodków mają, w razie potrzeby, możliwość dokonania zdalnej konsultacji między sobą. Daje to niespotykaną możliwość ciągłego podnoszenia jakości świadczonych przez nas usług, które bezpośrednio przekładają się na zdrowie naszych Pacjentów."
+            h5="Nasz zespół tworzą doświadczeni lekarze, którzy wspólnie, z pasją działają na rzecz zmniejszenia umieralności z powodu nowotworów skóry w Polsce."
             color="blue"
           >
             <div className="container">
               <div className="cards">
                 {DOCTORS.map((doctor) => (
-                  <Doctor key={doctor.name} data={doctor} image={findImageForDoctor(doctor)} />
+                  <Doctor
+                    key={doctor.name}
+                    data={doctor}
+                    image={findImageForDoctor(doctor)}
+                  />
                 ))}
               </div>
             </div>

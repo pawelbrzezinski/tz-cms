@@ -100,7 +100,7 @@ const ContactPage = () => (
       <div className="contact_cities">
         <h1>Nasze ośrodki</h1>
         <div className="contact_cities_instructions">
-          Wybierz miasto, w którym chcesz się zbadać. Dynamicznie zwiększamy
+          <strong>Wybierz miasto</strong>, w którym chcesz się zbadać. Dynamicznie zwiększamy
           obszar naszej działalności, aby już wkrótce działać w Twoim miejscu
           zamieszkania!
         </div>

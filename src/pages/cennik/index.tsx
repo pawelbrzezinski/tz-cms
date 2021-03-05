@@ -23,9 +23,9 @@ const PricesPage = () => (
       <div className="prices_instructions">
         <h1>Cennik usług</h1>
         <div className="prices_cities_instructions">
-          Wybierz miasto, w którym chcesz się zbadać. Dynamicznie zwiększamy
-          obszar naszej działalności, aby już wkrótce działać w Twoim miejscu
-          zamieszkania!
+          <strong>Wybierz miasto</strong>, w którym chcesz się zbadać. W każdym z ośrodków
+          Ogólnopolskiego Centrum Badania Znamion zbadamy Cię od stóp do głów! W
+          trakcie wizyty lekarz ogląda <strong>wszystkie znamiona na skórze pacjenta</strong>.
         </div>
       </div>
       <div className="prices_cities_list_wrapper">

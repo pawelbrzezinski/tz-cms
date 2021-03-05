@@ -21,11 +21,14 @@ body {
     background: url("../img/bg_2.svg");
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position-y: -1500px;
+    // background-position-y: -1500px;
+    background-position-y: -1650px;
+    background-position-x: -1500px;
 
     @media (max-width: $screeen-lg) {
       background-size: auto;
-      background-position-y: top;
+      background-position-y: -150px;
+      background-position-x: right;
     }
 
     @media (max-width: $screeen-sm) {
