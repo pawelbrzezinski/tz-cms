@@ -114,10 +114,13 @@
       display: none;
     }
 
-    .right_iframe{
+    .right_iframe {
       height: 100%;
-    }
 
+      .youtube-player {
+        height: 300px;
+      }
+    }
 
     .abcde_tabs_content_video_source {
       margin-top: 8px;

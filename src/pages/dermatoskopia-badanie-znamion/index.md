@@ -34,10 +34,10 @@ keywords:
   - znamiona dysplastyczne
 sources:
   - link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6492459/
-    label: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6492459/
+    label: www.ncbi.nlm.nih.gov
   - label:  Dermatoskopia - H.P. Soyer; G. Argenziano; R. Hofmann-Wallenhof; I. Zalaudek
   - link: https://www.cxnews.pl/diagnostyka-czerniaka-skory-z-wykorzystaniem-refleksyjnej-mikroskopii-konfokalnej,660.html
-    label: https://www.cxnews.pl/diagnostyka-czerniaka-skory-z-wykorzystaniem-refleksyjnej-mikroskopii-konfokalnej,660.html
+    label: www.cxnews.pl
   - link: https://www.akademiaczerniaka.pl/pliki/artykuly/2020-06-26-karta-pacjent-ze-zmiana-barwnikowa/karta-pacjent-ze-zmiana-barwnikowa.pdf
     label: Karta konsultacyjna pacjenta - do pobrania
 toc:

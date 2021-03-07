@@ -71,6 +71,11 @@ const Covid = ({ className = "" }) => {
                       bezpiecznej odległości (2 metry).
                     </li>
                     <li>
+                      Opłatę najbezpieczniej jest wnosić kartą/przelewem, a nie
+                      gotówką (mniejsze prawdopodobieństwo zakażenia
+                      wirusowego).
+                    </li>
+                    <li>
                       Jeśli podczas wizyty w Klinice okaże się, że Pani/Pan nie
                       spełnia wcześniej ogłoszonych wymagań, wizyta może zostać
                       odwołana, jeśli lekarz uzna to za stosowne.

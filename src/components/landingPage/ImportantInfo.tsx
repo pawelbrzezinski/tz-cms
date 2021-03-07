@@ -30,24 +30,29 @@ const ImportantInfo = ({ className = "" }) => (
           <ImportantInfoCard image={CheckIcoImage1} desc="Ile trwa badanie?">
             <h4>Ile trwa badanie?</h4>
             <div>
-              Badanie wszystkich znamion: 30-40 min. Badanie
-              kontrolne znamion wyznaczonych przez lekarza:{" "}
-              15-20 min.
+              Badanie wszystkich znamion - 30-40 min. Badanie kontrolne znamion
+              wyznaczonych przez lekarza - 15-20 min.
             </div>
           </ImportantInfoCard>
-          <ImportantInfoCard image={CheckIcoImage2} desc="Jak się przygotować do badania?">
+          <ImportantInfoCard
+            image={CheckIcoImage2}
+            desc="Jak się przygotować do badania?"
+          >
             <h4>Jak się przygotować do badania?</h4>
             <div>
-              Prosimy o dokładne wykonanie demakijażu oraz{" "}
-              skrócenie owłosieniaw miejscach, w których
-              znajdują się znamiona, celem poprawy jakości obrazu
-              dermatoskopowego.
+              Przed badaniem należy wykonać demakijażu oraz skrócić owłosienia w
+              miejscach, w których znajdują się znamiona, celem poprawy jakości
+              obrazu dermatoskopowego.
             </div>
           </ImportantInfoCard>
-          <ImportantInfoCard image={CheckIcoImage3} desc="Jakiego urządzenia używamy?">
-            <h4>Jakiego urządzenia używamy?</h4>
+          <ImportantInfoCard
+            image={CheckIcoImage3}
+            desc="Jakim urządzeniem badamy?"
+          >
+            <h4>Jakim urządzeniem badamy?</h4>
             <div>
-              Wideodermatoskop Fotofinder Vexia Medicam 800 HD
+              Pacjent badany jest za pomocą nowoczesnego sprzętu -
+              wideodermatoskopu Fotofinder Portable Medicam 1000 Full HD
             </div>
           </ImportantInfoCard>
         </div>

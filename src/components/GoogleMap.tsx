@@ -274,14 +274,14 @@ const mapStyles = [
   },
 ];
 
-const Marker = ({ lat, lng }) => {
+const Marker = ({ lat, lng , data = { title: "", data: "", link: ""}}) => {
   return (
     <div className="google_marker_wrapper">
       <div className="marker_bubble">
-        <p className="buble_title">Nobel Tower</p>
-        <p className="buble_address">ul. Dąbrowskiego 77A, 60-101 Poznań</p>
+        <p className="buble_title">{data.title}</p>
+        <p className="buble_address">{data.data}</p>
         <p className="buble_link">
-          <a href="#" title="Sprawdź dojazd">
+          <a href={data.link} target="_blank" title="Sprawdź dojazd">
             Sprawdź dojazd
           </a>
         </p>
@@ -297,7 +297,7 @@ const Marker = ({ lat, lng }) => {
   );
 };
 
-const GoogleMap = ({ coords = { lat: 0, lng: 0 } }) => {
+const GoogleMap = ({marker, coords = { lat: 0, lng: 0 } }) => {
   return (
     <div className="google_map_wrapper">
       <div className="google_map">
@@ -311,7 +311,7 @@ const GoogleMap = ({ coords = { lat: 0, lng: 0 } }) => {
             fullscreenControl: false,
           }}
         >
-          <Marker lat={coords.lat} lng={coords.lng} />
+          <Marker lat={coords.lat} lng={coords.lng} data={marker} />
         </GoogleMapReact>
       </div>
     </div>

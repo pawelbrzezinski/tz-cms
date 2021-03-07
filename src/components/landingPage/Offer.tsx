@@ -34,7 +34,8 @@ const Offer = ({ className = "" }) => (
           <OfferCard
             image={BadanieZnamionImage}
             title="Badanie znamion"
-            desc="Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć."
+            desc="
+            Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć."
           />
           <OfferCard
             image={UsuwanieZnamionImage}
@@ -46,13 +47,6 @@ const Offer = ({ className = "" }) => (
             title="Konsultacje onkologiczne"
             desc="Konsultacja onkologiczna w zakresie nowotworów skóry, w tym czerniaka złośliwego. Pacjent otrzymuje zalecenia po usunięciu zmiany nowotworowej, dotyczące badań kontrolnych, leczenia uzupełniającego, a także leczenia zaawansowanego czerniaka."
           />
-        </div>
-        <div className="buttons">
-          <Button>
-            <AnchorLink href="#kontakt" title="Umów się">
-              Umów się na wizytę
-            </AnchorLink>
-          </Button>
         </div>
       </div>
     </BubbleSection>

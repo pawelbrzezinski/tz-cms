@@ -21,8 +21,7 @@ const Melanoma = ({ className = "" }) => (
         <h2 className={H2_CLASS_NAME}>Czerniak nie zawsze jest czarny</h2>
         <h5 className={H5_CLASS_NAME}>
           Pamiętaj czerniak nie zawsze jest czarny, nie zawsze szybko rośnie, a
-          zmian możesz nie zauważyć gołym okiem. Zobacz jakie są rodzaje
-          czerniaka.
+          zmian możesz nie zauważyć gołym okiem. 
         </h5>
         <div>
           <CheckList data={CHECKLIST} />

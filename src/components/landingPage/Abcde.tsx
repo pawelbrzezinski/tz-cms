@@ -5,39 +5,44 @@ import YoutubePlayer from "../YoutubePlayer";
 
 const TABS = {
   A: {
-    h2: "Niesymetryczne znamiona",
+    label: "A - Asymmetry",
+    h2: "Czy znamię jest asymetryczne?",
     sub:
-      "Objawy czerniaka mogą być jednak zupełnie nieuchwytne gołym okiem, dlatego tak ważne jest oglądanie znamion w powiększeniu dermatoskopem.",
+      "Podziel znamię na dwie połówki  i oceń względem dwóch prostopadłych linii czy te dwie części do siebie pasują? Czy znamię jest symetryczne pod względem koloru i struktury?",
     txt:
-      "Klasyczny dermatoskop, który stosują często dermatolodzy wygląda jak lupka- szkło powiększające z wbudowanych źródłem światła. Takie dermatoskopy powiększają obraz zwykle ok. 10-20 krotnie oraz umożliwiają profilaktyczne badanie niepokojących znamion.",
+      "Większość typowych znamion ma symetryczną budowę. Asymetrią mogą charakteryzować się znamiona dysplastyczne lub czerniaki we wczesnej fazie rozwoju. Każde niesymetryczny pieprzyk powinien zostać zweryfikowany w badaniu dermatoskopowym.",
   },
   B: {
-    h2: "Nierówne brzegi",
+    label: "B - Border",
+    h2: "Nierówne brzegi znamienia",
     sub:
-      "Objawy czerniaka mogą być jednak zupełnie nieuchwytne gołym okiem, dlatego tak ważne jest oglądanie znamion w powiększeniu dermatoskopem.",
+      "Nierówne, poszarpane brzegi, rozmyta lub zatarta granica pomiędzy znamieniem a zdrową skórą oraz  'rozlewania się' barwnika na otaczającą skórę powinno budzić niepokój.",
     txt:
-      "Klasyczny dermatoskop, który stosują często dermatolodzy wygląda jak lupka- szkło powiększające z wbudowanych źródłem światła. Takie dermatoskopy powiększają obraz zwykle ok. 10-20 krotnie oraz umożliwiają profilaktyczne badanie niepokojących znamion.",
+      "Typowe znamiona są zwykle ostro odgraniczone od podłoża, mają równe brzegi i przyjmują zazwyczaj owalny lub okrągły kształt. Każde znamię, które ma nierówne, postrzępione granice powinno zostać zweryfikowane w badaniu dermatoskopowym.",
   },
   C: {
-    h2: "Nierówne brzegi",
+    label: "C - Color",
+    h2: "Niejednolity kolor znamienia",
     sub:
-      "Objawy czerniaka mogą być jednak zupełnie nieuchwytne gołym okiem, dlatego tak ważne jest oglądanie znamion w powiększeniu dermatoskopem.",
+      "Występowanie w znamieniu więcej niż jednego koloru, nierówne rozłożenie barwnika, występowanie skupisk ciemniejszego koloru oraz obszary odbarwienia mogą być sygnałami alarmowymi.",
     txt:
-      "Klasyczny dermatoskop, który stosują często dermatolodzy wygląda jak lupka- szkło powiększające z wbudowanych źródłem światła. Takie dermatoskopy powiększają obraz zwykle ok. 10-20 krotnie oraz umożliwiają profilaktyczne badanie niepokojących znamion.",
+      "Typowe znamiona charakteryzują się jednolitością barwy, zwykle są jednokolorowe, typowo w kolorze brązowym. Każde wielobarwne znamię, o nieregularnych  granicach przejścia jednego koloru w drugi, powinno zostać zbadane dermatoskopowo.",
   },
   D: {
-    h2: "Nierówne brzegi",
+    label: "D - Diameter",
+    h2: "Duża średnica znamienia",
     sub:
-      "Objawy czerniaka mogą być jednak zupełnie nieuchwytne gołym okiem, dlatego tak ważne jest oglądanie znamion w powiększeniu dermatoskopem.",
+      "Każde znamię o średnicy powyżej 6 mm powinno być pod stałą obserwacją. Bardzo ważnym elementem badanie jest ocena dynamimi wzrostu znamion.",
     txt:
-      "Klasyczny dermatoskop, który stosują często dermatolodzy wygląda jak lupka- szkło powiększające z wbudowanych źródłem światła. Takie dermatoskopy powiększają obraz zwykle ok. 10-20 krotnie oraz umożliwiają profilaktyczne badanie niepokojących znamion.",
+      "Jeśli znamię wzrasta w szybkim tempie lub ma powyżej 6 mm i dodatkowo niepokojące cechy powinno zostać skonsultowane z lekarzem. Osoby z zespołem znamion dysplastycznych  charakteryzującycm się obecności wielu często dużych, atypowych znamion znajdują się zwykle pod stałą kontrolą dermatoskopową.",
   },
   E: {
-    h2: "Nierówne brzegi",
+    label: "E - Evolving",
+    h2: "Nowa lub zmieniająca się zmiana",
     sub:
-      "Objawy czerniaka mogą być jednak zupełnie nieuchwytne gołym okiem, dlatego tak ważne jest oglądanie znamion w powiększeniu dermatoskopem.",
+      "Czerniaki w większości pojawiają się “de novo” - jako nowe znamiona, zwykle odmienne od pozostałych, często charakteryzujące  się szybszym wzrostem. Na uwagę zasługują  także zmiany skórne, które zmieniają się w czasie.",
     txt:
-      "Klasyczny dermatoskop, który stosują często dermatolodzy wygląda jak lupka- szkło powiększające z wbudowanych źródłem światła. Takie dermatoskopy powiększają obraz zwykle ok. 10-20 krotnie oraz umożliwiają profilaktyczne badanie niepokojących znamion.",
+      "Podstawą obserwacji znamion jest  analiza porównawcza zmian w nich zachodzących a najlepszą metodą, która umożliwia ocenę struktur znamion na przestrzeni czasu jest wideodermatoskopia. Jeśli Twoje znamię jest niesymetryczne, ma poszarpane, nierówne brzegi, niejednolity kolor, jest większe niż 6 mm lub dynamicznie zmienia się w czasie należy jak najszybciej umówić się na badanie dermatoskopowe.",
   },
 };
 
@@ -67,7 +72,7 @@ const Abcde = ({ className = "" }) => {
       <BubbleSection
         introText="Zasada ABCDE"
         h2="Jakie są objawy czerniaka?"
-        h5="Większość czerniaków w Polsce rozpoznawanych jest zbyt późno, co znacznie utrudnia późniejsze leczenie tego niebezpiecznego nowotworu."
+        h5="Większość czerniaków w Polsce rozpoznawanych jest za późno. Powiększenie lub zmniejszenie pieprzyka, przebarwienia na skórze, nagłe powstanie jednego lub wielu znamion, zmiana koloru znamienia, swędzenie, łuszczenie się czy krwawienie może świadczyć o tym, że mamy do czynienia z czerniakiem."
       >
         <div className="container">
           <div className="top_iframe">
@@ -117,7 +122,7 @@ const Abcde = ({ className = "" }) => {
           </div>
           <div className="abcde_tabs_content">
             <div className="abcde_tabs_content_desc">
-              <div className="smallbody">Zasada {activeTab}</div>
+              <div className="smallbody">{TABS[activeTab].label}</div>
               <h2>{TABS[activeTab].h2}</h2>
               <div className="abcde_tabs_content_desc_sub">
                 {TABS[activeTab].sub}
@@ -132,6 +137,7 @@ const Abcde = ({ className = "" }) => {
                   url="https://www.youtube.com/watch?v=H-RQqWIOXcI"
                   start="63"
                   end="127"
+                  label="Główne cechy czerniaka - A B C D E"
                 />
               </div>
             </div>

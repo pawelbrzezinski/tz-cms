@@ -61,7 +61,10 @@ Wideodermatoskopia polega na komputerowym badaniu znamion za pomocą urządzenia
 
 <YoutubeGif url="https://www.youtube.com/watch?v=E_qZwzFpBb4" />
 
+<br />
+
 <span id="id1" />
+
 
 ## Przebieg badania wideodermatoskopowego
 

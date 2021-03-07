@@ -8,6 +8,30 @@
     padding: 0;
   }
 }
+@mixin home_section_section_text {
+  .section_text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $gray80;
+  }
+}
+
+@mixin home_section_section_buttons {
+  .buttons {
+    margin-top: 32px;
+    justify-content: flex-start;
+
+    @media (max-width: $screeen-sm) {
+      justify-content: space-around;
+    }
+
+    button {
+      margin-right: 16px;
+    }
+  }
+}
 
 @mixin cards_section {
   display: grid;
@@ -75,6 +99,7 @@
 
     .cards {
       @include cards_section;
+      grid-gap: 0 20px;
     }
   }
 }
@@ -121,16 +146,15 @@
   .container {
     @include container_section;
 
+    padding: 0 24px;
+
     .cards {
       @include cards_section;
 
       margin-bottom: 48px;
 
       grid-gap: 24px;
-
-      @media (max-width: $screeen-lg) {
-        grid-template-columns: 1fr 1fr;
-      }
+      grid-template-columns: 1fr 1fr;
     }
   }
 }
@@ -178,20 +202,11 @@
   }
 }
 
+.home_procedure_details,
 .home_dermoscopy {
   @include home_section;
+  @include home_section_section_text;
 
-  .section_text {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-
-    color: $gray80;
-  }
-
-  .section_buttons {
-    margin-top: 32px;
-  }
 
   .two_column_section {
     padding-bottom: 0;
@@ -199,6 +214,7 @@
 
   .container {
     @include container_section;
+    @include home_section_section_buttons;
 
     padding: 0 24px;
 
@@ -223,23 +239,15 @@
   }
 }
 
+.home_surgery,
 .home_videodermoscopy {
   @include home_section;
+  @include home_section_section_text;
 
-  .section_text {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-
-    color: $gray80;
-  }
-
-  .section_buttons {
-    margin-top: 32px;
-  }
 
   .container {
     @include container_section;
+    @include home_section_section_buttons;
 
     padding: 0 24px;
 
@@ -270,46 +278,6 @@
   }
 }
 
-.home_surgery {
-  @include home_section;
-
-  .section_text {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-
-    color: $gray80;
-  }
-
-  .section_buttons {
-    margin-top: 32px;
-  }
-
-  .container {
-    @include container_section;
-
-    padding: 0 24px;
-
-    .two_column_section_container {
-      flex-direction: column-reverse;
-
-      @media (max-width: $screeen-sm) {
-        > div:first-of-type {
-          margin-top: 60px;
-        }
-
-        > div:nth-of-type(2) {
-          margin-top: 0;
-        }
-      }
-    }
-
-    img {
-      display: block;
-      width: 100%;
-    }
-  }
-}
 
 .home_faq {
   @include home_section;
@@ -394,28 +362,6 @@
   }
 }
 
-.home_procedure_details {
-  @include home_section;
-
-  padding-top: 112px;
-
-  @media (max-width: $screeen-lg) {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
-
-  .container {
-    @include container_section;
-
-    .cards {
-      @include cards_section;
-
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 0 48px;
-      width: 100%;
-    }
-  }
-}
 
 .home_location {
   @include home_section;

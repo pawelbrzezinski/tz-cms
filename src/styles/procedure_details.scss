@@ -6,6 +6,7 @@
     padding: 64px 0;
   }
 
+
   h5 {
     margin-bottom: 16px;
     color: $black;
@@ -32,6 +33,26 @@
 
     @media (max-width: $screeen-md) {
       width: 100%;
+    }
+  }
+
+  .buttons {
+    .button {
+      margin-right: 16px;
+
+      @media (max-width: $screeen-sm) {
+        width: 45%;
+        margin-right: 0;
+      }
+
+      @media (max-width: $screeen-xs) {
+        width: 80%;
+      }
+    }
+    .button-secondary {
+      @media (max-width: $screeen-sm) {
+        display: none;
+      }
     }
   }
 

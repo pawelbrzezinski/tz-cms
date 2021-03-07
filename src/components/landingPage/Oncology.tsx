@@ -1,34 +1,41 @@
 import { Link } from "gatsby";
 import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import Button from "../Button";
 import TwoColumnSection, {
   H2_CLASS_NAME,
   H5_CLASS_NAME,
   INTRO_TEXT_CLASS_NAME,
 } from "../TwoColumnSection";
-import Image from "../../img/home_dermoscopy.png";
+import Image from "../../img/home_oncology.png";
 
 const Oncology = ({ className = "" }) => (
   <div className={`${className}`}>
-    <TwoColumnSection color="white" containerClassName="container">
+    <TwoColumnSection color="white" containerClassName="container" reverse>
       <div>
-        <div className={INTRO_TEXT_CLASS_NAME}>Na czym to polega?</div>
-        <h2 className={H2_CLASS_NAME}>Konsultacje onkologiczne</h2>
+        <div className={INTRO_TEXT_CLASS_NAME}>Diagnostyka czerniaka</div>
+        <h2 className={H2_CLASS_NAME}>Konsultacje Onkologiczne</h2>
         <h5 className={H5_CLASS_NAME}>
-          Dermatoskopia polega na oglądaniu wszystkich znamion na skórze, w
-          dużym powiększeniu, przy zastosowaniu urządzenia zwanego
-          dermatoskopem.
+          Po rozpoznaniu czerniaka pacjent wymaga dalszej diagnostyki w postaci
+          m.in. docięcia brzegów zmiany z odpowiednim marginesem oraz wykonania
+          biopsji węzłów chłonnych wartowniczych. Na tym etapie niezbędna jest
+          też konsultacja onkologiczna.
         </h5>
         <div className="section_text">
-          Klasyczny dermatoskop, który stosują często dermatolodzy wygląda jak
-          lupka- szkło powiększające z wbudowanych źródłem światła. Takie
-          dermatoskopy powiększają obraz zwykle ok. 10-20 krotnie oraz
-          umożliwiają profilaktyczne badanie niepokojących znamion.
+          W trakcie konsultacji z onkologiem pacjent otrzymuje zalecenia
+          postępowania w sytuacji usunięcia zmiany nowotworowej, które dotyczą
+          m.in wykonania niezbędnych badań kontrolnych, możliwości leczenia
+          uzupełniającego, a także leczenia zaawansowanego czerniaka.
         </div>
-        <div className="section_buttons">
+        <div className="buttons">
           <Button>
-            <Link to="/dermatoskopia" title="">
-              Dowiedz się więcej
+            <AnchorLink href="#kontakt" title="Umów się">
+              Umów się
+            </AnchorLink>
+          </Button>
+          <Button type="secondary">
+            <Link to="/czerniak" title="">
+              Czerniak
             </Link>
           </Button>
         </div>

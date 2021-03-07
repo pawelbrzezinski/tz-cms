@@ -19,11 +19,16 @@ body {
 
   &[bg-option="about"] {
     background: url("../img/bg_2.svg");
-    background-size: auto 100%;
+
+    background-size: 100%;
     background-repeat: no-repeat;
-    // background-position-y: -1500px;
-    background-position-y: -1650px;
-    background-position-x: -1500px;
+
+    @media (min-width: 2000px) {
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position-y: -1805px;
+      background-position-x: -1500px;
+    }
 
     @media (max-width: $screeen-lg) {
       background-size: auto;

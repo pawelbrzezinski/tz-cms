@@ -33,28 +33,16 @@
     }
   }
 
-  .disableTop {
-    position: absolute;
-    top: 0;
-    height: 70px;
-    width: 100%;
-    background-color: transparent;
-    pointer-events: revert;
-    z-index: 1;
-  }
-
-  .disableBottom {
+ 
+  .disableYoutube {
     z-index: 1;
     position: absolute;
     bottom: 0;
-    height: 170px;
+    height: 100%;
     background-color: transparent;
     pointer-events: revert;
     width: 100%;
 
-    @media (max-width: 500px) {
-      height: 40px;
-    }
   }
 
   .youtube-overlay {

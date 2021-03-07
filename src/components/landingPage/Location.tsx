@@ -10,6 +10,7 @@ const Location = ({
   hoursInfo = { data: "" },
   transportationInfo = { data: "" },
   className = "",
+  googleMarker
 }) => (
   <div className={`${className} location`}>
     <div className="location_wrapper">
@@ -35,7 +36,7 @@ const Location = ({
       </div>
     </div>
 
-    <GoogleMap coords={coords} />
+    <GoogleMap coords={coords} marker={googleMarker} />
   </div>
 );
 

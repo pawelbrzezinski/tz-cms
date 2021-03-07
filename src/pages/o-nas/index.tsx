@@ -7,7 +7,7 @@ import Cta from "../../components/Cta";
 import BubbleSection from "../../components/BubbleSection";
 import Doctor from "../../components/about/Doctor";
 
-import CeoImage from "../../img/ceo.png";
+import CeoImage from "../../img/ceo.jpg";
 import doctroPlaceholderFemale from "../../img/doctor_female.svg";
 import doctroPlaceholderMale from "../../img/doctor_male.svg";
 
