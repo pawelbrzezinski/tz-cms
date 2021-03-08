@@ -10,6 +10,13 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-typescript',
     'gatsby-plugin-sass',
+    `gatsby-plugin-preload-fonts`,
+    // {
+    //   resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+    //   options: {
+    //     analyzerMode: "static",
+    //   },
+    // },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -55,7 +62,7 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 2048,
-              quality: 65, 
+              quality: 65,
               linkImagesToOriginal: false,
             },
           },
@@ -83,7 +90,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Poppins:Bold,Semi-Bold,Regular,400,600,700']
+          families: ['Poppins:Bold,400,600']
         }
       }
     },
@@ -107,6 +114,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
+        enableIdentityWidget: false,
         modulePath: `${__dirname}/src/cms/cms.js`,
         customizeWebpackConfig: config => {
           config.node = {

@@ -172,10 +172,10 @@ Z uwagi na wydłużony czas oceny i brak pewności trafnej diagnozy na tym etapi
 
 Więcej artykułów dotyczących sztucznej inteligencji AI (Artificial Intelligence) i jej wykorzystaniu w diagnostyce zmian skórnych znajdziesz tutaj:
 
-* https://onlinelibrary.wiley.com/doi/full/10.1111/jdv.16165?af=R
-* https://www.nature.com/articles/s41591-020-0942-0
-* https://pubmed.ncbi.nlm.nih.gov/32534243/
-* https://pubmed.ncbi.nlm.nih.gov/31972395/
+* [onlinelibrary](https://onlinelibrary.wiley.com/doi/full/10.1111/jdv.16165?af=R "onlinelibrary")
+* [nature](https://www.nature.com/articles/s41591-020-0942-0 "nature")
+* [pubmed](https://pubmed.ncbi.nlm.nih.gov/32534243/ "pubmed")
+* [pubmed](https://pubmed.ncbi.nlm.nih.gov/31972395/ "pubmed")
 
 Czekamy na dalsze doniesienia!
 

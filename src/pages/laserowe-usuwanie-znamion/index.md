@@ -43,12 +43,18 @@ keywords:
   - znamiona dysplastyczne
 sources:
   - link: https://www.poradnikzdrowie.pl/sprawdz-sie/badania/biopsja-rodzaje-biopsji-i-przebieg-badania-aa-pv6A-AbnJ-TtER.html
+    label: https://www.poradnikzdrowie.pl
   - link: https://www.doz.pl/czytelnia/a12700-Czym_jest_biopsja_i_w_jakim_celu_sie_ja_wykonuje
+    label: https://www.doz.pl
   - link: https://www.poradnikzdrowie.pl/sprawdz-sie/badania/badanie-histopatologiczne-co-to-jest-przebieg-i-wyniki-badania-histopatologicznego-aa-aX6q-V3HP-tWKy.html
+    label: https://www.poradnikzdrowie.pl
   - link: https://mediqpol.pl/biopsja-cienkoiglowa/
   - link: https://portal.abczdrowie.pl/elektrokoagulacja-przebieg-zastosowanie-przeciwwskazania
+    label: https://portal.abczdrowie.pl
   - link: https://www.elite.waw.pl/usuwanie-znamion-skornych/
+    label: https://www.elite.waw.pl
   - link: https://tesoroclinic.pl/zabieg/laserowe-usuwanie-znamion/
+    label: https://tesoroclinic.pl/
 toc:
   - link: id1
     label: Niechirurgiczne usuwanie znamion - kiedy może zostać wykonane?

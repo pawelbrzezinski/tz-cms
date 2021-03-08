@@ -41,7 +41,7 @@
         color: $white;
 
         @media (max-width: $screeen-sm) {
-          font-weight: normal;
+          font-weight: 400;
         }
       }
 
@@ -87,7 +87,7 @@
     }
 
     li {
-      font-weight: normal;
+      font-weight: 400;
       font-size: 12px;
       line-height: 20px;
       margin-bottom: 16px;

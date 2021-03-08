@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql, StaticQuery } from "gatsby";
 import Hero from "../../components/landingPage/Hero";
 import Layout from "../../components/Layout";
 
@@ -18,12 +19,6 @@ import Cta from "../../components/Cta";
 import { Link } from "gatsby";
 
 import "../../styles/home.scss";
-
-//FAQ
-import Faq1Image from "../../img/faq1.png";
-import Faq1ImageMobile from "../../img/faq-1-mobile.png";
-import Faq2Image from "../../img/faq2.png";
-import Faq2ImageMobile from "../../img/faq-2-mobile.png";
 
 const CtaUmowSie = () => {
   return (
@@ -54,46 +49,112 @@ const REVIEWS = [
   },
 ];
 
-const FAQS = [
-  {
-    image: Faq1Image,
-    imageMobile: Faq1ImageMobile,
-    title: "Czym różni się zwykły pieprzyk od czerniaka?",
-    text:
-      "Czerniak we wczesnym stadium na pierwszy rzuta oka może wyglądać tak samo jak zwykłe znamię barwnikowe. Są znamiona, które mogą też imitować czerniaka, dlatego tak ważne jest oglądanie znamion w powiększeniu. Niepokojące objawy, na które powinniśmy zwracać uwagę to m.in.: asymetria w obrębie znamienia; nierówne, poszarpane brzegi zmiany; wielobarwność; duży rozmiar- powyżej 6mm oraz dynamiczne zmiany w obrębie znamienia.",
-  },
-  {
-    image: Faq2Image,
-    imageMobile: Faq2ImageMobile,
-    title: "Jak często powinno się badać znamiona za pomocą dermatoskopu?",
-    text:
-      "Każdy z nas raz do roku powinien poddać badaniu dermatoskopowemu wszystkie obecne na ciele znamiona. Powinniśmy też na bieżąco kontrolować swoje znamiona w domu, obserwując, czy nie zmieniają się w czasie. Osoby z podwyższonym ryzykiem zachorowania na raka skóry, powinny badać się częściej, zgodnie z zaleceniem lekarskim - czasami nawet co kilka miesięcy.",
-  },
-];
+const HomePage = ({ graph }) => {
+  const FAQS = [
+    {
+      image: graph.faqs[1].image,
+      imageMobile: graph.faqs[1].imageMobile,
+      title: "Jakie są przeciwwskazania do wykonania badania?",
+      text:
+        "Dermatoskopia jest całkowicie nieinwazyjną metodą diagnostyki, nie ma żadnych przeciwwskazań do jej wykonania. Badaniu mogą poddać się kobiety w ciąży, karmiące piersią, osoby obciążone poważnymi chorobami przewlekłymi czy też dzieci. Dermatoskopia polega na wykonywaniu zdjęć znamion w powiększeniu stąd może zostać wykonana u każdego.",
+    },
+    {
+      image: graph.faqs[2].image,
+      imageMobile: graph.faqs[2].imageMobile,
+      title: "Czy czerniak boli?",
+      text:
+        "Dolegliwości bólowe nie są charakterystycznym objawem dla czerniaka, natomiast ich obecność bądź brak nie przesądza w żadnym wypadku diagnozy. Czerniak może rozwijać się po cichu, bez bólu i zupełnie niezauważalnie i z roku na rok zajmować coraz większą powierzchnię Twojej skóry. Najczęstszy czerniak szerzący się powierzchownie (SSMM - superficial spreading melanoma malignum), może wzrastać niezauważalnie nawet kilka lat!",
+    },
+  ];
 
-const HomePage = () => (
-  <Layout>
-    <Hero
-      h1="Ogólnopolskie Centrum Dermatoskopowego Badania Znamion"
-      oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
+  return (
+    <Layout>
+      <Hero
+        h1="Ogólnopolskie Centrum Dermatoskopowego Badania Znamion"
+        oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
           nowotwory z życia milionów ludzi!"
-      ctaPrimary={<CtaUmowSie />}
-      ctaSecondary={null}
-    />
+        ctaPrimary={<CtaUmowSie />}
+        ctaSecondary={null}
+      />
 
-    <Locations />
-    <Offer className="home_offer" />
-    <WhyUs className="home_why_us" />
-    <Reviews className="home_reviews" data={REVIEWS} />
-    <Melanoma className="home_melanoma" />
-    <Faq className="home_faq" data={FAQS} />
-    <Dermoscopy className="home_dermoscopy" />
-    <Videodermoscopy className="home_videodermoscopy" />
-    <RiskGroup className="home_risk_group" />
-    <Abcde className="home_abcde" />
-    <Surgery className="home_surgery" />
-    <Cta className="home_cta" />
-  </Layout>
+      <Locations />
+      <Offer className="home_offer" />
+      <WhyUs className="home_why_us" />
+      <Reviews className="home_reviews" data={REVIEWS} />
+      <Melanoma className="home_melanoma" />
+      <Faq className="home_faq" data={FAQS} />
+      <Dermoscopy className="home_dermoscopy" />
+      <Videodermoscopy className="home_videodermoscopy" />
+      <RiskGroup className="home_risk_group" />
+      <Abcde className="home_abcde" />
+      <Surgery className="home_surgery" />
+      <Cta className="home_cta" />
+    </Layout>
+  );
+};
+
+export default (props) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        Faq1Image: allFile(filter: { relativePath: { regex: "/faq1.png/" } }) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 144, maxHeight: 269, quality: 50) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        Faq2Image: allFile(filter: { relativePath: { regex: "/faq2.png/" } }) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 144, maxHeight: 269, quality: 70) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        Faq1ImageMobile: allFile(
+          filter: { relativePath: { regex: "/faq-1-mobile.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 288, maxHeight: 179, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        Faq2ImageMobile: allFile(
+          filter: { relativePath: { regex: "/faq-2-mobile.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 288, maxHeight: 179, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data) => (
+      <HomePage
+        graph={{
+          faqs: {
+            1: {
+              image: data.Faq1Image.nodes[0],
+              imageMobile: data.Faq1ImageMobile.nodes[0],
+            },
+            2: {
+              image: data.Faq2Image.nodes[0],
+              imageMobile: data.Faq2ImageMobile.nodes[0],
+            },
+          },
+        }}
+        {...props}
+      />
+    )}
+  />
 );
-
-export default HomePage;

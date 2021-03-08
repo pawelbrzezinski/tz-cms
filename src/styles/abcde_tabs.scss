@@ -57,7 +57,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      font-weight: 700;
+      font-weight: bold;
     }
 
     .tabs_letter_label {
@@ -90,14 +90,14 @@
     }
 
     .abcde_tabs_content_desc_sub {
-      font-weight: normal;
+      font-weight: 400;
       font-size: 20px;
       line-height: 32px;
       margin-bottom: 16px;
     }
 
     .abcde_tabs_content_desc_txt {
-      font-weight: normal;
+      font-weight: 400;
       font-size: 16px;
       line-height: 24px;
       color: $gray80;
@@ -124,7 +124,7 @@
 
     .abcde_tabs_content_video_source {
       margin-top: 8px;
-      font-weight: normal;
+      font-weight: 400;
       font-size: 12px;
       line-height: 20px;
       color: $gray40;

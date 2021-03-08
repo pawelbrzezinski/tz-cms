@@ -7,13 +7,13 @@ import Cta from "../../components/Cta";
 import BubbleSection from "../../components/BubbleSection";
 import Doctor from "../../components/about/Doctor";
 
-import CeoImage from "../../img/ceo.jpg";
 import doctroPlaceholderFemale from "../../img/doctor_female.svg";
 import doctroPlaceholderMale from "../../img/doctor_male.svg";
 
 import "../../styles/about.scss";
 
 import { LOCATIONS } from "../../config/cities";
+import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
 
 const DOCTORS = [
   {
@@ -203,7 +203,7 @@ const AboutUsPage = ({ graph }) => {
   }, [LOCATIONS]);
 
   const findImageForDoctor = (doctor) => {
-    const found = graph.filter((image) => {
+    const found = graph.doctors.filter((image) => {
       return image.childImageSharp.fluid.originalName === doctor.img;
     });
 
@@ -260,10 +260,21 @@ const AboutUsPage = ({ graph }) => {
             </div>
           </div>
           <div className="img_wrapper">
-            <img
-              src={CeoImage}
-              alt="Agnieszka Czyżewska - specjalista onkologii klinicznej, CEO"
-              title="Agnieszka Czyżewska - specjalista onkologii klinicznej, CEO"
+            <PreviewCompatibleImage
+              imageInfo={{
+                image: graph.CeoImage,
+                alt:
+                  "Agnieszka Czyżewska - specjalista onkologii klinicznej, CEO",
+                title:
+                  "Agnieszka Czyżewska - specjalista onkologii klinicznej, CEO",
+              }}
+              styles={{
+                minWidth: "350px",
+                width: "100%",
+                height: "100%",
+                position: "absolute",
+                borderRadius: "8px 88px",
+              }}
             />
           </div>
         </div>
@@ -339,8 +350,28 @@ export default (props) => (
             }
           }
         }
+        CeoImage: allFile(
+          filter: { relativePath: { regex: "/ceo.jpg/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 300, maxHeight: 300, quality:95) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
     `}
-    render={(data) => <AboutUsPage graph={data.allFile.nodes} {...props} />}
+    render={(data) => (
+      <AboutUsPage
+        graph={{
+          doctors: data.allFile.nodes,
+          CeoImage: data.CeoImage.nodes[0],
+        }}
+        {...props}
+      />
+    )}
   />
 );

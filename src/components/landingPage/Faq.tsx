@@ -1,6 +1,7 @@
 import React from "react";
 import BubbleSection from "../BubbleSection";
 
+import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
 import "../../styles/faq_card.scss";
 
@@ -8,12 +9,23 @@ const FaqCard = ({ data: { image, imageMobile, title = "", text = "" } }) => {
   return (
     <div className="faq_card">
       <div>
-        <img className="image" src={image} alt={title} title={title} />
-        <img
+        <PreviewCompatibleImage
+          className="image"
+          imageInfo={{
+            image: image,
+            alt: title,
+            title: title,
+          }}
+          styles={{}}
+        />
+        <PreviewCompatibleImage
           className="image_mobile"
-          src={imageMobile}
-          alt={title}
-          title={title}
+          imageInfo={{
+            image: imageMobile,
+            alt: title,
+            title: title,
+          }}
+          styles={{}}
         />
       </div>
       <div>

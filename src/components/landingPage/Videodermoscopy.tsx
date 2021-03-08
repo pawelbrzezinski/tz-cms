@@ -7,9 +7,10 @@ import TwoColumnSection, {
   H5_CLASS_NAME,
   INTRO_TEXT_CLASS_NAME,
 } from "../TwoColumnSection";
-import Image from "../../img/home_wideodermatoskopia.png";
+import { graphql, StaticQuery } from "gatsby";
+import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
-const Videodermoscopy = ({ className = "" }) => (
+const Videodermoscopy = ({ className = "", graph }) => (
   <div className={`${className}`}>
     <TwoColumnSection color="white" containerClassName="container" reverse>
       <div>
@@ -47,10 +48,45 @@ const Videodermoscopy = ({ className = "" }) => (
         </div>
       </div>
       <div>
-        <img src={Image} alt="Wideodermatoskopowe badanie znamion" />
+        <PreviewCompatibleImage
+          imageInfo={{
+            image: graph.Image,
+            alt: "Wideodermatoskopowe badanie znamion",
+            title: "Wideodermatoskopowe badanie znamion",
+          }}
+          styles={{}}
+        />
       </div>
     </TwoColumnSection>
   </div>
 );
 
-export default Videodermoscopy;
+
+export default (props) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        Image: allFile(
+          filter: { relativePath: { regex: "/home_wideodermatoskopia.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 337, maxHeight: 300, quality: 25) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data) => (
+      <Videodermoscopy
+        graph={{
+          Image: data.Image.nodes[0],
+        }}
+        {...props}
+      />
+    )}
+  />
+);

@@ -18,7 +18,7 @@
   }
 
   .source_label {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     color: $gray80;
@@ -48,10 +48,6 @@
   .youtube-overlay {
     position: absolute;
     top: 0;
-    background: url("../img/youtube_overlay.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     border-radius: 8px 88px;
     overflow: hidden;
     height: 100%;
@@ -62,6 +58,14 @@
     align-items: center;
     flex-direction: column;
     z-index: 2;
+
+    .gatsby-image-wrapper{
+      border-radius: 8px 88px;
+
+      @media (max-width: $screeen-xs) {
+        border-radius: 8px;
+      }
+    }
 
     @media (max-width: $screeen-xs) {
       border-radius: 8px;
@@ -78,6 +82,7 @@
       color: white;
       font-size: 14px;
       line-height: 20px;
+      z-index: 2;
     }
 
     .play_button {
@@ -88,6 +93,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      z-index: 2;
 
       .play_button_arrow {
         width: 0px;

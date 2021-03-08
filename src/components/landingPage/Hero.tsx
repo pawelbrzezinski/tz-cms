@@ -1,8 +1,8 @@
 import React from "react";
-import "../../styles/hero.scss";
-
-import heroImage from "../../img/doctor_home.svg";
 import Button from "../Button";
+
+import "../../styles/hero.scss";
+import heroImage from "../../img/doctor_home.svg";
 
 const Hero = ({
   className = "",

@@ -21,16 +21,36 @@ import "../styles/article.scss"
 import SEO from '../components/SEO';
 
 
+const hasWidederm = (text = "") => text.toLocaleLowerCase().indexOf("wideoderm") !== -1
+
 const components = {
   img: MyArticleImg,
   More: MyArticleMore,
   table: MyArticleTable,
+  h2: (props) => {
+    const style = hasWidederm(props.children) ? {
+      fontSize: "22px"
+    } : {}
+
+    return (
+      <h2 {...props} style={style} />
+    )
+  },
+  h3: (props) => {
+    const style = hasWidederm(props.children) ? {
+      fontSize: "20px"
+    } : {}
+
+    return (
+      <h3 {...props} style={style} />
+    )
+  },
   YoutubePlayer,
   YoutubeGif
 };
 
 const ArticlePage = (props) => {
-  const { title,description, keywords,toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.data.mdx.frontmatter
+  const { title, description, keywords, toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.data.mdx.frontmatter
 
   return (
     <MDXProvider components={components}>
@@ -39,7 +59,7 @@ const ArticlePage = (props) => {
           bodyAttributes={{
             "type": "article",
           }}
-           />
+        />
         <SEO
           title={title}
           description={description}

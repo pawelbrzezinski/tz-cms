@@ -2,14 +2,15 @@ import { Link } from "gatsby";
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Button from "../Button";
+import { graphql, StaticQuery } from "gatsby";
 import TwoColumnSection, {
   H2_CLASS_NAME,
   H5_CLASS_NAME,
   INTRO_TEXT_CLASS_NAME,
 } from "../TwoColumnSection";
-import Image from "../../img/home_dermoscopy.png";
+import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
-const Dermoscopy = ({ className = "" }) => (
+const Dermoscopy = ({ className = "", graph }) => (
   <div className={`${className}`}>
     <TwoColumnSection color="white" containerClassName="container">
       <div>
@@ -41,17 +42,49 @@ const Dermoscopy = ({ className = "" }) => (
             </AnchorLink>
           </Button>
           <Button type="secondary">
-            <Link to="/dermatoskopia-badanie-znamion">
-              Dermatoskopia
-            </Link>
+            <Link to="/dermatoskopia-badanie-znamion">Dermatoskopia</Link>
           </Button>
         </div>
       </div>
       <div>
-        <img src={Image} alt="Dermatoskopowe badanie znamion" />
+        <PreviewCompatibleImage
+          imageInfo={{
+            image: graph.Image,
+            alt: "Dermatoskopowe badanie znamion",
+            title: "Dermatoskopowe badanie znamion",
+          }}
+          styles={{}}
+        />
       </div>
     </TwoColumnSection>
   </div>
 );
 
-export default Dermoscopy;
+export default (props) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        Image: allFile(
+          filter: { relativePath: { regex: "/home_dermoscopy.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 337, maxHeight: 300, quality: 55) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data) => (
+      <Dermoscopy
+        graph={{
+          Image: data.Image.nodes[0],
+        }}
+        {...props}
+      />
+    )}
+  />
+);

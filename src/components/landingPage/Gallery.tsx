@@ -3,16 +3,20 @@ import React from "react";
 import Alert from "../Alert";
 import BubbleSection from "../BubbleSection";
 import Button from "../Button";
+import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
-const GalleryCard = ({ data = { src: "" } }) => {
+
+const GalleryCard = ({ data }) => {
   return (
     <div>
-      <img
-        src={data.src}
-        title="Zdjęcie ośrodka"
-        style={{
-          width: "100%",
-          height: "350px",
+      <PreviewCompatibleImage
+        imageInfo={{
+          image: data,
+          alt: "Zdjęcie ośrodka",
+          title: "Zdjęcie ośrodka",
+        }}
+        styles={{
+          display: "block",
           objectFit: "cover",
           borderRadius: "8px",
         }}
@@ -20,7 +24,6 @@ const GalleryCard = ({ data = { src: "" } }) => {
     </div>
   );
 };
-
 
 const AlertButton = () => (
   <Button>
@@ -30,8 +33,8 @@ const AlertButton = () => (
   </Button>
 );
 
-const Reviews = ({ className = "", data = [] }) => (
-  <div className={className}>
+const Gallery = ({ className = "", data = []}) => (
+  <div className={`${className} gallery`}>
     <BubbleSection
       introText="Zdjęcia ośrodka"
       h2="Galeria"
@@ -46,12 +49,12 @@ const Reviews = ({ className = "", data = [] }) => (
         </div>
         <Alert button={AlertButton}>
           Nasz zespół tworzą doświadczeni lekarze, którzy wspólnie, z pasją
-          działają na rzecz <strong>zmniejszenia umieralności</strong> z powodu nowotworów skóry
-          w Polsce.
+          działają na rzecz <strong>zmniejszenia umieralności</strong> z powodu
+          nowotworów skóry w Polsce.
         </Alert>
       </div>
     </BubbleSection>
   </div>
 );
 
-export default Reviews;
+export default Gallery;

@@ -1,5 +1,7 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
-import ReactPlayer from "react-player";
+import React, { useCallback, useRef, useState } from "react";
+import ReactPlayer from "react-player/youtube";
+import { graphql, StaticQuery } from "gatsby";
+import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 import "../styles/youtube_player.scss";
 
@@ -10,6 +12,7 @@ const YoutubePlayer = ({
   start = "0",
   end = "0",
   label = "",
+  graph,
 }) => {
   const player = useRef(null);
   const [playing, setPlaying] = useState(false);
@@ -62,20 +65,18 @@ const YoutubePlayer = ({
         loop={loop}
         onProgress={handleProgress}
         config={{
-          youtube: {
-            playerVars: {
-              showinfo: 0,
-              modestbranding: 1,
-              disablekb: 1,
-              controls: 0,
-              fs: 0,
-              rel: 0,
-              cc_load_policy: 0,
-              iv_load_policy: 3,
-              theme: "light",
-              color: "white",
-              vq: "hd1080",
-            },
+          playerVars: {
+            showinfo: 0,
+            modestbranding: 1,
+            disablekb: 1,
+            controls: 0,
+            fs: 0,
+            rel: 0,
+            cc_load_policy: 0,
+            iv_load_policy: 3,
+            theme: "light",
+            color: "white",
+            vq: "hd1080",
           },
         }}
       />
@@ -87,10 +88,50 @@ const YoutubePlayer = ({
             <div className="play_button_arrow"></div>
           </div>
           {label && <div className="label">{label}</div>}
+          <PreviewCompatibleImage
+            imageInfo={{
+              image: graph.Image,
+              alt: label,
+              title: label,
+            }}
+            styles={{
+              minWidth: "350px",
+              width: "100%",
+              height: "100%",
+              position: "absolute",
+            }}
+          />
         </div>
       )}
     </div>
   );
 };
 
-export default YoutubePlayer;
+export default (props) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        Image: allFile(
+          filter: { relativePath: { regex: "/youtube_overlay.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 500, maxHeight: 260, quality: 25) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data) => (
+      <YoutubePlayer
+        graph={{
+          Image: data.Image.nodes[0],
+        }}
+        {...props}
+      />
+    )}
+  />
+);

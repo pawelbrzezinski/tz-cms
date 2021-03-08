@@ -1,6 +1,8 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
+import { graphql, StaticQuery } from "gatsby";
+
 import Hero from "../../components/landingPage/Hero";
 import Layout from "../../components/Layout";
 import Cta from "../../components/Cta";
@@ -27,17 +29,6 @@ import WhyUs from "../../components/landingPage/WhyUs";
 //styles
 import "../../styles/home.scss";
 
-//Gallery
-import ImageGallery1 from "../../img/warszawa/Centrum Badania Znamion w Warszawie.jpg";
-import ImageGallery2 from "../../img/warszawa/Centrum Badania Znamion w Warszawie_1.jpg";
-import ImageGallery3 from "../../img/warszawa/Centrum Badania Znamion w Warszawie_2.jpg";
-import ImageGallery5 from "../../img/warszawa/Centrum Badania Znamion w Warszawie_4.jpg";
-
-//FAQ
-import Faq1Image from "../../img/faq1.png";
-import Faq1ImageMobile from "../../img/faq-1-mobile.png";
-import Faq2Image from "../../img/faq2.png";
-import Faq2ImageMobile from "../../img/faq-2-mobile.png";
 import SEO from "../../components/SEO";
 
 const REVIEWS = [
@@ -58,38 +49,6 @@ const REVIEWS = [
     city: "Warszawa",
     review:
       "Ładnie urządzone miejsce, dobrzy specjaliści. Szczerze polecam to miejsce wszystkim, których niepokoją jakieś znamiona.",
-  },
-];
-
-const GALLERY = [
-  {
-    src: ImageGallery2,
-  },
-  {
-    src: ImageGallery1,
-  },
-  {
-    src: ImageGallery3,
-  },
-  {
-    src: ImageGallery5,
-  },
-];
-
-const FAQS = [
-  {
-    image: Faq1Image,
-    imageMobile: Faq1ImageMobile,
-    title: "Jakie są przeciwwskazania do wykonania badania?",
-    text:
-      "Dermatoskopia jest całkowicie nieinwazyjną metodą diagnostyki, nie ma żadnych przeciwwskazań do jej wykonania. Badaniu mogą poddać się kobiety w ciąży, karmiące piersią, osoby obciążone poważnymi chorobami przewlekłymi czy też dzieci. Dermatoskopia polega na wykonywaniu zdjęć znamion w powiększeniu stąd może zostać wykonana u każdego.",
-  },
-  {
-    image: Faq2Image,
-    imageMobile: Faq2ImageMobile,
-    title: "Czy czerniak boli?",
-    text:
-      "Dolegliwości bólowe nie są charakterystycznym objawem dla czerniaka, natomiast ich obecność bądź brak nie przesądza w żadnym wypadku diagnozy. Czerniak może rozwijać się po cichu, bez bólu i zupełnie niezauważalnie i z roku na rok zajmować coraz większą powierzchnię Twojej skóry. Najczęstszy czerniak szerzący się powierzchownie (SSMM - superficial spreading melanoma malignum), może wzrastać niezauważalnie nawet kilka lat!",
   },
 ];
 
@@ -203,64 +162,215 @@ const CtaCennik = () => {
   );
 };
 
-const PoznanBadanieZnamionPage = () => (
-  <Layout constactCtaComponent={<CtaUmowSie />}>
-    <SEO
-      title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
-      description="Warszawa - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."
-      keywords="badanie znamion, warszawa, dermatoskopia"
-    />
-    <Hero
-      h1="Warszawskie Centrum Dermatoskopowego Badania Znamion"
-      oneLiner="Wszystkie swoje działania skupiamy na kompleksowej diagnostyce znamion aby wyeliminować nowotwory skóry z życia milionów ludzi."
-      oneLinerMore="Upewnij się, że czerniak nie ukrywa się w jednym z niepozornych pieprzyków na Twojej skórze."
-      ctaPrimary={<CtaUmowSie />}
-      ctaSecondary={<CtaCennik />}
-    />
-    <Offer className="home_offer" />
-    <Melanoma className="home_melanoma" />
-    <WhyUs className="home_why_us" />
-    <PriceList className="home_price_list" data={PRICES} />
-    <Covid className="home_covid" />
-    <Contact className="home_contact" />
-    <Location
-      className="home_location"
-      coords={{
-        lat: 52.4139945,
-        lng: 16.9005161,
-      }}
-      googleMarker={{
-        title: "ul. Sokołowska 9/U-02",
-        data: "Dzielnica - Wola, 01-142 Warszawa",
-        link: "https://g.page/twoje-znamiona-warszawa?share",
-      }}
-      additionalDetails="Centrum Badania Znamion znajduje się w tym samym pasażu co Auchan - Gabinety Oricea. Przed Auchan są dostępne miejsca parkingowe."
-      locationInfo={{
-        title: "ul. Sokołowska 9/U-02",
-        data: "Dzielnica - Wola, 01-142 Warszawa",
-      }}
-      hoursInfo={{
-        data: "pon. - pt.: 10:00⁃19:00, czwartek: 8:00 - 19:00 ",
-      }}
-      transportationInfo={{
-        data: "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
-      }}
-    />
-    <Gallery className="home_gallery" data={GALLERY} />
+const PoznanBadanieZnamionPage = ({ graph }) => {
+  const FAQS = [
+    {
+      image: graph.faqs[1].image,
+      imageMobile: graph.faqs[1].imageMobile,
+      title: "Jakie są przeciwwskazania do wykonania badania?",
+      text:
+        "Dermatoskopia jest całkowicie nieinwazyjną metodą diagnostyki, nie ma żadnych przeciwwskazań do jej wykonania. Badaniu mogą poddać się kobiety w ciąży, karmiące piersią, osoby obciążone poważnymi chorobami przewlekłymi czy też dzieci. Dermatoskopia polega na wykonywaniu zdjęć znamion w powiększeniu stąd może zostać wykonana u każdego.",
+    },
+    {
+      image: graph.faqs[2].image,
+      imageMobile: graph.faqs[2].imageMobile,
+      title: "Czy czerniak boli?",
+      text:
+        "Dolegliwości bólowe nie są charakterystycznym objawem dla czerniaka, natomiast ich obecność bądź brak nie przesądza w żadnym wypadku diagnozy. Czerniak może rozwijać się po cichu, bez bólu i zupełnie niezauważalnie i z roku na rok zajmować coraz większą powierzchnię Twojej skóry. Najczęstszy czerniak szerzący się powierzchownie (SSMM - superficial spreading melanoma malignum), może wzrastać niezauważalnie nawet kilka lat!",
+    },
+  ];
 
-    <Reviews className="home_reviews" data={REVIEWS} />
+  return (
+    <Layout constactCtaComponent={<CtaUmowSie />}>
+      <SEO
+        title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
+        description="Warszawa - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."
+        keywords="badanie znamion, warszawa, dermatoskopia"
+      />
+      <Hero
+        h1="Warszawskie Centrum Dermatoskopowego Badania Znamion"
+        oneLiner="Wszystkie swoje działania skupiamy na kompleksowej diagnostyce znamion aby wyeliminować nowotwory skóry z życia milionów ludzi."
+        oneLinerMore="Upewnij się, że czerniak nie ukrywa się w jednym z niepozornych pieprzyków na Twojej skórze."
+        ctaPrimary={<CtaUmowSie />}
+        ctaSecondary={<CtaCennik />}
+      />
+      <Offer className="home_offer" />
+      <Melanoma className="home_melanoma" />
+      <WhyUs className="home_why_us" />
+      <PriceList className="home_price_list" data={PRICES} />
+      <Covid className="home_covid" />
+      <Contact className="home_contact" />
+      <Location
+        className="home_location"
+        coords={{
+          lat: 52.4139945,
+          lng: 16.9005161,
+        }}
+        googleMarker={{
+          title: "ul. Sokołowska 9/U-02",
+          data: "Dzielnica - Wola, 01-142 Warszawa",
+          link: "https://g.page/twoje-znamiona-warszawa?share",
+        }}
+        additionalDetails="Centrum Badania Znamion znajduje się w tym samym pasażu co Auchan - Gabinety Oricea. Przed Auchan są dostępne miejsca parkingowe."
+        locationInfo={{
+          title: "ul. Sokołowska 9/U-02",
+          data: "Dzielnica - Wola, 01-142 Warszawa",
+        }}
+        hoursInfo={{
+          data: "pon. - pt.: 10:00⁃19:00, czwartek: 8:00 - 19:00 ",
+        }}
+        transportationInfo={{
+          data: "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
+        }}
+      />
+      <Gallery className="home_gallery"  data={graph.gallery} />
 
-    <ProcedureDetails className="home_procedure_details" />
-    <ImportantInfo className="home_important_info" />
-    <Dermoscopy className="home_dermoscopy" />
-    <Videodermoscopy className="home_videodermoscopy" />
-    <RiskGroup className="home_risk_group" />
-    <Surgery className="home_videodermoscopy" />
-    <Faq className="home_faq" data={FAQS} />
-    <Abcde className="home_abcde" />
-    <Oncology className="home_videodermoscopy" />
-    <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
-  </Layout>
+      <Reviews className="home_reviews" data={REVIEWS} />
+
+      <ProcedureDetails className="home_procedure_details" />
+      <ImportantInfo className="home_important_info" />
+      <Dermoscopy className="home_dermoscopy" />
+      <Videodermoscopy className="home_videodermoscopy" />
+      <RiskGroup className="home_risk_group" />
+      <Surgery className="home_videodermoscopy" />
+      <Faq className="home_faq" data={FAQS} />
+      <Abcde className="home_abcde" />
+      <Oncology className="home_videodermoscopy" />
+      <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} /> 
+    </Layout>
+  );
+};
+
+export default (props) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        ImageGallery1: allFile(
+          filter: {
+            relativePath: { regex: "/Centrum Badania Znamion w Warszawie.jpg/" }
+          }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 550, maxHeight: 350, quality: 90) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        ImageGallery2: allFile(
+          filter: {
+            relativePath: {
+              regex: "/Centrum Badania Znamion w Warszawie_1.jpg/"
+            }
+          }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 550, maxHeight: 350, quality: 90) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        ImageGallery3: allFile(
+          filter: {
+            relativePath: {
+              regex: "/Centrum Badania Znamion w Warszawie_2.jpg/"
+            }
+          }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 550, maxHeight: 350, quality: 90) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        ImageGallery5: allFile(
+          filter: {
+            relativePath: {
+              regex: "/Centrum Badania Znamion w Warszawie_4.jpg/"
+            }
+          }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 550, maxHeight: 350, quality: 90) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        Faq1Image: allFile(filter: { relativePath: { regex: "/faq1.png/" } }) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 144, maxHeight: 269, quality: 50) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        Faq2Image: allFile(filter: { relativePath: { regex: "/faq2.png/" } }) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 144, maxHeight: 269, quality: 70) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        Faq1ImageMobile: allFile(
+          filter: { relativePath: { regex: "/faq-1-mobile.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 288, maxHeight: 179, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        Faq2ImageMobile: allFile(
+          filter: { relativePath: { regex: "/faq-2-mobile.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 288, maxHeight: 179, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data) => (
+      <PoznanBadanieZnamionPage
+        graph={{
+          gallery: [
+            data.ImageGallery1.nodes[0],
+            data.ImageGallery2.nodes[0],
+            data.ImageGallery3.nodes[0],
+            data.ImageGallery5.nodes[0],
+          ],
+          faqs: {
+            1: {
+              image: data.Faq1Image.nodes[0],
+              imageMobile: data.Faq1ImageMobile.nodes[0],
+            },
+            2: {
+              image: data.Faq2Image.nodes[0],
+              imageMobile: data.Faq2ImageMobile.nodes[0],
+            },
+          },
+        }}
+        {...props}
+      />
+    )}
+  />
 );
-
-export default PoznanBadanieZnamionPage;

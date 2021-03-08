@@ -7,9 +7,11 @@ import TwoColumnSection, {
   H5_CLASS_NAME,
   INTRO_TEXT_CLASS_NAME,
 } from "../TwoColumnSection";
-import Image from "../../img/home_surgery.png";
 
-const Surgery = ({ className = "" }) => (
+import { graphql, StaticQuery } from "gatsby";
+import PreviewCompatibleImage from "../PreviewCompatibleImage";
+
+const Surgery = ({ className = "", graph }) => (
   <div className={`${className}`}>
     <TwoColumnSection color="white" containerClassName="container" reverse>
       <div>
@@ -37,10 +39,45 @@ const Surgery = ({ className = "" }) => (
         </div>
       </div>
       <div>
-        <img src={Image} alt="Wideodermatoskopowe badanie znamion" />
+        <PreviewCompatibleImage
+          imageInfo={{
+            image: graph.Image,
+            alt: "Chirurgiczne usuwanie znamion",
+            title: "Chirurgiczne usuwanie znamion",
+          }}
+          styles={{}}
+        />
       </div>
     </TwoColumnSection>
   </div>
 );
 
-export default Surgery;
+
+export default (props) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        Image: allFile(
+          filter: { relativePath: { regex: "/home_surgery.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 337, maxHeight: 300, quality: 25) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data) => (
+      <Surgery
+        graph={{
+          Image: data.Image.nodes[0],
+        }}
+        {...props}
+      />
+    )}
+  />
+);

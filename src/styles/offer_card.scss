@@ -41,4 +41,16 @@
     color: $gray;
     line-height: 24px;
   }
+
+  .gatsby-image-wrapper {
+    display: block;
+    width: 128px;
+    height: 128px;
+    border-radius: 128px!important;
+    margin-bottom: 24px;
+
+    img{
+      border-radius: 128px;
+    }
+  }
 }

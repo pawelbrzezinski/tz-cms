@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import logo from "../img/logo.svg";
 import call from "../img/call.svg";
-import star from "../img/star_icon.svg";
+import StarsImage from "../img/stars.svg";
 import email from "../img/mail_icon.svg";
 import fb from "../img/fb_icon.svg";
 import instagram from "../img/instagram_icon.svg";
@@ -53,11 +53,7 @@ const Footer = () => {
             <p>Oceń nas</p>
             <div className="footer_contact_reviews_container">
               <div className="footer_contact_stars_wrapper">
-                <img src={star} alt="Twoje Znamiona - Opinie" />
-                <img src={star} alt="Twoje Znamiona - Opinie" />
-                <img src={star} alt="Twoje Znamiona - Opinie" />
-                <img src={star} alt="Twoje Znamiona - Opinie" />
-                <img src={star} alt="Twoje Znamiona - Opinie" />
+                <img src={StarsImage} alt="5 gwiazdek" />
               </div>
               <div className="footer_contact_rating_wrapper">
                 <span>5,0</span> (<span>691</span> opinii)

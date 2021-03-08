@@ -55,9 +55,11 @@ $scale-down-breakpoint: 1350px;
     a,
     img {
       height: 48px;
+      width: 142px;
 
       @media (max-width: $screeen-lg) {
         height: 34px;
+        width: 102px;
       }
     }
   }
@@ -155,7 +157,7 @@ $scale-down-breakpoint: 1350px;
     color: $gray;
     cursor: pointer;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     padding: 10px 15px;

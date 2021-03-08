@@ -81,6 +81,8 @@
     }
 
     .img_wrapper {
+      position: relative;
+      
       @media (max-width: $screeen-md) {
         margin-bottom: 24px;
       }
@@ -123,13 +125,13 @@
       line-height: 24px;
 
       .ceo_title {
-        font-weight: normal;
+        font-weight: 400;
       }
     }
 
     .medical_title {
       color: $gray80;
-      font-weight: normal;
+      font-weight: 400;
       font-size: 14px;
     }
   }

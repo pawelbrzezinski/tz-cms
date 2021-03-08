@@ -11,7 +11,7 @@ sources:
     label: Praca zbiorowa Czerniaki skóry. Wytyczne postępowania diagnostyczno-terapeutycznego.
   - label: Kaszuba A., Bartkowiak R., Kaszuba A. Czerniak,  Kaszuba A., Adamski Z. Poradnik lekarza praktyka. Dermatologia. Wydawnictwo Czelej, Lublin 2012. ss. 210-213.
   - link: https://www.termedia.pl/dermatologia/Czerniak-u-dziecka-bardziej-zaawansowany-choc-przezycie-dluzsze,23396.html
-    label: https://www.termedia.pl/dermatologia/Czerniak-u-dziecka-bardziej-zaawansowany-choc-przezycie-dluzsze,23396.html , [dostęp 27.10.2020]
+    label: https://www.termedia.pl, [dostęp 27.10.2020]
   - link: http://aestheticcosmetology.com/wp-content/uploads/2019/01/ke2018.3-2.pdf
     label: Zbyszko Chowaniec, Czerniak – problemy diagnostyczno-terapeutyczne w praktyce kosmetologa
   - link: https://onlinelibrary.wiley.com/doi/full/10.1002/ijc.31527

@@ -102,7 +102,7 @@
       }
 
       > p:first-of-type {
-        font-weight: normal;
+        font-weight: 400;
         font-size: 12px;
         line-height: 30px;
       }
@@ -142,7 +142,7 @@
       }
 
       > p:first-of-type {
-        font-weight: normal;
+        font-weight: 400;
         font-size: 12px;
         line-height: 30px;
       }
@@ -204,11 +204,12 @@
       .footer_contact_stars_wrapper {
         img {
           margin-right: 5px;
+          width: 80px;
         }
       }
 
       .footer_contact_rating_wrapper {
-        font-weight: normal;
+        font-weight: 400;
         font-size: 12px;
         line-height: 30px;
         margin-left: 12px;
@@ -270,7 +271,7 @@
       .footer_link {
         display: block;
         color: $gray;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 12px;
         line-height: 30px;
 
