@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Jak chronić się przed nowotworem skóry
+title: bezplatne-badanie-znamion-Poznan-2020
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 6
