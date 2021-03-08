@@ -67,21 +67,15 @@ W ramach **unikania** zachorowania na **raka skóry** zaleca się
 * noszenie odzieży ochronnej, okularów przeciwsłonecznych i nakryć głowy,
 * stosowanie **filtrów ochronnych UVA i UVB - SPF15(+)** w miejscach odsłoniętych,
 
-
-
 ## Jak stosować kremy z filtrem?
 
 Stosując krem z filtrem pamiętajmy o nakładaniu go na skórę co 2 godziny w trakcie przebywania na słońcu. Według danych z badań z losowym doborem chorych, właściwe stosowanie kremów z filtrem zmniejsza ryzyko zachorowania na czerniaka. (Green A.C i in., 2011)
 
 <More link="https://www.akademiaczerniaka.pl/artykuly/artykul/zlote-zasady-ktore-moga-pomoc-ochronic-sie-przed-czerniakiem" text="Złote zasady ochrony przed czerniakiem wg prof. dr hab. Piotra Rutkowskiego" cta="Sprawdź" />
 
-
-
 ## Solarium - czy jest szkodliwe?
 
 ![Szkodliwość solarium](img/solarium-szkodliwe.png "Szkodliwość solarium")
-
-
 
 Niezwykle groźne jest korzystanie z łóżek opalających, gdzie emitowane promieniowanie UV jest 10-15-krotnie silniejsze niż UV w południe podczas słonecznego dnia.
 
@@ -113,8 +107,6 @@ Jeśli chodzi o zachowania profilaktyczne należy też oczywiście pamiętać o 
 * D - duża średnica znamienia (ang. diameter) - średnica powyżej 6 mm,
 * E - ewolucja (ang. evolving over time) - widoczne zmiany zachodzące w znamieniu.
 
-
-
 Na rzecz oceny czerniaka guzowatego (ang. nodular melanoma -NM) stosuje się też :
 
 * E - uniesienie (ang. elevated) - uniesiony nad powierzchnię skóry,
@@ -124,7 +116,5 @@ Na rzecz oceny czerniaka guzowatego (ang. nodular melanoma -NM) stosuje się te�
 ## Badania znamion, dermatoskopia, wideodermatoskopia - najlepsza metoda diagnostyki.
 
 Ważnym elementem profilaktyki jest ponadto badanie dermatoskopowe, które powinno być wykonywane regularnie z częstotliwością zależną od wskazań i zaleceń lekarskich ( średnio 1 x rok) oraz poddawanie znamion budzących jakikolwiek niepokój onkologiczny chirurgicznej resekcji.
-
-
 
 <More link="https://twojeznamiona.pl/dermatoskopia-badanie-znamion" text="Dowiedz się więcej o badaniu dermatoskopowym" cta="Sprawdź" />
