@@ -27,22 +27,6 @@ keywords:
 tags:
   - badanie znamion
   - czerniak
-sources:
-  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
-      Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
-      Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
-      rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
-      ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
-  - label: onet
-    link: https://www.facebook.com/
+sources: []
 ---
-## Czerniak zdjęcia
 
-
-
-<More link="/czerniak" text="Jak wyglada  czerniak" cta="Sprawdź" />
-
-![czerniak](img/metoda_abcd_a.png "czerniak")
-![czerniak](img/metoda_abcd_b.png "czerniak")
-![czerniak](img/metoda_abcd_c.png "czerniak")
-![czerniak](img/metoda_abcd_d.png "czerniak")
