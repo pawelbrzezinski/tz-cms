@@ -3,38 +3,52 @@ templateKey: blog-post
 title: Gdzie badać znamiona w Szczecinie w 2020
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 8
+readingTime: 6
 date: 2020-09-04T18:51:38.512Z
-description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
-  barwnikowych - melanocytów. Poniżej prezentujemy zdjęcia czerniaków, które
-  wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie
-  samobadania swoich znamion. Po zapoznaniu się z tym artykułem będziesz
-  wiedzieć jak wygląda typowy czerniak.
+description: Gdzie zbadać znamiona w Szczecinie w 2020 roku? Badania
+  dermatoskopowe, czy może wideodermatoskopowe? Profesjonalne Centra Diagnostyki
+  Znamion Barwnikowych.
 keywords:
-  - czerniak zdjęcia
-  - czeerniak paznokcia
-  - czerniak podpaznokciowy
-  - czerniak guguzkowaty
-  - czerniak leczenie
-  - czerniak objawy
   - badanie znamion
+  - szczecin
+  - "2020"
   - dermatoskopia
-  - jak wyglada czerniak
-  - wideodermatoskopia
-  - centrum badania znamion
-  - czerniak onkolog
-  - konsultacje onkologiczne
-tags:
-  - badanie znamion
+  - ocena znamion
+  - profilaktyka
+  - brodawki
+  - włókniak
   - czerniak
-sources:
-  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
-      Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
-      Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
-      rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
-      ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
-  - label: onet
-    link: https://www.facebook.com/
+  - rak
+  - nowotwór skóry
+  - onkologia
+  - złośliwy
+  - przerzuty
+  - medycyna
+  - leczenie
+  - diagnostyka
+  - rokowania
+  - rak skóry
+  - znamiona
+  - twojeznamiona
+  - czerniak leczenie
+  - czerniak przerzuty
+  - czerniak skory
+  - czerniak skóry
+  - czerniak zdjęcia
+  - czerniak złośliwy
+  - czerniak złośliwy objawy
+  - czerniak złośliwy zdjęcia
+  - leczenie czerniaka
+  - rak czerniak
+  - rak skóry czerniak
+  - usuwanie znamion
+  - zdjęcia czerniaka
+  - znamiona barwnikowe
+tags:
+  - Badanie Znamion
+  - Wideodermatoskopia
+  - Szczecin
+sources: []
 ---
 **Lato rozpieszcza słońcem, ale nie jest już tak opiekuńcze dla skóry. Dlatego żegnając wakacje, zaczynamy intensywniej pielęgnować ciało i walczyć z oznakami przesuszenia skóry. Pieprzyki również powinny znaleźć się w centrum uwagi. Artykuł ten opowie o zagadnieniach dotyczących:**
 
@@ -87,4 +101,10 @@ Dlaczego samoobserwacja jest niewystarczająca? Kierujmy się zawsze zdrowym roz
 
 
 
-<More link="/czerniak" text="Jak wyglada  czerniak" cta="Sprawdź" />
+<More link="https://twojeznamiona.pl/blog/jak-wyglada-czerniak-zdjecia" text="Jak wygląda czerniak? ZDJĘCIA" cta="Sprawdź" />
+
+
+
+Łapiąc opaleniznę w ostatnich promieniach letniego słońca na Wałach Chrobrego warto pomyśleć o zdrowiu swojej skóry i zajrzeć także na ulicę Arkońską 51/01. Umówienie wizyty w Ogólnopolskim **Centrum Badania Znamion** nie oznacza perspektywy długiego czekania. Dostępne są szybkie terminy. A jeżeli wracamy z wakacji w Szczecinie, to zarezerwujmy konsultację u siebie lub w pobliskiej aglomeracji. Centrum posiada jeszcze swoje ośrodki w Warszawie, Poznaniu,Wrocławiu oraz prowadzi zaawansowane przygotowania, by jego specjaliści zawitali do Gdańska, Krakowa, łodzi, Katowic i wielu wielu innych miast.
+
+<More link="https://twojeznamiona.pl/blog/jak-chronic-sie-przed-nowotworem-skory" text="Jak chronić się przed nowotworem skóry?" cta="Sprawdź" />
