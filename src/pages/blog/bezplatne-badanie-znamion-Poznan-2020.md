@@ -93,8 +93,6 @@ Szczególną uwagę zwraca się na ochronę dzieci przed słońcem - odpowiednia
 
 ![Środki ochrony przeciwsłonecznej na podstawie Indexu UV.](img/indeks-uv-profilaktyka.png "Środki ochrony przeciwsłonecznej na podstawie Indexu UV.")
 
-
-
 “Indeks UV jest zalecany do stosowania w powszechnym rozbudzaniu świadomości o potencjalnie szkodliwym oddziaływaniu na zdrowie nadmiernej ekspozycji na promieniowanie UV i ostrzeganiu ludzi o konieczności stosowania środków ochronnych.” (Instytut Meteorologii i Gospodarki Wodnej Państwowy Instytut Badawczy - IMiGW PIB)
 
 ## Metoda ABCDE - Jak obserwować znamiona?
