@@ -39,7 +39,7 @@
 
       h5 {
         color: $white;
-       
+
         @media (max-width: $screeen-sm) {
           font-weight: normal;
         }
@@ -54,6 +54,8 @@
         }
       }
     }
+
+    
   }
 
   .covid_modal_body {
@@ -65,7 +67,6 @@
       img {
         width: 128px;
         display: block;
-
 
         @media (max-width: $screeen-xs) {
           width: 64px;

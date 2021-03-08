@@ -1,6 +1,5 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import "../../styles/procedure_details.scss";
 
 import PrzebiegBadaniaImage from "../../img/przebieg-badania-dermatoskopowego.png";
 import Button from "../Button";
