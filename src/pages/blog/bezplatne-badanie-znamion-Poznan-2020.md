@@ -5,36 +5,48 @@ author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 8
 date: 2020-09-04T18:51:38.512Z
-description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
-  barwnikowych - melanocytów. Poniżej prezentujemy zdjęcia czerniaków, które
-  wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie
-  samobadania swoich znamion. Po zapoznaniu się z tym artykułem będziesz
-  wiedzieć jak wygląda typowy czerniak.
+description: Światowa Organizacja Zdrowia WHO opracowała wytyczne dotyczące
+  ekspozycji na promieniowanie UV jako głównego czynnika zwiększającego ryzyko
+  zachorowania na nowotwory skóry.
 keywords:
-  - czerniak zdjęcia
-  - czerniak paznokcia
-  - czerniak podpaznokciowy
-  - czerniak guguzkowaty
-  - czerniak leczenie
-  - czerniak objawy
   - badanie znamion
   - dermatoskopia
-  - jak wyglada czerniak
-  - wideodermatoskopia
-  - centrum badania znamion
-  - czerniak onkolog
-  - konsultacje onkologiczne
-tags:
-  - badanie znamion
+  - ocena znamion
+  - profilaktyka
+  - brodawki
+  - włókniak
   - czerniak
-sources:
-  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
-      Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
-      Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
-      rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
-      ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
-  - label: onet
-    link: https://www.facebook.com/
+  - rak
+  - nowotwór skóry
+  - onkologia
+  - złośliwy
+  - przerzuty
+  - medycyna
+  - leczenie
+  - diagnostyka
+  - rokowania
+  - rak skóry
+  - znamiona
+  - twojeznamiona
+  - czerniak leczenie
+  - czerniak przerzuty
+  - czerniak skory
+  - czerniak skóry
+  - czerniak zdjęcia
+  - czerniak złośliwy
+  - czerniak złośliwy objawy
+  - czerniak złośliwy zdjęcia
+  - leczenie czerniaka
+  - rak czerniak
+  - rak skóry czerniak
+  - usuwanie znamion
+  - zdjęcia czerniaka
+  - znamiona barwnikowe
+tags:
+  - Badanie Znamion
+  - Wideodermatoskopia
+  - Profilaktyka raka skóry
+sources: []
 ---
 **Światowa Organizacja Zdrowia WHO** opracowała wytyczne dotyczące ekspozycji na promieniowanie UV jako głównego czynnika zwiększającego ryzyko **zachorowania na nowotwory skóry**. W tym artykule opowiemy:
 
