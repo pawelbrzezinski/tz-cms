@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Jak chronić się przed nowotworem skóry
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 8
+readingTime: 6
 date: 2020-09-04T18:51:38.512Z
 description: Światowa Organizacja Zdrowia WHO opracowała wytyczne dotyczące
   ekspozycji na promieniowanie UV jako głównego czynnika zwiększającego ryzyko
