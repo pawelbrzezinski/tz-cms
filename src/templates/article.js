@@ -28,21 +28,21 @@ const components = {
   More: MyArticleMore,
   table: MyArticleTable,
   h2: (props) => {
-    const style = hasWidederm(props.children) ? {
-      fontSize: "22px"
-    } : {}
+    const className = hasWidederm(props.children) ? "wideoderm" : "";
 
     return (
-      <h2 {...props} style={style} />
+      <h2 className={className}>
+        {props.children}
+      </h2>
     )
   },
   h3: (props) => {
-    const style = hasWidederm(props.children) ? {
-      fontSize: "20px"
-    } : {}
+   const className = hasWidederm(props.children) ? "wideoderm" : "";
 
     return (
-      <h3 {...props} style={style} />
+      <h3 className={className}>
+        {props.children}
+      </h3>
     )
   },
   YoutubePlayer,

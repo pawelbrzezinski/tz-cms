@@ -83,8 +83,8 @@ const HomePage = ({ graph }) => {
       <Reviews className="home_reviews" data={REVIEWS} />
       <Melanoma className="home_melanoma" />
       <Faq className="home_faq" data={FAQS} />
-      <Dermoscopy className="home_dermoscopy" />
-      <Videodermoscopy className="home_videodermoscopy" />
+      <Dermoscopy className="home_two_col_section_right_img" />
+      <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
       <Abcde className="home_abcde" />
       <Surgery className="home_surgery" />

@@ -27,35 +27,38 @@ const OfferCard = ({ image, title = "", desc = "" }) => {
 };
 
 const Offer = ({
+  data = [],
   className = "",
-  graph: { BadanieZnamionImage, UsuwanieZnamionImage, KonsultacjeImage },
+  h5 = "",
+  graph: { BadanieZnamionImage, UsuwanieZnamionImage, UsuwanieNiechirurgiczneZnamionImage, KonsultacjeImage },
 }) => {
+  const IMAGES = {
+    badanie: BadanieZnamionImage,
+    chirurgiczne: UsuwanieZnamionImage,
+    niechirurgiczne: UsuwanieNiechirurgiczneZnamionImage,
+    onkologia: KonsultacjeImage,
+  };
   return (
     <div className={className}>
       <BubbleSection
         introText="Jak możemy Ci pomóc?"
         h2="Nasze usługi"
-        h5="W naszym Centrum Badania Znamion w procesie diagnostycznym uczestniczą dermatolodzy, chirurdzy oraz onkolodzy, zapewniając pacjentom kompleksową opiekę i profesjonalną  diagnostykę."
+        h5={
+          h5 ||
+          "W naszym Centrum Badania Znamion w procesie diagnostycznym uczestniczą dermatolodzy, chirurdzy oraz onkolodzy, zapewniając pacjentom kompleksową opiekę i profesjonalną  diagnostykę."
+        }
         color="violet"
       >
         <div className="container">
           <div className="cards">
-            <OfferCard
-              image={BadanieZnamionImage}
-              title="Badanie znamion"
-              desc="
-              Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć."
-            />
-            <OfferCard
-              image={UsuwanieZnamionImage}
-              title="Usuwanie znamion"
-              desc="Chirurgiczne usuwanie podejrzanych pieprzyków wytypowanych przez lekarza w trakcie badania wideodermatoskopowego z wykonaniem histopatologicznej oceny usuniętej zmiany skórnej. Nieinwazyjne usuwanie łagodnych znamion laserem Co2 lub metodą krioterapii."
-            />
-            <OfferCard
-              image={KonsultacjeImage}
-              title="Konsultacje onkologiczne"
-              desc="Konsultacja onkologiczna w zakresie nowotworów skóry, w tym czerniaka złośliwego. Pacjent otrzymuje zalecenia po usunięciu zmiany nowotworowej, dotyczące badań kontrolnych, leczenia uzupełniającego, a także leczenia zaawansowanego czerniaka."
-            />
+            {data.map((offer) => (
+              <OfferCard
+                key={offer.type}
+                image={IMAGES[offer.type]}
+                title={offer.title}
+                desc={offer.desc}
+              />
+            ))}
           </div>
         </div>
       </BubbleSection>
@@ -91,6 +94,18 @@ export default (props) => (
             }
           }
         }
+        UsuwanieNiechirurgiczneZnamionImage: allFile(
+          filter: { relativePath: { regex: "/usuwanie_niechirurgiczne_znamion_offer.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 128, maxHeight: 128, quality: 100) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
         Konsultacje: allFile(
           filter: {
             relativePath: { regex: "/konsultacje_onkologiczne_offer.png/" }
@@ -112,6 +127,7 @@ export default (props) => (
         graph={{
           BadanieZnamionImage: data.BadanieZnamion.nodes[0],
           UsuwanieZnamionImage: data.UsuwanieZnamion.nodes[0],
+          UsuwanieNiechirurgiczneZnamionImage: data.UsuwanieNiechirurgiczneZnamionImage.nodes[0],
           KonsultacjeImage: data.Konsultacje.nodes[0],
         }}
         {...props}

@@ -33,48 +33,50 @@ import SEO from "../../components/SEO";
 
 const REVIEWS = [
   {
-    author: "Aleksandra K.",
+    author: "Sandra S.",
     city: "Warszawa",
     review:
-      "Sposób przeprowadzenia badania sprostał moim oczekiwaniom. Dokładnie, szczegółowo i kompleksowo wszystko sprawdzone.",
+      "Znamię z jakim przyszłam nie było groźne, ale najzwyczajniej mi się nie podobało, bo było w widocznym miejscu, w okolicy policzka. Zdecydowałam się je usunąć, po zabiegu nie było żadnych komplikacji. Wszystko dobrze się zagoiło, w ogóle nic nie widać.",
   },
   {
-    author: "Krystyna H.",
+    author: "Szymon M.",
     city: "Warszawa",
     review:
-      "Już Panie w recepcji są niezwykle uprzejme. Miałam umówioną wizytę, ale wypadło mi coś w pracy. Zadzwoniłam, aby ją przełożyć z czym nie było problemu. Wczoraj byłam na sprawdzeniu swoich znamion. Wszystko jest Ok, dziękuję za miłą konsultację.",
+      "Odwiedziłem już kilka przychodni leczące zmiany skórne, ale dopiero tutaj przy pomocy nowoczesnego sprzętu określono prawidłowo moje znamię, które zostało już usunięte.",
   },
   {
-    author: "Ryszard M.",
+    author: "Marianna W.",
     city: "Warszawa",
     review:
-      "Ładnie urządzone miejsce, dobrzy specjaliści. Szczerze polecam to miejsce wszystkim, których niepokoją jakieś znamiona.",
+      "Chciałam się umówić na laserowe usunięcie nietypowego pieprzyka na nodze jednak po rozmowie z Panią w rejestracji zdecydowałam się najpierw na badanie wszystkich znamion. Całe szczęście, bo znamię które chciałam usunąć laserem okazało się czerniakiem! Dziękuję wszystkim za pomoc! Jestem teraz pod stałą kontrolą.",
+  },
+];
+
+const OFFERS = [
+  {
+    type: "chirurgiczne",
+    title: "Usuwanie znamion",
+    desc:
+      "Każda niepokojąca zmiana skórna powinna być usunięta chirurgicznie gdyż tylko na podstawie badania histopatologicznego można postawić jednoznaczną diagnozę. Przed wykonaniem zabiegu pacjent powinien poddać się badaniu dermatoskopowemu.",
+  },
+
+  {
+    type: "niechirurgiczne",
+    title: "Nieinwazyjne Usuwanie Znamion",
+    desc:
+      "Nieinwazyjne usuwanie łagodnych pieprzyków  laserem Co2 lub metodą krioterapii jest zarezerwowane dla łagodnych zmian skórnych. Lekarz po wykonaniu badania dermatoskopowego wszystkich znamion kwalifikuje znamiona do odpowiedniej metody zabiegowej.",
+  },
+  {
+    type: "badanie",
+    title: "Badanie znamion",
+    desc:
+      "Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć.",
   },
 ];
 
 const PRICES = [
   {
     isOpened: true,
-    categoryName: "Badanie znamion - wideodermatoskopia",
-    items: [
-      {
-        price: "300",
-        label:
-          "Wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
-      },
-      {
-        price: "200",
-        label: "Wideodermatoskopia dziecka do 12 roku życia",
-      },
-      {
-        price: "200",
-        label:
-          "Wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
-      },
-    ],
-  },
-  {
-    isOpened: false,
     categoryName: "Chirurgiczne usuwanie znamion",
     items: [
       {
@@ -123,7 +125,27 @@ const PRICES = [
   },
   {
     isOpened: false,
-    categoryName: "Konsultacje Onkologiczne - czerniak",
+    categoryName: "Badanie znamion - wideodermatoskopia",
+    items: [
+      {
+        price: "300",
+        label:
+          "Wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
+      },
+      {
+        price: "200",
+        label: "Wideodermatoskopia dziecka do 12 roku życia",
+      },
+      {
+        price: "200",
+        label:
+          "Wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
+      },
+    ],
+  },
+  {
+    isOpened: false,
+    categoryName: "Konsultacje onkologiczne - czerniak",
     items: [
       {
         price: "200",
@@ -131,39 +153,7 @@ const PRICES = [
       },
     ],
   },
-  {
-    isOpened: false,
-    categoryName: "Konsultacje dermatologiczne",
-    items: [
-      {
-        price: "250",
-        label: "Konsultacja dermatologiczna",
-      },
-      {
-        price: "150",
-        label: "E-wizyta - wideokonferencja",
-      },
-    ],
-  },
 ];
-
-const OFFERS = [
-  {
-    type: "badanie",
-    title: "Badanie znamion",
-    desc: "Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć.",
-  },
-  {
-    type: "chirurgiczne",
-    title: "Usuwanie znamion",
-    desc: "Chirurgiczne usuwanie podejrzanych pieprzyków wytypowanych przez lekarza w trakcie badania wideodermatoskopowego z wykonaniem histopatologicznej oceny usuniętej zmiany skórnej. Nieinwazyjne usuwanie łagodnych znamion laserem Co2 lub metodą krioterapii.",
-  },
-  {
-    type: "onkologia",
-    title: "Konsultacje onkologiczne",
-    desc: "Konsultacja onkologiczna w zakresie nowotworów skóry, w tym czerniaka złośliwego. Pacjent otrzymuje zalecenia po usunięciu zmiany nowotworowej, dotyczące badań kontrolnych, leczenia uzupełniającego, a także leczenia zaawansowanego czerniaka.",
-  }
-]
 
 const CtaUmowSie = () => {
   return (
@@ -180,7 +170,7 @@ const CtaCennik = () => {
   );
 };
 
-const WarszawaBadanieZnamionPage = ({ graph }) => {
+const WarszawaUsuwanieZnamionPage = ({ graph }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
@@ -201,18 +191,22 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
   return (
     <Layout constactCtaComponent={<CtaUmowSie />}>
       <SEO
-        title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
-        description="Warszawa - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."
+        title="Centrum Usuwania Znamion i Pieprzyków - twojeznamiona.pl"
+        description="Warszawa - Usuwanie Znamion. Czy wiesz, że aby bezpiecznie usunąć znamię należy je wcześniej zbadać? Chirurgiczne usuwanie niepokojących pieprzyków. Laserowe usuwanie łagodnych zmian skórnych. Ile to kosztuje - cennik. Umów się!"
         keywords="badanie znamion, warszawa, dermatoskopia"
       />
       <Hero
-        h1="Warszawskie Centrum Dermatoskopowego Badania Znamion"
+        h1="Warszawskie Centrum Badania i Usuwania Znamion"
         oneLiner="Wszystkie swoje działania skupiamy na kompleksowej diagnostyce znamion aby wyeliminować nowotwory skóry z życia milionów ludzi."
         oneLinerMore="Upewnij się, że czerniak nie ukrywa się w jednym z niepozornych pieprzyków na Twojej skórze."
         ctaPrimary={<CtaUmowSie />}
         ctaSecondary={<CtaCennik />}
       />
-      <Offer className="home_offer" data={OFFERS} />
+      <Offer
+        className="home_offer"
+        h5="W naszym Centrum Badania i Usuwania Znamion w procesie diagnostycznym uczestniczą dermatolodzy, chirurdzy oraz onkolodzy, zapewniając pacjentom kompleksową opiekę i profesjonalną  diagnostykę."
+        data={OFFERS}
+      />
       <Melanoma className="home_melanoma" />
       <WhyUs className="home_why_us" />
       <PriceList className="home_price_list" data={PRICES} />
@@ -238,23 +232,24 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
           data: "pon. - pt.: 10:00⁃19:00, czwartek: 8:00 - 19:00 ",
         }}
         transportationInfo={{
-          data: "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
+          data:
+            "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
         }}
       />
-      <Gallery className="home_gallery"  data={graph.gallery} />
+      <Gallery className="home_gallery" data={graph.gallery} />
 
       <Reviews className="home_reviews" data={REVIEWS} />
-
+      <Surgery className="home_two_col_section_left_img" />
       <ProcedureDetails className="home_two_col_section_right_img" />
       <ImportantInfo className="home_important_info" />
       <Dermoscopy className="home_two_col_section_right_img" />
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
-      <Surgery className="home_two_col_section_left_img" />
+      
       <Faq className="home_faq" data={FAQS} />
       <Abcde className="home_abcde" />
       <Oncology className="home_two_col_section_left_img" />
-      <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} /> 
+      <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
     </Layout>
   );
 };
@@ -368,7 +363,7 @@ export default (props) => (
       }
     `}
     render={(data) => (
-      <WarszawaBadanieZnamionPage
+      <WarszawaUsuwanieZnamionPage
         graph={{
           gallery: [
             data.ImageGallery1.nodes[0],

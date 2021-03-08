@@ -1,7 +1,9 @@
-import React, { useCallback, useRef, useState } from "react";
+import React, { useCallback, useRef,useEffect, useState } from "react";
 import ReactPlayer from "react-player/youtube";
 import { graphql, StaticQuery } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
+
+import useInViewPort from "./useInViewPort";
 
 import "../styles/youtube_player.scss";
 
@@ -14,9 +16,19 @@ const YoutubePlayer = ({
   label = "",
   graph,
 }) => {
+  const [nodeRef, isVisible] = useInViewPort();
+  const [showComponent, setShowComponent] = useState(false);
   const player = useRef(null);
   const [playing, setPlaying] = useState(false);
   const [isOverlay, setOverlay] = useState(true);
+
+  
+
+  useEffect(() => {
+    if (isVisible) {
+      setShowComponent(true);
+    }
+  }, [isVisible]);
 
   const play = useCallback(() => {
     setOverlay(false);
@@ -51,35 +63,37 @@ const YoutubePlayer = ({
   );
 
   return (
-    <div className={`youtube-player`}>
+    <div ref={nodeRef} className={`youtube-player`}>
       <div className="disableYoutube" onClick={togglePlay} />
 
-      <ReactPlayer
-        url={url}
-        ref={player}
-        playing={playing}
-        className="react-player"
-        width="100%"
-        height="100%"
-        muted={muted}
-        loop={loop}
-        onProgress={handleProgress}
-        config={{
-          playerVars: {
-            showinfo: 0,
-            modestbranding: 1,
-            disablekb: 1,
-            controls: 0,
-            fs: 0,
-            rel: 0,
-            cc_load_policy: 0,
-            iv_load_policy: 3,
-            theme: "light",
-            color: "white",
-            vq: "hd1080",
-          },
-        }}
-      />
+      {showComponent ? (
+        <ReactPlayer
+          url={url}
+          ref={player}
+          playing={playing}
+          className="react-player"
+          width="100%"
+          height="100%"
+          muted={muted}
+          loop={loop}
+          onProgress={handleProgress}
+          config={{
+            playerVars: {
+              showinfo: 0,
+              modestbranding: 1,
+              disablekb: 1,
+              controls: 0,
+              fs: 0,
+              rel: 0,
+              cc_load_policy: 0,
+              iv_load_policy: 3,
+              theme: "light",
+              color: "white",
+              vq: "hd1080",
+            },
+          }}
+        />
+      ) : null}
       <div className="source_label">{url}</div>
 
       {isOverlay && (

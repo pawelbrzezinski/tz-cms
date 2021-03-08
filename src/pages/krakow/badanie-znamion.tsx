@@ -218,16 +218,16 @@ const PoznanBadanieZnamionPage = () => (
     <Gallery className="home_gallery" data={GALLERY} />
     <Reviews className="home_reviews" data={REVIEWS} />
 
-    <ProcedureDetails className="home_procedure_details" />
+    <ProcedureDetails className="home_two_col_section_right_img" />
     <ImportantInfo className="home_important_info" />
-    <Dermoscopy className="home_dermoscopy" />
-    <Videodermoscopy className="home_videodermoscopy" />
+    <Dermoscopy className="home_two_col_section_right_img" />
+    <Videodermoscopy className="home_two_col_section_left_img" />
     <RiskGroup className="home_risk_group" />
     <Surgery className="home_surgery" />
     <Faq className="home_faq" data={FAQS} />
     <Abcde className="home_abcde" />
     <Melanoma className="home_melanoma" />
-    <Oncology className="home_dermoscopy" />
+    <Oncology className="home_two_col_section_right_img" />
     <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
   </Layout>
 );

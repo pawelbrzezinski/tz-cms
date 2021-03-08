@@ -60,6 +60,12 @@ h2 {
     font-size: 28px;
     line-height: 36px;
   }
+
+  &.wideoderm {
+    @media (max-width: $screeen-sm) {
+      font-size: 22px;
+    }
+  }
 }
 
 h3 {
@@ -67,6 +73,12 @@ h3 {
   font-size: 28px;
   line-height: 36px;
   margin: 0;
+
+  &.wideoderm {
+    @media (max-width: $screeen-sm) {
+      font-size: 20px;
+    }
+  }
 }
 
 h4 {

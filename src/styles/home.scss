@@ -218,8 +218,8 @@
   }
 }
 
-.home_procedure_details,
-.home_dermoscopy {
+
+.home_two_col_section_right_img {
   @include home_section;
   @include home_section_section_text;
 
@@ -254,7 +254,7 @@
   }
 }
 
-.home_procedure_details {
+.home_two_col_section_right_img {
   h2 {
     margin-bottom: 16px;
 
@@ -266,7 +266,7 @@
 }
 
 .home_surgery,
-.home_videodermoscopy {
+.home_two_col_section_left_img {
   @include home_section;
   @include home_section_section_text;
 
