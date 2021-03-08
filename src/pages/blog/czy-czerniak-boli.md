@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Gdzie badać znamiona w Szczecinie w 2020
+title: czy-czerniak-boli
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 6
