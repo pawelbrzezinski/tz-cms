@@ -1,29 +1,32 @@
 ---
 templateKey: blog-post
-title: /jak-odroznic-zwykly-pieprzyk-od-typowego-czerniaka-zdjecia
+title: Jak odróżnić pieprzyk od czerniaka?
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 8
+readingTime: 5
 date: 2020-09-04T18:51:38.512Z
-description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
-  barwnikowych - melanocytów. Poniżej prezentujemy zdjęcia czerniaków, które
-  wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie
-  samobadania swoich znamion. Po zapoznaniu się z tym artykułem będziesz
-  wiedzieć jak wygląda typowy czerniak.
+description: Nie każdy pieprzyk jest czerniakiem, jednak czerniak może mieć
+  formę pieprzyka. Porównaj zdjęcia zwykłych znamion i typowych czerniaków.
+  Poniższy artykuł ma na celu przybliżenie wiedzy na temat obserwacji i
+  różnicowania zmian skórnych.
 keywords:
-  - czerniak zdjęcia
-  - czeerniak paznokcia
-  - czerniak podpaznokciowy
-  - czerniak guguzkowaty
-  - czerniak leczenie
-  - czerniak objawy
-  - badanie znamion
-  - dermatoskopia
-  - jak wyglada czerniak
-  - wideodermatoskopia
-  - centrum badania znamion
-  - czerniak onkolog
-  - konsultacje onkologiczne
+  - Jak odróżnić pieprzyk od czerniaka
+  - pieprzyk czerniak jak wygląda
+  - czarny pieprzyk
+  - podrażniony pieprzyk
+  - nabrzmiały pieprzyk
+  - nowe pieprzyki
+  - groźne pieprzyki zdjęcia
+  - rodzaje pieprzyków
+  - uszkodzenie pieprzyka
+  - stan zapalny pieprzyka
+  - typowy czerniak
+  - atypowe znamię
+  - pieprzyk swędzi
+  - zdjęcia czerniaka
+  - podejrzenie czerniaka
+  - to jednak nie czerniak
+  - rak skóry
 tags:
   - badanie znamion
   - czerniak
@@ -36,7 +39,7 @@ sources:
   - label: onet
     link: https://www.facebook.com/
 ---
-## Czerniak zdjęcia
+**Nie każdy pieprzyk jest czerniakiem, jednak czerniak może mieć formę pieprzyka. Porównaj zdjęcia zwykłych znamion i typowych czerniaków. Poniższy artykuł ma na celu przybliżenie wiedzy na temat obserwacji i różnicowania zmian skórnych.**
 
 
 
