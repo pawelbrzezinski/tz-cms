@@ -47,13 +47,9 @@ Znane wszystkim zwykłe **pieprzyki to inaczej znamiona barwnikowe** powstałe
 
 ![zwykłe znamię](img/jak-odroznic1.png "zwykłe znamię")
 
-
-
 **Wideodermatoskopia** ma jeszcze jedną dużą zaletę. Umożliwia **mapowanie** powierzchni całego ciała i znalezienie oraz kontrolę pieprzyków, których pacjent sam nie jest w stanie zaobserwować.
 
 ![Wideodermatoskopia - mapowanie znamion.](img/jak-odroznic10.png "Wideodermatoskopia - mapowanie znamion.")
-
-
 
 ## Typowy czerniak
 
@@ -64,8 +60,6 @@ W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem l
 ![czerniak](img/jak-odroznic11a.png "czerniak")
 
 ![czerniak](img/jak-odroznic12.png "czerniak")
-
-![czerniak](img/jak-odroznic13.png "czerniak")
 
 ![czerniak](img/jak-odroznic16.png "czerniak")
 
@@ -93,6 +87,7 @@ W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem l
 
 ![czerniak](img/jak-odroznic27.png "czerniak")
 
+![czerniak](img/jak-odroznic13.png "czerniak")
 ![czerniak](img/jak-odroznic28.png "czerniak")
 ![czerniak](img/jak-odroznic29.png "czerniak")
 ![czerniak](img/jak-odroznic3.png "czerniak")
@@ -109,6 +104,21 @@ W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem l
 ![czerniak](img/jak-odroznic8a.png "czerniak")
 ![czerniak](img/jak-odroznic9.png "czerniak")
 ![czerniak](img/jak-odroznic9a.png "czerniak")
-![czerniak](img/jak-odroznickolaz1.jpg "czerniak")
-![czerniak](img/jak-odroznickolaz2.jpg "czerniak")
-![czerniak](img/jak-odroznickolaz3.jpg "czerniak")
+
+**Uwaga!**
+
+Nie ma jednego wzorca czerniaka dlatego różnicowanie ze zwykłymi znamionami bywa trudne nawet dla specjalistów w tej dziedzinie. W diagnostyce dermatologicznej do każdego przypadku podchodzi się indywidualnie.
+
+**Samoobserwację należy prowadzić przynajmniej raz w miesiącu**, a z nowoczesnych i bezinwazyjnych metod **dermatoskopowego obrazowania skóry skorzystać przynajmniej raz w roku**. Są one bezbolesne i bezinwazyjne, nie obciążają zdrowia pacjenta. Skóra wymaga uwagi zawsze po intensywnym eksponowaniu na promieniowanie słoneczne lub inne czynniki drażniące.
+
+Niestety znamiona mogą do złudzenia przypominać czerniaki więc odróżnienie zwykłego pieprzyka od typowego czerniaka może być trudne. Znamiona atypowe- dysplastyczne mogą imitować czerniaki, a niektóre czerniaki bardzo przypominają znamiona i dopiero usunięcie zmiany i badanie histopatologiczne pozwalają na postawienie trafnej diagnozy.
+
+Porównaj zestawienie zdjęć zwykłych znamion i czerniaka i zobacz ich możliwe podobieństwo!
+
+![po lewej stronie znamię, po prawej stronie czerniak](img/jak-odroznickolaz1.jpg "po lewej stronie znamię, po prawej stronie czerniak")
+
+![po lewej stronie brodawka łojotokowa, po prawej stronie czerniak](img/jak-odroznickolaz2.jpg "po lewej stronie brodawka łojotokowa, po prawej stronie czerniak")
+
+![po lewej stronie znamię dysplastyczne, po prawej stronie czerniak](img/jak-odroznickolaz3.jpg "po lewej stronie znamię dysplastyczne, po prawej stronie czerniak")
+
+<More link="/blog/jak-wyglada-czerniak-zdjecia" text="Zobacz więcej zdjęć czerniaka" cta="Sprawdź" />
