@@ -65,14 +65,24 @@ Ocena stanu znamion, zwanych potocznie pieprzykami, tzw. gołym okiem bywa trudn
 
 ![Wideodermatoskop Fotofinder Medicam 1000 Portable](img/krakow2.jpg "Wideodermatoskop Fotofinder Medicam 1000 Portable")
 
-
-
 ## Gdzie można się zbadać?
 
 Najczęściej, próbując dowiedzieć się czegoś o naszych znamionach i potencjalnych metodach ich usunięcia, **idziemy do dermatologa**. Przyjmujący w przychodni specjalista **często nie dysponuje jednak wideodermatoskopem**, a nawet jeśli go posiada, limity czasowe nie pozwalają na wykonanie pełnowartościowego badania. Kierując kroki do gabinetu kosmetologii estetycznej, niejednokrotnie mamy wątpliwości, czy usunąć zmianę [laserem](/laserowe-usuwanie-znamion) - nie można wówczas wykonać [badania histopatologicznego](/chirurgiczne-usuwanie-znamion) i dowiedzieć się, **czy znamię było nowotworem**. Zamiast biegać w stresie po przychodniach, można wybrać sprawdzone miejsce i zbadać znamiona, nawet podczas spaceru po Krakowie. Niedaleko Sukiennic, na Placu Szczepańskim 3, [umówisz się na badanie](/kontakt "Umów się na badanie znamion") **Ogólnopolskie Centrum Badania Znamion Twoje Znamiona** przyjmuje szybko i **bez kolejek**.
 
 <More link="/krakow/badanie-znamion" text="Więcej o badaniu znamion w Krakowie" cta="Sprawdź" />
 
-![czerniak](img/krakow3.jpg "czerniak")
+![Centrum badania znamion Twoje Znamiona w Krakowie](img/krakow3.jpg "Centrum badania znamion Twoje Znamiona w Krakowie")
 
-![czerniak](img/krakow4.png "czerniak")
+## Wideodermatoskopia w Centrum Badania Znamion Twoje Znamiona - jak przebiega?
+
+Specjalista dermatolog przeprowadza z pacjentem **dokładny wywiad**. Warto wiedzieć więcej o chorobach w rodzinie i coś więcej o swoich pieprzykach. Nawet jeśli wcześniej nie wzbudzały one zainteresowania. Lekarz zapyta też o stosowane **kremy z filtrem** i **wizyty w solarium**. Samo badanie wykonywane jest w Krakowie jednym z **najnowocześniejszych urządzeń dostępnych na rynku** - FotoFinder Medicam 1000. Kamera wideodermatoskopu pokazuje obraz znamion w czasie rzeczywistym na ekranie komputera i rejestruje go w rozdzielczości Full HD. Pozwala na **mapowanie zmian** i skuteczną oraz dokładną ich długoterminową obserwację.
+
+![Zdjęcia porównawcze wykonane w trakcie badania kontrolnego po roku od badania poprzedniego.](img/krakow4.png "Zdjęcia porównawcze wykonane w trakcie badania kontrolnego po roku od badania poprzedniego.")
+
+Całe **badanie trwa około 30 minut** i obejmuje **całą powierzchnię ciała**. Tylko odnalezienie i badanie wszystkich znamion ma sens i wartość w profilaktyce nowotworów skóry. Nie wszystkie zmiany jesteśmy w stanie znaleźć sami, jeszcze mniej z nich jesteśmy w stanie sklasyfikować, jako groźne lub łagodne, a tylko część z nich ma charakter barwnikowy. Dlatego tak ważne jest [komputerowe badanie znamion](/wideodermatoskopia-komputerowe-badanie-znamion "komputerowe badanie znamion").
+
+<More link="/blog/dlaczego-powstaja-znamiona-i-skad-sie-biora-pieprzyki" text="Dowiedz się, skąd się biorą pieprzyki." cta="Sprawdź" />
+
+## Jak często badać znamiona?
+
+Gdy nie chorujemy, nie jesteśmy w grupie ryzyka - wystarczy **badanie raz w roku**, jednak gdy któreś znamię wzbudza nasz niepokój, nie należy zwlekać. Korzystając z **Centrum Badania Znamion Twoje Znamiona** mamy pewność, że w razie konieczności usunięcia pieprzyka zostaniemy objęci właściwą opieką.
