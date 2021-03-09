@@ -52,6 +52,7 @@ Współczesne nowoczesne metody obrazowania zmian skórnych i ich mapowanie daj�
 
 ![czerniak](img/czy-czerniak-boli2.png)
 
+
 ## Co to jest wideodermatoskopia?
 
 Za pomocą narzędzi takich jak Wideodermatoskop FotoFinder Medicam 1000 można skutecznie odnaleźć i dokonać oceny wszystkich pieprzyków – przeprowadzić wspomniane już mapowanie czyli zapisywanie zmian skórnych celem ich obserwacji w czasie. To przekłada się oczywiście na szybkie zlokalizowanie zmian podejrzanych, które łatwo mogą dać początek czerniakowi.
