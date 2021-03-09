@@ -33,8 +33,9 @@ sources:
       Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
       rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
       ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
-  - label: onet
-    link: https://www.facebook.com/
+  - label: "Zalecenia Ministerstwa Zdrowia: jak chronić się przed zachorowaniem na
+      czerniaka"
+    link: www.facebook.com/MZGOVPL
 ---
 Na stronach **małopolskiego oddziału Narodowego Funduszu Zdrowia w Krakowie** dostępne są statystyki mówiące o tym, że **nowotwory skóry** stanowią około **10%** wszystkich **wykrywanych nowotworów** złośliwych w Polsce. Spośród nowotworów skóry **czerniak** jest jednym z najczęściej występujących, ale nie jedynym. Jak można się ich ustrzec? Dlaczego należy przeprowadzać **regularne badanie znamion** oraz w jaki sposób [wideodermatoskopia](/wideodermatoskopia-komputerowe-badanie-znamion "wideodermatoskopia") umożliwia wczesne wykrycie raka skóry?
 
@@ -44,9 +45,7 @@ Na stronach **małopolskiego oddziału Narodowego Funduszu Zdrowia w Krakowie**
 
 Słońce pomaga syntetyzować w skórze witaminę D, ale jednocześnie za sprawą wysyłanych promieni UVA i UVB potrafi ją poparzyć, a to jeden z czynników pomagających [czerniakowi](/czerniak "Czerniak") pojawić się w naszych znamionach. Szczególnie narażone na zachorowanie są osoby wykonujące pracę na świeżym powietrzu, w sektorach takich jak rolnictwo, sadownictwo, ogrodnictwo, rybołówstwo czy budownictwo, które nie stosują żadnej ochrony przed promieniowaniem słonecznym. Tymczasem niewiele trzeba, by się chronić, stosowne ubranie, nakrycie głowy, krem z filtrem to najlepsze rozwiązania na co dzień.
 
-![Zalecenia Ministerstwa Zdrowia: jak chronić się przed zachorowaniem na czerniaka](img/krakow1.jpg "Zalecenia Ministerstwa Zdrowia: jak chronić się przed zachorowaniem na czerniaka źródło: www.facebook.com/MZGOVPL")
-
-
+![Zalecenia Ministerstwa Zdrowia: jak chronić się przed zachorowaniem na czerniaka](img/krakow1.jpg "Zalecenia Ministerstwa Zdrowia: jak chronić się przed zachorowaniem na czerniaka")
 
 Wyróżnia się 3 główne **fenotypy skóry**.
 
@@ -56,11 +55,24 @@ Wyróżnia się 3 główne **fenotypy skóry**.
 
 Należy pamiętać, że są to jedynie zalecenia i wszyscy, którzy przez dłuższy czas eksponują skórę na słońce muszą chronić ją kremem z wysokim faktorem.
 
-Filtry nie są doskonałe. Trudno całkowicie uniknąć słonecznych poparzeń i osłonić pieprzyki (a na pewno nie wszystkie). Dlatego kolejnym elementem profilaktyki powinno być **coroczne badanie znamion**. Służy temu [dermatoskopia](/dermatoskopia-badanie-znamion "dermatoskopia") a dziś nawet zaawansowana [wideodermatoskopia](/wideodermatoskopia-komputerowe-badanie-znamion "wideodermatoskopia")
+Filtry nie są doskonałe. Trudno całkowicie uniknąć słonecznych poparzeń i osłonić pieprzyki (a na pewno nie wszystkie). Dlatego kolejnym elementem profilaktyki powinno być **coroczne badanie znamion**. Służy temu [dermatoskopia](/dermatoskopia-badanie-znamion "dermatoskopia") a dziś nawet zaawansowana [wideodermatoskopia](/wideodermatoskopia-komputerowe-badanie-znamion "wideodermatoskopia").
+
+<More link="/blog/jak-chronic-sie-przed-nowotworem-skory" text="Szczegóły ochrony przed czerniakiem" cta="Sprawdź" />
+
+## Wideodermatoskopia – czym jest?
+
+Ocena stanu znamion, zwanych potocznie pieprzykami, tzw. gołym okiem bywa trudna, a często nawet niemożliwa. **Wideodermatoskopia** jest prostą i sprawdzoną techniką diagnostyczną polegającą na oglądaniu zmian skórnych w powiększeniu. Badanie jest nieinwazyjne i łatwo powtarzalne, a z pomocą obecnej technologii możliwe jest archiwizowanie zdjęć podejrzanych **pieprzyków**, co ułatwia monitorowanie zachodzących w nich ewentualnych groźnych dla naszego zdrowia zmian. Dzięki temu zyskujemy szansę na **wczesne rozpoznanie czerniaka** lub innych nowotworów skóry, przykładowo, mniej znanego, ale równie groźnego, raka **kolczystokomórkowego skóry**.
+
+![Wideodermatoskop Fotofinder Medicam 1000 Portable](img/krakow2.jpg "Wideodermatoskop Fotofinder Medicam 1000 Portable")
 
 
 
-![czerniak](img/krakow2.jpg "czerniak")
+## Gdzie można się zbadać?
+
+Najczęściej, próbując dowiedzieć się czegoś o naszych znamionach i potencjalnych metodach ich usunięcia, **idziemy do dermatologa**. Przyjmujący w przychodni specjalista **często nie dysponuje jednak wideodermatoskopem**, a nawet jeśli go posiada, limity czasowe nie pozwalają na wykonanie pełnowartościowego badania. Kierując kroki do gabinetu kosmetologii estetycznej, niejednokrotnie mamy wątpliwości, czy usunąć zmianę [laserem](https://twojeznamiona.pl/laserowe-usuwanie-znamion) - nie można wówczas wykonać [badania histopatologicznego](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion) i dowiedzieć się, **czy znamię było nowotworem**. Zamiast biegać w stresie po przychodniach, można wybrać sprawdzone miejsce i zbadać znamiona, nawet podczas spaceru po Krakowie. Niedaleko Sukiennic, na Placu Szczepańskim 3, [umówisz się na badanie](https://twojeznamiona.pl/kontakt "Umów się na badanie znamion") **Ogólnopolskie Centrum Badania Znamion Twoje Znamiona** przyjmuje szybko i **bez kolejek**.
+
+
 
 ![czerniak](img/krakow3.jpg "czerniak")
+
 ![czerniak](img/krakow4.png "czerniak")
