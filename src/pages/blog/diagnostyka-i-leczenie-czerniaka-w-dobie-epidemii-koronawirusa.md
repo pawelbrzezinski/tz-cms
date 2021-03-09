@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Diagnostyka i leczenia ...
+title: Diagnostyka i leczenie onkologiczne czerniaka w dobie epidemii koronawirusa
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 8
