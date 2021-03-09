@@ -3,27 +3,21 @@ templateKey: blog-post
 title: Diagnostyka i leczenie onkologiczne czerniaka w dobie epidemii koronawirusa
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 8
+readingTime: 4
 date: 2020-09-04T18:51:38.512Z
-description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
-  barwnikowych - melanocytów. Poniżej prezentujemy zdjęcia czerniaków, które
-  wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie
-  samobadania swoich znamion. Po zapoznaniu się z tym artykułem będziesz
-  wiedzieć jak wygląda typowy czerniak.
+description: Onkologia w dobie koronawirusa niewątpliwie stanęła przed trudnym
+  wyzwaniem. Każdy pacjent onkologiczny w epidemii jest przepełniony obawami
+  związanymi z niełatwą sytuacją, w jakiej się znalazł. Pacjenci z czerniakiem
+  powinni jednak mieć świadomość, iż opóźnienie terapii i odroczenie pewnych
+  procedur nie zawsze oznacza pogorszenie rokowania, co potwierdzają opinie
+  ekspertów.
 keywords:
-  - czerniak zdjęcia
-  - czeerniak paznokcia
-  - czerniak podpaznokciowy
-  - czerniak guguzkowaty
-  - czerniak leczenie
-  - czerniak objawy
-  - badanie znamion
-  - dermatoskopia
-  - jak wyglada czerniak
-  - wideodermatoskopia
-  - centrum badania znamion
-  - czerniak onkolog
-  - konsultacje onkologiczne
+  - Leczenie czerniaka w pandemii
+  - koronawirus SARS- COV-2
+  - onkologia w dobie koronawirusa
+  - pacjent onkologiczny w epidemii
+  - pandemia a leczenie onkologiczne
+  - epidemia a onkologia
 tags:
   - badanie znamion
   - czerniak
@@ -36,13 +30,14 @@ sources:
   - label: onet
     link: https://www.facebook.com/
 ---
-## Czerniak zdjęcia
-
-
-
-<More link="/czerniak" text="Jak wyglada  czerniak" cta="Sprawdź" />
+**Onkologia w dobie koronawirusa** niewątpliwie stanęła przed trudnym wyzwaniem. Należy ona bowiem do dziedzin medycyny, które zmuszone zostały do wielu zmian i dostosowania się do nowej rzeczywistości. Towarzystwa medyczne starają się jednak na bieżąco reagować, ustalać bezpieczne standardy i podejmować działania, dzięki którym **pacjenci cierpiący na nowotwory** mogą uzyskać pomoc specjalistyczną. Pandemia u pacjentów z **czerniakiem** jest okresem wyjątkowego niepokoju, jednak powinni oni pamiętać, że **nie zostali z problemem sami**. Pomoc znaleźć mogą bowiem w wielu placówkach, gdzie umówić się można na wizytę lub **skorzystać z telekonsultacji**.
 
 ![czerniak](img/1.jpg "czerniak")
+
+
+
 ![czerniak](img/2.jpg "czerniak")
+
 ![czerniak](img/3.png "czerniak")
+
 ![czerniak](img/4.jpg "czerniak")
