@@ -3,11 +3,30 @@ templateKey: blog-post
 title: czy-czerniak-boli
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 6
+readingTime: 5
 date: 2020-09-04T18:51:38.512Z
-description: .
+description: Nie każdy pieprzyk jest czerniakiem, jednak czerniak może mieć
+  formę pieprzyka. Porównaj zdjęcia zwykłych znamion i typowych czerniaków.
+  Poniższy artykuł ma na celu przybliżenie wiedzy na temat obserwacji i
+  różnicowania zmian skórnych.
 keywords:
-  - .
+  - Jak odróżnić pieprzyk od czerniaka
+  - pieprzyk czerniak jak wygląda
+  - czarny pieprzyk
+  - podrażniony pieprzyk
+  - nabrzmiały pieprzyk
+  - nowe pieprzyki
+  - groźne pieprzyki zdjęcia
+  - rodzaje pieprzyków
+  - uszkodzenie pieprzyka
+  - stan zapalny pieprzyka
+  - typowy czerniak
+  - atypowe znamię
+  - pieprzyk swędzi
+  - zdjęcia czerniaka
+  - podejrzenie czerniaka
+  - to jednak nie czerniak
+  - rak skóry
 tags:
   - pieprzyk
   - czerniak
