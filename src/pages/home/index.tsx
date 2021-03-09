@@ -49,6 +49,27 @@ const REVIEWS = [
   },
 ];
 
+
+
+const OFFERS = [
+  {
+    type: "badanie",
+    title: "Badanie znamion",
+    desc: "Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć.",
+  },
+  {
+    type: "chirurgiczne",
+    title: "Usuwanie znamion",
+    desc: "Chirurgiczne usuwanie podejrzanych pieprzyków wytypowanych przez lekarza w trakcie badania wideodermatoskopowego z wykonaniem histopatologicznej oceny usuniętej zmiany skórnej. Nieinwazyjne usuwanie łagodnych znamion laserem Co2 lub metodą krioterapii.",
+  },
+  {
+    type: "onkologia",
+    title: "Konsultacje onkologiczne",
+    desc: "Konsultacja onkologiczna w zakresie nowotworów skóry, w tym czerniaka złośliwego. Pacjent otrzymuje zalecenia po usunięciu zmiany nowotworowej, dotyczące badań kontrolnych, leczenia uzupełniającego, a także leczenia zaawansowanego czerniaka.",
+  }
+]
+
+
 const HomePage = ({ graph }) => {
   const FAQS = [
     {
@@ -78,12 +99,12 @@ const HomePage = ({ graph }) => {
       />
 
       <Locations />
-      <Offer className="home_offer" />
+      <Offer className="home_offer" data={OFFERS}/>
       <WhyUs className="home_why_us" />
       <Reviews className="home_reviews" data={REVIEWS} />
       <Melanoma className="home_melanoma" />
       <Faq className="home_faq" data={FAQS} />
-      <Dermoscopy className="home_two_col_section_right_img" />
+      <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
       <Abcde className="home_abcde" />

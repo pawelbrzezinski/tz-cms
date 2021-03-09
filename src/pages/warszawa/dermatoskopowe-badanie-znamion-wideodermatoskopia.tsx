@@ -165,6 +165,21 @@ const OFFERS = [
   }
 ]
 
+const INFOS = [
+  {
+    title:"Ile trwa badanie?",
+    desc: "Badanie wszystkich znamion - 30-40 min. Badanie kontrolne znamion wyznaczonych przez lekarza - 15-20 min."
+  },
+  {
+    title:"Jak się przygotować do badania?",
+    desc: "Przed badaniem należy wykonać demakijażu oraz skrócić owłosienia w miejscach, w których znajdują się znamiona, celem poprawy jakości obrazu dermatoskopowego."
+  },
+  {
+    title:"Jakim urządzeniem badamy?",
+    desc: "Pacjent badany jest za pomocą nowoczesnego sprzętu - wideodermatoskopu Fotofinder Portable Medicam 1000 Full HD"
+  },
+]
+
 const CtaUmowSie = () => {
   return (
     <AnchorLink href="#kontakt" title="Umów się">
@@ -246,11 +261,11 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
       <Reviews className="home_reviews" data={REVIEWS} />
 
       <ProcedureDetails className="home_two_col_section_right_img" />
-      <ImportantInfo className="home_important_info" />
-      <Dermoscopy className="home_two_col_section_right_img" />
+      <ImportantInfo className="home_important_info" data={INFOS}/>
+      <Dermoscopy className="home_two_col_section_right_img" reverse={false}/>
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
-      <Surgery className="home_two_col_section_left_img" />
+      <Surgery className="home_two_col_section_left_img" reverse={false} />
       <Faq className="home_faq" data={FAQS} />
       <Abcde className="home_abcde" />
       <Oncology className="home_two_col_section_left_img" />

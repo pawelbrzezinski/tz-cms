@@ -13,7 +13,8 @@ import Reviews from "../../components/landingPage/Reviews";
 import Dermoscopy from "../../components/landingPage/Dermoscopy";
 import Oncology from "../../components/landingPage/Oncology";
 import Videodermoscopy from "../../components/landingPage/Videodermoscopy";
-import Surgery from "../../components/landingPage/Surgery";
+import Surgery2 from "../../components/landingPage/Surgery2";
+import Laser from "../../components/landingPage/Laser";
 import Melanoma from "../../components/landingPage/Melanoma";
 import Abcde from "../../components/landingPage/Abcde";
 import Gallery from "../../components/landingPage/Gallery";
@@ -155,6 +156,21 @@ const PRICES = [
   },
 ];
 
+const INFOS = [
+  {
+    title:"Ile trwa zabieg?",
+    desc: "Zabieg chirurgicznego usuwania znamion jest krótki, nie wymaga pobytu w szpitalu, trwa zwykle ok. 20-30 min."
+  },
+  {
+    title:"Czy usuwanie znamion boli?",
+    desc: "Zabieg usuwania znamion odbywa się w znieczuleniu miejscowym przy zachowaniu pełnej świadomości pacjenta."
+  },
+  {
+    title:"Jak duża będzie blizna?",
+    desc: "Wielkość powstałej po zabiegu blizny jest uzależniona od wielkości znamienia oraz przestrzegania zaleceń pozabiegowych."
+  },
+]
+
 const CtaUmowSie = () => {
   return (
     <AnchorLink href="#kontakt" title="Umów się">
@@ -175,16 +191,16 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
     {
       image: graph.faqs[1].image,
       imageMobile: graph.faqs[1].imageMobile,
-      title: "Jakie są przeciwwskazania do wykonania badania?",
+      title: "Usuwać czy “nie ruszać”?",
       text:
-        "Dermatoskopia jest całkowicie nieinwazyjną metodą diagnostyki, nie ma żadnych przeciwwskazań do jej wykonania. Badaniu mogą poddać się kobiety w ciąży, karmiące piersią, osoby obciążone poważnymi chorobami przewlekłymi czy też dzieci. Dermatoskopia polega na wykonywaniu zdjęć znamion w powiększeniu stąd może zostać wykonana u każdego.",
+        "Stwierdzenie, że “znamion lepiej nie ruszać” to niebezpieczny przesąd, który może mieć poważne konsekwencje zdrowotne. Pamiętajmy, że wcześnie wykryty czerniak może być całkowicie wyleczony. Każdy atypowy pieprzyk powinien być niezwłocznie usunięty chirurgicznie.",
     },
     {
       image: graph.faqs[2].image,
       imageMobile: graph.faqs[2].imageMobile,
-      title: "Czy czerniak boli?",
+      title: "Czy mogę usunąć znamię laserem?",
       text:
-        "Dolegliwości bólowe nie są charakterystycznym objawem dla czerniaka, natomiast ich obecność bądź brak nie przesądza w żadnym wypadku diagnozy. Czerniak może rozwijać się po cichu, bez bólu i zupełnie niezauważalnie i z roku na rok zajmować coraz większą powierzchnię Twojej skóry. Najczęstszy czerniak szerzący się powierzchownie (SSMM - superficial spreading melanoma malignum), może wzrastać niezauważalnie nawet kilka lat!",
+        "Usunięcie laserowe jest możliwe jeśli po uprzednim badaniu dermatoskopowym w ocenie lekarza znamię nie budzi niepokoju onkologicznego. Usuwając znamiona laserem musimy pamiętać, że pozbawiamy się możliwości wykonania badania histopatologicznego.",
     },
   ];
 
@@ -208,7 +224,7 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
         data={OFFERS}
       />
       <Melanoma className="home_melanoma" />
-      <WhyUs className="home_why_us" />
+
       <PriceList className="home_price_list" data={PRICES} />
       <Covid className="home_covid" />
       <Contact className="home_contact" />
@@ -239,15 +255,13 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
       <Gallery className="home_gallery" data={graph.gallery} />
 
       <Reviews className="home_reviews" data={REVIEWS} />
-      <Surgery className="home_two_col_section_left_img" />
-      <ProcedureDetails className="home_two_col_section_right_img" />
-      <ImportantInfo className="home_important_info" />
-      <Dermoscopy className="home_two_col_section_right_img" />
-      <Videodermoscopy className="home_two_col_section_left_img" />
-      <RiskGroup className="home_risk_group" />
-      
+      <Surgery2 className="home_two_col_section_left_img" reverse={false} />
+      <ImportantInfo className="home_important_info" data={INFOS}/>
+
+      <Laser className="home_two_col_section_left_img" reverse={false} />
+
       <Faq className="home_faq" data={FAQS} />
-      <Abcde className="home_abcde" />
+      <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
       <Oncology className="home_two_col_section_left_img" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
     </Layout>
@@ -320,7 +334,7 @@ export default (props) => (
             }
           }
         }
-        Faq1Image: allFile(filter: { relativePath: { regex: "/faq1.png/" } }) {
+        Faq1Image: allFile(filter: { relativePath: { regex: "/faq3.png/" } }) {
           nodes {
             childImageSharp {
               fluid(maxWidth: 144, maxHeight: 269, quality: 50) {
@@ -329,7 +343,7 @@ export default (props) => (
             }
           }
         }
-        Faq2Image: allFile(filter: { relativePath: { regex: "/faq2.png/" } }) {
+        Faq2Image: allFile(filter: { relativePath: { regex: "/faq4.png/" } }) {
           nodes {
             childImageSharp {
               fluid(maxWidth: 144, maxHeight: 269, quality: 70) {
@@ -339,7 +353,7 @@ export default (props) => (
           }
         }
         Faq1ImageMobile: allFile(
-          filter: { relativePath: { regex: "/faq-1-mobile.png/" } }
+          filter: { relativePath: { regex: "/faq3Mobile.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -350,7 +364,7 @@ export default (props) => (
           }
         }
         Faq2ImageMobile: allFile(
-          filter: { relativePath: { regex: "/faq-2-mobile.png/" } }
+          filter: { relativePath: { regex: "/faq4Mobile.png/" } }
         ) {
           nodes {
             childImageSharp {

@@ -6,27 +6,27 @@ import Button from "../Button";
 import { graphql, StaticQuery } from "gatsby";
 import TwoColumnHomeSection from "./TwoColumnHomeSection";
 
-const Surgery = ({ className = "", graph, reverse = true }) => (
+const Surgery2 = ({ className = "", graph, reverse= true }) => (
   <TwoColumnHomeSection
     reverse={reverse}
     className={className}
-    h2="Kiedy wyciąć pieprzyk?"
+    h2="Chirurgiczne Usuwanie Znamion"
     H5={() => (
       <>
-        Zawsze przed podjęciem decyzji o tym czy znamię powinno zostać usunięte
-        chirurgicznie czy też może być bezpiecznie usunięte laserowo należy
-        wykonać badanie dermatoskopowe.
+        Zabieg polega na wycięciu zmiany wraz z fragmentem zdrowej skóry za
+        pomocą skalpela. Następnie chirurg zakłada się szwy, które zdejmowane są
+        po 7–14 dniach oraz opatrunek.
       </>
     )}
     Text={() => (
       <>
-        Na podstawie wykonanego badanie znamion lekarz kwalifikuje pacjenta do
-        odpowiedniej metody. Chirurgicznie należy usunąc każde atypowe znamię na
-        skórze. Metodą nieinwazyjną można usunąć jedynie zmiany łagodne. Należy
-        jednak pamiętać, że przy usuwaniu znamion metodą laserową, krioterapii
-        lub elektrokoagulacji nie ma możliwości wykonania badania
-        histopatologicznego, a jedynie na jego podstawie można postawić
-        ostateczną diagnozę.
+        Należy pamiętać, że usuwanie znamion bez uprzedniego badania może być
+        niebezpieczne dlatego przed podjęciem decyzji o sposobie usunięcia
+        pieprzyka powinien być on zbadany dermatoskopowo. Bardzo ważnym
+        elementem zabiegu usuwania znamion jest{" "}
+        <strong>badanie histopatologiczne</strong>
+        pobranego w trakcie zabiegu wycinka skóry - dopiero na jego podstawie
+        stawiana jest ostateczna diagnoza.
       </>
     )}
     Buttons={() => (
@@ -37,8 +37,8 @@ const Surgery = ({ className = "", graph, reverse = true }) => (
           </AnchorLink>
         </Button>
         <Button type="secondary">
-          <Link to="/chirurgiczne-usuwanie-znamion" title="Usuwanie znamion">
-            Usuwanie znamion
+          <Link to="/chirurgiczne-usuwanie-znamion" title="Chirurgiczne Usuwanie znamion">
+            Chirurgiczne Usuwanie znamion
           </Link>
         </Button>
       </>
@@ -70,7 +70,7 @@ export default (props) => (
       }
     `}
     render={(data) => (
-      <Surgery
+      <Surgery2
         graph={{
           Image: data.Image.nodes[0],
         }}

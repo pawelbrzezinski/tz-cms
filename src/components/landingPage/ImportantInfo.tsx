@@ -18,47 +18,31 @@ const ImportantInfoCard = ({ image, desc = "", children = null }) => {
   );
 };
 
-const ImportantInfo = ({ className = "" }) => (
-  <div className={className}>
-    <BubbleSection
-      introText="Ważne infromacje"
-      h2="Co warto wiedzieć o badaniu"
-      color="white"
-    >
-      <div className="container">
-        <div className="cards">
-          <ImportantInfoCard image={CheckIcoImage1} desc="Ile trwa badanie?">
-            <h4>Ile trwa badanie?</h4>
-            <div>
-              Badanie wszystkich znamion - 30-40 min. Badanie kontrolne znamion
-              wyznaczonych przez lekarza - 15-20 min.
-            </div>
-          </ImportantInfoCard>
-          <ImportantInfoCard
-            image={CheckIcoImage2}
-            desc="Jak się przygotować do badania?"
-          >
-            <h4>Jak się przygotować do badania?</h4>
-            <div>
-              Przed badaniem należy wykonać demakijażu oraz skrócić owłosienia w
-              miejscach, w których znajdują się znamiona, celem poprawy jakości
-              obrazu dermatoskopowego.
-            </div>
-          </ImportantInfoCard>
-          <ImportantInfoCard
-            image={CheckIcoImage3}
-            desc="Jakim urządzeniem badamy?"
-          >
-            <h4>Jakim urządzeniem badamy?</h4>
-            <div>
-              Pacjent badany jest za pomocą nowoczesnego sprzętu -
-              wideodermatoskopu Fotofinder Portable Medicam 1000 Full HD
-            </div>
-          </ImportantInfoCard>
+const IMAGES = [CheckIcoImage1, CheckIcoImage2, CheckIcoImage3];
+
+const ImportantInfo = ({ className = "", data = [] }) => {
+  return (
+    <div className={className}>
+      <BubbleSection
+        introText="Ważne infromacje"
+        h2="Co warto wiedzieć o badaniu"
+        color="white"
+      >
+        <div className="container">
+          <div className="cards">
+            {data.map((item, idx) => (
+              <ImportantInfoCard key={idx} image={IMAGES[idx]} desc={item.desc}>
+                <h4>
+                  {item.title}
+                </h4>
+                <div>{item.desc}</div>
+              </ImportantInfoCard>
+            ))}
+          </div>
         </div>
-      </div>
-    </BubbleSection>
-  </div>
-);
+      </BubbleSection>
+    </div>
+  );
+};
 
 export default ImportantInfo;
