@@ -100,8 +100,6 @@ Niestety część znamion pod wpływem różnych czynników rakotwórczych (kanc
 
 ![czerniak](img/jak-odroznic7.png "czerniak")
 
-
-
 ## Jak wygląda czerniak?
 
 Dla profilaktyki raków skóry i czerniaka istotna jest samoobserwacja znamion występujących na powierzchni całego ciała. Jak odróżnić pieprzyk od czerniaka? Jakie zmiany powinny wzbudzić zainteresowanie? Kiedy udać się do lekarza?
@@ -112,9 +110,25 @@ Obejrzyj film i sprawdź jak obserwować się w domu!
 
 <YoutubePlayer url="https://www.youtube.com/watch?v=H-RQqWIOXcI" start="0" end="0" label="" />
 
-
-
 Opierając się na własnym doświadczeniu w ocenie chorych, członkowie New York University School of Medicine Melanoma Cooperative Group stwierdzili, że asymetria wczesnej postaci czerniaka, nieregularność jej brzegów oraz różnorodność barw były ściśle związane z przekraczaniem przez nią średnicy 6 mm. Co nie zmienia faktu, że ta metoda pozwala wykryć i zróżnicować nieco mniejsze i wcześniejsze pod względem zaawansowania postaci czerniaka.
+
+![czerniak](img/jak-odroznic8.png "czerniak")
+
+![czerniak](img/jak-odroznic8a.png "czerniak")
+
+![czerniak](img/jak-odroznic9.png "czerniak")
+
+![czerniak](img/jak-odroznic9a.png "czerniak")
+
+
+
+Reasumując **każdy pieprzyk o asymetrycznych kształtach, nierównych brzegach, zmieniający kolor i/lub średnicę, nabrzmiały, podrażniony, krwawiący wymaga natychmiastowej konsultacji z lekarzem** specjalistą i wykonania badania dermatoskopowego.
+
+<More link="/kontakt" text="Jeśli masz podobne znamię na skórze umów się na badanie wideodermatoskopowe." cta="Umów wizytę" />
+
+
+
+Uproszczeniem kryteriów ABCD przy samoobserwacji i badaniu jest dla pacjenta zasada **"brzydkiego kaczątka"**, jeśli jakiekolwiek znamię odbiega wyglądem od pozostałych warto, a nawet trzeba to skonsultować z lekarzem i poddać się wideodermatoskopii w specjalistycznym ośrodku. Dzięki temu podejrzane znamię zostanie szybko sklasyfikowane jako kancerogenne lub nie. Będzie możliwa też jego dalsza skrupulatna obserwacja w czasie.
 
 
 
@@ -167,14 +181,6 @@ W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem l
 ![czerniak](img/jak-odroznic31.png "czerniak")
 
 ![czerniak](img/jak-odroznic4.png "czerniak")
-
-![czerniak](img/jak-odroznic8.png "czerniak")
-
-![czerniak](img/jak-odroznic8a.png "czerniak")
-
-![czerniak](img/jak-odroznic9.png "czerniak")
-
-![czerniak](img/jak-odroznic9a.png "czerniak")
 
 **Uwaga!**
 
