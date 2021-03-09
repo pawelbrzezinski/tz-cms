@@ -19,16 +19,17 @@ keywords:
   - pandemia a leczenie onkologiczne
   - epidemia a onkologia
 tags:
-  - badanie znamion
   - czerniak
+  - koronawirus
+  - pandemia
+  - onkologia
+  - leczenie czerniaka
 sources:
   - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
       Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
       Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
       rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
       ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
-  - label: onet
-    link: https://www.facebook.com/
 ---
 **Onkologia w dobie koronawirusa** niewątpliwie stanęła przed trudnym wyzwaniem. Należy ona bowiem do dziedzin medycyny, które zmuszone zostały do wielu zmian i dostosowania się do nowej rzeczywistości. Towarzystwa medyczne starają się jednak na bieżąco reagować, ustalać bezpieczne standardy i podejmować działania, dzięki którym **pacjenci cierpiący na nowotwory** mogą uzyskać pomoc specjalistyczną. Pandemia u pacjentów z **czerniakiem** jest okresem wyjątkowego niepokoju, jednak powinni oni pamiętać, że **nie zostali z problemem sami**. Pomoc znaleźć mogą bowiem w wielu placówkach, gdzie umówić się można na wizytę lub **skorzystać z telekonsultacji**.
 
@@ -77,3 +78,13 @@ Pacjenci w stadium uogólnienia leczeni są wedle standardów dotychczasowych, w
 W leczeniu systemowym pacjenci mogą uzyskać leki na okres około 3 miesięcy w poradniach onkologicznych, jednak zaleca się wykonywać kontrolne badania laboratoryjne w poradniach rejonowych pomiędzy co trzymiesięcznymi wizytami w poradniach onkologicznych.
 
 <More link="/czerniak/rodzaje-czerniaka-zdjecia" text="Poznaj rodzaje czerniaka" cta="Sprawdź" />
+
+
+
+## Co z chorymi na czerniaka i objawami SARS-COV-2 ?
+
+Główną zasadą jest izolowanie pacjentów chorych lub z podejrzeniem koronawirusa od pozostałych. Wymagane jest każdorazowe przeprowadzanie testów, bowiem niektóre objawy mogą być efektem powikłań lub przebiegu choroby nowotworowej. Pacjenci obciążeni bez względu na wyniki testu wymagają nadzoru. **W przypadku dodatniego wyniku testu, leczenie celowane, jak również immunoterapia, muszą zostać wstrzymane**. Od decyzji lekarza zależy ponowny powrót do kontynuowania kuracji.
+
+W przypadku pacjentów w IV stopniu zaawansowania czerniaka, nie ma wskazań do zakwalifikowania ich do intensywnej terapii z wyjątkiem przypadków osób w utrzymującej się remisji nie zarażonych SARS-COV-2. Każde sytuacje są jednak rozpatrywane indywidualnie.
+
+Wszystkich pacjentów potrzebujących pomocy i wsparcia, zachęcamy do kontaktu i umawiania wizyt w [naszej placówce](/kontakt "Umów się na konsultację onkologiczną"). Dochowujemy wszelkich standardów bezpieczeństwa i pragniemy wspomóc naszych pacjentów najlepiej, jak to możliwe w obecnej sytuacji.
