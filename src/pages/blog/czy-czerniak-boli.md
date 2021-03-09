@@ -42,7 +42,7 @@ sources:
 ---
 **Czerniak jest nowotworem, który w początkowych fazach rozwoju nie daje żadnych objawów bólowych. Cierpienie może pojawić się wraz ze wzrostem czerniaka w głąb skóry oraz w przypadku przerzutów. Jest ono ściśle związane ze stopniem zaawansowania tej choroby, a ból i skala jego odczuwania są zawsze uzależnione od cech osobniczych.**
 
-![czerniak](img/czy-czerniak-boli1.png "czerniak")
+![czerniak](img/czy-czerniak-boli1.png)
 
 Czerniaki na wczesnym etapie zaawansowania nie muszą dawać żadnych dolegliwości bólowych, co utrudnia ich rozpoznanie gdyż mogą wyglądać jak zwykłe znamiona i w ogóle nie zwracać na siebie uwagi. Dopiero wnikliwe badanie dermatoskopowe może ujawnić ich obecność na skórze pacjenta.
 
