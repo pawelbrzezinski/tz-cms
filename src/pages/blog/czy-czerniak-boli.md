@@ -15,9 +15,15 @@ tags:
 sources: []
 ---
 ![czerniak](img/czy-czerniak-boli1.png "czerniak")
+
 ![czerniak](img/czy-czerniak-boli2.png "czerniak")
+
 ![czerniak](img/czy-czerniak-boli3.png "czerniak")
+
 ![czerniak](img/czy-czerniak-boli4.png "czerniak")
+
 ![czerniak](img/czy-czerniak-boli5.png "czerniak")
+
 ![czerniak](img/czy-czerniak-boli6.png "czerniak")
+
 ![czerniak](img/czy-czerniak-boli7.jpg "czerniak")
