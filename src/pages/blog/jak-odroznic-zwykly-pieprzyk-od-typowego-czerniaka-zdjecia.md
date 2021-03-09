@@ -61,6 +61,12 @@ Znane wszystkim zwykłe **pieprzyki to inaczej znamiona barwnikowe** powstałe
 
 ![zwykłe znamię](img/jak-odroznic1.png "zwykłe znamię")
 
+![zwykłe znamię](img/jak-odroznic2.png "zwykłe znamię")
+
+![zwykłe znamię](img/jak-odroznic3.png "zwykłe znamię")
+
+![zwykłe znamię](img/jak-odroznic4.png "zwykłe znamię")
+
 ![zwykłe znamię](img/jak-odroznic16.png "zwykłe znamię")
 
 ![zwykłe znamię](img/jak-odroznic17.png "zwykłe znamię")
@@ -150,31 +156,9 @@ W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem l
 
 ![czerniak](img/jak-odroznic11a.png "czerniak")
 
-![czerniak](img/jak-odroznic12.png "czerniak")
-
-![czerniak](img/jak-odroznic2.png "czerniak")
-
-![czerniak](img/jak-odroznic24.png "czerniak")
-
-![czerniak](img/jak-odroznic25.png "czerniak")
-
-![czerniak](img/jak-odroznic26.png "czerniak")
-
-![czerniak](img/jak-odroznic27.png "czerniak")
-
 ![czerniak](img/jak-odroznic13.png "czerniak")
 
-![czerniak](img/jak-odroznic28.png "czerniak")
-
-![czerniak](img/jak-odroznic29.png "czerniak")
-
-![czerniak](img/jak-odroznic3.png "czerniak")
-
-![czerniak](img/jak-odroznic30.png "czerniak")
-
-![czerniak](img/jak-odroznic31.png "czerniak")
-
-![czerniak](img/jak-odroznic4.png "czerniak")
+![czerniak](img/jak-odroznic12.png "czerniak")
 
 **Uwaga!**
 
