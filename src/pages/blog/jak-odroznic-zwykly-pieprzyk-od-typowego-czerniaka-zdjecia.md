@@ -28,16 +28,30 @@ keywords:
   - to jednak nie czerniak
   - rak skóry
 tags:
-  - badanie znamion
+  - pieprzyk
   - czerniak
+  - zdjęcia
+  - znamię
+  - rak skóry
+  - nowotwory skóry
 sources:
-  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
-      Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
-      Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
-      rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
-      ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
-  - label: onet
-    link: https://www.facebook.com/
+  - label: “Dermoscopic Evaluation of Amelanotic and Hypomelanotic Melanoma.” Scott
+      W. Menzies, MB, BS, PhD; Juergen Kreusch, PhD, MD; Karen Byth, PhD; et al
+  - label: www.researchgate.net/publication/23258171_Dermoscopic_Evaluation_of
+      _Amelanotic_and_Hypomelanotic_Melanoma
+    link: www.researchgate.net/publication/23258171_Dermoscopic_Evaluation_of
+      _Amelanotic_and_Hypomelanotic_Melanoma
+  - label: dermoscopedia.org/
+    link: https://dermoscopedia.org/
+  - label: www.dermis.net/
+    link: https://www.dermis.net/
+  - label: "“Ewolucja w diagnostyce czerniaka złośliwego: 25 lat po wprowadzeniu
+      kryteriów ABCD.” Darrell S. Rigel, Julie Russak, Robert Friedman,, w: CA
+      Cancer J Clin 2010, 60: 301-316."
+  - label: “Dermoskopia” H. Peter Soyer, G.Argenziano, R. Hofmann-Wallenhof, I.
+      Zalaudek
+  - label: “Dermatoskopia Algorytmiczna metoda oparta na analizie wzorca” Harald
+      Kittler
 ---
 **Nie każdy pieprzyk jest czerniakiem, jednak czerniak może mieć formę pieprzyka. Porównaj zdjęcia zwykłych znamion i typowych czerniaków. Poniższy artykuł ma na celu przybliżenie wiedzy na temat obserwacji i różnicowania zmian skórnych.**
 
