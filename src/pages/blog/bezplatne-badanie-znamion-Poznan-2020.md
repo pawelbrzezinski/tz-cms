@@ -45,7 +45,7 @@ keywords:
 tags:
   - Badanie Znamion
   - Wideodermatoskopia
-  - Profilaktyka raka skóry
+  - Poznań
 sources: []
 ---
 **Czerniak skóry** należy do najbardziej złośliwych nowotworów. Wczesna diagnostyka zmian jest warunkiem skutecznego leczenia, a **wideodermatoskopia** (mikroskopia epiluminescencyjna) jest w niej bardzo pomocna. Umożliwia ona również miarodajne badanie znamion atypowych i ich monitorowanie. Wszystko to dzięki systemom komputerowym pozwalającym na precyzyjną ocenę obrazów uzyskanych w **badaniu wideodermatoskopowym**.
@@ -116,3 +116,9 @@ W Centrum Badania Znamiona **Twoje Znamiona** można wykonać wideodermatoskop
 ## Bezpłatne badania znamion w ramach akcji profilaktycznych w Poznaniu i okolicy.
 
 Nawet łagodne znamiona i niepozorne pieprzyki warto poddawać rok rocznej kontroli. Jeśli obawiamy się badań lub „niepotrzebnych kosztów”, to skierujmy swe kroki chociażby na bezpłatne badania profilaktyczne sponsorowane przez niektóre fundacje i stowarzyszenia. Można wówczas bezpłatnie skorzystać z doraźnego badania i porady lekarskiej w zakresie niepokojących zmian skórnych.
+
+Należy jednak zwrócić uwagę na to, czy badanie wykonywane jest przez lekarza, gdyż zdarza się, iż tego typu badania wykonują osoby bez odpowiedniej wiedzy i wystarczających kwalifikacji np. nie przez lekarzy, co jest niezgodne z obowiązującym prawem i szkodliwe dla pacjentów.
+
+Pamiętajmy ponadto, że badanie kilku znamion nie zwalnia nas z obowiązku wykonania badania całego ciała, gdyż tylko badanie od stóp do głów, wykonane przez doświadczonego specjalistę zapewnia nam bezpieczeństwo i możliwość postawienia trafnej diagnozy.
+
+<More link="blog/jak-chronic-sie-przed-nowotworem-skory" text="Jak chronić się przed nowotworem skóry?" cta="Sprawdź" />
