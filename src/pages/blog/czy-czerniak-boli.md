@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: czy-czerniak-boli
+title: Czy czerniak boli?
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 5
