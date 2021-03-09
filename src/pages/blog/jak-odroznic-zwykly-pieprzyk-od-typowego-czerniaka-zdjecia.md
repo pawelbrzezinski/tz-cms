@@ -41,29 +41,58 @@ sources:
 ---
 **Nie każdy pieprzyk jest czerniakiem, jednak czerniak może mieć formę pieprzyka. Porównaj zdjęcia zwykłych znamion i typowych czerniaków. Poniższy artykuł ma na celu przybliżenie wiedzy na temat obserwacji i różnicowania zmian skórnych.**
 
+## Zwykłe znamiona
+
+Znane wszystkim zwykłe **pieprzyki to inaczej znamiona barwnikowe** powstałe w wyniku namnażania się komórek pigmentowych – głównie pod wpływem promieniowania UV. Większość z nich jest neutralna dla zdrowia i co najwyżej tworzy problem jako defekt kosmetyczny.
+
+![zwykłe znamię](img/jak-odroznic1.png "zwykłe znamię")
 
 
-<More link="/czerniak" text="Jak wyglada  czerniak" cta="Sprawdź" />
 
-![czerniak](img/jak-odroznic1.png "czerniak")
-![czerniak](img/jak-odroznic10.png "czerniak")
+**Wideodermatoskopia** ma jeszcze jedną dużą zaletę. Umożliwia **mapowanie** powierzchni całego ciała i znalezienie oraz kontrolę pieprzyków, których pacjent sam nie jest w stanie zaobserwować.
+
+![Wideodermatoskopia - mapowanie znamion.](img/jak-odroznic10.png "Wideodermatoskopia - mapowanie znamion.")
+
+
+
+## Typowy czerniak
+
+W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem lub będzie dawał inne objawy jak: łuszczenie, rogowacenie, krwawienie lub inny wysięk w jego obrębie. Takie sytuacje oznaczają konieczność natychmiastowej interwencji najlepiej w specjalistycznym ośrodku, gdzie nie ma mowy o wielomiesięcznym oczekiwaniu.
+
 ![czerniak](img/jak-odroznic11.png "czerniak")
+
 ![czerniak](img/jak-odroznic11a.png "czerniak")
+
 ![czerniak](img/jak-odroznic12.png "czerniak")
+
 ![czerniak](img/jak-odroznic13.png "czerniak")
+
 ![czerniak](img/jak-odroznic16.png "czerniak")
+
 ![czerniak](img/jak-odroznic17.png "czerniak")
+
 ![czerniak](img/jak-odroznic18.png "czerniak")
+
 ![czerniak](img/jak-odroznic19.png "czerniak")
+
 ![czerniak](img/jak-odroznic2.png "czerniak")
+
 ![czerniak](img/jak-odroznic20.png "czerniak")
+
 ![czerniak](img/jak-odroznic21.png "czerniak")
+
 ![czerniak](img/jak-odroznic22.png "czerniak")
+
 ![czerniak](img/jak-odroznic23.png "czerniak")
+
 ![czerniak](img/jak-odroznic24.png "czerniak")
+
 ![czerniak](img/jak-odroznic25.png "czerniak")
+
 ![czerniak](img/jak-odroznic26.png "czerniak")
+
 ![czerniak](img/jak-odroznic27.png "czerniak")
+
 ![czerniak](img/jak-odroznic28.png "czerniak")
 ![czerniak](img/jak-odroznic29.png "czerniak")
 ![czerniak](img/jak-odroznic3.png "czerniak")
