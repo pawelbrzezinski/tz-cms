@@ -43,16 +43,10 @@ keywords:
   - zdjęcia czerniaka
   - znamiona barwnikowe
 tags:
-  - badanie znamion
-  - czerniak
-sources:
-  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
-      Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
-      Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
-      rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
-      ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
-  - label: onet
-    link: https://www.facebook.com/
+  - Badanie Znamion
+  - Wideodermatoskopia
+  - Profilaktyka raka skóry
+sources: []
 ---
 **Światowa Organizacja Zdrowia WHO** opracowała wytyczne dotyczące ekspozycji na promieniowanie UV jako głównego czynnika zwiększającego ryzyko **zachorowania na nowotwory skóry**. W tym artykule opowiemy:
 
@@ -62,8 +56,6 @@ sources:
 * dlaczego solarium jest szkodliwe,
 * czym jest metoda ABCDE,
 * jak często należy **badać znamiona**.
-
-
 
 W ramach **unikania** zachorowania na **raka skóry** zaleca się
 
@@ -121,4 +113,4 @@ Na rzecz oceny czerniaka guzowatego (ang. nodular melanoma -NM) stosuje się te�
 
 Ważnym elementem profilaktyki jest ponadto badanie dermatoskopowe, które powinno być wykonywane regularnie z częstotliwością zależną od wskazań i zaleceń lekarskich ( średnio 1 x rok) oraz poddawanie znamion budzących jakikolwiek niepokój onkologiczny chirurgicznej resekcji.
 
-<More link="https://twojeznamiona.pl/dermatoskopia-badanie-znamion" text="Dowiedz się więcej o badaniu dermatoskopowym" cta="Sprawdź" />
+<More link="/dermatoskopia-badanie-znamion" text="Dowiedz się więcej o badaniu dermatoskopowym" cta="Sprawdź" />
