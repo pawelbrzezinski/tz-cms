@@ -69,9 +69,9 @@ Ocena stanu znamion, zwanych potocznie pieprzykami, tzw. gołym okiem bywa trudn
 
 ## Gdzie można się zbadać?
 
-Najczęściej, próbując dowiedzieć się czegoś o naszych znamionach i potencjalnych metodach ich usunięcia, **idziemy do dermatologa**. Przyjmujący w przychodni specjalista **często nie dysponuje jednak wideodermatoskopem**, a nawet jeśli go posiada, limity czasowe nie pozwalają na wykonanie pełnowartościowego badania. Kierując kroki do gabinetu kosmetologii estetycznej, niejednokrotnie mamy wątpliwości, czy usunąć zmianę [laserem](https://twojeznamiona.pl/laserowe-usuwanie-znamion) - nie można wówczas wykonać [badania histopatologicznego](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion) i dowiedzieć się, **czy znamię było nowotworem**. Zamiast biegać w stresie po przychodniach, można wybrać sprawdzone miejsce i zbadać znamiona, nawet podczas spaceru po Krakowie. Niedaleko Sukiennic, na Placu Szczepańskim 3, [umówisz się na badanie](https://twojeznamiona.pl/kontakt "Umów się na badanie znamion") **Ogólnopolskie Centrum Badania Znamion Twoje Znamiona** przyjmuje szybko i **bez kolejek**.
+Najczęściej, próbując dowiedzieć się czegoś o naszych znamionach i potencjalnych metodach ich usunięcia, **idziemy do dermatologa**. Przyjmujący w przychodni specjalista **często nie dysponuje jednak wideodermatoskopem**, a nawet jeśli go posiada, limity czasowe nie pozwalają na wykonanie pełnowartościowego badania. Kierując kroki do gabinetu kosmetologii estetycznej, niejednokrotnie mamy wątpliwości, czy usunąć zmianę [laserem](/laserowe-usuwanie-znamion) - nie można wówczas wykonać [badania histopatologicznego](/chirurgiczne-usuwanie-znamion) i dowiedzieć się, **czy znamię było nowotworem**. Zamiast biegać w stresie po przychodniach, można wybrać sprawdzone miejsce i zbadać znamiona, nawet podczas spaceru po Krakowie. Niedaleko Sukiennic, na Placu Szczepańskim 3, [umówisz się na badanie](/kontakt "Umów się na badanie znamion") **Ogólnopolskie Centrum Badania Znamion Twoje Znamiona** przyjmuje szybko i **bez kolejek**.
 
-
+<More link="/krakow/badanie-znamion" text="Więcej o badaniu znamion w Krakowie" cta="Sprawdź" />
 
 ![czerniak](img/krakow3.jpg "czerniak")
 
