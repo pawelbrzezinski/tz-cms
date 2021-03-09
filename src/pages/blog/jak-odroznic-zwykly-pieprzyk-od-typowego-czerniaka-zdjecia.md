@@ -110,6 +110,12 @@ Dla pacjentów najprostszym sposobem różnicowania pieprzyków jest posługiwan
 
 Obejrzyj film i sprawdź jak obserwować się w domu!
 
+<YoutubePlayer url="https://www.youtube.com/watch?v=H-RQqWIOXcI" start="0" end="0" label="" />
+
+
+
+Opierając się na własnym doświadczeniu w ocenie chorych, członkowie New York University School of Medicine Melanoma Cooperative Group stwierdzili, że asymetria wczesnej postaci czerniaka, nieregularność jej brzegów oraz różnorodność barw były ściśle związane z przekraczaniem przez nią średnicy 6 mm. Co nie zmienia faktu, że ta metoda pozwala wykryć i zróżnicować nieco mniejsze i wcześniejsze pod względem zaawansowania postaci czerniaka.
+
 
 
 **Wideodermatoskopia** ma jeszcze jedną dużą zaletę. Umożliwia **mapowanie** powierzchni całego ciała i znalezienie oraz kontrolę pieprzyków, których pacjent sam nie jest w stanie zaobserwować.
