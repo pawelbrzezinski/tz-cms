@@ -61,6 +61,35 @@ Znane wszystkim zwykłe **pieprzyki to inaczej znamiona barwnikowe** powstałe
 
 ![zwykłe znamię](img/jak-odroznic1.png "zwykłe znamię")
 
+![zwykłe znamię](img/jak-odroznic16.png "zwykłe znamię")
+
+![zwykłe znamię](img/jak-odroznic17.png "zwykłe znamię")
+
+
+
+## Czy to podrażniony pieprzyk?
+
+Zwykle nie zwracamy uwagi na swoje znamiona do czasu kiedy nie dzieje się z nimi coś niepokojącego. Wówczas zastanawiamy się czy zaczerwienione znamię to tylko przejściowo podrażniony, rozdrapany pieprzyk czy poważniejszy stan zapalny. Często staramy się przeczekać aż nabrzmiałe znamię wróci do stanu, który przestanie nas niepokoić. Ale czy na pewno naderwanie, podrapanie czy inny uraz mechaniczny jest tego przyczyną?
+
+![podrażniona brodawka łojotokowa](img/jak-odroznic18.png "podrażniona brodawka łojotokowa")
+
+
+
+Uwaga, niepokojące objawy, które mogą wskazywać na obecność komórek rakowych i wymagają pilnej konsultacji lekarskiej z dermatoskopową oceną podrażnionych zmian skórnych to m.in
+
+* zaczerwienienie
+* dolegliwości bólowe
+* krwawienie
+* stan zapalny
+* uwypuklenie
+* swędzenie
+
+Należy także pamiętać o **nowych pieprzykach**, które także wymagają kontroli i obserwacji, gdyż czerniak najczęściej powstaje "de novo" czyli jako nowa zmiana na skórze, która zwykle różni się od pozostałych znamion.
+
+**Czerniak może na pierwszy rzut oka do złudzenia przypominać podrażnioną brodawkę łojotokową czy naderwany pieprzyk dlatego nie odkładaj wizyty u lekarza na później.**
+
+
+
 **Wideodermatoskopia** ma jeszcze jedną dużą zaletę. Umożliwia **mapowanie** powierzchni całego ciała i znalezienie oraz kontrolę pieprzyków, których pacjent sam nie jest w stanie zaobserwować.
 
 ![Wideodermatoskopia - mapowanie znamion.](img/jak-odroznic10.png "Wideodermatoskopia - mapowanie znamion.")
@@ -76,12 +105,6 @@ W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem l
 ![czerniak](img/jak-odroznic11a.png "czerniak")
 
 ![czerniak](img/jak-odroznic12.png "czerniak")
-
-![czerniak](img/jak-odroznic16.png "czerniak")
-
-![czerniak](img/jak-odroznic17.png "czerniak")
-
-![czerniak](img/jak-odroznic18.png "czerniak")
 
 ![czerniak](img/jak-odroznic19.png "czerniak")
 
@@ -104,7 +127,9 @@ W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem l
 ![czerniak](img/jak-odroznic27.png "czerniak")
 
 ![czerniak](img/jak-odroznic13.png "czerniak")
+
 ![czerniak](img/jak-odroznic28.png "czerniak")
+
 ![czerniak](img/jak-odroznic29.png "czerniak")
 ![czerniak](img/jak-odroznic3.png "czerniak")
 ![czerniak](img/jak-odroznic30.png "czerniak")
