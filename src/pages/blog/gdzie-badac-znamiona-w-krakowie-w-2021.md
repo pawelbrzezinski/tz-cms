@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
-title: gdzie-badac-znamiona-w-krakowie-w-2021
+title: Gdzie badać znamiona w Krakowie w 2021
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 8
+readingTime: 9
 date: 2020-09-04T18:51:38.512Z
 description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
   barwnikowych - melanocytów. Poniżej prezentujemy zdjęcia czerniaków, które
@@ -36,7 +36,7 @@ sources:
   - label: onet
     link: https://www.facebook.com/
 ---
-## Czerniak zdjęcia
+Na stronach **małopolskiego oddziału Narodowego Funduszu Zdrowia w Krakowie** dostępne są statystyki mówiące o tym, że **nowotwory skóry** stanowią około **10%** wszystkich **wykrywanych nowotworów** złośliwych w Polsce. Spośród nowotworów skóry **czerniak** jest jednym z najczęściej występujących, ale nie jedynym. Jak można się ich ustrzec? Dlaczego należy przeprowadzać **regularne badanie znamion** oraz w jaki sposób [wideodermatoskopia](/wideodermatoskopia-komputerowe-badanie-znamion "wideodermatoskopia") umożliwia wczesne wykrycie raka skóry?
 
 
 
