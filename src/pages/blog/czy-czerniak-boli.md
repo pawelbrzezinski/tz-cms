@@ -9,12 +9,17 @@ description: .
 keywords:
   - .
 tags:
-  - Badanie Znamion
-  - Wideodermatoskopia
-  - Szczecin
+  - pieprzyk
+  - czerniak
+  - zdjęcia
+  - znamię
+  - rak skóry
+  - nowotwory skóry
 sources:
   - label: www.cancerresearchuk.org
     link: www.cancerresearchuk.org
+  - label: www.onkologia.zalecenia.med.pl
+    link: http://www.onkologia.zalecenia.med.pl
 ---
 **Czerniak jest nowotworem, który w początkowych fazach rozwoju nie daje żadnych objawów bólowych. Cierpienie może pojawić się wraz ze wzrostem czerniaka w głąb skóry oraz w przypadku przerzutów. Jest ono ściśle związane ze stopniem zaawansowania tej choroby, a ból i skala jego odczuwania są zawsze uzależnione od cech osobniczych.**
 
