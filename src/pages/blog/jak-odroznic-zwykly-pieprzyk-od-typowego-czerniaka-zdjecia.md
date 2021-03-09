@@ -120,23 +120,27 @@ Opierając się na własnym doświadczeniu w ocenie chorych, członkowie New Yor
 
 ![czerniak](img/jak-odroznic9a.png "czerniak")
 
-
-
 Reasumując **każdy pieprzyk o asymetrycznych kształtach, nierównych brzegach, zmieniający kolor i/lub średnicę, nabrzmiały, podrażniony, krwawiący wymaga natychmiastowej konsultacji z lekarzem** specjalistą i wykonania badania dermatoskopowego.
 
 <More link="/kontakt" text="Jeśli masz podobne znamię na skórze umów się na badanie wideodermatoskopowe." cta="Umów wizytę" />
 
-
-
 Uproszczeniem kryteriów ABCD przy samoobserwacji i badaniu jest dla pacjenta zasada **"brzydkiego kaczątka"**, jeśli jakiekolwiek znamię odbiega wyglądem od pozostałych warto, a nawet trzeba to skonsultować z lekarzem i poddać się wideodermatoskopii w specjalistycznym ośrodku. Dzięki temu podejrzane znamię zostanie szybko sklasyfikowane jako kancerogenne lub nie. Będzie możliwa też jego dalsza skrupulatna obserwacja w czasie.
 
+![brzydkie kaczątko - czerniak](img/jak-odroznic22.png "brzydkie kaczątko - czerniak")
 
+![brzydkie kaczątko - znamię dysplastyczne](img/jak-odroznic23.png "brzydkie kaczątko - znamię dysplastyczne")
 
 **Wideodermatoskopia** ma jeszcze jedną dużą zaletę. Umożliwia **mapowanie** powierzchni całego ciała i znalezienie oraz kontrolę pieprzyków, których pacjent sam nie jest w stanie zaobserwować.
 
 ![Wideodermatoskopia - mapowanie znamion.](img/jak-odroznic10.png "Wideodermatoskopia - mapowanie znamion.")
 
 <More link="/kontakt" text="Sprawdź czy w Twoim mieście można wykonać wideodermatoskopię." cta="Sprawdź" />
+
+![Wideodermatoskopia - zmapowane znamię nr 22.](img/jak-odroznic19.png "Wideodermatoskopia - zmapowane znamię nr 22.")
+
+![Wideodermatoskopia - zmapowane znamię nr 35.](img/jak-odroznic20.png "Wideodermatoskopia - zmapowane znamię nr 35.")
+
+![Wideodermatoskopia - zmapowane znamię nr 40.](img/jak-odroznic21.png "Wideodermatoskopia - zmapowane znamię nr 40.")
 
 ## Typowy czerniak
 
@@ -148,17 +152,7 @@ W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem l
 
 ![czerniak](img/jak-odroznic12.png "czerniak")
 
-![czerniak](img/jak-odroznic19.png "czerniak")
-
 ![czerniak](img/jak-odroznic2.png "czerniak")
-
-![czerniak](img/jak-odroznic20.png "czerniak")
-
-![czerniak](img/jak-odroznic21.png "czerniak")
-
-![czerniak](img/jak-odroznic22.png "czerniak")
-
-![czerniak](img/jak-odroznic23.png "czerniak")
 
 ![czerniak](img/jak-odroznic24.png "czerniak")
 
