@@ -65,6 +65,8 @@ Znane wszystkim zwykłe **pieprzyki to inaczej znamiona barwnikowe** powstałe
 
 ![Wideodermatoskopia - mapowanie znamion.](img/jak-odroznic10.png "Wideodermatoskopia - mapowanie znamion.")
 
+<More link="/kontakt" text="Sprawdź czy w Twoim mieście można wykonać wideodermatoskopię." cta="Sprawdź" />
+
 ## Typowy czerniak
 
 W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem lub będzie dawał inne objawy jak: łuszczenie, rogowacenie, krwawienie lub inny wysięk w jego obrębie. Takie sytuacje oznaczają konieczność natychmiastowej interwencji najlepiej w specjalistycznym ośrodku, gdzie nie ma mowy o wielomiesięcznym oczekiwaniu.
