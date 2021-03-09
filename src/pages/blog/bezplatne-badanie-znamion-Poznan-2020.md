@@ -60,7 +60,7 @@ Z reguły mają one charakter łagodny. Towarzyszą człowiekowi od urodzenia (z
 
 Znamiona atypowe o nieregularnych kształtach i barwie, które pojawiły się niespodziewanie są obarczone większym ryzykiem rozwoju [czerniaka](/czerniak). Powinny być obserwowane – podobnie jak te łagodne – jednak również jak najszybciej poddane badaniu wideodermoskopowemu wysokiej jakości.
 
-<More link="/blog/jak-wyglada-czerniak-zdjecia" text="Jak wygląda czerniak? ZDJĘCIA" cta="Sprawdź" />
+<More link="/blog/jak-wyglada-czerniak-zdjecia" text="Jak wygląda czerniak? ZDJĘCIA" cta="Zobacz" />
 
 ![Czerniak skóry](img/czernia8.jpg "Czerniak skóry")
 
