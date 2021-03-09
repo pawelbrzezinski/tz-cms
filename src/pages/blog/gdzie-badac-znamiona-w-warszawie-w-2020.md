@@ -3,27 +3,46 @@ templateKey: blog-post
 title: Gdzie badać znamiona w Warszawie w 2020
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 8
+readingTime: 7
 date: 2020-09-04T18:51:38.512Z
-description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
-  barwnikowych - melanocytów. Poniżej prezentujemy zdjęcia czerniaków, które
-  wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie
-  samobadania swoich znamion. Po zapoznaniu się z tym artykułem będziesz
-  wiedzieć jak wygląda typowy czerniak.
+description: Gdzie zbadać znamiona w Warszawie w 2020 roku? Badania
+  dermatoskopowe na NFZ, bezpłatne badania wideodermatoskopowe oraz
+  profesjonalne Centra Diagnostyki Znamion Barwnikowych.
 keywords:
-  - czerniak zdjęcia
-  - czeerniak paznokcia
-  - czerniak podpaznokciowy
-  - czerniak guguzkowaty
-  - czerniak leczenie
-  - czerniak objawy
   - badanie znamion
   - dermatoskopia
-  - jak wyglada czerniak
-  - wideodermatoskopia
-  - centrum badania znamion
-  - czerniak onkolog
-  - konsultacje onkologiczne
+  - warszawa
+  - ocena znamion
+  - profilaktyka
+  - brodawki
+  - włókniak
+  - czerniak
+  - rak
+  - nowotwór skóry
+  - onkologia
+  - złośliwy
+  - przerzuty
+  - medycyna
+  - leczenie
+  - diagnostyka
+  - rokowania
+  - rak skóry
+  - znamiona
+  - twojeznamiona
+  - czerniak leczenie
+  - czerniak przerzuty
+  - czerniak skory
+  - czerniak skóry
+  - czerniak zdjęcia
+  - czerniak złośliwy
+  - czerniak złośliwy objawy
+  - czerniak złośliwy zdjęcia
+  - leczenie czerniaka
+  - rak czerniak
+  - rak skóry czerniak
+  - usuwanie znamion
+  - zdjęcia czerniaka
+  - znamiona barwnikowe
 tags:
   - badanie znamion
   - czerniak
