@@ -25,16 +25,21 @@ keywords:
   - czerniak onkolog
   - konsultacje onkologiczne
 tags:
-  - badanie znamion
+  - pieprzyk
   - czerniak
+  - znamię
+  - rak skóry
+  - nowotwór skóry
 sources:
-  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
-      Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
-      Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
-      rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
-      ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
-  - label: biologiaogul.blogspot.com/2014/10/komorki-tkanek-acznych.html
-    link: http://biologiaogul.blogspot.com/2014/10/komorki-tkanek-acznych.html
+  - label: dr n. med. Aleksandra Gołębiowska, Późne rozpoznanie zmian skórnych
+      przyczyną dużej śmiertelności z powodu czerniaka w Polsce
+    link: https://pulsmedycyny.pl/pozne-rozpoznanie-zmian-skornych-przyczyna-duzej-smiertelnosci-z-powodu-czerniaka-w-polsce-877585
+  - label: Marta Pacholczyk, Jan Czernicki, Tomasz Ferenc, Wpływ słonecznego
+      promieniowania ultrafioletowego (UV) na powstawanie raków skóry, Medycyna
+      Pracy 2016;67(2):255–266
+    link: ""
+  - label: dr n. med. Jolanta Maciejewska, Znamiona barwnikowe
+    link: https://www.mp.pl/pacjent/dermatologia/choroby/chorobyskory/74416,znamiona-barwnikowe
 ---
 **Czerniak złośliwy jest nowotworem wywodzącym się z komórek barwnikowych - melanocytów. By zrozumieć, jak tworzą się znamiona barwnikowe zwane potocznie pieprzykami, dobrze jest poznać komórki, które biorą udział w procesie ich powstawania. Pozwoli to lepiej zrozumieć, czym są popularne pieprzyki i dlaczego niektóre z nich mogą być groźne dla zdrowia.**
 
