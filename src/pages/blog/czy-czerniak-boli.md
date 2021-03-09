@@ -52,7 +52,6 @@ Współczesne nowoczesne metody obrazowania zmian skórnych i ich mapowanie daj�
 
 ![czerniak](img/czy-czerniak-boli2.png)
 
-
 ## Co to jest wideodermatoskopia?
 
 Za pomocą narzędzi takich jak Wideodermatoskop FotoFinder Medicam 1000 można skutecznie odnaleźć i dokonać oceny wszystkich pieprzyków – przeprowadzić wspomniane już mapowanie czyli zapisywanie zmian skórnych celem ich obserwacji w czasie. To przekłada się oczywiście na szybkie zlokalizowanie zmian podejrzanych, które łatwo mogą dać początek czerniakowi.
@@ -121,8 +120,6 @@ Leczenie przeciwbólowe u pacjentów onkologicznych prowadzi się według zaprop
 
 ![czerniak](img/czy-czerniak-boli6.png)
 
-
-
 * I stopień — analgetyki nieopioidowe ( paracetamol, NLPZ)
 * II stopień —słabe opioidy ( tramadol, dihydrokodeina, kodeina) lub np. małe dawki morfiny + analgetyki nieopioidowe
 * III stopień — silne opioidy ( np. morfina czy fentanyl) + analgetyki nieopioidowe
@@ -131,7 +128,7 @@ Na każdym szczeblu stosuje się dodatkowo inne leki łagodzące działania niep
 
 ## Najważniejsze zasady leczenia bólu w przypadku zaawansowanego czerniaka
 
-![czerniak](img/czy-czerniak-boli7.jpg "czerniak")
+![czerniak](img/czy-czerniak-boli7.jpg)
 
 * lek i jego dawkę dobiera się indywidualnie do zapotrzebowania
 * wybór leku zależy od stopnia natężenia bólu
