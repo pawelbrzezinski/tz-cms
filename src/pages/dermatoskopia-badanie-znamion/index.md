@@ -172,7 +172,7 @@ Dwie duże metaanalizy przeprowadzone w 2002 i w 2008 roku potwierdzają większ
 * spędzające dużo czasu na słońcu lub korzystające z solarium, szczególnie pacjenci powyżej 50 roku życia z objawami fotouszkodzenia skóry
 ![opalanie](img/slonce.png "opalanie")
 * posiadające znamiona wrodzone, które charakteryzują się większym ryzykiem "zezłośliwienia"
-![znamię wrodzone](img/congenoital.png "znamię wrodzone")
+![znamię wrodzone](img/congenoital.jpg "znamię wrodzone")
 * z czerniakiem w wywiadzie lub dodatnim wywiadem rodzinnym w kierunku czerniaka - [Dowiedz się więcej o czerniaku](/czerniak "Dowiedz się więcej o czerniaku")
 ![czerniak](img/czerniak11.jpg "czerniak")
 * z zaburzoną odpornością lub przyjmujące leki obniżające odporność

@@ -75,7 +75,7 @@ Wideodermatoskopia polega na komputerowym badaniu znamion za pomocą urządzenia
 - Lekarz generuje raport z badania, uzupełnia wynik oraz dokumentację medyczną.
 - Pacjent otrzymuje wynik badania oraz raport z systemu wideodermatoskopu w postaci zdjęć wszystkich zapisanych przez lekarza znamion - drogą elektroniczną w postaci chronionego indywidualnym hasłem pliku.
 
-<YoutubePlayer url="https://www.youtube.com/watch?v=poNXsnlfk-g" start="118" end="138" label="Przebieg badania wideodermatoskopowego" muted={true} />
+<YoutubePlayer url="https://www.youtube.com/watch?v=poNXsnlfk-g" start="119" end="138" label="Przebieg badania wideodermatoskopowego" muted={true} />
 
 **Czas trwania komputerowej oceny znamion - 30-40 min. w zależności od liczby znamion na skórze.**
 

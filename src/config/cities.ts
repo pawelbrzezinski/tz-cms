@@ -4,7 +4,7 @@ export const FUTURE = "future";
 export const LOCATIONS = [
   {
     city: "Poznan",
-    link: "poznan/badanie-znamion",
+    link: "poznan/dermatoskopowe-badanie-znamion-wideodermatoskopia",
     position: {
       left: 29,
       top: 45,
