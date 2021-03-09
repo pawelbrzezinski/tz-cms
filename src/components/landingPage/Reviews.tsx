@@ -8,12 +8,14 @@ const ReviewCard = ({ author = "", city = "", children = null }) => {
   return (
     <div className="review_card">
       <div className="review_body">{children}</div>
-      <div>
-        <img src={StarsImage} alt="5 gwiazdek" />
-      </div>
-      <div>
-        <h6>{author}</h6>
-        <span className="smallbody">, {city}</span>
+      <div className="review_footer">
+        <div>
+          <img src={StarsImage} alt="5 gwiazdek" />
+        </div>
+        <div>
+          <h6>{author}</h6>
+          <span className="smallbody">, {city}</span>
+        </div>
       </div>
     </div>
   );

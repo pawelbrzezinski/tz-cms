@@ -10,7 +10,8 @@ const Surgery = ({ className = "", graph, reverse = true }) => (
   <TwoColumnHomeSection
     reverse={reverse}
     className={className}
-    h2="Kiedy wyciąć pieprzyk?"
+    intro="Kiedy wyciąć pieprzyk?"
+    h2="Usuwanie Znamion"
     H5={() => (
       <>
         Zawsze przed podjęciem decyzji o tym czy znamię powinno zostać usunięte

@@ -8,7 +8,7 @@ const Location = ({
   coords,
   additionalDetails,
   locationInfo = { title: "", data: "" },
-  hoursInfo = { data: "" },
+  hoursInfo = [],
   transportationInfo = { data: "" },
   className = "",
   googleMarker,
@@ -37,7 +37,14 @@ const Location = ({
           </div>
           <div className="location_info_hours">
             <p className="title">Godziny otwarcia</p>
-            <p>{hoursInfo.data}</p>
+            <p>
+              {hoursInfo.map((item) => (
+                <>
+                  <span>{item}</span>
+                  <br />
+                </>
+              ))}
+            </p>
           </div>
           <div className="location_info_transportation">
             <p className="title">Komunikacja miejska</p>

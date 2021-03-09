@@ -62,30 +62,57 @@ const RegistrationInfo = () => (
           czwartek - piątek: <strong>10:00⁃18:00</strong>
         </p>
       </div>
-      <div className="contact_info_wrapper">
+      <a
+        href="tel:+48781445685"
+        title="+48781445685"
+        className="contact_info_wrapper"
+      >
         <CallButton className="phone_button" type="dark" size="S" />
         <span className="phone-number">+48 781 445 685</span>
-      </div>
-      <div className="contact_info_wrapper">
+      </a>
+      <a
+        href="mailto:zbadamy@twojeznamiona.pl"
+        title="zbadamy@twojeznamiona.pl"
+        className="contact_info_wrapper"
+      >
         <MailButton className="mail_button" />
         <span className="phone-number">zbadamy@twojeznamiona.pl</span>
-      </div>
+      </a>
     </div>
     <div className="operations_wrappper">
       <h4>Dział Operacyjny</h4>
       <div className="contact_person">Ida Słowicka</div>
-      <div className="contact_info_wrapper">
+      <a
+        href="tel:+48794445685"
+        title="+48794445685"
+        className="contact_info_wrapper"
+      >
         <CallButton className="phone_button" type="dark" size="S" />
         <span className="phone-number">+48 794 445 685</span>
-      </div>
-      <div className="contact_info_wrapper">
+      </a>
+      <a
+        href="mailto:ida.slowicka@twojeznamiona.pl"
+        title="ida.slowicka@twojeznamiona.pl"
+        className="contact_info_wrapper"
+      >
         <MailButton className="mail_button" />
         <span className="phone-number">ida.slowicka@twojeznamiona.pl</span>
-      </div>
+      </a>
       <div className="contact_person_details">
-        <p>+48 794 445 685</p>
+        <p>
+          <a href="tel:+48781445685" title="+48781445685">
+            +48 794 445 685
+          </a>
+        </p>
 
-        <p>ida.slowicka@twojeznamiona.pl</p>
+        <p>
+          <a
+            href="mailto:ida.slowicka@twojeznamiona.pl"
+            title="ida.slowicka@twojeznamiona.pl"
+          >
+            ida.slowicka@twojeznamiona.pl
+          </a>
+        </p>
       </div>
     </div>
   </>
@@ -100,9 +127,9 @@ const ContactPage = () => (
       <div className="contact_cities">
         <h1>Nasze ośrodki</h1>
         <div className="contact_cities_instructions">
-          <strong>Wybierz miasto</strong>, w którym chcesz się zbadać. Dynamicznie zwiększamy
-          obszar naszej działalności, aby już wkrótce działać w Twoim miejscu
-          zamieszkania!
+          <strong>Wybierz miasto</strong>, w którym chcesz się zbadać.
+          Dynamicznie zwiększamy obszar naszej działalności, aby już wkrótce
+          działać w Twoim miejscu zamieszkania!
         </div>
         <div className="contact_cities_list_wrapper">
           {LOCATIONS.filter((location) => location.link).map((location) => (

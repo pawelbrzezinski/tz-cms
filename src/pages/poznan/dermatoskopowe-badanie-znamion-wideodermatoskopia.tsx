@@ -33,22 +33,22 @@ import SEO from "../../components/SEO";
 
 const REVIEWS = [
   {
-    author: "Katarzyna K.",
+    author: "Jerzy W.",
     city: "Poznań",
     review:
-      "Skrupulatne i dokładne badanie wideodermatoskopowe. Polecam wszystkim, którzy szukają pomocy i ludzkich specjalistów.",
+      "Kompetentni i wykwalifikowani pracownicy. Jedyne takie miejsce w Poznaniu, gdzie bez problemu można umówić się na badanie wideodermatoskopowe - próbowałem na Ogrodową, ale nie przyjmują nowych pacjentów. Przemiła Pani odbierająca telefon - wszystko mi wytłumaczyła. Dzięki.",
   },
   {
-    author: "Anna B.",
+    author: "Sandra K.",
     city: "Poznan",
     review:
-      "Nikt nie ma tyle cierpliwości, by badać moje 213 znamion kilka razy w roku. Nikt nie ma tyle taktu, bym czuła się przy tym komfortowo. Dziękuję!",
+      "Już dwa razy korzystałam z wizyty w tym miejscu. Za każdym razem bardzo profesjonalnie. Badanie znamion w jednej cenie pomimo tego, że mam mnóstwo znamion i badanie zajęło godzinę! Pani doktor wymroziła mi część zmian. Polecam.",
   },
   {
-    author: "Dominik M.",
-    city: "Wrocław",
+    author: "Emilia M.",
+    city: "Poznań",
     review:
-      "Otrzymałem wynik badania dermatoskopowego, jak również zrozumiały komentarz do wyniku histopatologicznego usuniętej zmiany.",
+      "W życiu nie spotkałam się podczas wizyty u lekarza, aby ktoś był tak zainteresowany pacjentem jak doktor Słomiak. Podczas konsultacji na spokojnie przejrzała moje wyniki badań, obejrzała moje znamię i dopiero wtedy zajęła się jego badaniem. Znamię kwalifikowało się do usunięcia, więc to zrobiłam.",
   },
 ];
 
@@ -97,28 +97,79 @@ const PRICES = [
         price: "80",
         label: "badanie histopatologiczne jednej zmiany",
       },
+      {
+        price: "250",
+        label:
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty (do 1,5 cm w standardowej lokalizacji - tułów/kończyny)",
+      },
+      {
+        price: "350",
+        label:
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty (powyżej 1,5 cm lub w szczególnej lokalizacji np. twarz)",
+      },
+      {
+        price: "500",
+        label: "chirurgia aparatu paznokciowego",
+        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
+      },
     ],
   },
   {
     isOpened: false,
-    categoryName: "Chirurgiczne usuwanie znamion",
+    categoryName: "Nieinwazyjne usuwanie znamion ",
     items: [
       {
-        price: "300",
-        label:
-          "Wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
-        sub:
-          "*druga wizyta  -  zniżka 10% ∙ druga wizyta  -  zniżka 20% ∙ czwarta i kolejna wizyta - zniżka 30%",
+        price: "250",
+        label: "Krioterapia  1 zmiana",
+      },
+      {
+        price: "350",
+        label: "Krioterapia  2-5 zmian",
+      },
+      {
+        price: "400",
+        label: "Krioterapia 6-10 zmian",
+      },
+    ],
+  },
+  {
+    isOpened: false,
+    categoryName: "Konsultacje Onkologiczne - czerniak",
+    items: [
+      {
+        price: "250",
+        label: "konsultacja onkologiczna - nowotwory skóry",
+      },
+      {
+        price: "180",
+        label: "ponowna konsultacja onkologiczna",
+        sub: "w przeciągu 6 miesięcy",
       },
       {
         price: "200",
-        label: "Wideodermatoskopia dziecka do 12 roku życia",
+        label: "E-wizyta - wideokonferencja",
+      },
+    ],
+  },
+  {
+    isOpened: false,
+    categoryName: "Konsultacje dermatologiczne",
+    items: [
+      {
+        price: "180",
+        label: "Konsultacja dermatologiczna",
       },
       {
-        price: "200",
-        label:
-          "Wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
-        sub: "*dotyczy wizyt, które odbyły się w przeciągu 1 roku",
+        price: "150",
+        label: "E-wizyta - wideokonferencja",
+      },
+      {
+        price: "350",
+        label: "biopsja zmiany skórnej z badaniem histopatologicznym",
+      },
+      {
+        price: "40",
+        label: "badanie mikrobiologiczne wymazu",
       },
     ],
   },
@@ -183,16 +234,16 @@ const PoznanBadanieZnamionPage = ({ graph }) => {
     {
       image: graph.faqs[1].image,
       imageMobile: graph.faqs[1].imageMobile,
-      title: "Jakie są przeciwwskazania do wykonania badania?",
+      title: "Dotychczas musiałem dopłacać do każdego zbadanego znamienia. Jak to wygląda tutaj?",
       text:
-        "Dermatoskopia jest całkowicie nieinwazyjną metodą diagnostyki, nie ma żadnych przeciwwskazań do jej wykonania. Badaniu mogą poddać się kobiety w ciąży, karmiące piersią, osoby obciążone poważnymi chorobami przewlekłymi czy też dzieci. Dermatoskopia polega na wykonywaniu zdjęć znamion w powiększeniu stąd może zostać wykonana u każdego.",
+        "W Centrum Twoje Znamiona zostaniesz zbadany od stóp do głów. Lekarz obejrzy każde znamię na Twojej skórze, a koszt badania nie jest uzależniony od liczby znamion. Istotą badania dermatoskopowego jest oglądanie całego ciała i archiwizacja obrazu wszystkich atypowych zmian, które należy w przyszłości poddać badaniu kontrolnemu. Oglądanie jedynie pojedynczych, niepokojących zmian na skórze nie jest pełnowartościowym badaniem profilaktycznym i nie zwalnia z konieczności wykonania pełnej diagnostyki.",
     },
     {
       image: graph.faqs[2].image,
       imageMobile: graph.faqs[2].imageMobile,
-      title: "Czy czerniak boli?",
+      title: "Jak przygotować się do badania znamion?",
       text:
-        "Dolegliwości bólowe nie są charakterystycznym objawem dla czerniaka, natomiast ich obecność bądź brak nie przesądza w żadnym wypadku diagnozy. Czerniak może rozwijać się po cichu, bez bólu i zupełnie niezauważalnie i z roku na rok zajmować coraz większą powierzchnię Twojej skóry. Najczęstszy czerniak szerzący się powierzchownie (SSMM - superficial spreading melanoma malignum), może wzrastać niezauważalnie nawet kilka lat!",
+        "Panie powinny dokonać bardzo dokładnego demakijażu twarzy, gdyż nawet delikatny podkład jest doskonale widoczny w dużym powiększeniu i zaburza obraz badanych zmian skórnych. Panowie natomiast powinni skrócić owłosienie lub ogolić się w miejscach, gdzie posiadają znamiona. Pacjent w trakcie badania zostanie poproszony przez lekarza do rozebrania się do bielizny celem dokładnego obejrzenia wszystkich znamion na ciele. ",
     },
   ];
 
@@ -214,8 +265,30 @@ const PoznanBadanieZnamionPage = ({ graph }) => {
       <Melanoma className="home_melanoma" />
       <WhyUs className="home_why_us" />
       <PriceList className="home_price_list" data={PRICES} />
-      <Covid className="home_covid" />
-      <Contact className="home_contact" />
+      <Covid className="home_covid">
+        <ol>
+          <li>
+            Przyjdź na ustaloną godzinę wizyty bez osób towarzyszących.
+            Maksymalnie w poczekalni może znajdować się jeden pacjent.
+          </li>
+          <li>
+            Przed wizytą w recepcji otrzymasz maseczkę jednorazowego użytku,
+            która będzie Cię chronić przed i podczas wizyty u lekarza. Jeśli
+            jesteś w maseczce - możesz pozostać w swojej.
+          </li>
+          <li>
+            Skorzystaj z płynu znajdującego się w Ośrodku w celu dezynfekcji
+            rąk.
+          </li>
+          <li>Pracownik Ośrodka zmierzy temperaturę Twojego ciała.</li>
+          <li>
+            Nasi lekarze wyposażeni są w specjalne fartuchy, maseczki oraz
+            przyłbice.
+          </li>
+          <li>Zachęcamy Państwa do płatności bezgotówkowych.</li>
+        </ol>
+      </Covid>
+      <Contact className="home_contact" where="w Poznaniu" />
       <Location
         className="home_location"
         coords={{
@@ -223,21 +296,19 @@ const PoznanBadanieZnamionPage = ({ graph }) => {
           lng: 16.9005161,
         }}
         googleMarker={{
-          title: "ul. Sokołowska 9/U-02",
-          data: "Dzielnica - Wola, 01-142 Poznan",
+          title: "Nobel Tower",
+          data: "Dąbrowskiego 77A, 60-101 Poznań",
           link: "https://g.page/twoje-znamiona-poznan?share",
         }}
-        additionalDetails="Centrum Badania Znamion znajduje się w tym samym pasażu co Auchan - Gabinety Oricea. Przed Auchan są dostępne miejsca parkingowe."
+        additionalDetails="Ośrodek znajduje się na parterze w budynku Nobel Tower - wejście niezależne. Parking płatny na miejscu."
         locationInfo={{
-          title: "ul. Sokołowska 9/U-02",
-          data: "Dzielnica - Wola, 01-142 Poznan",
+          title: "Gabinety Moti-med",
+          data: "Dąbrowskiego 77A, 60-101 Poznań",
         }}
-        hoursInfo={{
-          data: "pon. - pt.: 10:00⁃19:00, czwartek: 8:00 - 19:00 ",
-        }}
+        hoursInfo={["pon. - pt.: 10:00 - 20:00"]}
         transportationInfo={{
           data:
-            "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
+            "Przystanek tramwajowy: Polna, Rynek Jeżycki",
         }}
       />
       <Gallery className="home_gallery" data={graph.gallery} />
@@ -267,7 +338,7 @@ export default (props) => (
       query {
         ImageGallery1: allFile(
           filter: {
-            relativePath: { regex: "/Centrum Badania Znamion w Warszawie.jpg/" }
+            relativePath: { regex: "/Centrum-Badania-Znamion-Poznan_1.png/" }
           }
         ) {
           nodes {
@@ -282,7 +353,7 @@ export default (props) => (
         ImageGallery2: allFile(
           filter: {
             relativePath: {
-              regex: "/Centrum Badania Znamion w Warszawie_1.jpg/"
+              regex: "/Centrum-Badania-Znamion-Poznan_2.png/"
             }
           }
         ) {
@@ -298,7 +369,23 @@ export default (props) => (
         ImageGallery3: allFile(
           filter: {
             relativePath: {
-              regex: "/Centrum Badania Znamion w Warszawie_2.jpg/"
+              regex: "/Centrum-Badania-Znamion-Poznan_3.png/"
+            }
+          }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 550, maxHeight: 350, quality: 90) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        ImageGallery4: allFile(
+          filter: {
+            relativePath: {
+              regex: "/Centrum-Badania-Znamion-Poznan_4.png/"
             }
           }
         ) {
@@ -314,7 +401,23 @@ export default (props) => (
         ImageGallery5: allFile(
           filter: {
             relativePath: {
-              regex: "/Centrum Badania Znamion w Warszawie_4.jpg/"
+              regex: "/Centrum-Badania-Znamion-Poznan_5.png/"
+            }
+          }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 550, maxHeight: 350, quality: 90) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        ImageGallery6: allFile(
+          filter: {
+            relativePath: {
+              regex: "/Centrum-Badania-Znamion-Poznan_6.png/"
             }
           }
         ) {
@@ -373,10 +476,12 @@ export default (props) => (
       <PoznanBadanieZnamionPage
         graph={{
           gallery: [
-            data.ImageGallery1.nodes[0],
-            data.ImageGallery2.nodes[0],
-            data.ImageGallery3.nodes[0],
+            data.ImageGallery6.nodes[0],
             data.ImageGallery5.nodes[0],
+            data.ImageGallery2.nodes[0],
+            data.ImageGallery1.nodes[0],
+            data.ImageGallery4.nodes[0],
+            data.ImageGallery3.nodes[0],
           ],
           faqs: {
             1: {

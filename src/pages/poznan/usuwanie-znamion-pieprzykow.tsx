@@ -12,20 +12,18 @@ import PriceList from "../../components/landingPage/PriceList";
 import Reviews from "../../components/landingPage/Reviews";
 import Dermoscopy from "../../components/landingPage/Dermoscopy";
 import Oncology from "../../components/landingPage/Oncology";
-import Videodermoscopy from "../../components/landingPage/Videodermoscopy";
+
 import Surgery2 from "../../components/landingPage/Surgery2";
 import Laser from "../../components/landingPage/Laser";
 import Melanoma from "../../components/landingPage/Melanoma";
-import Abcde from "../../components/landingPage/Abcde";
+
 import Gallery from "../../components/landingPage/Gallery";
 import Offer from "../../components/landingPage/Offer";
 import Faq from "../../components/landingPage/Faq";
-import RiskGroup from "../../components/landingPage/RiskGroup";
+
 import Covid from "../../components/landingPage/Covid";
 import ImportantInfo from "../../components/landingPage/ImportantInfo";
 import Contact from "../../components/landingPage/Contact";
-import ProcedureDetails from "../../components/landingPage/ProcedureDetails";
-import WhyUs from "../../components/landingPage/WhyUs";
 
 //styles
 import "../../styles/home.scss";
@@ -65,7 +63,7 @@ const OFFERS = [
     type: "niechirurgiczne",
     title: "Nieinwazyjne Usuwanie Znamion",
     desc:
-      "Nieinwazyjne usuwanie łagodnych pieprzyków  laserem Co2 lub metodą krioterapii jest zarezerwowane dla łagodnych zmian skórnych. Lekarz po wykonaniu badania dermatoskopowego wszystkich znamion kwalifikuje znamiona do odpowiedniej metody zabiegowej.",
+      "Nieinwazyjne usuwanie łagodnych pieprzyków metodą krioterapii jest zarezerwowane dla łagodnych zmian skórnych. Lekarz po wykonaniu badania dermatoskopowego wszystkich znamion kwalifikuje znamiona do odpowiedniej metody zabiegowej.",
   },
   {
     type: "badanie",
@@ -81,46 +79,57 @@ const PRICES = [
     categoryName: "Chirurgiczne usuwanie znamion",
     items: [
       {
-        price: "500",
-        label: "Usunięcie 1 zmiany skórnej",
-      },
-      {
-        price: "120",
-        label: "Badanie histopatologiczne 1 zmiany",
-      },
-      {
-        price: "360",
-        label: "Usunięcie kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
         price: "200",
-        label: "Konsultacja chirurgiczna",
+        label: "konsultacja chirurgiczna",
+      },
+      {
+        price: "400",
+        label:
+          "usunięcie 1 znamienia (do 1,5 cm w standardowej lokalizacji - tułów/kończyny)",
+        sub: "w cenie kontrola, zdjęcie szwów",
+      },
+      {
+        price: "500",
+        label:
+          "usunięcie 1 znamienia (powyżej 1,5 cm lub w szczególnej lokalizacji np. twarz) ",
+        sub: "w cenie kontrola, zdjęcie szwów",
+      },
+      {
+        price: "80",
+        label: "badanie histopatologiczne jednej zmiany",
+      },
+      {
+        price: "250",
+        label:
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty (do 1,5 cm w standardowej lokalizacji - tułów/kończyny)",
       },
       {
         price: "350",
-        label: "Biopsja z badaniem histopatologicznym",
+        label:
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty (powyżej 1,5 cm lub w szczególnej lokalizacji np. twarz)",
+      },
+      {
+        price: "500",
+        label: "chirurgia aparatu paznokciowego",
+        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
       },
     ],
   },
   {
     isOpened: false,
-    categoryName: "Nieinwazyjne usuwanie znamion",
+    categoryName: "Nieinwazyjne usuwanie znamion ",
     items: [
       {
-        price: "500",
-        label: "Usuwanie laserowe 1 zmiany skórnej - laser CO2	",
-      },
-      {
-        price: "10",
-        label: "Usuwanie każdej kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
         price: "250",
-        label: "Krioterapia 1 zmiany skórnej",
+        label: "Krioterapia  1 zmiana",
       },
       {
-        price: "10",
-        label: "Krioterapia każdej kolejnej zmiany w trakcie jednej wizyty",
+        price: "350",
+        label: "Krioterapia  2-5 zmian",
+      },
+      {
+        price: "400",
+        label: "Krioterapia 6-10 zmian",
       },
     ],
   },
@@ -146,8 +155,17 @@ const PRICES = [
   },
   {
     isOpened: false,
-    categoryName: "Konsultacje onkologiczne - czerniak",
+    categoryName: "Konsultacje Onkologiczne - czerniak",
     items: [
+      {
+        price: "250",
+        label: "konsultacja onkologiczna - nowotwory skóry",
+      },
+      {
+        price: "180",
+        label: "ponowna konsultacja onkologiczna",
+        sub: "w przeciągu 6 miesięcy",
+      },
       {
         price: "200",
         label: "E-wizyta - wideokonferencja",
@@ -155,21 +173,23 @@ const PRICES = [
     ],
   },
 ];
-
 const INFOS = [
   {
-    title:"Ile trwa zabieg?",
-    desc: "Zabieg chirurgicznego usuwania znamion jest krótki, nie wymaga pobytu w szpitalu, trwa zwykle ok. 20-30 min."
+    title: "Ile trwa zabieg?",
+    desc:
+      "Zabieg chirurgicznego usuwania znamion jest krótki, nie wymaga pobytu w szpitalu, trwa zwykle ok. 20-30 min.",
   },
   {
-    title:"Czy usuwanie znamion boli?",
-    desc: "Zabieg usuwania znamion odbywa się w znieczuleniu miejscowym przy zachowaniu pełnej świadomości pacjenta."
+    title: "Czy usuwanie znamion boli?",
+    desc:
+      "Zabieg usuwania znamion odbywa się w znieczuleniu miejscowym przy zachowaniu pełnej świadomości pacjenta.",
   },
   {
-    title:"Jak duża będzie blizna?",
-    desc: "Wielkość powstałej po zabiegu blizny jest uzależniona od wielkości znamienia oraz przestrzegania zaleceń pozabiegowych."
+    title: "Jak duża będzie blizna?",
+    desc:
+      "Wielkość powstałej po zabiegu blizny jest uzależniona od wielkości znamienia oraz przestrzegania zaleceń pozabiegowych.",
   },
-]
+];
 
 const CtaUmowSie = () => {
   return (
@@ -208,11 +228,11 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
     <Layout constactCtaComponent={<CtaUmowSie />}>
       <SEO
         title="Centrum Usuwania Znamion i Pieprzyków - twojeznamiona.pl"
-        description="Warszawa - Usuwanie Znamion. Czy wiesz, że aby bezpiecznie usunąć znamię należy je wcześniej zbadać? Chirurgiczne usuwanie niepokojących pieprzyków. Laserowe usuwanie łagodnych zmian skórnych. Ile to kosztuje - cennik. Umów się!"
+        description="Poznań - Usuwanie Znamion. Czy wiesz, że aby bezpiecznie usunąć znamię należy je wcześniej zbadać? Chirurgiczne usuwanie niepokojących pieprzyków. Usuwanie łagodnych zmian skórnych metodą krioterapii. Ile to kosztuje - cennik. Umów się!"
         keywords="badanie znamion, warszawa, dermatoskopia"
       />
       <Hero
-        h1="Warszawskie Centrum Badania i Usuwania Znamion"
+        h1="Poznańskie Centrum Badania i Usuwania Znamion"
         oneLiner="Wszystkie swoje działania skupiamy na kompleksowej diagnostyce znamion aby wyeliminować nowotwory skóry z życia milionów ludzi."
         oneLinerMore="Upewnij się, że czerniak nie ukrywa się w jednym z niepozornych pieprzyków na Twojej skórze."
         ctaPrimary={<CtaUmowSie />}
@@ -226,37 +246,77 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
       <Melanoma className="home_melanoma" />
 
       <PriceList className="home_price_list" data={PRICES} />
-      <Covid className="home_covid" />
-      <Contact className="home_contact" />
+      <Covid className="home_covid">
+        <ol>
+          <li>
+            Zapraszamy do Kliniki bez osób towarzyszących. W przypadku
+            konieczności przyjścia w towarzystwie, prosimy, aby była to tylko
+            jedna osoba. Osoba ta musi poddać się tej samej ankiecie dotyczącej
+            stanu zdrowia związanego z pandemią COVID-19 oraz przestrzegać tych
+            samych środków higieny i ochrony, które są wymagane od pacjenta przy
+            wejściu do Kliniki.
+          </li>
+          <li>
+            Zostanie Pani/Panu zmierzona temperatura (termometr bezdotykowy na
+            podczerwień). W razie gorączki konsultacja zostanie anulowana.
+          </li>
+          <li>Prosimy o przyjście bez biżuterii i makijażu oraz w maseczce.</li>
+          <li>
+            Prosimy o przybycie w uzgodnionym czasie. Jeśli przyjdzie Pani/Pan
+            przed czasem, w celu organizacji kontroli dostępu prosimy o
+            poczekanie poza placówką.
+          </li>
+          <li>
+            Po przybyciu do Kliniki otrzyma Pani/Pan instrukcje i zostanie
+            Pani/Pan poproszona/y o wcieranie w ręce środka dezynfekcyjnego
+            (roztwór wirusobójczy) przez 20-30 sekund.
+          </li>
+          <li>
+            W przypadku spotkania innego pacjenta prosimy o zachowanie
+            bezpiecznej odległości (2 metry).
+          </li>
+          <li>
+            Opłatę najbezpieczniej jest wnosić kartą/przelewem, a nie gotówką
+            (mniejsze prawdopodobieństwo zakażenia wirusowego).
+          </li>
+          <li>
+            Jeśli podczas wizyty w Klinice okaże się, że Pani/Pan nie spełnia
+            wcześniej ogłoszonych wymagań, wizyta może zostać odwołana, jeśli
+            lekarz uzna to za stosowne.
+          </li>
+        </ol>
+      </Covid>
+      <Contact className="home_contact" where="w Poznaniu" />
       <Location
         className="home_location"
         coords={{
-          lat: 52.4139945,
-          lng: 16.9005161,
+          lat: 52.41318096681178,
+          lng: 16.90436715323331,
         }}
         googleMarker={{
-          title: "ul. Sokołowska 9/U-02",
-          data: "Dzielnica - Wola, 01-142 Warszawa",
-          link: "https://g.page/twoje-znamiona-warszawa?share",
+          title: "Gabinety Medic-r",
+          data: "Poznańska 3, 60-848 Poznań",
+          link: "https://g.page/twoje-znamiona-poznan-chirurgia?share",
         }}
-        additionalDetails="Centrum Badania Znamion znajduje się w tym samym pasażu co Auchan - Gabinety Oricea. Przed Auchan są dostępne miejsca parkingowe."
+        additionalDetails=""
         locationInfo={{
-          title: "ul. Sokołowska 9/U-02",
-          data: "Dzielnica - Wola, 01-142 Warszawa",
+          title: "Gabinety Medic-r",
+          data: "Poznańska 3, 60-848 Poznań",
         }}
-        hoursInfo={{
-          data: "pon. - pt.: 10:00⁃19:00, czwartek: 8:00 - 19:00 ",
-        }}
+        hoursInfo={["pon. - wt.: 8:00 - 19:00,", "śr. - pt. 8:00-18:00"]}
         transportationInfo={{
-          data:
-            "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
+          data: "Przystanek tramwajowy: Polna, Rynek Jeżycki",
         }}
       />
       <Gallery className="home_gallery" data={graph.gallery} />
 
       <Reviews className="home_reviews" data={REVIEWS} />
       <Surgery2 className="home_two_col_section_left_img" reverse={false} />
-      <ImportantInfo className="home_important_info" h2="Chirurgiczne usuwanie pieprzyków" data={INFOS}/>
+      <ImportantInfo
+        className="home_important_info"
+        h2="Chirurgiczne usuwanie pieprzyków"
+        data={INFOS}
+      />
 
       <Laser className="home_two_col_section_left_img" reverse={false} />
 

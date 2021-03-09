@@ -5,7 +5,7 @@ import "../../styles/covid.scss";
 import CovidIcon from "../../img/covid_icon.svg";
 import Modal from "../Modal";
 
-const Covid = ({ className = "" }) => {
+const Covid = ({ className = "", children }) => {
   const [isModalOpened, setModalOpened] = useState(false);
 
   return (
@@ -19,7 +19,7 @@ const Covid = ({ className = "" }) => {
               procedury, które będą obowiązywać przed i podczas wizyty.
             </h5>
           </div>
-
+          
           <div>
             <Button type="secondary" onClick={() => setModalOpened(true)}>
               <span>Dowiedz się więcej</span>
@@ -37,50 +37,7 @@ const Covid = ({ className = "" }) => {
                     Specjalne procedury, <br />
                     obowiązujące przed i podczas wizyty.
                   </h5>
-                  <ol>
-                    <li>
-                      Zapraszamy do Kliniki bez osób towarzyszących. W przypadku
-                      konieczności przyjścia w towarzystwie, prosimy, aby była
-                      to tylko jedna osoba. Osoba ta musi poddać się tej samej
-                      ankiecie dotyczącej stanu zdrowia związanego z pandemią
-                      COVID-19 oraz przestrzegać tych samych środków higieny i
-                      ochrony, które są wymagane od pacjenta przy wejściu do
-                      Kliniki.
-                    </li>
-                    <li>
-                      Zostanie Pani/Panu zmierzona temperatura (termometr
-                      bezdotykowy na podczerwień). W razie gorączki konsultacja
-                      zostanie anulowana.
-                    </li>
-                    <li>
-                      Prosimy o przyjście bez biżuterii i makijażu oraz w
-                      maseczce.
-                    </li>
-                    <li>
-                      Prosimy o przybycie w uzgodnionym czasie. Jeśli przyjdzie
-                      Pani/Pan przed czasem, w celu organizacji kontroli dostępu
-                      prosimy o poczekanie poza placówką.
-                    </li>
-                    <li>
-                      Po przybyciu do Kliniki otrzyma Pani/Pan instrukcje i
-                      zostanie Pani/Pan poproszona/y o wcieranie w ręce środka
-                      dezynfekcyjnego (roztwór wirusobójczy) przez 20-30 sekund.
-                    </li>
-                    <li>
-                      W przypadku spotkania innego pacjenta prosimy o zachowanie
-                      bezpiecznej odległości (2 metry).
-                    </li>
-                    <li>
-                      Opłatę najbezpieczniej jest wnosić kartą/przelewem, a nie
-                      gotówką (mniejsze prawdopodobieństwo zakażenia
-                      wirusowego).
-                    </li>
-                    <li>
-                      Jeśli podczas wizyty w Klinice okaże się, że Pani/Pan nie
-                      spełnia wcześniej ogłoszonych wymagań, wizyta może zostać
-                      odwołana, jeśli lekarz uzna to za stosowne.
-                    </li>
-                  </ol>
+                  {children}
                 </div>
               </div>
             </Modal>

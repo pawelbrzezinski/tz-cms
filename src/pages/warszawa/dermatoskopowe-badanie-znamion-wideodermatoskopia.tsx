@@ -151,34 +151,40 @@ const OFFERS = [
   {
     type: "badanie",
     title: "Badanie znamion",
-    desc: "Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć.",
+    desc:
+      "Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć.",
   },
   {
     type: "chirurgiczne",
     title: "Usuwanie znamion",
-    desc: "Chirurgiczne usuwanie podejrzanych pieprzyków wytypowanych przez lekarza w trakcie badania wideodermatoskopowego z wykonaniem histopatologicznej oceny usuniętej zmiany skórnej. Nieinwazyjne usuwanie łagodnych znamion laserem Co2 lub metodą krioterapii.",
+    desc:
+      "Chirurgiczne usuwanie podejrzanych pieprzyków wytypowanych przez lekarza w trakcie badania wideodermatoskopowego z wykonaniem histopatologicznej oceny usuniętej zmiany skórnej. Nieinwazyjne usuwanie łagodnych znamion laserem Co2 lub metodą krioterapii.",
   },
   {
     type: "onkologia",
     title: "Konsultacje onkologiczne",
-    desc: "Konsultacja onkologiczna w zakresie nowotworów skóry, w tym czerniaka złośliwego. Pacjent otrzymuje zalecenia po usunięciu zmiany nowotworowej, dotyczące badań kontrolnych, leczenia uzupełniającego, a także leczenia zaawansowanego czerniaka.",
-  }
-]
+    desc:
+      "Konsultacja onkologiczna w zakresie nowotworów skóry, w tym czerniaka złośliwego. Pacjent otrzymuje zalecenia po usunięciu zmiany nowotworowej, dotyczące badań kontrolnych, leczenia uzupełniającego, a także leczenia zaawansowanego czerniaka.",
+  },
+];
 
 const INFOS = [
   {
-    title:"Ile trwa badanie?",
-    desc: "Badanie wszystkich znamion - 30-40 min. Badanie kontrolne znamion wyznaczonych przez lekarza - 15-20 min."
+    title: "Ile trwa badanie?",
+    desc:
+      "Badanie wszystkich znamion - 30-40 min. Badanie kontrolne znamion wyznaczonych przez lekarza - 15-20 min.",
   },
   {
-    title:"Jak się przygotować do badania?",
-    desc: "Przed badaniem należy wykonać demakijażu oraz skrócić owłosienia w miejscach, w których znajdują się znamiona, celem poprawy jakości obrazu dermatoskopowego."
+    title: "Jak się przygotować do badania?",
+    desc:
+      "Przed badaniem należy wykonać demakijażu oraz skrócić owłosienia w miejscach, w których znajdują się znamiona, celem poprawy jakości obrazu dermatoskopowego.",
   },
   {
-    title:"Jakim urządzeniem badamy?",
-    desc: "Pacjent badany jest za pomocą nowoczesnego sprzętu - wideodermatoskopu Fotofinder Portable Medicam 1000 Full HD"
+    title: "Jakim urządzeniem badamy?",
+    desc:
+      "Pacjent badany jest za pomocą nowoczesnego sprzętu - wideodermatoskopu Fotofinder Portable Medicam 1000 Full HD",
   },
-]
+];
 
 const CtaUmowSie = () => {
   return (
@@ -231,13 +237,52 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
       <Melanoma className="home_melanoma" />
       <WhyUs className="home_why_us" />
       <PriceList className="home_price_list" data={PRICES} />
-      <Covid className="home_covid" />
-      <Contact className="home_contact" />
+      <Covid className="home_covid">
+        <ol>
+          <li>
+            Zapraszamy do Kliniki bez osób towarzyszących. W przypadku
+            konieczności przyjścia w towarzystwie, prosimy, aby była to tylko
+            jedna osoba. Osoba ta musi poddać się tej samej ankiecie dotyczącej
+            stanu zdrowia związanego z pandemią COVID-19 oraz przestrzegać tych
+            samych środków higieny i ochrony, które są wymagane od pacjenta przy
+            wejściu do Kliniki.
+          </li>
+          <li>
+            Zostanie Pani/Panu zmierzona temperatura (termometr bezdotykowy na
+            podczerwień). W razie gorączki konsultacja zostanie anulowana.
+          </li>
+          <li>Prosimy o przyjście bez biżuterii i makijażu oraz w maseczce.</li>
+          <li>
+            Prosimy o przybycie w uzgodnionym czasie. Jeśli przyjdzie Pani/Pan
+            przed czasem, w celu organizacji kontroli dostępu prosimy o
+            poczekanie poza placówką.
+          </li>
+          <li>
+            Po przybyciu do Kliniki otrzyma Pani/Pan instrukcje i zostanie
+            Pani/Pan poproszona/y o wcieranie w ręce środka dezynfekcyjnego
+            (roztwór wirusobójczy) przez 20-30 sekund.
+          </li>
+          <li>
+            W przypadku spotkania innego pacjenta prosimy o zachowanie
+            bezpiecznej odległości (2 metry).
+          </li>
+          <li>
+            Opłatę najbezpieczniej jest wnosić kartą/przelewem, a nie gotówką
+            (mniejsze prawdopodobieństwo zakażenia wirusowego).
+          </li>
+          <li>
+            Jeśli podczas wizyty w Klinice okaże się, że Pani/Pan nie spełnia
+            wcześniej ogłoszonych wymagań, wizyta może zostać odwołana, jeśli
+            lekarz uzna to za stosowne.
+          </li>
+        </ol>
+      </Covid>
+      <Contact className="home_contact" where="w Warszawie" />
       <Location
         className="home_location"
         coords={{
-          lat: 52.4139945,
-          lng: 16.9005161,
+          lat: 52.234637679876535,
+          lng: 20.959497315423995,
         }}
         googleMarker={{
           title: "ul. Sokołowska 9/U-02",
@@ -249,27 +294,29 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
           title: "ul. Sokołowska 9/U-02",
           data: "Dzielnica - Wola, 01-142 Warszawa",
         }}
-        hoursInfo={{
-          data: "pon. - pt.: 10:00⁃19:00, czwartek: 8:00 - 19:00 ",
-        }}
+        hoursInfo={["pon. - pt.: 10:00⁃19:00,", "czwartek: 8:00 - 19:00 "]}
         transportationInfo={{
-          data: "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
+          data:
+            "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
         }}
       />
-      <Gallery className="home_gallery"  data={graph.gallery} />
+      <Gallery className="home_gallery" data={graph.gallery} />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 
-      <ProcedureDetails className="home_two_col_section_right_img" h2="Przebieg badania wideodermatoskopowego w Warszawie" />
-      <ImportantInfo className="home_important_info" data={INFOS}/>
-      <Dermoscopy className="home_two_col_section_right_img" reverse={false}/>
+      <ProcedureDetails
+        className="home_two_col_section_right_img"
+        h2="Przebieg badania wideodermatoskopowego w Warszawie"
+      />
+      <ImportantInfo className="home_important_info" data={INFOS} />
+      <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
       <Surgery className="home_two_col_section_left_img" reverse={false} />
       <Faq className="home_faq" data={FAQS} />
       <Abcde className="home_abcde" />
       <Oncology className="home_two_col_section_left_img" />
-      <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} /> 
+      <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
     </Layout>
   );
 };

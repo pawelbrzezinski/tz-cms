@@ -12,9 +12,10 @@
   min-height: 348px;
   display: flex;
   flex-direction: column;
-  padding: 80px 32px;
+  padding: 80px 32px 32px;
   box-sizing: border-box;
   text-align: left;
+  justify-content: space-between;
 
   @media (max-width: $screeen-md) {
     margin-right: 0;
@@ -32,6 +33,8 @@
   .review_body {
     margin-bottom: 24px;
   }
+ 
+
   h6 {
     display: inline;
   }

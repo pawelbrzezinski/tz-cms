@@ -25,10 +25,18 @@ const Footer = () => {
             <img src={logo} alt="Twoje Znamiona" />
           </div>
           <div className="footer_social_wrapper">
-            <a href="#" title="Twoje Znamiona - Facebook">
+            <a
+              href="https://www.facebook.com/Twoje-Znamiona-102496158493976"
+              target="_blank"
+              title="Twoje Znamiona - Facebook"
+            >
               <img src={fb} alt="Twoje Znamiona - Facebook" />
             </a>
-            <a href="#" title="Twoje Znamiona - Instragram">
+            <a
+              href="https://www.instagram.com/twojeznamiona/"
+              target="_blank"
+              title="Twoje Znamiona - Instragram"
+            >
               <img src={instagram} alt="Twoje Znamiona - Instragram" />
             </a>
           </div>
@@ -37,28 +45,42 @@ const Footer = () => {
           <p className="hide_mobile">Masz pytania?</p>
           <div className="footer_contact_phone_wrapper">
             <p className="hide_mobile">Zadzwoń</p>
-            <a href="#" className="footer_contact_phone_number">
+            <a
+              href="tel:+48781445685"
+              title="+48781445685"
+              className="footer_contact_phone_number"
+            >
               <img src={call} alt="Twoje Znamiona - Zadzwoń" />
               <span>+48 781 445 685</span>
             </a>
           </div>
           <div className="footer_contact_email_wrapper">
             <p className="hide_mobile">Napisz do nas</p>
-            <a href="#" className="footer_contact_email_address">
+            <a
+              href="mailto:zbadamy@twojeznamiona.pl"
+              title="zbadamy@twojeznamiona.pl"
+              className="footer_contact_email_address"
+            >
               <img src={email} alt="Twoje Znamiona - Napisz do nas" />
               <span>zbadamy@twojeznamiona.pl</span>
             </a>
           </div>
           <div className="footer_contact_reviews_wrapper">
             <p>Oceń nas</p>
-            <div className="footer_contact_reviews_container">
-              <div className="footer_contact_stars_wrapper">
-                <img src={StarsImage} alt="5 gwiazdek" />
+            <a
+              href="https://forms.gle/WPbJ14hx5cr2MMQp6"
+              target="_blank"
+              title="Oceń nas"
+            >
+              <div className="footer_contact_reviews_container">
+                <div className="footer_contact_stars_wrapper">
+                  <img src={StarsImage} alt="5 gwiazdek" />
+                </div>
+                <div className="footer_contact_rating_wrapper">
+                  <span>5,0</span> (<span>691</span> opinii)
+                </div>
               </div>
-              <div className="footer_contact_rating_wrapper">
-                <span>5,0</span> (<span>691</span> opinii)
-              </div>
-            </div>
+            </a>
           </div>
         </div>
         <div className="footer_links_section">
@@ -84,8 +106,11 @@ const Footer = () => {
               <Link to="/dermatoskopia-badanie-znamion" className="footer_link">
                 Badanie Znamion
               </Link>
-              <Link to="/wideodermatoskopia-komputerowe-badanie-znamion" className="footer_link">
-                Wideodrmatoskopia
+              <Link
+                to="/wideodermatoskopia-komputerowe-badanie-znamion"
+                className="footer_link"
+              >
+                Wideodermatoskopia
               </Link>
               <Link to="/chirurgiczne-usuwanie-znamion" className="footer_link">
                 Chirurgiczne Usuwanie Znamion
@@ -99,18 +124,24 @@ const Footer = () => {
               <Link to="/czerniak" className="footer_link">
                 Czerniak
               </Link>
-              <Link to="/czerniak/rodzaje-czerniaka-zdjecia" className="footer_link">
+              <Link
+                to="/czerniak/rodzaje-czerniaka-zdjecia"
+                className="footer_link"
+              >
                 Czerniak rodzaje
               </Link>
-              <Link to="/czerniak/rodzaje-czerniaka/czerniak-na-dloniach-i-podeszwach-stop" className="footer_link">
+              <Link
+                to="/czerniak/rodzaje-czerniaka/czerniak-na-dloniach-i-podeszwach-stop"
+                className="footer_link"
+              >
                 Czerniak akralny
               </Link>
-              <Link to="#" className="footer_link">
+              {/* <Link to="#" className="footer_link">
                 Raki skóry
-              </Link>
+              </Link> */}
             </div>
             <div>
-            <Link to="/cennik" className="footer_link">
+              <Link to="/cennik" className="footer_link">
                 Cennik
               </Link>
               <Link to="/o-nas" className="footer_link">
@@ -121,6 +152,9 @@ const Footer = () => {
               </Link>
               <Link to="/blog" className="footer_link">
                 Blog
+              </Link>
+              <Link to="/praca" className="footer_link">
+                Kariera
               </Link>
               <Link to="/polityka" className="footer_link">
                 Dane osobowe
@@ -148,13 +182,28 @@ const Footer = () => {
           >
             <div>
               {LOCATIONS.filter((location) => location.link).map((location) => (
-                <Link key={location.city} to={`/${location.link}`} className="footer_link">
+                <Link
+                  key={location.city}
+                  to={`/${location.link}`}
+                  className="footer_link"
+                >
                   {location.city}
                 </Link>
               ))}
             </div>
             <div>
-             
+              <Link
+                to={`/poznan/usuwanie-znamion-pieprzykow`}
+                className="footer_link"
+              >
+                Poznan - Chirurgia
+              </Link>
+              <Link
+                to={`/warszawa/usuwanie-znamion-pieprzykow`}
+                className="footer_link"
+              >
+                Warszawa - Chirurgia
+              </Link>
             </div>
           </div>
         </div>

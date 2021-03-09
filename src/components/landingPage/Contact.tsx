@@ -33,7 +33,7 @@ const useInputStyles = makeStyles({
   },
 });
 
-const Contact = ({ className = "" }) => {
+const Contact = ({ className = "", where = "" }) => {
   const labelClasses = useLabelStyles();
   const inputClasses = useInputStyles();
 
@@ -41,7 +41,7 @@ const Contact = ({ className = "" }) => {
     <div className={`contact_section ${className}`}>
       <a className="anchor" id="kontakt"></a>
       <BubbleSection
-        h2="Umów się na wizytę"
+        h2={`Umów się na wizytę ${where}`}
         h5=" W celu umówienia terminu wizyty lekarskiej umów się online, zadzwoń lub napisz. Możesz wysłać e-mail bądź skorzystać z formularza kontaktowego."
         color="white"
       >

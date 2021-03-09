@@ -98,10 +98,15 @@ const Navigation = ({ constactCtaComponent = null }) => {
         </Link>
       </div>
       <div className="navigation-contact">
-        <div className="phone-wrapper">
+        <a
+          href="tel:+48781445685"
+          title="+48781445685"
+          className="phone-wrapper"
+        >
           <CallButton className="normal-icon" />
           <span className="phone-number">+48 781 445 685</span>
-        </div>
+        </a>
+
         <Button size="M" className="normal-button">
           {constactCtaComponent || <Link to="/kontakt">Umów się</Link>}
         </Button>

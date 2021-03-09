@@ -22,7 +22,7 @@ export const LOCATIONS = [
   },
   {
     city: "Wrocław",
-    link: "wroclaw/badanie-znamion",
+    link: "wroclaw/dermatoskopowe-badanie-znamion-wideodermatoskopia",
     position: {
       left: 30,
       top: 65,

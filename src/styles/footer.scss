@@ -196,6 +196,10 @@
         }
       }
 
+      a {
+        color: $black;
+      }
+
       .footer_contact_reviews_container {
         display: flex;
         align-items: center;
@@ -259,7 +263,7 @@
 
     .footer_links_wrapper {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: auto auto;
       grid-gap: 10px;
 
       @media (max-width: $screeen-md) {

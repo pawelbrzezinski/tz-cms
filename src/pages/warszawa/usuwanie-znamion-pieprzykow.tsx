@@ -12,20 +12,18 @@ import PriceList from "../../components/landingPage/PriceList";
 import Reviews from "../../components/landingPage/Reviews";
 import Dermoscopy from "../../components/landingPage/Dermoscopy";
 import Oncology from "../../components/landingPage/Oncology";
-import Videodermoscopy from "../../components/landingPage/Videodermoscopy";
+
 import Surgery2 from "../../components/landingPage/Surgery2";
 import Laser from "../../components/landingPage/Laser";
 import Melanoma from "../../components/landingPage/Melanoma";
-import Abcde from "../../components/landingPage/Abcde";
+
 import Gallery from "../../components/landingPage/Gallery";
 import Offer from "../../components/landingPage/Offer";
 import Faq from "../../components/landingPage/Faq";
-import RiskGroup from "../../components/landingPage/RiskGroup";
+
 import Covid from "../../components/landingPage/Covid";
 import ImportantInfo from "../../components/landingPage/ImportantInfo";
 import Contact from "../../components/landingPage/Contact";
-import ProcedureDetails from "../../components/landingPage/ProcedureDetails";
-import WhyUs from "../../components/landingPage/WhyUs";
 
 //styles
 import "../../styles/home.scss";
@@ -158,18 +156,21 @@ const PRICES = [
 
 const INFOS = [
   {
-    title:"Ile trwa zabieg?",
-    desc: "Zabieg chirurgicznego usuwania znamion jest krótki, nie wymaga pobytu w szpitalu, trwa zwykle ok. 20-30 min."
+    title: "Ile trwa zabieg?",
+    desc:
+      "Zabieg chirurgicznego usuwania znamion jest krótki, nie wymaga pobytu w szpitalu, trwa zwykle ok. 20-30 min.",
   },
   {
-    title:"Czy usuwanie znamion boli?",
-    desc: "Zabieg usuwania znamion odbywa się w znieczuleniu miejscowym przy zachowaniu pełnej świadomości pacjenta."
+    title: "Czy usuwanie znamion boli?",
+    desc:
+      "Zabieg usuwania znamion odbywa się w znieczuleniu miejscowym przy zachowaniu pełnej świadomości pacjenta.",
   },
   {
-    title:"Jak duża będzie blizna?",
-    desc: "Wielkość powstałej po zabiegu blizny jest uzależniona od wielkości znamienia oraz przestrzegania zaleceń pozabiegowych."
+    title: "Jak duża będzie blizna?",
+    desc:
+      "Wielkość powstałej po zabiegu blizny jest uzależniona od wielkości znamienia oraz przestrzegania zaleceń pozabiegowych.",
   },
-]
+];
 
 const CtaUmowSie = () => {
   return (
@@ -226,13 +227,52 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
       <Melanoma className="home_melanoma" />
 
       <PriceList className="home_price_list" data={PRICES} />
-      <Covid className="home_covid" />
-      <Contact className="home_contact" />
+      <Covid className="home_covid">
+        <ol>
+          <li>
+            Zapraszamy do Kliniki bez osób towarzyszących. W przypadku
+            konieczności przyjścia w towarzystwie, prosimy, aby była to tylko
+            jedna osoba. Osoba ta musi poddać się tej samej ankiecie dotyczącej
+            stanu zdrowia związanego z pandemią COVID-19 oraz przestrzegać tych
+            samych środków higieny i ochrony, które są wymagane od pacjenta przy
+            wejściu do Kliniki.
+          </li>
+          <li>
+            Zostanie Pani/Panu zmierzona temperatura (termometr bezdotykowy na
+            podczerwień). W razie gorączki konsultacja zostanie anulowana.
+          </li>
+          <li>Prosimy o przyjście bez biżuterii i makijażu oraz w maseczce.</li>
+          <li>
+            Prosimy o przybycie w uzgodnionym czasie. Jeśli przyjdzie Pani/Pan
+            przed czasem, w celu organizacji kontroli dostępu prosimy o
+            poczekanie poza placówką.
+          </li>
+          <li>
+            Po przybyciu do Kliniki otrzyma Pani/Pan instrukcje i zostanie
+            Pani/Pan poproszona/y o wcieranie w ręce środka dezynfekcyjnego
+            (roztwór wirusobójczy) przez 20-30 sekund.
+          </li>
+          <li>
+            W przypadku spotkania innego pacjenta prosimy o zachowanie
+            bezpiecznej odległości (2 metry).
+          </li>
+          <li>
+            Opłatę najbezpieczniej jest wnosić kartą/przelewem, a nie gotówką
+            (mniejsze prawdopodobieństwo zakażenia wirusowego).
+          </li>
+          <li>
+            Jeśli podczas wizyty w Klinice okaże się, że Pani/Pan nie spełnia
+            wcześniej ogłoszonych wymagań, wizyta może zostać odwołana, jeśli
+            lekarz uzna to za stosowne.
+          </li>
+        </ol>
+      </Covid>
+      <Contact className="home_contact" where="w Warszawie" />
       <Location
         className="home_location"
         coords={{
-          lat: 52.4139945,
-          lng: 16.9005161,
+          lat: 52.234637679876535,
+          lng: 20.959497315423995,
         }}
         googleMarker={{
           title: "ul. Sokołowska 9/U-02",
@@ -244,9 +284,7 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
           title: "ul. Sokołowska 9/U-02",
           data: "Dzielnica - Wola, 01-142 Warszawa",
         }}
-        hoursInfo={{
-          data: "pon. - pt.: 10:00⁃19:00, czwartek: 8:00 - 19:00 ",
-        }}
+        hoursInfo={["pon. - pt.: 10:00⁃19:00,", "czwartek: 8:00 - 19:00 "]}
         transportationInfo={{
           data:
             "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
@@ -256,7 +294,11 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
 
       <Reviews className="home_reviews" data={REVIEWS} />
       <Surgery2 className="home_two_col_section_left_img" reverse={false} />
-      <ImportantInfo className="home_important_info" h2="Chirurgiczne usuwanie pieprzyków" data={INFOS}/>
+      <ImportantInfo
+        className="home_important_info"
+        h2="Chirurgiczne usuwanie pieprzyków"
+        data={INFOS}
+      />
 
       <Laser className="home_two_col_section_left_img" reverse={false} />
 

@@ -247,6 +247,7 @@ $scale-down-breakpoint: 1350px;
       display: flex;
       align-items: center;
       margin-right: 24px;
+      color: $black;
 
       @media (max-width: $screeen-lg) {
         display: none;

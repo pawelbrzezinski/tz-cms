@@ -57,7 +57,8 @@
           line-height: 24px;
         }
 
-        .phone_button, .mail_button {
+        .phone_button,
+        .mail_button {
           margin-right: 0;
         }
       }
@@ -130,8 +131,10 @@
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 24px;
+    color: $black;
 
-    .phone_button, .mail_button {
+    .phone_button,
+    .mail_button {
       margin-right: 16px;
     }
   }
@@ -162,8 +165,14 @@
     font-size: 16px;
     line-height: 24px;
 
+    a {
+      color: $black;
+      font-weight: 400;
+      
+    }
     p {
       margin: 0;
+      margin-bottom: 4px;
     }
   }
 
