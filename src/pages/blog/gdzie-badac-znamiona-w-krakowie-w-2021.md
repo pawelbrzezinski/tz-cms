@@ -25,14 +25,13 @@ keywords:
   - czerniak onkolog
   - konsultacje onkologiczne
 tags:
-  - badanie znamion
+  - pieprzyk
   - czerniak
+  - zdjęcia
+  - znamię
+  - rak skóry
+  - nowotwory skóry
 sources:
-  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
-      Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
-      Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
-      rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
-      ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
   - label: "Zalecenia Ministerstwa Zdrowia: jak chronić się przed zachorowaniem na
       czerniaka"
     link: www.facebook.com/MZGOVPL
@@ -86,3 +85,7 @@ Całe **badanie trwa około 30 minut** i obejmuje **całą powierzchnię cia�
 ## Jak często badać znamiona?
 
 Gdy nie chorujemy, nie jesteśmy w grupie ryzyka - wystarczy **badanie raz w roku**, jednak gdy któreś znamię wzbudza nasz niepokój, nie należy zwlekać. Korzystając z **Centrum Badania Znamion Twoje Znamiona** mamy pewność, że w razie konieczności usunięcia pieprzyka zostaniemy objęci właściwą opieką.
+
+<More link="/cennik" text="Sprawdź cenę badania " cta="Sprawdź" />
+
+<More link="/kontakt" text="Skontaktuj się z Centrum Badania Znamion w Krakowie" cta="Kontakt" />
