@@ -79,7 +79,6 @@ tags:
   - dermatoskopia
   - wideodermatoskopia
   - badanie znamion
-
 ---
 
 Jest to oglądanie skóry za pomocą narzędzia zwanego dermatoskopem, który jak szkło powiększające umożliwia bardzo dokładną obserwację i analizę struktur barwnikowych oglądanych znamion, pieprzyków, przebarwień skóry czy plam soczewicowatych. Dermatoskopia pozwala odróżnić lekarzowi zmiany łagodne od niebezpiecznych.

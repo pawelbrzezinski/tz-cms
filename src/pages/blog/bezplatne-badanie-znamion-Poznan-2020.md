@@ -9,9 +9,9 @@ description: .
 keywords:
   - .
 tags:
-  - Badanie Znamion
-  - Wideodermatoskopia
-  - Profilaktyka raka skóry
+  - badanie znamion
+  - wideodermatoskopia
+  - profilaktyka raka skóry
 sources: []
 ---
 ![czerniak](img/badanie_znamion.jpg "czerniak")

@@ -9,9 +9,9 @@ description: .
 keywords:
   - .
 tags:
-  - Badanie Znamion
-  - Wideodermatoskopia
-  - Szczecin
+  - badanie znamion
+  - wideodermatoskopia
+  - szczecin
 sources: []
 ---
 ![czerniak](img/czy-czerniak-boli1.png "czerniak")
