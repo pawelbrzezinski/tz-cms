@@ -5,25 +5,30 @@ author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 9
 date: 2020-09-04T18:51:38.512Z
-description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
-  barwnikowych - melanocytów. Poniżej prezentujemy zdjęcia czerniaków, które
-  wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie
-  samobadania swoich znamion. Po zapoznaniu się z tym artykułem będziesz
-  wiedzieć jak wygląda typowy czerniak.
+description: Na stronach małopolskiego oddziału Narodowego Funduszu Zdrowia w
+  Krakowie dostępne są statystyki mówiące o tym, że nowotwory skóry stanowią
+  około 10% wszystkich wykrywanych nowotworów złośliwych w Polsce. Spośród
+  nowotworów skóry czerniak jest jednym z najczęściej występujących, ale nie
+  jedynym. Jak można się ich ustrzec? Dlaczego należy przeprowadzać regularne
+  badanie znamion oraz w jaki sposób wideodermatoskopia umożliwia wczesne
+  wykrycie raka skóry?
 keywords:
-  - czerniak zdjęcia
-  - czeerniak paznokcia
-  - czerniak podpaznokciowy
-  - czerniak guguzkowaty
-  - czerniak leczenie
-  - czerniak objawy
-  - badanie znamion
-  - dermatoskopia
-  - jak wyglada czerniak
+  - centrum badania znamion w Krakowie
+  - raki skóry
+  - nowotwory skóry
+  - badanie znamion kraków
+  - czerniak jak wygląda
+  - profilaktyka raka skóry
   - wideodermatoskopia
-  - centrum badania znamion
-  - czerniak onkolog
-  - konsultacje onkologiczne
+  - badanie znamion przebieg
+  - jak często badać znamiona
+  - dermatoskopia kraków
+  - badanie pieprzyków kraków
+  - pieprzyki badanie
+  - dermatolog kraków
+  - niechirurgiczne usuwanie znamion kraków
+  - laserowe usuwanie znamion kraków
+  - komputerowe badanie znamion w Krakowie
 tags:
   - pieprzyk
   - czerniak
