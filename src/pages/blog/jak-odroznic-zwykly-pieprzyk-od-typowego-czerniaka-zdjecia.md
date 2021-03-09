@@ -65,15 +65,11 @@ Znane wszystkim zwykłe **pieprzyki to inaczej znamiona barwnikowe** powstałe
 
 ![zwykłe znamię](img/jak-odroznic17.png "zwykłe znamię")
 
-
-
 ## Czy to podrażniony pieprzyk?
 
 Zwykle nie zwracamy uwagi na swoje znamiona do czasu kiedy nie dzieje się z nimi coś niepokojącego. Wówczas zastanawiamy się czy zaczerwienione znamię to tylko przejściowo podrażniony, rozdrapany pieprzyk czy poważniejszy stan zapalny. Często staramy się przeczekać aż nabrzmiałe znamię wróci do stanu, który przestanie nas niepokoić. Ale czy na pewno naderwanie, podrapanie czy inny uraz mechaniczny jest tego przyczyną?
 
 ![podrażniona brodawka łojotokowa](img/jak-odroznic18.png "podrażniona brodawka łojotokowa")
-
-
 
 Uwaga, niepokojące objawy, które mogą wskazywać na obecność komórek rakowych i wymagają pilnej konsultacji lekarskiej z dermatoskopową oceną podrażnionych zmian skórnych to m.in
 
@@ -87,6 +83,32 @@ Uwaga, niepokojące objawy, które mogą wskazywać na obecność komórek rakow
 Należy także pamiętać o **nowych pieprzykach**, które także wymagają kontroli i obserwacji, gdyż czerniak najczęściej powstaje "de novo" czyli jako nowa zmiana na skórze, która zwykle różni się od pozostałych znamion.
 
 **Czerniak może na pierwszy rzut oka do złudzenia przypominać podrażnioną brodawkę łojotokową czy naderwany pieprzyk dlatego nie odkładaj wizyty u lekarza na później.**
+
+![czerniak](img/jak-odroznic32.png "czerniak")
+
+![czerniak](img/jak-odroznic33.png "czerniak")
+
+## Czerniak złośliwy
+
+Niestety część znamion pod wpływem różnych czynników rakotwórczych (kancerogennych) może przekształcić się w **czerniaka skóry. To jeden z najbardziej niebezpiecznych i złośliwych nowotworów.** Jego wczesne wykrycie znacznie jednak poprawia rokowania, czerniak wykryty we wczesnym stadium jest praktycznie 100% wyleczalny.
+
+![czerniak](img/jak-odroznic5.png "czerniak")
+
+![czerniak](img/jak-odroznic5a.png "czerniak")
+
+![czerniak](img/jak-odroznic6.png "czerniak")
+
+![czerniak](img/jak-odroznic7.png "czerniak")
+
+
+
+## Jak wygląda czerniak?
+
+Dla profilaktyki raków skóry i czerniaka istotna jest samoobserwacja znamion występujących na powierzchni całego ciała. Jak odróżnić pieprzyk od czerniaka? Jakie zmiany powinny wzbudzić zainteresowanie? Kiedy udać się do lekarza?
+
+Dla pacjentów najprostszym sposobem różnicowania pieprzyków jest posługiwanie się **kryteriami ABCDE** (angielski akronim Asymetry, Border, Color, Diameter, Evolution), które zostały stworzone na Uniwersytecie Nowy Jork 35 lat temu. Kryteria te miały być prostym narzędziem w codziennej praktyce, łatwym do zapamiętania, wzbudzającym czujność zarówno pacjentów jak i lekarzy na cechy kliniczne wczesnego czerniaka. Tak się też stało.
+
+Obejrzyj film i sprawdź jak obserwować się w domu!
 
 
 
@@ -131,19 +153,21 @@ W bardzo zaawansowanym stadium czerniak będzie już wrzodziejącym znamieniem l
 ![czerniak](img/jak-odroznic28.png "czerniak")
 
 ![czerniak](img/jak-odroznic29.png "czerniak")
+
 ![czerniak](img/jak-odroznic3.png "czerniak")
+
 ![czerniak](img/jak-odroznic30.png "czerniak")
+
 ![czerniak](img/jak-odroznic31.png "czerniak")
-![czerniak](img/jak-odroznic32.png "czerniak")
-![czerniak](img/jak-odroznic33.png "czerniak")
+
 ![czerniak](img/jak-odroznic4.png "czerniak")
-![czerniak](img/jak-odroznic5.png "czerniak")
-![czerniak](img/jak-odroznic5a.png "czerniak")
-![czerniak](img/jak-odroznic6.png "czerniak")
-![czerniak](img/jak-odroznic7.png "czerniak")
+
 ![czerniak](img/jak-odroznic8.png "czerniak")
+
 ![czerniak](img/jak-odroznic8a.png "czerniak")
+
 ![czerniak](img/jak-odroznic9.png "czerniak")
+
 ![czerniak](img/jak-odroznic9a.png "czerniak")
 
 **Uwaga!**
