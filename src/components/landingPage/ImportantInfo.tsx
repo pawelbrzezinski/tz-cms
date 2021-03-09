@@ -20,12 +20,12 @@ const ImportantInfoCard = ({ image, desc = "", children = null }) => {
 
 const IMAGES = [CheckIcoImage1, CheckIcoImage2, CheckIcoImage3];
 
-const ImportantInfo = ({ className = "", data = [] }) => {
+const ImportantInfo = ({ className = "", h2="Co warto wiedzieć o badaniu", data = [] }) => {
   return (
     <div className={className}>
       <BubbleSection
         introText="Ważne infromacje"
-        h2="Co warto wiedzieć o badaniu"
+        h2={h2}
         color="white"
       >
         <div className="container">

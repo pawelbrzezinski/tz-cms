@@ -256,7 +256,7 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
 
       <Reviews className="home_reviews" data={REVIEWS} />
       <Surgery2 className="home_two_col_section_left_img" reverse={false} />
-      <ImportantInfo className="home_important_info" data={INFOS}/>
+      <ImportantInfo className="home_important_info" h2="Chirurgiczne usuwanie pieprzyków" data={INFOS}/>
 
       <Laser className="home_two_col_section_left_img" reverse={false} />
 

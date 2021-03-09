@@ -6,10 +6,10 @@ import { Link } from "gatsby";
 
 import TwoColumnHomeSection from "./TwoColumnHomeSection";
 
-const ProcedureDetails = ({ className = "", graph }) => (
+const ProcedureDetails = ({ className = "", h2 = "Przebieg badania wideodermatoskopowego", graph }) => (
   <TwoColumnHomeSection
     className={className}
-    h2="Przebieg badania wideodermatoskopowego"
+    h2={h2}
     H5={() => (
       <>
         W trakcie wizyty lekarz dokonuje oględzin całego ciała, oglądając

@@ -260,7 +260,7 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
 
       <Reviews className="home_reviews" data={REVIEWS} />
 
-      <ProcedureDetails className="home_two_col_section_right_img" />
+      <ProcedureDetails className="home_two_col_section_right_img" h2="Przebieg badania wideodermatoskopowego w Warszawie" />
       <ImportantInfo className="home_important_info" data={INFOS}/>
       <Dermoscopy className="home_two_col_section_right_img" reverse={false}/>
       <Videodermoscopy className="home_two_col_section_left_img" />
