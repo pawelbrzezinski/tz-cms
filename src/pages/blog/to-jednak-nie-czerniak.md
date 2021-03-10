@@ -28,18 +28,41 @@ keywords:
   - to jednak nie czerniak
   - rak skóry
 tags:
-  - badanie znamion
+  - pieprzyk
   - czerniak
+  - zdjęcia
+  - znamię
+  - rak skóry
+  - nowotwory skóry
 sources:
-  - label: Piotr Rutkowski, Katarzyna Kozak, Witold Owczarek, Tomasz Świtaj, Bożena
-      Cybulska-Stopa, Piotr J. Wysocki, Maciej Krzakowski, Arkadiusz Jeziorski,
-      Wojciech M. Wysocki Onkol Prakt Klin Edu 2020;6(2):69-73 “Minimalne
-      rekomendacje diagnostyczno-terapeutyczne u chorych na czerniaki w sytuacji
-      ograniczonych zasobów i restrykcji związanych z pandemią SARS-CoV-2.”
+  - label: Praca zbiorowa, Czerniaki skóry. Wytyczne postępowania
+      diagnostyczno-terapeutycznego.
+    link: http://onkologia.zalecenia.med.pl/pdf/zalecenia_PTOK_tom1_09_Czerniaki_skory_20190517.pdf
+  - label: Lek. Karolina Górska dr hab. med. Aneta Szczerkowska-Dobosz, Rogowacenie
+      słoneczne – częsty problem wśród starszych pacjentów.
+    link: https://podyplomie.pl/dermatologia/29071,rogowacenie-sloneczne-czesty-problem-wsrod-starszych-pacjentow
+  - label: Lek. Paulina Wilkońska-Majchrzyk Lek. Krzysztof Siemion Prof. dr hab.
+      med. Anna Nasierowska-Guttmejer, Szczególne warianty zmian melanocytarnych
+      skóry.
+    link: https://podyplomie.pl/dermatologia/25135,szczegolne-warianty-zmian-melanocytarnych-skory
+  - label: Lek. med. Alicja Malinowska Prof. dr hab. med. Roman Nowicki, Grzybica
+      paznokci – terapia musi być konsekwentna.
+    link: https://podyplomie.pl/dermatologia/17410,grzybica-paznokci-terapia-musi-byc-konsekwentna
+  - label: dr hab. n. med. Anna Raciborska lek. Katarzyna Bilska,,Naczyniaki u
+      dzieci – ważne informacje dla pediatry.
+    link: https://podyplomie.pl/pediatria/21735,naczyniaki-u-dzieci-wazne-informacje-dla-pediatry
   - label: https://www.webmd.com/
     link: www.webmd.com/
   - label: www.mjakmama24.pl
     link: www.mjakmama24.pl
+  - label: www.wikipedia.org
+    link: www.wikipedia.org
+  - label: www.medicinenet.com
+    link: www.medicinenet.com
+  - label: www.skinanswer.com
+    link: www.skinanswer.com
+  - label: www.healthjade.net
+    link: www.healthjade.net
 ---
 Nie każdy **pieprzyk** czy zmiana skórna przeradza się w **czerniaka**, nawet jeśli niepokoi swoim wyglądem i/lub wymaga interwencji lekarskiej. Artykuł ten będzie poświęcony kilku wybranym jednostkom chorobowym, które również bierze się pod uwagę przy różnicowaniu [czerniaka](/czerniak "Czerniak").
 
