@@ -58,8 +58,7 @@ sources: []
 * jak często należy **badać znamiona**.
 
 
-
-W ramach **unikania** zachorowania na **raka skóry** zaleca się
+ W ramach **unikania** zachorowania na **raka skóry** zaleca się
 
 * unikanie ekspozycji na promieniowanie słoneczne UV szczególnie w godzinach, kiedy jest ono najbardziej intensywne pomiędzy **godziną 10:00 a 16:00**,
 * możliwie jak najdłużej powinno się **przebywać w miejscach zacienionych**, pamiętając o tym, że żaden cień nie daje 100% protekcji,
