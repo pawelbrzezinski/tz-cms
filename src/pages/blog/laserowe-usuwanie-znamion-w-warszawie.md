@@ -54,3 +54,19 @@ Kluczowym elementem, niezbędnym we wczesnym wykrywaniu podejrzanych zmian skór
 **Najpopularniejszą formą badania jest [dermatoskopia](https://twojeznamiona.pl/dermatoskopia-badanie-znamion), która stanowi skuteczny sposób diagnozowania oraz monitorowania znamion skórnych. W naszym gabinecie w Warszawie, wykonujemy [wideodermatoskopię](https://twojeznamiona.pl/wideodermatoskopia-komputerowe-badanie-znamion), czyli komputerowe badanie znamion przy pomocy wideodermatoskopu. Analiza skóry, przeprowadzona dzięki niemu, możliwa jest w bardzo dużym powiększeniu, przez co daje niesamowicie dokładny obraz.**
 
 ![Kamera wideodermatoskopu](img/usuwanieznamion-1-.png "Kamera wideodermatoskopu")
+
+
+
+Laserowe usuwanie znamion - przeciwwskazania
+
+**Podstawą do wyboru [chirurgicznej](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion) lub [niechirurgicznej](https://twojeznamiona.pl/niechirurgiczne-usuwanie-znamion) formy usuwania znamienia jest ocena zmian skórnych dokonana przez lekarza. Złośliwe lub podejrzanie wyglądające formy wymagają interwencji chirurgicznej, gdyż usunięta zmiana poddawana jest badaniu histopatologicznemu. Te problematyczne zmiany są zatem przeciwwskazaniem do laserowego usuwania znamion. Gdy jednak mają one charakter łagodny, dopuszczalne stają się opcje niechirurgiczne jak laserowe usuwanie pieprzyków. Metoda ta jest bezinwazyjna i można wykonywać ją w każdym wieku.**
+
+<More link="/laserowe-usuwanie-znamion" text="Niechirurgiczne usuwanie znamion - inne metody" cta="Sprawdź" />
+
+
+
+Laserowe usuwanie znamion – cena
+
+Oferta badań i zabiegów dermatologicznych, w tym usuwania znamion, jest bardzo obszerna. W Warszawie w naszym gabinecie oferujemy atrakcyjne [ceny usług](https://twojeznamiona.pl/warszawa/badanie-znamion#cennik), w tym laserowe usuwanie pieprzyków.
+
+<More link="/warszawa/badanie-znamion" text="Zobacz nasz ośrodek w Warszawie i skontaktuj się z nami celem rejestracji wizyty." cta="Sprawdź" />
