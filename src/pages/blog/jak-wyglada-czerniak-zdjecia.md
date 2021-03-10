@@ -102,8 +102,6 @@ Osoby, z jasną karnacją skóry, mające w rodzinie chorych na czerniaka, któr
 
 ![czerniak](img/czerniak22.jpg "czerniak")
 
-
-
 Zmiany skórne podejrzane w kierunku czerniaka należy bezwzględnie usunąć w całości metodą chirurgiczną do badania histopatologicznego. Nie wolno wykonywać biopsji cienkoigłowej lub biopsji wycinającej polegającej jedynie na częściowym wycięciu znamienia!
 
 ![czerniak](img/czernia8.jpg "czerniak")
@@ -129,14 +127,27 @@ Zmiany skórne podejrzane w kierunku czerniaka należy bezwzględnie usunąć w 
 ![czerniak](img/czerniak36.jpeg "czerniak")
 ![czerniak](img/czerniak37.jpg "czerniak")
 ![czerniak](img/czerniak38.jpeg "czerniak")
+
 ![czerniak](img/czerniak39.jpg "czerniak")
 
 ![czerniak](img/czerniak40.jpg "czerniak")
-![czerniak](img/czerniak41.jpg "czerniak")
+
+
+
+Nawroty czerniaka po leczeniu w bliźnie po pierwotnie wyciętej zmianie oraz w okolicy tej blizny, jeżeli jest to technicznie możliwe, także powinno się kwalifikować do chirurgicznego usunięcia.
+
+![czerniak](img/czerniak46.jpg "czerniak")
+
 ![czerniak](img/czerniak42.jpg "czerniak")
+
+Zwykle przez pierwsze dwa lata po diagnozie czerniaka wizyty kontrolne odbywają się co 3-6 miesięcy, po dwóch latach co 6 miesięcy, a po pięciu latach co rok. Lekarz ocenia stan ogólny pacjenta, skórę, wszystkie znamiona na ciele, okolicę blizny i regionalne węzły chłonne.
 
 ![czerniak](img/czerniak44.jpg "czerniak")
 
-![czerniak](img/czerniak46.jpg "czerniak")
+## Czerniak podpaznokciowy
+
+Bob Marley zmarł z powodu przerzutów czerniaka, który pojawił się u niego pod paznokciem palca stopy.
+
+![czerniak](img/czerniak41.jpg "czerniak")
 
 ![czerniak](img/czerniak47.jpeg "czerniak")
