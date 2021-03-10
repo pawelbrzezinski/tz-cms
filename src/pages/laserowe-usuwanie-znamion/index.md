@@ -74,7 +74,6 @@ tags:
   - niechirurgiczne usuwanie znamion
   - kriochirurgia
   - elektrokoagulacja
-  - laser
 ---
 
 Metody niechirurgiczne dopuszczalne są tylko wtedy, gdy znamiona mają charakter łagodny. Można je stosować u osób w każdym wieku i są one całkowicie bezinwazyjne, co oznacza, że nie dochodzi do przerwania powłok skórnych. Jednak to nie do nas należy wybór, czy znamię zostanie usunięte metodą niechirurgiczną czy chirurgiczną - decyduje o tym lekarz.
