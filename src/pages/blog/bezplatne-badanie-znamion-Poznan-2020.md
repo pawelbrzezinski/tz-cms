@@ -43,15 +43,16 @@ keywords:
   - zdjęcia czerniaka
   - znamiona barwnikowe
 tags:
-  - badanie znamion
-  - wideodermatoskopia
-  - poznań
-
+  - Badanie Znamion
+  - Wideodermatoskopia
+  - Poznań
 sources: []
 ---
 **Czerniak skóry** należy do najbardziej złośliwych nowotworów. Wczesna diagnostyka zmian jest warunkiem skutecznego leczenia, a **wideodermatoskopia** (mikroskopia epiluminescencyjna) jest w niej bardzo pomocna. Umożliwia ona również miarodajne badanie znamion atypowych i ich monitorowanie. Wszystko to dzięki systemom komputerowym pozwalającym na precyzyjną ocenę obrazów uzyskanych w **badaniu wideodermatoskopowym**.
 
 Aby jednak można było mówić o wykorzystaniu w pełni potencjału technologii musi ona znaleźć się w rękach doświadczonych specjalistów. W tym artykule opowiemy, czy możliwe jest wykonanie **bezpłatnego badania znamion w Poznaniu w 2020 roku** i czy warto.
+
+![Kamera wideodermatoskopu](img/usuwanieznamion-1-.png "Kamera wideodermatoskopu")
 
 ## Jak odróżnić pieprzyk od czerniaka?
 
@@ -83,15 +84,9 @@ To miejsce całkowicie ukierunkowane na wideodermatoskopową diagnostykę i lecz
 
 **Wideodermatoskopia** w Centrum **Twoje Znamiona w Poznaniu** wykonywana jest na wysokiej klasy urządzeniu medycznym **Fotofinder Vexia**. Wideodermatoskop ten jest wszechstronnym systemem wyposażonym w kamerę, która dostarcza doskonałą jakość zdjęć zmian skórnych w rozdzielczości **Full HD**. Obrazy dermoskopowe są przypisane do konkretnego pacjenta, w ten oto sposób bardziej efektywnie można obserwować dynamikę zmian zachodzących w znamionach i postępy leczenia.
 
-
-
 ![Wideodeermatoskopy cyfrowe Twoje Znamiona](img/dermatoskopia.png "Wideodeermatoskopy cyfrowe Twoje Znamiona")
 
-
-
 Urządzenie umożliwia identyczne ustawienie kamery i wykonanie zdjęć "przed i po" w celu ich rzetelnego porównania oraz automatycznie kalibruje zdjęcia i pozwala na wykonanie ręcznych pomiarów wielkości znamienia. W ten oto sposób system umożliwia tworzenie i rozbudowę wirtualnej karty pacjenta zawierającej niezbędne dane z każdej wizyty. Stwarza to szerokie możliwości ich zapisywania w postaci raportu i kiedy zachodzi taka potrzeba konsultowania przypadków z innymi specjalistami.
-
-
 
 ## Przebieg badania w Centrum Badania Znamion Twoje Znamiona
 
@@ -108,8 +103,6 @@ Niestety z uwagi na ograniczoną liczbę dni przyjęć pacjenci muszą liczyć s
 Z uwagi na długie terminy oczekiwania dla pacjentów będących już pod opieką oraz brak możliwości umówienia się na wizytę pierwszorazową, wielu pacjentów wybiera inne miejsca, które zajmują się diagnostyką znamion w Poznaniu.
 
 ![Badanie znamion Twoje Znamiona](img/badanie_znamion.jpg "Badanie znamion Twoje Znamiona")
-
-
 
 W Centrum Badania Znamiona **Twoje Znamiona** można wykonać wideodermatoskopowe badanie znamion, ale także skorzystać z **konsultacji dermatologicznej**, **onkologicznej** oraz **usunąć zmiany** barwnikowe zarówno nieinwazyjnie (krioterapia), jak i chirurgicznie oraz wykonać **badanie histopatologiczne**.
 
