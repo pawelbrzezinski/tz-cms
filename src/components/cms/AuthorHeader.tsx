@@ -1,6 +1,7 @@
 import React from "react";
 
 import Agnieszka from "../../img/agnieszka-czyzewska.png";
+import Doctor from "../../img/doctor.png";
 import "../../styles/cms.scss";
 
 const AuthorHeader = ({
@@ -9,12 +10,11 @@ const AuthorHeader = ({
   date = "",
   readingTime = 0,
 }) => {
+  const Image = author.indexOf("Agnieszka") !== -1 ? Agnieszka : Doctor;
   return readingTime !== 0 && author ? (
     <div className="article_author_header">
       <div className="author">
-        {author.indexOf("Agnieszka") !== -1 && (
-          <img src={Agnieszka} alt={author} />
-        )}
+        <img src={Image} alt={author} />
         <div>
           {author ? <p className="author_name">{author}</p> : null}
           {author.indexOf("Agnieszka") !== -1 && (

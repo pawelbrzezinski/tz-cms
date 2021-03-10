@@ -72,6 +72,7 @@ tags:
   - badanie znamion
   - usuwanie znamion
   - niechirurgiczne usuwanie znamion
+  - laserowe usuwanie znamion
   - kriochirurgia
   - elektrokoagulacja
 ---
