@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Gdzie badać znamiona w Szczecinie w 2020
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 7
+readingTime: 6
 date: 2020-09-04T18:51:38.512Z
 description: Gdzie zbadać znamiona w Szczecinie w 2020 roku? Badania
   dermatoskopowe, czy może wideodermatoskopowe? Profesjonalne Centra Diagnostyki
@@ -45,8 +45,9 @@ keywords:
   - zdjęcia czerniaka
   - znamiona barwnikowe
 tags:
-  - badanie znamion
-  - czerniak
+  - Badanie Znamion
+  - Wideodermatoskopia
+  - Szczecin
 sources: []
 ---
 **Lato rozpieszcza słońcem, ale nie jest już tak opiekuńcze dla skóry. Dlatego żegnając wakacje, zaczynamy intensywniej pielęgnować ciało i walczyć z oznakami przesuszenia skóry. Pieprzyki również powinny znaleźć się w centrum uwagi. Artykuł ten opowie o zagadnieniach dotyczących:**
@@ -88,6 +89,6 @@ Dlaczego samoobserwacja jest niewystarczająca? Kierujmy się zawsze zdrowym roz
 
 <More link="/blog/jak-wyglada-czerniak-zdjecia" text="Jak wygląda czerniak? ZDJĘCIA" cta="Sprawdź" />
 
-Łapiąc opaleniznę w ostatnich promieniach letniego słońca na Wałach Chrobrego warto pomyśleć o zdrowiu swojej skóry i zajrzeć także na ulicę Arkońską 51/01. Umówienie wizyty w Ogólnopolskim **Centrum Badania Znamion** nie oznacza perspektywy długiego czekania. Dostępne są szybkie terminy. A jeżeli wracamy z wakacji w Szczecinie, to zarezerwujmy konsultację u siebie lub w pobliskiej aglomeracji. Centrum posiada jeszcze swoje ośrodki w Warszawie, Poznaniu,Wrocławiu oraz prowadzi zaawansowane przygotowania, by jego specjaliści zawitali do Gdańska, Krakowa, łodzi, Katowic i wielu wielu innych miast.
+Łapiąc opaleniznę w ostatnich promieniach letniego słońca na Wałach Chrobrego warto pomyśleć o zdrowiu swojej skóry i zajrzeć także na ulicę Arkońską 51/01. Umówienie wizyty w Ogólnopolskim **Centrum Badania Znamion** nie oznacza perspektywy długiego czekania. Dostępne są szybkie terminy. A jeżeli wracamy z wakacji w Szczecinie, to zarezerwujmy konsultację u siebie lub w pobliskiej aglomeracji. Centrum posiada jeszcze swoje ośrodki w Warszawie, Poznaniu, Wrocławiu oraz prowadzi zaawansowane przygotowania, by jego specjaliści zawitali do Gdańska, Krakowa, łodzi, Katowic i wielu wielu innych miast.
 
 <More link="/blog/jak-chronic-sie-przed-nowotworem-skory" text="Jak chronić się przed nowotworem skóry?" cta="Sprawdź" />
