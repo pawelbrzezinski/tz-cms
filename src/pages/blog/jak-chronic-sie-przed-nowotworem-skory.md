@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Jak chronić się przed nowotworem skóry
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 8
+readingTime: 6
 date: 2020-09-04T18:51:38.512Z
 description: Światowa Organizacja Zdrowia WHO opracowała wytyczne dotyczące
   ekspozycji na promieniowanie UV jako głównego czynnika zwiększającego ryzyko
@@ -57,7 +57,8 @@ sources: []
 * czym jest metoda ABCDE,
 * jak często należy **badać znamiona**.
 
-W ramach **unikania** zachorowania na **raka skóry** zaleca się
+
+ W ramach **unikania** zachorowania na **raka skóry** zaleca się
 
 * unikanie ekspozycji na promieniowanie słoneczne UV szczególnie w godzinach, kiedy jest ono najbardziej intensywne pomiędzy **godziną 10:00 a 16:00**,
 * możliwie jak najdłużej powinno się **przebywać w miejscach zacienionych**, pamiętając o tym, że żaden cień nie daje 100% protekcji,
@@ -81,7 +82,7 @@ Niezwykle groźne jest korzystanie z łóżek opalających, gdzie emitowane prom
 
 Z uwagi na fakt, iż korzystanie z solariów zwiększa ok. 2-krotnie ryzyko zachorowania na czerniaka, szczególnie u osób młodych przed 35 rokiem WHO zaleca unikanie korzystania z solariów a u osób przed 18 rokiem życia wprowadza całkowity zakaz. Osoby korzystające z solariów otrzymują 1,2-4,7- krotnie większą dawkę promieniowanie UV rocznie w porównaniu z osobami, niekorzystającymi z łóżek opalających.
 
-## Czy dzieci mogą się opalać ?
+## Czy dzieci mogą się opalać?
 
 Szczególną uwagę zwraca się na ochronę dzieci przed słońcem - odpowiednia odzież ochronna, zacienione place zabaw, unikanie przebywania na słońcu w godzinach południowych.
 
