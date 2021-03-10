@@ -67,17 +67,60 @@ To kolejna **łagodna zmiana** rozrostowa w postaci guza naczyniowego. Bardzo 
 
 ![Naczyniak limfatyczny](img/to-jednak-nie-czerniak4.jpg "Naczyniak limfatyczny")
 
-
-
 * **naczyniak jamisty** - najczęściej występujący u kobiet, pojawia się w każdym przedziale wiekowym,
 
 ![Naczyniak jamisty](img/to-jednak-nie-czerniak5.jpg "Naczyniak jamisty")
 
-![czerniak](img/to-jednak-nie-czerniak10.jpg "czerniak")
+* **naczyniak gwiaździsty** - występujący u dzieci i kobiet, rzadko u mężczyzn,
 
-![czerniak](img/to-jednak-nie-czerniak11.jpg "czerniak")
+![Naczyniak gwiaździsty](img/to-jednak-nie-czerniak6.jpg "Naczyniak gwiaździsty")
 
-![czerniak](img/to-jednak-nie-czerniak6.jpg "czerniak")
-![czerniak](img/to-jednak-nie-czerniak7.jpg "czerniak")
+* **naczyniak starczy** - występuje u osób dorosłych, nazywany bywa naczyniakiem rubinowym, ze względu na barwę guzków. Pojawia się na tułowiu i kończynach górnych,
+
+![Naczyniak starczy](img/to-jednak-nie-czerniak7.jpg "Naczyniak starczy")
+
+### Leczenie naczyniaków
+
+* Naczyniaków powierzchownych niepowikłanych nie poddaje się leczeniu, a jedynie stałej obserwacji.
+* Glikokortykosteroidy i beta-blokery stosuje się tylko w przypadku, gdy naczyniak rozrasta się lub jego obecność w jamach ciała grozi uszkodzeniem lub krwotokiem.
+* Leczenie operacyjne stosuje się w ostateczności i zawsze jest ono poprzedzone wstrzykiwaniem substancji, które ma na celu niszczenie guza i jego zmniejszenie.
+
 ![czerniak](img/to-jednak-nie-czerniak8.jpg "czerniak")
+
+## Grzybica paznokci
+
+Powszechna i dobrze znana, ale wciąż sprawiająca problemy terapeutyczne. Szczególnie problematyczna w różnicowaniu z [czerniakiem](https://twojeznamiona.pl/czerniak "Czerniak") jest grzybica powierzchowna biała, która atakuje płytkę paznokciową od strony jej powierzchni, a nalot przybiera często czarną barwę.
+
+<More link="/czerniak/rodzaje-czerniaka/czerniak-na-dloniach-i-podeszwach-stop" text="Zobacz, jak może wyglądać czerniak na stopach" cta="Sprawdź" />
+
 ![czerniak](img/to-jednak-nie-czerniak9.jpg "czerniak")
+
+## Znamię błękitne
+
+Należy ono do szczególnie trudnych w diagnozie znamion, które imitują czerniaka, a wątpliwości nie rozwiewa często nawet pierwsze [badanie histopatologiczne](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion#histopatologia "Badanie histopatologiczne") Jego wielkość najczęściej nie przekracza średnicy ziarna soczewicy, jest głęboko osadzone w skórze i przybiera barwę błękitną.
+
+Wyróżnia się 3 rodzaje tych znamion:
+
+* znamię błękitne pospolite,
+* znamię błękitne komórkowe,
+* złośliwe znamię błękitne.
+
+Znamię **błękitne złośliwe** to w zasadzie już **forma czerniaka**.
+
+Znamię błękitne, które ma poniżej jednego centymetra i nie zmienia się, nie podlega leczeniu. Wskazana jest jedynie jego obserwacja pod kątem zmian w nim zachodzących. Bardzo ważne w procesie diagnostycznym są także informacje od kiedy znamię znajduje się na skórze, czy był w tym miejscu jakiś uraz oraz czy znamię nie zmienia wielkości w ostatnim czasie.
+
+<More link="/blog/jak-odroznic-zwykly-pieprzyk-od-typowego-czerniaka-zdjecia" text="Zobacz, jak odróżnić pieprzyk od typowego czerniaka" cta="Sprawdź" />
+
+![znamię błękitne](img/to-jednak-nie-czerniak10.jpg "znamię błękitne")
+
+## Rogowacenie słoneczne
+
+To jedno z najczęstszych rozpoznań w gabinecie dermatologicznym. Dotyczy ono skóry starczej i jest skutkiem oddziaływania promieniowania ultrafioletowego na skórę. W formie zaawansowanej niesie ze sobą ryzyko rozwoju raka kolczystokomórkowego, dlatego też wszelkie tego typu zmiany dokładnie się różnicuje i poddaje leczeniu zorientowanemu na zmianę, np. [krioterapia](/laserowe-usuwanie-znamion#kriochirurgia "Krioterapia") lub obszar – [laseroterapia](/laserowe-usuwanie-znamion#laserowe "Lasserowe usuwanie znamion").
+
+![rogowacenie słoneczne](img/to-jednak-nie-czerniak11.jpg "rogowacenie słoneczne")
+
+
+
+Ocenę znamion najlepiej zawsze pozostawić specjalistom, udając się na [badanie znamion](/dermatoskopia-badanie-znamion "Badanie znamion") lub konsultację dermatologiczną. Doświadczeni dermatolodzy rozpoznają charakter każdego znamienia i doradzą, co robić dalej. Zaawansowana [wideodermatoskopia](/wideodermatoskopia-komputerowe-badanie-znamion "Wideodermatoskopia") w jeszcze większym stopniu pozwala na dokładną ocenę znamion. Krótka wizyta może pozwolić nam ustrzec się przed groźnym nowotworem skóry lub odzyskać spokój, że to jednak nie czerniak.
+
+<More link="/cennik" text="Zobacz, czy badamy znamiona w Twoim mieście." cta="Sprawdź" />
