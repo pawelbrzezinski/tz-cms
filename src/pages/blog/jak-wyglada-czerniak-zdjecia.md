@@ -70,15 +70,7 @@ Czerniak może powstać w obrębie znamienia jak również w skórze niezmienion
 
 ![czerniak](img/czerniak43.jpg "czerniak")
 
-
-
 U mężczyzn najczęstszym umiejscowieniem czerniaka jest tułów, w przypadku kobiet czerniaka najczęściej wykrywamy na kończynach.
-
-![czerniak](img/czernia8.jpg "czerniak")
-
-![czerniak](img/czerniak12.jpg "czerniak")
-
-![czerniak](img/czerniak13.jpeg "czerniak")
 
 ![czerniak](img/czerniak14.jpeg "czerniak")
 
@@ -86,15 +78,40 @@ U mężczyzn najczęstszym umiejscowieniem czerniaka jest tułów, w przypadku k
 
 ![czerniak](img/czerniak16.jpeg "czerniak")
 
+Nasz niepokój bezwzględnie budzić powinny jakiekolwiek zmiany dotyczące już istniejących znamion. Do częstych objawów czerniaka, wymagających konsultacji lekarza dermatoskopisty należą między innymi:
+
+* zgrubienie
+* swędzenie
+* zaczerwienienie wokół znamienia
+* krwawienie
+* powiększenie
+* zmiany zabarwienia
+* zmiana kształtu
+
 ![czerniak](img/czerniak17.jpg "czerniak")
 
 ![czerniak](img/czerniak18.jpeg "czerniak")
 
 ![czerniak](img/czerniak19.jpg "czerniak")
 
+Osoby, z jasną karnacją skóry, mające w rodzinie chorych na czerniaka, które poddawane były leczeniu immunosupresyjnemu albo mają zespoły obniżonej odporności, np. AIDS, należą do grupy podwyższonego ryzyka zachorowania na czerniaka.
+
 ![czerniak](img/czerniak20.jpg "czerniak")
+
 ![czerniak](img/czerniak21.jpg "czerniak")
+
 ![czerniak](img/czerniak22.jpg "czerniak")
+
+
+
+Zmiany skórne podejrzane w kierunku czerniaka należy bezwzględnie usunąć w całości metodą chirurgiczną do badania histopatologicznego. Nie wolno wykonywać biopsji cienkoigłowej lub biopsji wycinającej polegającej jedynie na częściowym wycięciu znamienia!
+
+![czerniak](img/czernia8.jpg "czerniak")
+
+![czerniak](img/czerniak12.jpg "czerniak")
+
+![czerniak](img/czerniak13.jpeg "czerniak")
+
 ![czerniak](img/czerniak23.jpg "czerniak")
 
 ![czerniak](img/czerniak25.jpeg "czerniak")
