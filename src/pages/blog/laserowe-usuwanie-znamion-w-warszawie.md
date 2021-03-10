@@ -25,7 +25,7 @@ sources:
 
 ![Laserowe usuwanie pieprzyka](img/dermatologist-removing-mole-from-womans-shoulder.jpg "Laserowe usuwanie pieprzyka")
 
-Różnorodność zmian pojawiających się na skórze wymaga specjalistycznego podejścia i szczegółowej diagnostyki. Ważne są zatem dokładne badania, zanim zostaniemy skierowani na laserowe usuwanie znamion. Niezawodne wsparcie oferujemy w naszym [Centrum Usuwania Znamion w Warszawie](https://twojeznamiona.pl/warszawa/usuwanie-znamion-pieprzykow), na Woli przy ul. Sokołowskiej, gdzie można usunąć znamiona w sposób nieinwazyjny, nie pozostawiający widocznych blizn - metodą laserową. 
+Różnorodność zmian pojawiających się na skórze wymaga specjalistycznego podejścia i szczegółowej diagnostyki. Ważne są zatem dokładne badania, zanim zostaniemy skierowani na laserowe usuwanie znamion. Niezawodne wsparcie oferujemy w naszym [Centrum Usuwania Znamion w Warszawie](/warszawa/usuwanie-znamion-pieprzykow), na Woli przy ul. Sokołowskiej, gdzie można usunąć znamiona w sposób nieinwazyjny, nie pozostawiający widocznych blizn - metodą laserową. 
 
 ## Na czym polega laserowe usuwanie znamion?
 
