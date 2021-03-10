@@ -102,8 +102,6 @@ Osoby, z jasną karnacją skóry, mające w rodzinie chorych na czerniaka, któr
 
 ![czerniak](img/czerniak22.jpg "czerniak")
 
-![czerniak](img/czernia8.jpg "czerniak")
-
 Zmiany skórne podejrzane w kierunku czerniaka należy bezwzględnie usunąć w całości metodą chirurgiczną do badania histopatologicznego. Nie wolno wykonywać biopsji cienkoigłowej lub biopsji wycinającej polegającej jedynie na częściowym wycięciu znamienia!
 
 ![czerniak](img/czerniak23.jpg "czerniak")
