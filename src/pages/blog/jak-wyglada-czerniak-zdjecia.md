@@ -1,17 +1,13 @@
 ---
 templateKey: blog-post
-title: s/jak-wyglada-czerniak-zdjecia
+title: Jak wygląda typowy Czerniak
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 8
 date: 2020-09-04T18:51:38.512Z
-description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
-  barwnikowych - melanocytów. Poniżej prezentujemy zdjęcia czerniaków, które
-  wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie
-  samobadania swoich znamion. Po zapoznaniu się z tym artykułem będziesz
-  wiedzieć jak wygląda typowy czerniak.
+description: Zobacz Jak wygląda typowy Czerniak. Badaj znamiona regularnie!
 keywords:
-  - czerniak zdjęcia
+  - content="czerniak zdjęcia
   - czeerniak paznokcia
   - czerniak podpaznokciowy
   - czerniak guguzkowaty
@@ -36,16 +32,32 @@ sources:
   - label: onet
     link: https://www.facebook.com/
 ---
+**Czerniak złośliwy jest nowotworem wywodzącym się z komórek barwnikowych - melanocytów.** Poniżej prezentujemy zdjęcia czerniaków, które wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie samobadania swoich znamion. Po zapoznaniu się z tym artykułem będziesz wiedzieć jak wygląda typowy czerniak.
+
 ## Czerniak zdjęcia
 
+Rzadziej występuje u dzieci i młodzieży, natomiast u dorosłych **od kilkudziesięciu lat obserwujemy w Polsce stały trend wzrostowy zachorowalności na czerniaka**. Czynnik wpływający na powstanie czerniaka skóry to przede wszystkim promieniowanie UV związane z opalaniem się.
 
+![czerniak](img/czerniak1.jpeg "czerniak")
 
-<More link="/czerniak" text="Jak wyglada  czerniak" cta="Sprawdź" />
+![czerniak](img/czerniak2.jpg "czerniak")
 
+![czerniak](img/czerniak3.jpg "czerniak")
+
+Czerniak jest nowotworem o wysokim stopniu złośliwości, dlatego też umieralność z powodu tego nowotworu skóry w Polsce jest wyższa niż przeciętnego obywatela Unii Europejskiej o około 20%.
+
+![czerniak](img/czerniak4.jpg "czerniak")
+
+![czerniak](img/czerniak6.jpg "czerniak")
+
+![czerniak](img/czerniak7.jpeg "czerniak")
+
+![czerniak](img/czerniak9.png "czerniak")
 
 ![czerniak](img/czernia8.jpg "czerniak")
-![czerniak](img/czerniak1.jpeg "czerniak")
+
 ![czerniak](img/czerniak10.png "czerniak")
+
 ![czerniak](img/czerniak11.jpeg "czerniak")
 ![czerniak](img/czerniak12.jpg "czerniak")
 ![czerniak](img/czerniak13.jpeg "czerniak")
@@ -55,7 +67,7 @@ sources:
 ![czerniak](img/czerniak17.jpg "czerniak")
 ![czerniak](img/czerniak18.jpeg "czerniak")
 ![czerniak](img/czerniak19.jpg "czerniak")
-![czerniak](img/czerniak2.jpg "czerniak")
+
 ![czerniak](img/czerniak20.jpg "czerniak")
 ![czerniak](img/czerniak21.jpg "czerniak")
 ![czerniak](img/czerniak22.jpg "czerniak")
@@ -66,7 +78,7 @@ sources:
 ![czerniak](img/czerniak27.jpeg "czerniak")
 ![czerniak](img/czerniak28.jpg "czerniak")
 ![czerniak](img/czerniak29.jpg "czerniak")
-![czerniak](img/czerniak3.jpg "czerniak")
+
 ![czerniak](img/czerniak30.jpg "czerniak")
 ![czerniak](img/czerniak31.jpeg "czerniak")
 ![czerniak](img/czerniak32.jpeg "czerniak")
@@ -77,7 +89,7 @@ sources:
 ![czerniak](img/czerniak37.jpg "czerniak")
 ![czerniak](img/czerniak38.jpeg "czerniak")
 ![czerniak](img/czerniak39.jpg "czerniak")
-![czerniak](img/czerniak4.jpg "czerniak")
+
 ![czerniak](img/czerniak40.jpg "czerniak")
 ![czerniak](img/czerniak41.jpg "czerniak")
 ![czerniak](img/czerniak42.jpg "czerniak")
@@ -85,7 +97,5 @@ sources:
 ![czerniak](img/czerniak44.jpg "czerniak")
 ![czerniak](img/czerniak45.jpg "czerniak")
 ![czerniak](img/czerniak46.jpg "czerniak")
+
 ![czerniak](img/czerniak47.jpeg "czerniak")
-![czerniak](img/czerniak6.jpg "czerniak")
-![czerniak](img/czerniak7.jpeg "czerniak")
-![czerniak](img/czerniak9.png "czerniak")
