@@ -63,6 +63,16 @@ sources:
     link: www.skinanswer.com
   - label: www.healthjade.net
     link: www.healthjade.net
+  - label: www.lasermed.co
+    link: www.lasermed.co
+  - label: www.kobieta.interia.pl/zdrowie
+    link: www.kobieta.interia.pl/zdrowie
+  - label: https://aptekapuls.pl/blogs
+    link: https://aptekapuls.pl/blogs
+  - label: www.dermatologyadvisor.com
+    link: www.dermatologyadvisor.com
+  - label: " www.krokdozdrowia.com"
+    link: " www.krokdozdrowia.com"
 ---
 Nie każdy **pieprzyk** czy zmiana skórna przeradza się w **czerniaka**, nawet jeśli niepokoi swoim wyglądem i/lub wymaga interwencji lekarskiej. Artykuł ten będzie poświęcony kilku wybranym jednostkom chorobowym, które również bierze się pod uwagę przy różnicowaniu [czerniaka](/czerniak "Czerniak").
 
