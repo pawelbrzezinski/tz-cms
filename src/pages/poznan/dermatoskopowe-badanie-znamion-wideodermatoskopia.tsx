@@ -30,6 +30,7 @@ import WhyUs from "../../components/landingPage/WhyUs";
 import "../../styles/home.scss";
 
 import SEO from "../../components/SEO";
+import CallCta from "../../components/CallCta";
 
 const REVIEWS = [
   {
@@ -328,6 +329,7 @@ const PoznanBadanieZnamionPage = ({ graph }) => {
       <Abcde className="home_abcde" />
       <Oncology className="home_two_col_section_left_img" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
+      <CallCta />
     </Layout>
   );
 };

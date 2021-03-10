@@ -10,6 +10,7 @@ import Modal from "../../components/Modal";
 import { LOCATIONS } from "../../config/cities";
 
 import "../../styles/contact.scss";
+import CallCta from "../../components/CallCta";
 
 const CityItem = ({ city = "", link = "" }) => (
   <Link className="contact_list_item" to={`/${link}/#kontakt`} title={city}>
@@ -123,6 +124,8 @@ const ContactPage = () => (
     <Helmet>
       <title>Kontakt</title>
     </Helmet>
+    <CallCta />
+    
     <div className="contact">
       <div className="contact_cities">
         <h1>Nasze ośrodki</h1>

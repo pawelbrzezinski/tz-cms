@@ -29,6 +29,7 @@ import Contact from "../../components/landingPage/Contact";
 import "../../styles/home.scss";
 
 import SEO from "../../components/SEO";
+import CallCta from "../../components/CallCta";
 
 const REVIEWS = [
   {
@@ -324,6 +325,7 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
       <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
       <Oncology className="home_two_col_section_left_img" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
+      <CallCta />
     </Layout>
   );
 };

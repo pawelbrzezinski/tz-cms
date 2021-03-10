@@ -19,6 +19,7 @@ import Cta from "../../components/Cta";
 import { Link } from "gatsby";
 
 import "../../styles/home.scss";
+import CallCta from "../../components/CallCta"
 
 const CtaUmowSie = () => {
   return (
@@ -110,6 +111,7 @@ const HomePage = ({ graph }) => {
       <Abcde className="home_abcde" />
       <Surgery className="home_surgery" />
       <Cta className="home_cta" />
+      <CallCta />
     </Layout>
   );
 };
