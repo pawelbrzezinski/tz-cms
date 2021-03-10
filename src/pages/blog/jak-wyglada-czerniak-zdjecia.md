@@ -66,8 +66,6 @@ Czerniak może powstać w obrębie znamienia jak również w skórze niezmienion
 
 ![czerniak](img/czerniak29.jpg "czerniak")
 
-![czerniak](img/czerniak24.jpg "czerniak")
-
 ![czerniak](img/czerniak45.jpg "czerniak")
 
 ![czerniak](img/czerniak43.jpg "czerniak")
@@ -104,19 +102,13 @@ Osoby, z jasną karnacją skóry, mające w rodzinie chorych na czerniaka, któr
 
 ![czerniak](img/czerniak22.jpg "czerniak")
 
-Zmiany skórne podejrzane w kierunku czerniaka należy bezwzględnie usunąć w całości metodą chirurgiczną do badania histopatologicznego. Nie wolno wykonywać biopsji cienkoigłowej lub biopsji wycinającej polegającej jedynie na częściowym wycięciu znamienia!
-
 ![czerniak](img/czernia8.jpg "czerniak")
-
-![czerniak](img/czerniak12.jpg "czerniak")
-
-![czerniak](img/czerniak13.jpeg "czerniak")
-
-
 
 Zmiany skórne podejrzane w kierunku czerniaka należy bezwzględnie usunąć w całości metodą chirurgiczną do badania histopatologicznego. Nie wolno wykonywać biopsji cienkoigłowej lub biopsji wycinającej polegającej jedynie na częściowym wycięciu znamienia!
 
 ![czerniak](img/czerniak23.jpg "czerniak")
+
+![czerniak](img/czerniak24.jpg "czerniak")
 
 ![czerniak](img/czerniak25.jpeg "czerniak")
 
@@ -137,6 +129,8 @@ W przypadku wczesnych czerniaków skóry nie ma konieczności wykonywania rutyno
 ![czerniak](img/czerniak30.jpg "czerniak")
 
 ![czerniak](img/czerniak31.jpeg "czerniak")
+
+![czerniak](img/czerniak12.jpg "czerniak")
 
 Najczęściej czerniak pojawia się na skórze, ale może on powstawać także w obrębie błon śluzowych lub w gałce ocznej, a przerzuty daje najczęściej do okolicznych węzłów chłonnych.
 
@@ -171,6 +165,8 @@ Nawroty czerniaka po leczeniu w bliźnie po pierwotnie wyciętej zmianie oraz w 
 Zwykle przez pierwsze dwa lata po diagnozie czerniaka wizyty kontrolne odbywają się co 3-6 miesięcy, po dwóch latach co 6 miesięcy, a po pięciu latach co rok. Lekarz ocenia stan ogólny pacjenta, skórę, wszystkie znamiona na ciele, okolicę blizny i regionalne węzły chłonne.
 
 ![czerniak](img/czerniak44.jpg "czerniak")
+
+![czerniak](img/czerniak13.jpeg "czerniak")
 
 ## Czerniak podpaznokciowy
 
