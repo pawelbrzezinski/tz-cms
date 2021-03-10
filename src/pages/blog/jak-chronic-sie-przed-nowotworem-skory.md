@@ -82,7 +82,7 @@ Niezwykle groźne jest korzystanie z łóżek opalających, gdzie emitowane prom
 
 Z uwagi na fakt, iż korzystanie z solariów zwiększa ok. 2-krotnie ryzyko zachorowania na czerniaka, szczególnie u osób młodych przed 35 rokiem WHO zaleca unikanie korzystania z solariów a u osób przed 18 rokiem życia wprowadza całkowity zakaz. Osoby korzystające z solariów otrzymują 1,2-4,7- krotnie większą dawkę promieniowanie UV rocznie w porównaniu z osobami, niekorzystającymi z łóżek opalających.
 
-## Czy dzieci mogą się opalać ?
+## Czy dzieci mogą się opalać?
 
 Szczególną uwagę zwraca się na ochronę dzieci przed słońcem - odpowiednia odzież ochronna, zacienione place zabaw, unikanie przebywania na słońcu w godzinach południowych.
 
