@@ -4,7 +4,7 @@ title: Dlaczego powstają znamiona i skąd się biorą pieprzyki?
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 5
-date: 2020-09-04T18:51:38.512Z
+date: 2020-11-24T18:51:38.512Z
 description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
   barwnikowych - melanocytów. Poniżej prezentujemy zdjęcia czerniaków, które
   wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie
@@ -45,13 +45,13 @@ sources:
 
 Melanocyty to komórki barwnikowe (pigmentowe), zlokalizowane w warstwie podstawnej naskórka, które stanowią 1–2% jego komórek. Ich liczba nie jest w żadnym razie proporcjonalna do koloru skóry. Melanocyty są rozmieszczone nierównomiernie na całej powierzchni ciała. Ich rolą jest produkcja substancji zwanej melaniną.
 
-![czerniak](img/skad-sie-biora-pieprzyki1.png)
+![źródło: http://biologiaogul.blogspot.com/2014/10/komorki-tkanek-acznych.html](img/skad-sie-biora-pieprzyki1.png "źródło: http://biologiaogul.blogspot.com/2014/10/komorki-tkanek-acznych.html")
 
 ## Skąd się biorą pieprzyki?
 
 Karnacja, kolor włosów, wrażliwość na promieniowanie słoneczne, skłonność do piegów i pieprzyków zależą od całkowitej ilości melaniny, jaką mamy w organizmie. Kiedy wystawiamy swoją skórę na działanie słońca, melanocyty gwałtownie się namnażają, rozpoczynając produkcję melaniny, która ma ochronić naszą skórę przed szkodliwym działaniem promieniowania UV. Melanina pełni w tym wypadku rolę fotoprotektora, sprawiając, że nasza skóra brązowieje, a gdzieniegdzie powstają nowe znamiona barwnikowe.
 
-![czerniak](img/skad-sie-biora-pieprzyki2.png "czerniak")
+![źródło: http://obk.pl](img/skad-sie-biora-pieprzyki2.png "źródło: http://obk.pl")
 
 ## Dlaczego pieprzyki mogą być groźne?
 
@@ -80,5 +80,3 @@ Powstawania znamion barwnikowych nie da się uniknąć, jednak można ten proces
 Oprócz ochrony przed słońcem, warto pamiętać o badaniach kontrolnych w profesjonalnych ośrodkach. Obecnie zaawansowana technologiczne [wideodermatoskopia](/wideodermatoskopia-komputerowe-badanie-znamion "Wideodermatoskopia") pozwala bezpiecznie i bezinwazyjnie mapować znamiona na całym ciele (archiwizować ich zdjęcia w pamięci komputera) oraz efektywnie obserwować ich ewentualne zmiany. Wtedy nawet przy spełnieniu się czarnego scenariusza, wczesna diagnoza czerniaka da szansę na całkowite wyleczenie.
 
 <More link="/cennik" text="Sprawdź, czy w Twoim mieście badamy znamiona wideodermatoskopowo." cta="Sprawdź" />
-
-<More link="/kontakt" text="Skontaktuj się z nami." cta="Kontakt" />

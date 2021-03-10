@@ -21,8 +21,9 @@ keywords:
   - czerniak onkolog
   - konsultacje onkologiczne
 tags:
-  - Badanie Znamion
-  - Czerniak
+  - badanie znamion
+  - czerniak
+  - zdjęcia
 sources: []
 ---
 **Czerniak złośliwy jest nowotworem wywodzącym się z komórek barwnikowych - melanocytów.** Poniżej prezentujemy zdjęcia czerniaków, które wystąpiły u różnych osób, abyś mógł być jeszcze bardziej czujny w trakcie samobadania swoich znamion. Po zapoznaniu się z tym artykułem będziesz wiedzieć jak wygląda typowy czerniak.

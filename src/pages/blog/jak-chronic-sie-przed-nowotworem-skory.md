@@ -4,7 +4,7 @@ title: Jak chronić się przed nowotworem skóry
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 6
-date: 2020-09-04T18:51:38.512Z
+date: 2020-09-17T18:51:38.512Z
 description: Światowa Organizacja Zdrowia WHO opracowała wytyczne dotyczące
   ekspozycji na promieniowanie UV jako głównego czynnika zwiększającego ryzyko
   zachorowania na nowotwory skóry.
@@ -43,9 +43,9 @@ keywords:
   - zdjęcia czerniaka
   - znamiona barwnikowe
 tags:
-  - Badanie Znamion
-  - Wideodermatoskopia
-  - Profilaktyka raka skóry
+  - badanie znamion
+  - wideodermatoskopia
+  - profilaktyka
 sources: []
 ---
 **Światowa Organizacja Zdrowia WHO** opracowała wytyczne dotyczące ekspozycji na promieniowanie UV jako głównego czynnika zwiększającego ryzyko **zachorowania na nowotwory skóry**. W tym artykule opowiemy:

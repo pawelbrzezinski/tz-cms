@@ -14,7 +14,6 @@ keywords:
   - laserowe usuwanie znamion Warszawa
   - laserowe usuwanie pieprzyków Warszawa
   - Centrum usuwania znamion
-  - ""
 tags:
   - laserowe usuwanie znamion
   - usuwanie znamion
@@ -65,6 +64,6 @@ Podstawą do wyboru [chirurgicznej](/chirurgiczne-usuwanie-znamion) lub [niechir
 
 ## Laserowe usuwanie znamion – cena
 
-Oferta badań i zabiegów dermatologicznych, w tym usuwania znamion, jest bardzo obszerna. W Warszawie w naszym gabinecie oferujemy atrakcyjne [ceny usług](/warszawa/badanie-znamion#cennik), w tym laserowe usuwanie pieprzyków.
+Oferta badań i zabiegów dermatologicznych, w tym usuwania znamion, jest bardzo obszerna. W Warszawie w naszym gabinecie oferujemy atrakcyjne [ceny usług](/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia#cennik), w tym laserowe usuwanie pieprzyków.
 
-<More link="/warszawa/badanie-znamion" text="Zobacz nasz ośrodek w Warszawie i skontaktuj się z nami celem rejestracji wizyty." cta="Sprawdź" />
+<More link="/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia" text="Zobacz nasz ośrodek w Warszawie i skontaktuj się z nami celem rejestracji wizyty." cta="Sprawdź" />

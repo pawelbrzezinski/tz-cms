@@ -4,7 +4,7 @@ title: Gdzie badać znamiona w Szczecinie w 2020
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 6
-date: 2020-09-04T18:51:38.512Z
+date: 2020-09-30T18:51:38.512Z
 description: Gdzie zbadać znamiona w Szczecinie w 2020 roku? Badania
   dermatoskopowe, czy może wideodermatoskopowe? Profesjonalne Centra Diagnostyki
   Znamion Barwnikowych.
@@ -45,16 +45,17 @@ keywords:
   - zdjęcia czerniaka
   - znamiona barwnikowe
 tags:
-  - Badanie Znamion
-  - Wideodermatoskopia
-  - Szczecin
+  - badanie znamion
+  - wideodermatoskopia
+  - szczecin
 sources: []
 ---
+
 **Lato rozpieszcza słońcem, ale nie jest już tak opiekuńcze dla skóry. Dlatego żegnając wakacje, zaczynamy intensywniej pielęgnować ciało i walczyć z oznakami przesuszenia skóry. Pieprzyki również powinny znaleźć się w centrum uwagi. Artykuł ten opowie o zagadnieniach dotyczących:**
 
-* profilaktyki nowotworów skóry, jakim jest czerniak,
-* nowoczesnych metod badania znamion,
-* wyboru profesjonalnego centrum diagnostyki znamion.
+- profilaktyki nowotworów skóry, jakim jest czerniak,
+- nowoczesnych metod badania znamion,
+- wyboru profesjonalnego centrum diagnostyki znamion.
 
 ## Profilaktyka czerniaka
 
@@ -68,8 +69,7 @@ Te 72 sekundy mogą uratować życie. Bo ta konkretna metoda obrazowania zmian w
 
 ![Wideodermatoskop cyfrowy firmy Twoje Znamiona](img/usuwanieznamion-1-.png "Wideodermatoskop cyfrowy firmy Twoje Znamiona")
 
-**Wideodermatoskopia** w Ogólnopolskim [Centrum Badania Znamion w Szczecinie](/szczecin/badanie-znamion "Szczecińskie Centrum Badania Znamion
-        ­Twoje Znamiona") pozwoli na szybką interpretację nawet niepozornych czy niezauważalnych pieprzyków na podstawie stosowanych i uznawanych na świecie algorytmów oceny. W trakcie jednej wizyty wszystkie **twoje znamiona** znajdą się pod kontrolą.
+**Wideodermatoskopia** w Ogólnopolskim [Centrum Badania Znamion w Szczecinie](/szczecin/dermatoskopowe-badanie-znamion-wideodermatoskopia "Szczecińskie Centrum Badania Znamion ­Twoje Znamiona") pozwoli na szybką interpretację nawet niepozornych czy niezauważalnych pieprzyków na podstawie stosowanych i uznawanych na świecie algorytmów oceny. W trakcie jednej wizyty wszystkie **twoje znamiona** znajdą się pod kontrolą.
 
 ## Reguła oceny zmian skórnych w kierunku czerniaka ABCDE
 
@@ -83,7 +83,7 @@ Dzięki analizie asymetrii, rodzaju brzegów, koloru, wymiarów i ewolucji zmian
 
 ![Duży rozmiar, znamię powiększyło się](img/metoda_abcd_d.png "Duży rozmiar, znamię powiększyło się")
 
-## **Twoje znamiona** to **pieprzyk** czy już **czerniak**?
+## Twoje znamiona to pieprzyk czy już czerniak?
 
 Dlaczego samoobserwacja jest niewystarczająca? Kierujmy się zawsze zdrowym rozsądkiem i nie popadajmy w panikę. Miejmy jednak świadomość, że określenie charakteru danej zmiany skórnej, bywa problematyczne także dla samych lekarzy, którzy nie zajmują się tym obszarem w codziennej praktyce. Przytaczane już na początku artykułu **badania** świadomości Polaków na temat czerniaka z **2020 roku** pokazują, że jedynie 50 proc. respondentów skonsultowałoby się ze specjalistą, gdyby zmiana zmieniła kolor lub wielkość. Ten odsetek jest zdecydowanie za mały. Taka sytuacja powinna być tzw. dzwonkiem alarmowym. Ignorowanie objawów to nie jedyny problem. Bez okresowej **wideodermatoskopii** możemy ich zwyczajnie nie dostrzec.
 

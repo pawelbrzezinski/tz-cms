@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
 title: Gdzie badać znamiona w Krakowie w 2021
-author: Agnieszka Czyżewska
+author: Twoje Znamiona
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 9
-date: 2020-09-04T18:51:38.512Z
+date: 2020-12-10T18:51:38.512Z
 description: Na stronach małopolskiego oddziału Narodowego Funduszu Zdrowia w
   Krakowie dostępne są statystyki mówiące o tym, że nowotwory skóry stanowią
   około 10% wszystkich wykrywanych nowotworów złośliwych w Polsce. Spośród
@@ -39,7 +39,7 @@ tags:
 sources:
   - label: "Zalecenia Ministerstwa Zdrowia: jak chronić się przed zachorowaniem na
       czerniaka"
-    link: www.facebook.com/MZGOVPL
+    link: https://www.facebook.com/MZGOVPL
 ---
 Na stronach **małopolskiego oddziału Narodowego Funduszu Zdrowia w Krakowie** dostępne są statystyki mówiące o tym, że **nowotwory skóry** stanowią około **10%** wszystkich **wykrywanych nowotworów** złośliwych w Polsce. Spośród nowotworów skóry **czerniak** jest jednym z najczęściej występujących, ale nie jedynym. Jak można się ich ustrzec? Dlaczego należy przeprowadzać **regularne badanie znamion** oraz w jaki sposób [wideodermatoskopia](/wideodermatoskopia-komputerowe-badanie-znamion "wideodermatoskopia") umożliwia wczesne wykrycie raka skóry?
 
@@ -73,7 +73,7 @@ Ocena stanu znamion, zwanych potocznie pieprzykami, tzw. gołym okiem bywa trudn
 
 Najczęściej, próbując dowiedzieć się czegoś o naszych znamionach i potencjalnych metodach ich usunięcia, **idziemy do dermatologa**. Przyjmujący w przychodni specjalista **często nie dysponuje jednak wideodermatoskopem**, a nawet jeśli go posiada, limity czasowe nie pozwalają na wykonanie pełnowartościowego badania. Kierując kroki do gabinetu kosmetologii estetycznej, niejednokrotnie mamy wątpliwości, czy usunąć zmianę [laserem](/laserowe-usuwanie-znamion) - nie można wówczas wykonać [badania histopatologicznego](/chirurgiczne-usuwanie-znamion) i dowiedzieć się, **czy znamię było nowotworem**. Zamiast biegać w stresie po przychodniach, można wybrać sprawdzone miejsce i zbadać znamiona, nawet podczas spaceru po Krakowie. Niedaleko Sukiennic, na Placu Szczepańskim 3, [umówisz się na badanie](/kontakt "Umów się na badanie znamion") **Ogólnopolskie Centrum Badania Znamion Twoje Znamiona** przyjmuje szybko i **bez kolejek**.
 
-<More link="/krakow/badanie-znamion" text="Więcej o badaniu znamion w Krakowie" cta="Sprawdź" />
+<More link="/krakow/dermatoskopowe-badanie-znamion-wideodermatoskopia" text="Więcej o badaniu znamion w Krakowie" cta="Sprawdź" />
 
 ![Centrum badania znamion Twoje Znamiona w Krakowie](img/krakow3.jpg "Centrum badania znamion Twoje Znamiona w Krakowie")
 
@@ -91,6 +91,4 @@ Całe **badanie trwa około 30 minut** i obejmuje **całą powierzchnię cia�
 
 Gdy nie chorujemy, nie jesteśmy w grupie ryzyka - wystarczy **badanie raz w roku**, jednak gdy któreś znamię wzbudza nasz niepokój, nie należy zwlekać. Korzystając z **Centrum Badania Znamion Twoje Znamiona** mamy pewność, że w razie konieczności usunięcia pieprzyka zostaniemy objęci właściwą opieką.
 
-<More link="/cennik" text="Sprawdź cenę badania " cta="Sprawdź" />
-
-<More link="/kontakt" text="Skontaktuj się z Centrum Badania Znamion w Krakowie" cta="Kontakt" />
+<More link="/cennik" text="Sprawdź cenę badania" cta="Sprawdź" />

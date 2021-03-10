@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
 title: Diagnostyka i leczenie onkologiczne czerniaka w dobie epidemii koronawirusa
-author: Agnieszka Czyżewska
+author: Twoje Znamiona
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 4
-date: 2020-09-04T18:51:38.512Z
+date: 2021-01-06T18:51:38.512Z
 description: Onkologia w dobie koronawirusa niewątpliwie stanęła przed trudnym
   wyzwaniem. Każdy pacjent onkologiczny w epidemii jest przepełniony obawami
   związanymi z niełatwą sytuacją, w jakiej się znalazł. Pacjenci z czerniakiem
@@ -47,7 +47,7 @@ O[ badanie znamion](/dermatoskopia-badanie-znamion "Badanie Znamion") warto za
 
 Polskie Towarzystwo Onkologii, mając na uwadze ogrom problemów i wątpliwości wśród pacjentów i lekarzy, wydało zalecenia pozwalające regulować kwestie leczenia czerniaka w cieniu pandemii. Podkreślona została w nich istota telekonsultacji, a także możliwość skorzystania z pomocy w poradniach rejonowych.
 
-![Współczesne technologie pozwalają na przeprowadzanie telekonsultacji medycznych. W wielu przypadkach taka forma wizyty lekarskiej nie traci nic na swojej wartości.](img/2.jpg "Współczesne technologie pozwalają na przeprowadzanie telekonsultacji medycznych. W wielu przypadkach taka forma wizyty lekarskiej nie traci nic na swojej wartości.")
+![Współczesne technologie pozwalają na przeprowadzanie telekonsultacji medycznych.](img/2.jpg "Współczesne technologie pozwalają na przeprowadzanie telekonsultacji medycznych.")
 
 Pacjenci, którzy nie mają możliwości skorzystania z bezpośrednich badań dermatoskopowych, mogą umówić się na telekonsultacje. Podczas tego rodzaju spotkań z lekarzem, warto przedstawić mu zdjęcia makroskopowe niepokojących zmian. Rozwiązanie to jest szczególnie ważne dla osób starszych, osób obciążonych ryzykiem zachorowania na nowotwory skóry czy tych, które zmuszone są pozostać w kwarantannie. Oczekiwanie na ustanie pandemii jest bardzo ryzykowne, bowiem w przypadku czerniaka, wczesne wykrycie może być kluczowe dla pełnego wyleczenia.
 
@@ -57,7 +57,7 @@ Pacjenci onkologiczni będący w trakcie leczenia mają wiele możliwości jego 
 
 * W przypadku konieczności dokonania docięcia marginesu po biopsji wycinającej, w typach czerniaka in situ i pT1a w zupełności bezpieczne jest odroczenie zabiegów do 3-4 miesięcy, przy zachowanym marginesie co najmniej 1 mm.
 
-![czerniak](img/3.png)
+![zabieg usunięcia czerniaka](img/3.png "zabieg usunięcia czerniaka")
 
 * W przypadku opóźnienia biopsji węzłów chłonnych, jej odroczenie o 3 miesiące po biopsji wycinającej również wg ekspertów nie wykazuje pogorszenia rokowania.
 
@@ -67,8 +67,7 @@ Jeżeli pojawiają się przerzuty do węzłów chłonnych lub in-transit, zaleca
 
 Leczenie uzupełniające w czerniaku może być podejmowane w okresie od 12 do 16 tygodni od leczenia chirurgicznego. Co ważne odbywa się ono w 12 miesięcznych terapiach w formie [RDTL](/czerniak#czerniak#pokrycie_kosztow "Leczenie uzupełniające czerniaka") ( dabrafenib + trametynib - w przypadkach mutacji BRAF) lub immunoterapii (nivolumab lub pemprolizumab). W trakcie leczenia uzupełniającego kontrola w postaci badań laboratoryjnych zalecana jest w **poradniach rejonowych** (nie jak dotąd w poradniach onkologicznych), a badania obrazowe można wykonać po 6 miesiącach od rozpoczęcia terapii.
 
-![czerniak](img/4.jpg "czerniak")
-
+![znamię na ciele](img/4.jpg "znamię na ciele")
 
 
 ## Leczenie zaawansowanego czerniaka

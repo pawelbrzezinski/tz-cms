@@ -97,6 +97,7 @@
 
         div {
           max-width: 95%;
+          word-break: break-word;
         }
       }
     }
@@ -152,6 +153,10 @@
     }
 
     .article_content {
+
+      word-break: break-word;
+
+
       h2,
       h3,
       h4,
@@ -181,6 +186,8 @@
         color: $blue;
         text-decoration: underline;
         font-weight: 400;
+        // display: inline-block;
+        word-break: normal;
 
         &:hover {
           text-decoration: none;
@@ -278,6 +285,7 @@
 
 .article-sources {
   margin-top: 48px;
+  
 
   h4 {
     margin-bottom: 24px;
@@ -291,6 +299,7 @@
   }
 
   li {
+    word-break: break-all;
     margin-bottom: 12px;
     counter-increment: li;
     font-size: 18px;
@@ -311,6 +320,7 @@
     }
 
     &::before {
+      word-break: keep-all;
       color: $gray;
       content: "[" counter(li) "]";
       display: inline-block;

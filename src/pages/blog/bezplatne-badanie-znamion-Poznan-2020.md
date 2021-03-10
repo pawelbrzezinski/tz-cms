@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
 title: Bezpłatne badanie znamion w Poznaniu 2020
-author: Agnieszka Czyżewska
+author: Twoje Znamiona
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 11
-date: 2020-09-04T18:51:38.512Z
+date: 2020-09-28T18:51:38.512Z
 description: Gdzie zbadać znamiona w Poznaniu w 2020 roku? Badania
   dermatoskopowe na NFZ, bezpłatne badania wideodermatoskopowe oraz
   profesjonalne Centra Diagnostyki Znamion Barwnikowych.
@@ -77,8 +77,7 @@ Oczywiście nie zniechęcamy do konsultowania niepokojących znamion w trakcie w
 
 ## Gdzie w takim razie udać się po szybką pomoc i diagnozę?
 
-Najlepszym rozwiązaniem będzie wyspecjalizowany ośrodek. W Poznaniu jednym z nich jest [Centrum Badania Znamion ­Twoje Znamiona](/poznan/badanie-znamion "Poznańskie Centrum Badania Znamion
-        ­Twoje Znamiona"). Centrum zlokalizowane jest w budynku **Nobel Tower przy ul. Dąbrowskiego 77a**.
+Najlepszym rozwiązaniem będzie wyspecjalizowany ośrodek. W Poznaniu jednym z nich jest [Centrum Badania Znamion ­Twoje Znamiona](/poznan/dermatoskopowe-badanie-znamion-wideodermatoskopia "Poznańskie Centrum Badania Znamion ­Twoje Znamiona"). Centrum zlokalizowane jest w budynku **Nobel Tower przy ul. Dąbrowskiego 77a**.
 
 To miejsce całkowicie ukierunkowane na wideodermatoskopową diagnostykę i leczenie zmian skórnych z wykorzystaniem opieki wielospecjalistycznej i najnowszej wiedzy medycznej.
 
@@ -122,4 +121,4 @@ Należy jednak zwrócić uwagę na to, czy badanie wykonywane jest przez lekarza
 
 Pamiętajmy ponadto, że badanie kilku znamion nie zwalnia nas z obowiązku wykonania badania całego ciała, gdyż tylko badanie od stóp do głów, wykonane przez doświadczonego specjalistę zapewnia nam bezpieczeństwo i możliwość postawienia trafnej diagnozy.
 
-<More link="blog/jak-chronic-sie-przed-nowotworem-skory" text="Jak chronić się przed nowotworem skóry?" cta="Sprawdź" />
+<More link="/blog/jak-chronic-sie-przed-nowotworem-skory" text="Jak chronić się przed nowotworem skóry?" cta="Sprawdź" />

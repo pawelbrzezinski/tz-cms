@@ -4,7 +4,7 @@ title: Jak odróżnić pieprzyk od czerniaka?
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 5
-date: 2020-09-04T18:51:38.512Z
+date: 2020-11-04T18:51:38.512Z
 description: Nie każdy pieprzyk jest czerniakiem, jednak czerniak może mieć
   formę pieprzyka. Porównaj zdjęcia zwykłych znamion i typowych czerniaków.
   Poniższy artykuł ma na celu przybliżenie wiedzy na temat obserwacji i
@@ -114,7 +114,7 @@ Dla pacjentów najprostszym sposobem różnicowania pieprzyków jest posługiwan
 
 Obejrzyj film i sprawdź jak obserwować się w domu!
 
-<YoutubePlayer url="https://www.youtube.com/watch?v=H-RQqWIOXcI" start="0" end="0" label="" />
+<YoutubePlayer url="https://www.youtube.com/watch?v=H-RQqWIOXcI" start="0" end="0" label="Film edukacyjny - kryteria ABCDE" />
 
 Opierając się na własnym doświadczeniu w ocenie chorych, członkowie New York University School of Medicine Melanoma Cooperative Group stwierdzili, że asymetria wczesnej postaci czerniaka, nieregularność jej brzegów oraz różnorodność barw były ściśle związane z przekraczaniem przez nią średnicy 6 mm. Co nie zmienia faktu, że ta metoda pozwala wykryć i zróżnicować nieco mniejsze i wcześniejsze pod względem zaawansowania postaci czerniaka.
 
@@ -128,7 +128,7 @@ Opierając się na własnym doświadczeniu w ocenie chorych, członkowie New Yor
 
 Reasumując **każdy pieprzyk o asymetrycznych kształtach, nierównych brzegach, zmieniający kolor i/lub średnicę, nabrzmiały, podrażniony, krwawiący wymaga natychmiastowej konsultacji z lekarzem** specjalistą i wykonania badania dermatoskopowego.
 
-<More link="/kontakt" text="Jeśli masz podobne znamię na skórze umów się na badanie wideodermatoskopowe." cta="Umów wizytę" />
+<More link="/kontakt" text="Jeśli masz podobne znamię na skórze umów się na badanie wideodermatoskopowe" cta="Umów wizytę" />
 
 Uproszczeniem kryteriów ABCD przy samoobserwacji i badaniu jest dla pacjenta zasada **"brzydkiego kaczątka"**, jeśli jakiekolwiek znamię odbiega wyglądem od pozostałych warto, a nawet trzeba to skonsultować z lekarzem i poddać się wideodermatoskopii w specjalistycznym ośrodku. Dzięki temu podejrzane znamię zostanie szybko sklasyfikowane jako kancerogenne lub nie. Będzie możliwa też jego dalsza skrupulatna obserwacja w czasie.
 
@@ -140,7 +140,7 @@ Uproszczeniem kryteriów ABCD przy samoobserwacji i badaniu jest dla pacjenta za
 
 ![Wideodermatoskopia - mapowanie znamion.](img/jak-odroznic10.png "Wideodermatoskopia - mapowanie znamion.")
 
-<More link="/kontakt" text="Sprawdź czy w Twoim mieście można wykonać wideodermatoskopię." cta="Sprawdź" />
+<More link="/kontakt" text="Sprawdź czy w Twoim mieście można wykonać wideodermatoskopię" cta="Sprawdź" />
 
 ![Wideodermatoskopia - zmapowane znamię nr 22.](img/jak-odroznic19.png "Wideodermatoskopia - zmapowane znamię nr 22.")
 

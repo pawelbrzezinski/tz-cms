@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
 title: Gdzie badać znamiona w Warszawie w 2020
-author: Agnieszka Czyżewska
+author: Twoje Znamiona
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 7
-date: 2020-09-04T18:51:38.512Z
+date: 2020-10-06T18:51:38.512Z
 description: Gdzie zbadać znamiona w Warszawie w 2020 roku? Badania
   dermatoskopowe na NFZ, bezpłatne badania wideodermatoskopowe oraz
   profesjonalne Centra Diagnostyki Znamion Barwnikowych.
@@ -44,9 +44,9 @@ keywords:
   - zdjęcia czerniaka
   - znamiona barwnikowe
 tags:
-  - Badanie Znamion
-  - Wideodermatoskopia
-  - Warszawa
+  - badanie znamion
+  - wideodermatoskopia
+  - warszawa
 sources: []
 ---
 **W 2020** roku nigdzie nie wyjeżdżałeś? Spędziłeś wakacje w Lake Park Wilanów **w Warszawie**? Wykupiłeś lekcje wakeboardingu i pograłeś w siatkówkę plażową. Po kąpielach wodnych i słonecznych kupiłeś karnet do mini-spa by zadbać o skórę, ale czy korzystałeś z kremów z filtrem?
@@ -77,8 +77,7 @@ Trudno znaleźć kogoś, kto nie ma na ciele żadnego pieprzyka. Tak samo trudno
 
 ## Jak przygotować się do badania?
 
-Znajdź miejsce, gdzie będziesz mógł skorzystać z fachowej konsultacji wielospecjalistycznej. Na warszawskiej Woli w [Twoje Znamiona Centrum Diagnostyki Znamion](/warszawa/badanie-znamion "Warszawskie Centrum Badania Znamion
-      ­Twoje Znamiona") dokładnie pod adresem Sokołowska 9/U-02 przyjmują doskonali dermatolodzy. Dzięki rejestracji badania jego wyniki można przesłać i skonsultować ze specjalistami w dowolnym miejscu na świecie.
+Znajdź miejsce, gdzie będziesz mógł skorzystać z fachowej konsultacji wielospecjalistycznej. Na warszawskiej Woli w [Twoje Znamiona Centrum Diagnostyki Znamion](/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia "Warszawskie Centrum Badania Znamion ­Twoje Znamiona") dokładnie pod adresem Sokołowska 9/U-02 przyjmują doskonali dermatolodzy. Dzięki rejestracji badania jego wyniki można przesłać i skonsultować ze specjalistami w dowolnym miejscu na świecie.
 
 Będziesz poproszony o informacje czy wygląd znamion Cię niepokoi, a jeśli tak, to dlaczego. Lekarz zapyta również o stan zdrowia i prowadzony tryb życia, aby ocenić, czy znajdujesz się w grupie ryzyka.
 
@@ -92,4 +91,4 @@ Jeśli okaże się, że znamię musi zostać usunięte, lekarz skieruje Cię do 
 
 
 
-<More link="blog/jak-chronic-sie-przed-nowotworem-skory" text="Jak chronić się przed nowotworem skóry?" cta="Sprawdź" />
+<More link="/blog/jak-chronic-sie-przed-nowotworem-skory" text="Jak chronić się przed nowotworem skóry?" cta="Sprawdź" />

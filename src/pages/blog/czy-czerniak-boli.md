@@ -4,7 +4,7 @@ title: Czy czerniak boli?
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 5
-date: 2020-09-04T18:51:38.512Z
+date: 2020-11-13T18:51:38.512Z
 description: Nie każdy pieprzyk jest czerniakiem, jednak czerniak może mieć
   formę pieprzyka. Porównaj zdjęcia zwykłych znamion i typowych czerniaków.
   Poniższy artykuł ma na celu przybliżenie wiedzy na temat obserwacji i
@@ -35,22 +35,22 @@ tags:
   - rak skóry
   - nowotwory skóry
 sources:
-  - label: www.cancerresearchuk.org
-    link: www.cancerresearchuk.org
-  - label: www.onkologia.zalecenia.med.pl
+  - label: cancerresearchuk.org
+    link: http://www.cancerresearchuk.org
+  - label: onkologia.zalecenia.med.pl
     link: http://www.onkologia.zalecenia.med.pl
 ---
 **Czerniak jest nowotworem, który w początkowych fazach rozwoju nie daje żadnych objawów bólowych. Cierpienie może pojawić się wraz ze wzrostem czerniaka w głąb skóry oraz w przypadku przerzutów. Jest ono ściśle związane ze stopniem zaawansowania tej choroby, a ból i skala jego odczuwania są zawsze uzależnione od cech osobniczych.**
 
-![czerniak](img/czy-czerniak-boli1.png)
+ ![strach przed diagnozą](img/czy-czerniak-boli1.png "strach przed diagnozą")
 
-Czerniaki na wczesnym etapie zaawansowania nie muszą dawać żadnych dolegliwości bólowych, co utrudnia ich rozpoznanie gdyż mogą wyglądać jak zwykłe znamiona i w ogóle nie zwracać na siebie uwagi. Dopiero wnikliwe badanie dermatoskopowe może ujawnić ich obecność na skórze pacjenta.
+Czerniaki na wczesnym etapie zaawansowania nie muszą dawać żadnych dolegliwości bólowych, co utrudnia ich rozpoznanie gdyż mogą wyglądać jak zwykłe znamiona i w ogóle nie zwracać na siebie uwagi. Dopiero wnikliwe [badanie dermatoskopowe](/dermatoskopia-badanie-znamion "badanie dermatoskopowe") może ujawnić ich obecność na skórze pacjenta.
 
 ## Wideodermatoskopia to szansa na wczesną diagnozę.
 
 Współczesne nowoczesne metody obrazowania zmian skórnych i ich mapowanie dają niepowtarzalną szansę na wczesną diagnozę, a tym samym bardzo dobre rokowania oraz możliwość całkowitego wyleczenia, zanim pojawią się objawy bólowe. Dlatego **jeśli na skórze pojawi się nietypowe znamię należy niezwłocznie udać się na badanie dermatoskopowe**.
 
-![czerniak](img/czy-czerniak-boli2.png)
+![powiększenie dermatoskopowe to szansa na wczesną diagnozę](img/czy-czerniak-boli2.png "powiększenie dermatoskopowe to szansa na wczesną diagnozę")
 
 ## Co to jest wideodermatoskopia?
 
@@ -70,7 +70,7 @@ Stopień zaawansowania czerniaka , jego wielkość, grubość oraz obecność pr
 
 Reasumując. Zaawansowanie choroby określa grubość na jaką czerniak nacieka w głąb skóry.
 
-![czerniak](img/czy-czerniak-boli3.png)
+![klasyfikacja TNM](img/czy-czerniak-boli3.png "klasyfikacja TNM")
 
 Wg klasyfikacji TNM:
 
@@ -100,9 +100,9 @@ W następnej kolejności mogą pojawić się przerzuty do węzłów chłonnych, 
 
 ## Objawy zaawansowanego czerniaka
 
-Czerniak może niestety dawać przerzuty także do dalszych organów. Zajęcie płuc może dawać w pierwszej fazie objawy zapalenia, mogą pojawić się duszności, ból w klatce piersiowej, a w końcu krwioplucie. Gdy komórki nowotworowe zajmą wątrobę może dojść do zaburzeń krzepnięcia, obrzęku kończyn dolnych i gromadzenia płynów w jamie brzusznej. Przerzuty do kości mogą prowadzić do złamań i bólu kostnego. Czerniak w mózgowiu daje najróżniejsze objawy w zależności od obszaru, który zostanie zajęty. Mogą być to nudności, bóle głowy, ale także utraty przytomności i incydenty drgawkowe.
+[Czerniak](/czerniak "Czerniak") może niestety dawać przerzuty także do dalszych organów. Zajęcie płuc może dawać w pierwszej fazie objawy zapalenia, mogą pojawić się duszności, ból w klatce piersiowej, a w końcu krwioplucie. Gdy komórki nowotworowe zajmą wątrobę może dojść do zaburzeń krzepnięcia, obrzęku kończyn dolnych i gromadzenia płynów w jamie brzusznej. Przerzuty do kości mogą prowadzić do złamań i bólu kostnego. Czerniak w mózgowiu daje najróżniejsze objawy w zależności od obszaru, który zostanie zajęty. Mogą być to nudności, bóle głowy, ale także utraty przytomności i incydenty drgawkowe.
 
-![czerniak](img/czy-czerniak-boli4.png)
+![objawy zaawansowanego czerniaka](img/czy-czerniak-boli4.png "objawy zaawansowanego czerniaka")
 
 Ból może pojawiać się na każdym etapie choroby nowotworowej, statystycznie dotyczy ok. 50 % pacjentów, a w stadium zaawansowanym z jego powodu cierpi ok 75 % chorych. Bardzo ważna jest kliniczna ocena bólu i skali jego nasilenia aby móc na tej podstawie zastosować odpowiednie leczenie.
 
@@ -110,7 +110,7 @@ Ból może pojawiać się na każdym etapie choroby nowotworowej, statystycznie 
 
 Rozwój czerniaka poza formę in situ w powierzchniowej warstwie naskórka znacząco pogarsza rokowania pacjenta, ale obecnie dostępne metody leczenia pozwalają walczyć skutecznie również z zaawansowanym czerniakiem oraz bólem, który pojawia się w jego przebiegu. Skuteczne leczenie choroby podstawowej skutecznie zmniejsza także dolegliwości bólowe i inne objawy wynikające z zaawansowania choroby. W przypadku czerniaków uwarunkowanych genetycznie dobre wyniki przynosi leczenie ukierunkowane inhibitorami BRAF, MEK, C-KIT. Z powodzeniem stosuje się także immunoterapię.
 
-![czerniak](img/czy-czerniak-boli5.png)
+![leczenie czerniaka](img/czy-czerniak-boli5.png "leczenie czerniaka")
 
 Doskonałe rezultaty przynosi terapia uzupełniająca, która według przeprowadzonych badań zmniejsza ryzyko nawrotów czerniaka o 20% i znacząco wydłuża czas przeżycia. Obecnie wyspecjalizowane ośrodki w Polsce (około 20) stosują ją również jeszcze przed podjęciem leczenia chirurgicznego.
 
@@ -118,7 +118,7 @@ Doskonałe rezultaty przynosi terapia uzupełniająca, która według przeprowad
 
 Leczenie przeciwbólowe u pacjentów onkologicznych prowadzi się według zaproponowanej przez WHO drabiny analgetycznej.
 
-![czerniak](img/czy-czerniak-boli6.png)
+![leczenie przeciwbólowe](img/czy-czerniak-boli6.png "leczenie przeciwbólowe")
 
 * I stopień — analgetyki nieopioidowe ( paracetamol, NLPZ)
 * II stopień —słabe opioidy ( tramadol, dihydrokodeina, kodeina) lub np. małe dawki morfiny + analgetyki nieopioidowe
@@ -128,7 +128,7 @@ Na każdym szczeblu stosuje się dodatkowo inne leki łagodzące działania niep
 
 ## Najważniejsze zasady leczenia bólu w przypadku zaawansowanego czerniaka
 
-![czerniak](img/czy-czerniak-boli7.jpg)
+![leczenie bólu](img/czy-czerniak-boli7.jpg "leczenie bólu")
 
 * lek i jego dawkę dobiera się indywidualnie do zapotrzebowania
 * wybór leku zależy od stopnia natężenia bólu

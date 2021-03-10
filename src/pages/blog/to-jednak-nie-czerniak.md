@@ -4,7 +4,7 @@ title: To jednak nie czerniak
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 9
-date: 2020-09-04T18:51:38.512Z
+date: 2020-12-08T18:51:38.512Z
 description: Nie każdy pieprzyk czy zmiana skórna przeradza się w czerniaka,
   nawet jeśli niepokoi swoim wyglądem i/lub wymaga interwencji lekarskiej.
   Artykuł ten będzie poświęcony kilku wybranym jednostkom chorobowym, które
@@ -80,7 +80,7 @@ Nie każdy **pieprzyk** czy zmiana skórna przeradza się w **czerniaka**, na
 
 ## Włókniak twardy skóry (dermatofibroma)
 
-To **patologiczna, ale łagodna** zmiana osiągająca zwykle od 2 mm do nawet 5 cm, dlatego wiele osób decyduje się na jej [usunięcie](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion "Usuwanie Znanion") ze względów estetycznych. Najczęściej powstaje jako odpowiedź na stany zapalne lub **pękniętą kurzajkę**. Przyjmuje postać ciemnobrązowej brodawki, stosunkowo twardej, ale poruszającej się pod skórą. Tego typu zmianę zawsze powinien obejrzeć dermatolog, by podjąć decyzję o ewentualnej biopsji i bezpiecznym usunięciu włókniaka twardego. Uwaga! **Nie należy stosować domowych sposobów – kwasu salicylowego czy octu jabłkowego**. Takie próby mogą nieść za sobą przykre **powikłania i rozrost guza**.
+To **patologiczna, ale łagodna** zmiana osiągająca zwykle od 2 mm do nawet 5 cm, dlatego wiele osób decyduje się na jej [usunięcie](/chirurgiczne-usuwanie-znamion "Usuwanie Znanion") ze względów estetycznych. Najczęściej powstaje jako odpowiedź na stany zapalne lub **pękniętą kurzajkę**. Przyjmuje postać ciemnobrązowej brodawki, stosunkowo twardej, ale poruszającej się pod skórą. Tego typu zmianę zawsze powinien obejrzeć dermatolog, by podjąć decyzję o ewentualnej biopsji i bezpiecznym usunięciu włókniaka twardego. Uwaga! **Nie należy stosować domowych sposobów – kwasu salicylowego czy octu jabłkowego**. Takie próby mogą nieść za sobą przykre **powikłania i rozrost guza**.
 
 ![](img/to-jednak-nie-czerniak1.jpg)
 
@@ -122,7 +122,7 @@ To kolejna **łagodna zmiana** rozrostowa w postaci guza naczyniowego. Bardzo 
 
 ## Grzybica paznokci
 
-Powszechna i dobrze znana, ale wciąż sprawiająca problemy terapeutyczne. Szczególnie problematyczna w różnicowaniu z [czerniakiem](https://twojeznamiona.pl/czerniak "Czerniak") jest grzybica powierzchowna biała, która atakuje płytkę paznokciową od strony jej powierzchni, a nalot przybiera często czarną barwę.
+Powszechna i dobrze znana, ale wciąż sprawiająca problemy terapeutyczne. Szczególnie problematyczna w różnicowaniu z [czerniakiem](/czerniak "Czerniak") jest grzybica powierzchowna biała, która atakuje płytkę paznokciową od strony jej powierzchni, a nalot przybiera często czarną barwę.
 
 <More link="/czerniak/rodzaje-czerniaka/czerniak-na-dloniach-i-podeszwach-stop" text="Zobacz, jak może wyglądać czerniak na stopach" cta="Sprawdź" />
 
@@ -130,7 +130,7 @@ Powszechna i dobrze znana, ale wciąż sprawiająca problemy terapeutyczne. Szcz
 
 ## Znamię błękitne
 
-Należy ono do szczególnie trudnych w diagnozie znamion, które imitują czerniaka, a wątpliwości nie rozwiewa często nawet pierwsze [badanie histopatologiczne](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion#histopatologia "Badanie histopatologiczne") Jego wielkość najczęściej nie przekracza średnicy ziarna soczewicy, jest głęboko osadzone w skórze i przybiera barwę błękitną.
+Należy ono do szczególnie trudnych w diagnozie znamion, które imitują czerniaka, a wątpliwości nie rozwiewa często nawet pierwsze [badanie histopatologiczne](/chirurgiczne-usuwanie-znamion "Badanie histopatologiczne") Jego wielkość najczęściej nie przekracza średnicy ziarna soczewicy, jest głęboko osadzone w skórze i przybiera barwę błękitną.
 
 Wyróżnia się 3 rodzaje tych znamion:
 
@@ -148,7 +148,7 @@ Znamię błękitne, które ma poniżej jednego centymetra i nie zmienia się, ni
 
 ## Rogowacenie słoneczne
 
-To jedno z najczęstszych rozpoznań w gabinecie dermatologicznym. Dotyczy ono skóry starczej i jest skutkiem oddziaływania promieniowania ultrafioletowego na skórę. W formie zaawansowanej niesie ze sobą ryzyko rozwoju raka kolczystokomórkowego, dlatego też wszelkie tego typu zmiany dokładnie się różnicuje i poddaje leczeniu zorientowanemu na zmianę, np. [krioterapia](/laserowe-usuwanie-znamion#kriochirurgia "Krioterapia") lub obszar – [laseroterapia](/laserowe-usuwanie-znamion#laserowe "Lasserowe usuwanie znamion").
+To jedno z najczęstszych rozpoznań w gabinecie dermatologicznym. Dotyczy ono skóry starczej i jest skutkiem oddziaływania promieniowania ultrafioletowego na skórę. W formie zaawansowanej niesie ze sobą ryzyko rozwoju raka kolczystokomórkowego, dlatego też wszelkie tego typu zmiany dokładnie się różnicuje i poddaje leczeniu zorientowanemu na zmianę, np. [krioterapia](/laserowe-usuwanie-znamion "Krioterapia") lub obszar – [laseroterapia](/laserowe-usuwanie-znamion "Lasserowe usuwanie znamion").
 
 ![rogowacenie słoneczne](img/to-jednak-nie-czerniak11.jpg "rogowacenie słoneczne")
 
@@ -156,4 +156,4 @@ To jedno z najczęstszych rozpoznań w gabinecie dermatologicznym. Dotyczy ono s
 
 Ocenę znamion najlepiej zawsze pozostawić specjalistom, udając się na [badanie znamion](/dermatoskopia-badanie-znamion "Badanie znamion") lub konsultację dermatologiczną. Doświadczeni dermatolodzy rozpoznają charakter każdego znamienia i doradzą, co robić dalej. Zaawansowana [wideodermatoskopia](/wideodermatoskopia-komputerowe-badanie-znamion "Wideodermatoskopia") w jeszcze większym stopniu pozwala na dokładną ocenę znamion. Krótka wizyta może pozwolić nam ustrzec się przed groźnym nowotworem skóry lub odzyskać spokój, że to jednak nie czerniak.
 
-<More link="/cennik" text="Zobacz, czy badamy znamiona w Twoim mieście." cta="Sprawdź" />
+<More link="/kontakt" text="Zobacz, czy badamy znamiona w Twoim mieście." cta="Sprawdź" />
