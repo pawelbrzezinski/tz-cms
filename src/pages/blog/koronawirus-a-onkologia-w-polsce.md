@@ -15,6 +15,12 @@ tags:
   - koronawirus
   - COVID-19
   - leczenie onkologiczne
+sources:
+  - label: "ptok.pl/strona_glowna/nowe_kompleksowe_wytyczne_ptok_ws_covid_19  "
+    link: "https://ptok.pl/strona_glowna/nowe_kompleksowe_wytyczne_ptok_ws_covid_19  \
+      "
+  - link: "https://wco.pl/2020/09/09/rak-jest-grozniejszy-niz-koronawirus/  "
+    label: "wco.pl/2020/09/09/rak-jest-grozniejszy-niz-koronawirus/  "
 ---
 # Koronawirus a onkologia w Polsce - o sytuacji pacjentów onkologicznych w dobie COVID-19
 
@@ -39,3 +45,9 @@ Powszechnie wiadomo, że grupą najbardziej narażoną na powikłania i zgon w w
 Okoliczność ta wymaga zabezpieczenia ciągłości terapii chorych na nowotwory. Polskie Towarzystwo Onkologii Klinicznej w odpowiedzi na problemy pacjentów onkologicznych w dobie pandemii opracowało specjalne zalecenia terapeutyczne, mające wspomóc ich leczenie. Ponieważ wiek chorych, choroby współistniejące, stopień zaawansowania choroby, a także trwające leczenie przeciwnowotworowe mogą zwiększać ryzyko ciężkich powikłań i śmierci w przypadku zachorowania na koronawirusa, konieczne stało się zróżnicowanie postępowania w okresie pandemii. Jak wynika z wdrażanych procedur, leczenie systemowe chorych z rozpoznaną chorobą nowotworową może przybierać charakter radykalny lub paliatywny. Dąży się do utrzymania rekomendowanych intensywności leczenia radykalnego – w tym leczenia przedoperacyjnego, pooperacyjnego czy chemioterapii. Brak możliwości kontynuowania danej formy leczenia wymaga przekazania chorego w trybie pilnym do funkcjonującego ośrodka onkologii klinicznej w danym województwie. W temacie terapii o założeniu paliatywnym, postępowanie ma na celu utrzymanie kontroli nad chorobą przy zmniejszeniu ryzyka narażenia pacjenta na infekcje. Leczenie może wymagać zmiany rytmu, dawkowania lub stosowanych leków, z naciskiem na utrzymanie stanu chorego w możliwie niepogorszonym stanie.
 
 <More link="/blog/diagnostyka-i-leczenie-czerniaka-w-dobie-epidemii-koronawirusa" text="Leczenie czerniaka w pandemii - zalecenia." cta="Sprawdź" />
+
+
+
+## Rak jest groźniejszy niż koronawirus
+
+Strach przed zakażeniem SARS-CoV-2 sprawia, że wielu pacjentów rezygnuje ze zgłoszeniem się do lekarza w przypadku pojawienia się niepokojących objawów chorobowych. Obawa przed COVID-19 i kontaktem ze służbą zdrowia nie powinny jednak przesłaniać zdrowego rozsądku. Pandemia nie wpłynęła bowiem na ograniczenie występowania nowotworów, nadal  rak „zabija” nawet ponad 95% osób więcej, aniżeli koronawirus. Pandemii nie należy lekceważyć, jednak nie można zapominać o diagnostyce i leczeniu innych problemów zdrowotnych, przy jednoczesnym zachowaniu środków ochrony. W przypadku chorych na nowotwory jedynie regularne badania profilaktyczne stanowią sposób na wykrycie choroby we wczesnych stadiach, pozwalające na wprowadzenie skutecznego leczenia.
