@@ -57,6 +57,7 @@ sources: []
 * czym jest metoda ABCDE,
 * jak często należy **badać znamiona**.
 
+<br> 
 W ramach **unikania** zachorowania na **raka skóry** zaleca się
 
 * unikanie ekspozycji na promieniowanie słoneczne UV szczególnie w godzinach, kiedy jest ono najbardziej intensywne pomiędzy **godziną 10:00 a 16:00**,
