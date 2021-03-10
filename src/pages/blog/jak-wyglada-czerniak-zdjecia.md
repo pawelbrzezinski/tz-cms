@@ -50,29 +50,53 @@ Czerniak jest nowotworem o wysokim stopniu złośliwości, dlatego też umieraln
 
 ![czerniak](img/czerniak6.jpg "czerniak")
 
+Warunkiem wyleczalności jest wczesne wykrycie nowotworu i szybkie wycięcie chirurgiczne znamienia, dlatego też tak ważna jest profilaktyka czerniaka.
+
 ![czerniak](img/czerniak7.jpeg "czerniak")
 
 ![czerniak](img/czerniak9.png "czerniak")
 
-![czerniak](img/czernia8.jpg "czerniak")
+![czerniak](img/czerniak11.jpeg "czerniak")
+
+Czerniak może powstać w obrębie znamienia jak również w skórze niezmienionej. Czerniak rozwija się w 20-30 proc. z istniejących pieprzyków. Dlatego kładziemy tak duży nacisk na [badanie wszystkich znamion na ciele](/dermatoskopia-badanie-znamion "Badanie Znamion"), w celu usunięcia chirurgicznego tych, które mogą przekształcić się w czerniaka.
+
+## Czerniak złośliwy skóry - typ guzkowaty
 
 ![czerniak](img/czerniak10.png "czerniak")
 
-![czerniak](img/czerniak11.jpeg "czerniak")
+![czerniak](img/czerniak24.jpg "czerniak")
+
+![czerniak](img/czerniak45.jpg "czerniak")
+
+![czerniak](img/czerniak43.jpg "czerniak")
+
+
+
+U mężczyzn najczęstszym umiejscowieniem czerniaka jest tułów, w przypadku kobiet czerniaka najczęściej wykrywamy na kończynach.
+
+![czerniak](img/czernia8.jpg "czerniak")
+
 ![czerniak](img/czerniak12.jpg "czerniak")
+
 ![czerniak](img/czerniak13.jpeg "czerniak")
+
 ![czerniak](img/czerniak14.jpeg "czerniak")
+
 ![czerniak](img/czerniak15.png "czerniak")
+
 ![czerniak](img/czerniak16.jpeg "czerniak")
+
 ![czerniak](img/czerniak17.jpg "czerniak")
+
 ![czerniak](img/czerniak18.jpeg "czerniak")
+
 ![czerniak](img/czerniak19.jpg "czerniak")
 
 ![czerniak](img/czerniak20.jpg "czerniak")
 ![czerniak](img/czerniak21.jpg "czerniak")
 ![czerniak](img/czerniak22.jpg "czerniak")
 ![czerniak](img/czerniak23.jpg "czerniak")
-![czerniak](img/czerniak24.jpg "czerniak")
+
 ![czerniak](img/czerniak25.jpeg "czerniak")
 ![czerniak](img/czerniak26.jpg "czerniak")
 ![czerniak](img/czerniak27.jpeg "czerniak")
@@ -93,9 +117,9 @@ Czerniak jest nowotworem o wysokim stopniu złośliwości, dlatego też umieraln
 ![czerniak](img/czerniak40.jpg "czerniak")
 ![czerniak](img/czerniak41.jpg "czerniak")
 ![czerniak](img/czerniak42.jpg "czerniak")
-![czerniak](img/czerniak43.jpg "czerniak")
+
 ![czerniak](img/czerniak44.jpg "czerniak")
-![czerniak](img/czerniak45.jpg "czerniak")
+
 ![czerniak](img/czerniak46.jpg "czerniak")
 
 ![czerniak](img/czerniak47.jpeg "czerniak")
