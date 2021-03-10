@@ -119,20 +119,38 @@ Zmiany skórne podejrzane w kierunku czerniaka należy bezwzględnie usunąć w 
 ![czerniak](img/czerniak29.jpg "czerniak")
 
 ![czerniak](img/czerniak30.jpg "czerniak")
+
 ![czerniak](img/czerniak31.jpeg "czerniak")
+
+
+
+Najczęściej czerniak pojawia się na skórze, ale może on powstawać także w obrębie błon śluzowych lub w gałce ocznej, a przerzuty daje najczęściej do okolicznych węzłów chłonnych.
+
 ![czerniak](img/czerniak32.jpeg "czerniak")
+
 ![czerniak](img/czerniak33.jpg "czerniak")
+
 ![czerniak](img/czerniak34.jpg "czerniak")
+
+
+
+Węzły wartownicze oraz wyciętą bliznę poddaje się badaniu histopatologicznemu. Po około dwóch tygodniach pacjent otrzymuje wynik badania. Zarówno wynik badania blizny, jak i węzła mają wpływ na dalsze leczenie.
+
 ![czerniak](img/czerniak35.jpg "czerniak")
+
 ![czerniak](img/czerniak36.jpeg "czerniak")
+
 ![czerniak](img/czerniak37.jpg "czerniak")
+
+
+
+Po przebytym leczeniu czerniaka pacjent wymaga regularnych kontroli, w tym dermatoskopowego badania znamion, ponieważ może dojść do nawrotu choroby.
+
 ![czerniak](img/czerniak38.jpeg "czerniak")
 
 ![czerniak](img/czerniak39.jpg "czerniak")
 
 ![czerniak](img/czerniak40.jpg "czerniak")
-
-
 
 Nawroty czerniaka po leczeniu w bliźnie po pierwotnie wyciętej zmianie oraz w okolicy tej blizny, jeżeli jest to technicznie możliwe, także powinno się kwalifikować do chirurgicznego usunięcia.
 
