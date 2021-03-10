@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import GoogleMap from "../GoogleMap";
 
 import "../../styles/location.scss";
@@ -38,11 +38,11 @@ const Location = ({
           <div className="location_info_hours">
             <p className="title">Godziny otwarcia</p>
             <p>
-              {hoursInfo.map((item) => (
-                <>
+              {hoursInfo.map((item, idx) => (
+                <Fragment key={idx}>
                   <span>{item}</span>
                   <br />
-                </>
+                </Fragment>
               ))}
             </p>
           </div>

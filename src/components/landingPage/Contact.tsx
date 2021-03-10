@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import TextField from "@material-ui/core/TextField";
 
 import { makeStyles } from "@material-ui/core/styles";
+import MuiPhoneNumber from "material-ui-phone-number";
 import Button from "../Button";
 import BubbleSection from "../BubbleSection";
 import MailButton from "../MailButton";
@@ -27,15 +28,100 @@ const useInputStyles = makeStyles({
     "&.MuiInput-underline:after": {
       borderBottom: "1px solid #493fc7",
     },
+    "&.Mui-error:after": {
+      borderBottom: "2px solid red",
+    },
     "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
       borderBottom: "1px solid #493fc7",
     },
   },
 });
 
+const FORM = {
+  name: "",
+  mail: "",
+  phone: "",
+  message: "",
+};
+
+const VALIDATION = {
+  name: false,
+  mail: false,
+  phone: false,
+  message: false,
+};
+
+const isValidEmail = (email) => {
+  const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+};
+
+const isValidPhone = (phone = "") => {
+  return phone.length >= 15;
+};
+
 const Contact = ({ className = "", where = "" }) => {
   const labelClasses = useLabelStyles();
   const inputClasses = useInputStyles();
+
+  const [isSent, setIsSent] = useState(false);
+  const [form, setForm] = useState(FORM);
+  const [validation, setValidation] = useState(VALIDATION);
+
+  const validate = (form) => {
+    const newValidation = {
+      name: form.name === "",
+      message: form.message === "",
+      phone: !isValidPhone(form.phone),
+      mail: !isValidEmail(form.mail),
+    };
+    setValidation({
+      ...validation,
+      ...newValidation,
+    });
+
+    return (
+      !newValidation.name &&
+      !newValidation.mail &&
+      !newValidation.phone &&
+      !newValidation.message
+    );
+  };
+
+  const handleFormChange = (event) => {
+    const newForm = {
+      ...form,
+      [event.target.id]: event.target.value,
+    };
+    setForm(newForm);
+    setValidation({
+      ...validation,
+      [event.target.id]: false,
+    });
+  };
+
+  const handlePhoneChange = (value) => {
+    if (value) {
+      const newForm = {
+        ...form,
+        phone: value,
+      };
+      setForm(newForm);
+      setValidation({
+        ...validation,
+        phone: false,
+      });
+    }
+  };
+
+  const submitForm = () => {
+    if (validate(form)) {
+      console.log(form, "AJAX CALL");
+
+      setIsSent(true);
+      setForm(FORM);
+    }
+  };
 
   return (
     <div className={`contact_section ${className}`}>
@@ -47,73 +133,98 @@ const Contact = ({ className = "", where = "" }) => {
       >
         <div className="container">
           <div className="columns_wrapper">
-            <div className="form_thanks">
-              <img src={CheckIcon} alt="Dziękujemy za wiadomość"/>
-              <h3>Dziękujemy za wiadomość</h3>
-              <div>
-                Odezwiemy się do ciebie najszybciej jak to tylko będzie możliwe.
-                Staramy się odpowiadać na wiadomości w ciagu 24 godzin.
+            {isSent && (
+              <div className="form_thanks">
+                <img src={CheckIcon} alt="Dziękujemy za wiadomość" />
+                <h3>Dziękujemy za wiadomość</h3>
+                <div>
+                  Odezwiemy się do ciebie najszybciej jak to tylko będzie
+                  możliwe. Staramy się odpowiadać na wiadomości w ciagu 24
+                  godzin.
+                </div>
               </div>
-            </div>
-            <div className="form_section">
-              <p className="form_title">Formularz kontaktowy</p>
-              <h3>Napisz do nas</h3>
-              <div className="form_wrapper">
-                <TextField
-                  fullWidth
-                  InputLabelProps={{
-                    classes: labelClasses,
-                  }}
-                  InputProps={{
-                    classes: inputClasses,
-                  }}
-                  label="Imie i nazwisko"
-                />
-                <TextField
-                  fullWidth
-                  InputLabelProps={{
-                    classes: labelClasses,
-                  }}
-                  InputProps={{
-                    classes: inputClasses,
-                  }}
-                  label="Adres e-mail"
-                />
-                <TextField
-                  fullWidth
-                  InputLabelProps={{
-                    classes: labelClasses,
-                  }}
-                  InputProps={{
-                    classes: inputClasses,
-                  }}
-                  label="Numer telefonu"
-                />
-                <TextField
-                  fullWidth
-                  multiline
-                  rows={4}
-                  rowsMax={4}
-                  InputLabelProps={{
-                    classes: labelClasses,
-                  }}
-                  InputProps={{
-                    classes: inputClasses,
-                  }}
-                  label="Wiadomość"
-                />
-                <Button>
-                  <span>Wyślij wiadomość</span>
-                </Button>
-                <p className="rodo">
-                  Administratorem danych osobowych podanych w formularzu jest
-                  Medify.me Sp. z o. o. Dane będą przetwarzane w celu odpowiedzi
-                  na zapytanie użytkownika. Pełna informacja o przetwarzaniu
-                  danych osobowych znajduje się{" "}
-                  <Link to="/polityka">tutaj</Link>
-                </p>
+            )}
+            {!isSent && (
+              <div className="form_section">
+                <p className="form_title">Formularz kontaktowy</p>
+                <h3>Napisz do nas</h3>
+                <div className="form_wrapper">
+                  <TextField
+                    id="name"
+                    value={form.name}
+                    error={validation.name}
+                    fullWidth
+                    InputLabelProps={{
+                      classes: labelClasses,
+                    }}
+                    InputProps={{
+                      classes: inputClasses,
+                    }}
+                    label="Imie i nazwisko"
+                    onChange={handleFormChange}
+                  />
+                  <TextField
+                    id="mail"
+                    value={form.mail}
+                    error={validation.mail}
+                    fullWidth
+                    InputLabelProps={{
+                      classes: labelClasses,
+                    }}
+                    InputProps={{
+                      classes: inputClasses,
+                    }}
+                    label="Adres e-mail"
+                    onChange={handleFormChange}
+                  />
+                  <MuiPhoneNumber
+                    id="phone"
+                    value={form.phone}
+                    error={validation.phone}
+                    fullWidth
+                    disableAreaCodes={true}
+                    defaultCountry={"pl"}
+                    disableDropdown={true}
+                    InputLabelProps={{
+                      classes: labelClasses,
+                    }}
+                    InputProps={{
+                      classes: inputClasses,
+                    }}
+                    label="Numer telefonu"
+                    onChange={handlePhoneChange}
+                  />
+                  <TextField
+                    id="message"
+                    value={form.message}
+                    error={validation.message}
+                    fullWidth
+                    multiline
+                    rows={4}
+                    rowsMax={4}
+                    InputLabelProps={{
+                      classes: labelClasses,
+                    }}
+                    InputProps={{
+                      classes: inputClasses,
+                    }}
+                    label="Wiadomość"
+                    onChange={handleFormChange}
+                  />
+                  <Button onClick={submitForm}>
+                    <span>Wyślij wiadomość</span>
+                  </Button>
+                  <p className="rodo">
+                    Administratorem danych osobowych podanych w formularzu jest
+                    Medify.me Sp. z o. o. Dane będą przetwarzane w celu
+                    odpowiedzi na zapytanie użytkownika. Pełna informacja o
+                    przetwarzaniu danych osobowych znajduje się{" "}
+                    <Link to="/polityka">tutaj</Link>
+                  </p>
+                </div>
               </div>
-            </div>
+            )}
+
             <div className="contact_info_section">
               <div className="online_registration_wrappper">
                 <h3>Zarejestruj sie online</h3>
