@@ -21,6 +21,8 @@ sources:
       "
   - link: "https://wco.pl/2020/09/09/rak-jest-grozniejszy-niz-koronawirus/  "
     label: "wco.pl/2020/09/09/rak-jest-grozniejszy-niz-koronawirus/  "
+  - label: hematoonkologia.pl
+    link: www.hematoonkologia.pl
 ---
 # Koronawirus a onkologia w Polsce - o sytuacji pacjentów onkologicznych w dobie COVID-19
 
