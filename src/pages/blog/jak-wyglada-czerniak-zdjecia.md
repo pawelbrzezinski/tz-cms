@@ -64,6 +64,8 @@ Czerniak może powstać w obrębie znamienia jak również w skórze niezmienion
 
 ![czerniak](img/czerniak10.png "czerniak")
 
+![czerniak](img/czerniak29.jpg "czerniak")
+
 ![czerniak](img/czerniak24.jpg "czerniak")
 
 ![czerniak](img/czerniak45.jpg "czerniak")
@@ -110,19 +112,31 @@ Zmiany skórne podejrzane w kierunku czerniaka należy bezwzględnie usunąć w 
 
 ![czerniak](img/czerniak13.jpeg "czerniak")
 
+
+
+Zmiany skórne podejrzane w kierunku czerniaka należy bezwzględnie usunąć w całości metodą chirurgiczną do badania histopatologicznego. Nie wolno wykonywać biopsji cienkoigłowej lub biopsji wycinającej polegającej jedynie na częściowym wycięciu znamienia!
+
 ![czerniak](img/czerniak23.jpg "czerniak")
 
 ![czerniak](img/czerniak25.jpeg "czerniak")
+
+
+
+W przypadku przerzutów do węzła wartowniczego należy wyciąć wszystkie węzły regionalnego układu chłonnego. Przy stwierdzeniu mikroprzerzutów tj. przerzutów o średnicy poniżej 2 mm nie ma określonych wytycznych dotyczących postępowania.
+
+<More link="/czerniak" text="Czerniak i inne nowotwory skóry" cta="Sprawdź" />
+
 ![czerniak](img/czerniak26.jpg "czerniak")
+
 ![czerniak](img/czerniak27.jpeg "czerniak")
+
 ![czerniak](img/czerniak28.jpg "czerniak")
-![czerniak](img/czerniak29.jpg "czerniak")
+
+W przypadku wczesnych czerniaków skóry nie ma konieczności wykonywania rutynowych badań obrazowych takich jak USG, czy tomografia komputerowa klatki piersiowej. Istotnych informacji w takim przypadku dostarcza nam już [badanie dermatoskopowe guza](/dermatoskopia-badanie-znamion "Dermatoskopia").
 
 ![czerniak](img/czerniak30.jpg "czerniak")
 
 ![czerniak](img/czerniak31.jpeg "czerniak")
-
-
 
 Najczęściej czerniak pojawia się na skórze, ale może on powstawać także w obrębie błon śluzowych lub w gałce ocznej, a przerzuty daje najczęściej do okolicznych węzłów chłonnych.
 
@@ -132,8 +146,6 @@ Najczęściej czerniak pojawia się na skórze, ale może on powstawać także w
 
 ![czerniak](img/czerniak34.jpg "czerniak")
 
-
-
 Węzły wartownicze oraz wyciętą bliznę poddaje się badaniu histopatologicznemu. Po około dwóch tygodniach pacjent otrzymuje wynik badania. Zarówno wynik badania blizny, jak i węzła mają wpływ na dalsze leczenie.
 
 ![czerniak](img/czerniak35.jpg "czerniak")
@@ -141,8 +153,6 @@ Węzły wartownicze oraz wyciętą bliznę poddaje się badaniu histopatologiczn
 ![czerniak](img/czerniak36.jpeg "czerniak")
 
 ![czerniak](img/czerniak37.jpg "czerniak")
-
-
 
 Po przebytym leczeniu czerniaka pacjent wymaga regularnych kontroli, w tym dermatoskopowego badania znamion, ponieważ może dojść do nawrotu choroby.
 
