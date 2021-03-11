@@ -43,9 +43,9 @@ keywords:
   - zdjęcia czerniaka
   - znamiona barwnikowe
 tags:
-  - Badanie Znamion
-  - Wideodermatoskopia
-  - Poznań
+  - badanie znamion
+  - wideodermatoskopia
+  - poznań
 sources: []
 ---
 **Czerniak skóry** należy do najbardziej złośliwych nowotworów. Wczesna diagnostyka zmian jest warunkiem skutecznego leczenia, a **wideodermatoskopia** (mikroskopia epiluminescencyjna) jest w niej bardzo pomocna. Umożliwia ona również miarodajne badanie znamion atypowych i ich monitorowanie. Wszystko to dzięki systemom komputerowym pozwalającym na precyzyjną ocenę obrazów uzyskanych w **badaniu wideodermatoskopowym**.
