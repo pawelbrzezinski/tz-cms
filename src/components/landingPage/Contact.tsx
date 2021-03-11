@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TextField from "@material-ui/core/TextField";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { makeStyles } from "@material-ui/core/styles";
-import MuiPhoneNumber from "material-ui-phone-number";
+
 import Button from "../Button";
 import BubbleSection from "../BubbleSection";
 import MailButton from "../MailButton";
@@ -11,6 +11,8 @@ import CallButton from "../CallButton";
 import CheckIcon from "../../img/ic_check.svg";
 import "../../styles/contact_section.scss";
 import { Link } from "gatsby";
+
+const MuiPhoneNumber = React.lazy(() => import("material-ui-phone-number"));
 
 const useLabelStyles = makeStyles({
   root: {
@@ -61,6 +63,8 @@ const isValidPhone = (phone = "") => {
 };
 
 const Contact = ({ className = "", where = "" }) => {
+  const isSSR = typeof window === "undefined";
+
   const labelClasses = useLabelStyles();
   const inputClasses = useInputStyles();
 
@@ -177,23 +181,27 @@ const Contact = ({ className = "", where = "" }) => {
                     label="Adres e-mail"
                     onChange={handleFormChange}
                   />
-                  <MuiPhoneNumber
-                    id="phone"
-                    value={form.phone}
-                    error={validation.phone}
-                    fullWidth
-                    disableAreaCodes={true}
-                    defaultCountry={"pl"}
-                    disableDropdown={true}
-                    InputLabelProps={{
-                      classes: labelClasses,
-                    }}
-                    InputProps={{
-                      classes: inputClasses,
-                    }}
-                    label="Numer telefonu"
-                    onChange={handlePhoneChange}
-                  />
+                  {!isSSR && (
+                    <React.Suspense fallback={<div />}>
+                      <MuiPhoneNumber
+                        id="phone"
+                        value={form.phone}
+                        error={validation.phone}
+                        fullWidth
+                        disableAreaCodes={true}
+                        defaultCountry={"pl"}
+                        disableDropdown={true}
+                        InputLabelProps={{
+                          classes: labelClasses,
+                        }}
+                        InputProps={{
+                          classes: inputClasses,
+                        }}
+                        label="Numer telefonu"
+                        onChange={handlePhoneChange}
+                      />
+                    </React.Suspense>
+                  )}
                   <TextField
                     id="message"
                     value={form.message}
