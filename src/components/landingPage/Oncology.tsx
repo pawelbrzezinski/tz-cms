@@ -6,9 +6,9 @@ import Button from "../Button";
 import { graphql, StaticQuery } from "gatsby";
 import TwoColumnHomeSection from "./TwoColumnHomeSection";
 
-const Oncology = ({ className = "", graph, reverse = true }) => (
+const Oncology = ({ className = "", ctaOffset = 0, graph, reverse = true }) => (
   <TwoColumnHomeSection
-    reverse={reverse} 
+    reverse={reverse}
     className={className}
     h2="Konsultacje Onkologiczne"
     intro="Diagnostyka czerniaka"
@@ -31,7 +31,7 @@ const Oncology = ({ className = "", graph, reverse = true }) => (
     Buttons={() => (
       <>
         <Button>
-          <AnchorLink href="#kontakt" title="Umów się">
+          <AnchorLink href="#kontakt" title="Umów się" offset={ctaOffset}>
             Umów się
           </AnchorLink>
         </Button>

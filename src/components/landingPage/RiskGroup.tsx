@@ -33,15 +33,15 @@ const RiskGroupCard = ({ image, title = "", children = null }) => {
   );
 };
 
-const AlertButton = () => (
+const AlertButton = ({ctaOffset}) => (
   <Button>
-    <AnchorLink href="#kontakt" title="Umów się">
+    <AnchorLink href="#kontakt" title="Umów się" offset={ctaOffset}>
       Umów się
     </AnchorLink>
   </Button>
 );
 
-const RiskGroup = ({ className = "", graph = { images: [] } }) => (
+const RiskGroup = ({ className = "", ctaOffset = 0, graph = { images: [] } }) => (
   <div className={className}>
     <BubbleSection
       introText="Grupy ryzka"
@@ -77,7 +77,7 @@ const RiskGroup = ({ className = "", graph = { images: [] } }) => (
             Zaburzenia odporności
           </RiskGroupCard>
         </div>
-        <Alert button={AlertButton}>
+        <Alert button={AlertButton} ctaOffset={ctaOffset}>
           Osoby <strong>szczególnie narażone</strong> na wystąpienie raka skóry
           powinny poddawać się dermatoskopowemu badaniu znamion{" "}
           <strong>z większą częstotliwością</strong> niż standardowe badania

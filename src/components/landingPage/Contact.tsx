@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TextField from "@material-ui/core/TextField";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { makeStyles } from "@material-ui/core/styles";
 import MuiPhoneNumber from "material-ui-phone-number";
 import Button from "../Button";
@@ -230,7 +230,9 @@ const Contact = ({ className = "", where = "" }) => {
                 <h3>Zarejestruj sie online</h3>
                 <p>Szybko i łatwo! 24 h/ dobę</p>
                 <Button>
-                  <span>Umów się online</span>
+                  <AnchorLink href="#cennik" title="Umów się">
+                    Umów się online
+                  </AnchorLink>
                 </Button>
               </div>
               <div className="registration_wrappper">

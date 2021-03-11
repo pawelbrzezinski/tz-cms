@@ -35,7 +35,7 @@ const Locations = () => {
   };
 
   return (
-    <div className="home_locations">
+    <div className="home_locations" id="kontakt">
       <div className="map_section">
         <Map
           data={locations}
@@ -46,8 +46,8 @@ const Locations = () => {
       </div>
       <div className="cities_section">
         <div className="cities_section_text">
-          <h5>Gdzie jesteśmy?</h5>
-          <h2>Nasze ośrodki</h2>
+          <h5>Nasze ośrodki</h5>
+          <h2>Wybierz miasto</h2>
           <p>
             Kliknij na miasto, w którym chcesz się zbadać. Dynamicznie
             zwiększamy obszar naszej działalności, aby już wkrótce działać w
@@ -55,7 +55,6 @@ const Locations = () => {
           </p>
         </div>
         <div className="cities_list_section">
-          {/* <h3>Nasze lokalizacje</h3> */}
           <div className="cities_list_section-inner">
             <CitiesList
               data={locations.filter((location) => location.type === CURRENT)}

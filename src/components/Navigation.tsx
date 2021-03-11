@@ -66,14 +66,18 @@ const Navigation = ({ constactCtaComponent = null }) => {
           </Link>
         </NavigationItemWithSubmenu>
 
-        <NavigationItemWithSubmenu label="Nowotwory skóry">
+        <Link className="navigation-item" to="/czerniak">
+          <div className="heading">Czerniak</div>
+        </Link>
+
+        {/* <NavigationItemWithSubmenu label="Nowotwory skóry">
           <Link className="navigation-item" to="/czerniak">
             Czerniak
           </Link>
           <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
             Raki skóry
           </Link>
-        </NavigationItemWithSubmenu>
+        </NavigationItemWithSubmenu> */}
 
         <NavigationItemWithSubmenu label="Nasze ośrodki">
           {LOCATIONS.filter((location) => location.link).map((location) => (

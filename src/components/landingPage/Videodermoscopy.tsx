@@ -12,6 +12,7 @@ const Videodermoscopy = ({
   Text,
   H5,
   reverse = true,
+  ctaOffset = 0,
 }) => {
   const TextComponent =
     Text ||
@@ -50,7 +51,7 @@ const Videodermoscopy = ({
       Buttons={() => (
         <>
           <Button>
-            <AnchorLink href="#kontakt" title="Umów się">
+            <AnchorLink href="#kontakt" title="Umów się" offset={ctaOffset}>
               Umów się
             </AnchorLink>
           </Button>

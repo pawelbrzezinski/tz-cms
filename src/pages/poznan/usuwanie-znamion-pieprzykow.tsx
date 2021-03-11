@@ -334,16 +334,16 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
       <Reviews className="home_reviews" data={REVIEWS} />
       <Surgery2 className="home_two_col_section_left_img" reverse={false} />
       <ImportantInfo
-        className="home_important_info"
+        className="home_important_info with_no_padding_top"
         h2="Chirurgiczne usuwanie pieprzyków"
         data={INFOS}
       />
 
-      <Laser className="home_two_col_section_left_img" reverse={false} />
+      <Laser className="home_two_col_section_left_img with_no_padding_top" reverse={false} />
 
       <Faq className="home_faq" data={FAQS} />
       <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
-      <Oncology className="home_two_col_section_left_img" />
+      <Oncology className="home_two_col_section_left_img with_no_padding_bottom" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
       <CallCta />
     </Layout>

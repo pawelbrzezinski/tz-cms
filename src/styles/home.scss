@@ -89,6 +89,23 @@
   }
 }
 
+.with_no_padding_top {
+  .bubble-section,
+  .two_column_section {
+    @media (max-width: $screeen-sm) {
+      padding-top: 0;
+    }
+  }
+}
+.with_no_padding_bottom {
+  .bubble-section,
+  .two_column_section {
+    @media (max-width: $screeen-sm) {
+      padding-bottom: 0;
+    }
+  }
+}
+
 .home_offer {
   @include home_section;
 
@@ -319,7 +336,7 @@
 
 .home_risk_group {
   @include home_section;
-  
+
   &--add-padding-top {
     padding-top: 64px;
   }

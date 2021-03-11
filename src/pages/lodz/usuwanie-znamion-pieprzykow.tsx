@@ -80,46 +80,60 @@ const PRICES = [
     categoryName: "Chirurgiczne usuwanie znamion",
     items: [
       {
-        price: "500",
-        label: "Usunięcie 1 zmiany skórnej",
-      },
-      {
-        price: "120",
-        label: "Badanie histopatologiczne 1 zmiany",
-      },
-      {
-        price: "360",
-        label: "Usunięcie kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
         price: "200",
-        label: "Konsultacja chirurgiczna",
+        label: "konsultacja chirurgiczna",
+        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
+      },
+      {
+        price: "400",
+        label: "usunięcie 1 znamienia do 1,5cm",
+        sub:
+          "w standardowej lokalizacji - tułów/kończyny - w cenie kontrola, zdjęcie szwów",
+      },
+      {
+        price: "500",
+        label: "usunięcie 1 znamienia powyżej 1,5cm",
+        sub:
+          "w szczególnej lokalizacji np. twarz - w cenie kontrola, zdjęcie szwów",
+      },
+      {
+        price: "80",
+        label: "badanie histopatologiczne jednej zmiany",
+      },
+      {
+        price: "250",
+        label:
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty do 1,5cm",
+        sub: "standardowej lokalizacji - tułów/kończyny",
       },
       {
         price: "350",
-        label: "Biopsja z badaniem histopatologicznym",
+        label:
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty powyżej 1,5cm",
+
+        sub: "w szczególnej lokalizacji np. twarz",
+      },
+      {
+        price: "500",
+        label: "chirurgia aparatu paznokciowego",
       },
     ],
   },
   {
     isOpened: false,
-    categoryName: "Nieinwazyjne usuwanie znamion",
+    categoryName: "Nieinwazyjne usuwanie znamion ",
     items: [
       {
-        price: "500",
-        label: "Usuwanie laserowe 1 zmiany skórnej - laser CO2	",
-      },
-      {
-        price: "10",
-        label: "Usuwanie każdej kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
         price: "250",
-        label: "Krioterapia 1 zmiany skórnej",
+        label: "Krioterapia  1 zmiana",
       },
       {
-        price: "10",
-        label: "Krioterapia każdej kolejnej zmiany w trakcie jednej wizyty",
+        price: "350",
+        label: "Krioterapia  2-5 zmian",
+      },
+      {
+        price: "400",
+        label: "Krioterapia 6-10 zmian",
       },
     ],
   },
@@ -143,12 +157,29 @@ const PRICES = [
       },
     ],
   },
+
   {
     isOpened: false,
-    categoryName: "Konsultacje onkologiczne - czerniak",
+    categoryName: "Konsultacje Onkologiczne - czerniak",
     items: [
       {
         price: "200",
+        label: "E-wizyta - wideokonferencja",
+      },
+    ],
+  },
+  {
+    isOpened: false,
+    categoryName: "Konsultacje dermatologiczne",
+    items: [
+      {
+        price: "190",
+        label: "Konsultacja dermatologiczna",
+        sub:
+          "biopsja zmiany skórnej z badaniem histopatologicznym: 350zł, badanie mikrobiologiczne wymazu +70zł",
+      },
+      {
+        price: "150",
         label: "E-wizyta - wideokonferencja",
       },
     ],
@@ -279,16 +310,16 @@ const LodzUsuwanieZnamionPage = ({ graph }) => {
       <Reviews className="home_reviews" data={REVIEWS} />
       <Surgery2 className="home_two_col_section_left_img" reverse={false} />
       <ImportantInfo
-        className="home_important_info"
+        className="home_important_info with_no_padding_top"
         h2="Chirurgiczne usuwanie pieprzyków"
         data={INFOS}
       />
 
-      <Laser className="home_two_col_section_left_img" reverse={false} />
+      <Laser className="home_two_col_section_left_img with_no_padding_top" reverse={false} />
 
       <Faq className="home_faq" data={FAQS} />
       <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
-      <Oncology className="home_two_col_section_left_img" />
+      <Oncology className="home_two_col_section_left_img with_no_padding_bottom" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
       <CallCta />
     </Layout>

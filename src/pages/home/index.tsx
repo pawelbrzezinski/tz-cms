@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, StaticQuery } from "gatsby";
 import Hero from "../../components/landingPage/Hero";
 import Layout from "../../components/Layout";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import Dermoscopy from "../../components/landingPage/Dermoscopy";
 import Videodermoscopy from "../../components/landingPage/Videodermoscopy";
 import Surgery from "../../components/landingPage/Surgery";
@@ -20,14 +20,16 @@ import { Link } from "gatsby";
 
 import "../../styles/home.scss";
 import CallCta from "../../components/CallCta"
+import Oncology from "../../components/landingPage/Oncology";
 
 const CtaUmowSie = () => {
   return (
-    <Link to="/kontakt" title="Umów się">
+    <AnchorLink offset={120} href="#kontakt" title="Umów się">
       Umów się
-    </Link>
+    </AnchorLink>
   );
 };
+
 
 const REVIEWS = [
   {
@@ -56,16 +58,19 @@ const OFFERS = [
   {
     type: "badanie",
     title: "Badanie znamion",
+    link: "/dermatoskopia-badanie-znamion",
     desc: "Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć.",
   },
   {
     type: "chirurgiczne",
     title: "Usuwanie znamion",
+    link: "/chirurgiczne-usuwanie-znamion",
     desc: "Chirurgiczne usuwanie podejrzanych pieprzyków wytypowanych przez lekarza w trakcie badania wideodermatoskopowego z wykonaniem histopatologicznej oceny usuniętej zmiany skórnej. Nieinwazyjne usuwanie łagodnych znamion laserem Co2 lub metodą krioterapii.",
   },
   {
     type: "onkologia",
     title: "Konsultacje onkologiczne",
+    // link: "/dermatoskopia-badanie-znamion",
     desc: "Konsultacja onkologiczna w zakresie nowotworów skóry, w tym czerniaka złośliwego. Pacjent otrzymuje zalecenia po usunięciu zmiany nowotworowej, dotyczące badań kontrolnych, leczenia uzupełniającego, a także leczenia zaawansowanego czerniaka.",
   }
 ]
@@ -93,24 +98,24 @@ const HomePage = ({ graph }) => {
     <Layout>
       <Hero
         h1="Ogólnopolskie Centrum Dermatoskopowego Badania Znamion"
-        oneLiner="Kompleksowo zajmujemy się diagnostyką znamion aby wyeliminować
-          nowotwory z życia milionów ludzi!"
+        oneLiner="Upewnij się, że czerniak nie ukrywa się w jednym z niepozornych pieprzyków na Twojej skórze."
         ctaPrimary={<CtaUmowSie />}
         ctaSecondary={null}
       />
 
       <Locations />
-      <Offer className="home_offer" data={OFFERS}/>
+      <Offer className="home_offer" data={OFFERS} ctaPrimary={<CtaUmowSie />}/>
       <WhyUs className="home_why_us" />
       <Reviews className="home_reviews" data={REVIEWS} />
-      <Melanoma className="home_melanoma" />
+      <Melanoma className="home_melanoma" withCta/>
       <Faq className="home_faq" data={FAQS} />
-      <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
-      <Videodermoscopy className="home_two_col_section_left_img" />
-      <RiskGroup className="home_risk_group" />
-      <Abcde className="home_abcde" />
-      <Surgery className="home_surgery" />
-      <Cta className="home_cta" />
+      <Dermoscopy className="home_two_col_section_right_img" reverse={false} ctaOffset={120} />
+      <Videodermoscopy className="home_two_col_section_left_img" ctaOffset={120} />
+      <RiskGroup className="home_risk_group" ctaOffset={120}/>
+      <Surgery className="home_surgery" reverse={false} ctaOffset={120}/>
+      <Abcde className="home_abcde with_no_padding_top" />
+      <Oncology className="home_two_col_section_left_img with_no_padding_top with_no_padding_bottom" ctaOffset={120}/>
+      <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />}/>
       <CallCta />
     </Layout>
   );

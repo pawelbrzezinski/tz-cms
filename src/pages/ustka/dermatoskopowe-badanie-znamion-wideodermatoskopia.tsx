@@ -59,69 +59,22 @@ const PRICES = [
     categoryName: "Badanie znamion - wideodermatoskopia",
     items: [
       {
-        price: "300",
-        label:
-          "Wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
-      },
-      {
-        price: "200",
-        label: "Wideodermatoskopia dziecka do 12 roku życia",
-      },
-      {
-        price: "200",
-        label:
-          "Wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
-      },
-    ],
-  },
-  {
-    isOpened: false,
-    categoryName: "Chirurgiczne usuwanie znamion",
-    items: [
-      {
-        price: "500",
-        label: "Usunięcie 1 zmiany skórnej",
-      },
-      {
-        price: "120",
-        label: "Badanie histopatologiczne 1 zmiany",
-      },
-      {
-        price: "360",
-        label: "Usunięcie kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
-        price: "200",
-        label: "Konsultacja chirurgiczna",
-      },
-      {
-        price: "350",
-        label: "Biopsja z badaniem histopatologicznym",
-      },
-    ],
-  },
-  {
-    isOpened: false,
-    categoryName: "Nieinwazyjne usuwanie znamion",
-    items: [
-      {
-        price: "500",
-        label: "Usuwanie laserowe 1 zmiany skórnej - laser CO2	",
-      },
-      {
-        price: "10",
-        label: "Usuwanie każdej kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
         price: "250",
-        label: "Krioterapia 1 zmiany skórnej",
+        label:
+          "Dermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
       },
       {
-        price: "10",
-        label: "Krioterapia każdej kolejnej zmiany w trakcie jednej wizyty",
+        price: "200",
+        label: "Dermatoskopia dziecka do 12 roku życia",
+      },
+      {
+        price: "200",
+        label:
+          "Badanie kontrolne wytypowanych przez lekarza znamion do obserwacji ",
       },
     ],
   },
+
   {
     isOpened: false,
     categoryName: "Konsultacje Onkologiczne - czerniak",
@@ -137,17 +90,12 @@ const PRICES = [
     categoryName: "Konsultacje dermatologiczne",
     items: [
       {
-        price: "250",
-        label: "Konsultacja dermatologiczna",
-      },
-      {
         price: "150",
         label: "E-wizyta - wideokonferencja",
       },
     ],
   },
 ];
-
 
 const INFOS = [
   {
@@ -182,7 +130,7 @@ const CtaCennik = () => {
   );
 };
 
-const WarszawaBadanieZnamionPage = ({ graph }) => {
+const UstkaBadanieZnamionPage = ({ graph }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
@@ -214,7 +162,7 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
         ctaPrimary={<CtaUmowSie />}
         ctaSecondary={<CtaCennik />}
       />
-      <WhyUs className="home_why_us" />
+      <WhyUs className="home_why_us with_no_padding_top" />
 
       <Melanoma className="home_melanoma" />
       <PriceList className="home_price_list" data={PRICES} />
@@ -254,7 +202,7 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
           </li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Warszawie" />
+      <Contact className="home_contact" where="w Ustce" />
       <Location
         className="home_location"
         coords={{
@@ -302,12 +250,12 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
         )}
       />
       <ImportantInfo className="home_important_info" data={INFOS} />
-      <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
+      <Dermoscopy className="home_two_col_section_right_img with_no_padding_top" reverse={false} />
       <RiskGroup className="home_risk_group home_risk_group--add-padding-top" />
       <Surgery className="home_two_col_section_left_img" reverse={false} />
       <Faq className="home_faq" data={FAQS} />
       <Abcde className="home_abcde" />
-      <Oncology className="home_two_col_section_left_img" />
+      <Oncology className="home_two_col_section_left_img with_no_padding_top with_no_padding_bottom" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
       <CallCta />
     </Layout>
@@ -409,7 +357,7 @@ export default (props) => (
       }
     `}
     render={(data) => (
-      <WarszawaBadanieZnamionPage
+      <UstkaBadanieZnamionPage
         graph={{
           gallery: [
             data.ImageGallery1.nodes[0],

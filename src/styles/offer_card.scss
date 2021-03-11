@@ -1,6 +1,27 @@
 @import "colors";
 @import "variables";
 
+.buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  @media (max-width: $screeen-md) {
+    margin-top: 40px;
+  }
+
+  .button {
+    @media (max-width: $screeen-sm) {
+      width: 45%;
+      margin-right: 0;
+    }
+
+    @media (max-width: $screeen-xs) {
+      width: 80%;
+    }
+  }
+}
+
 .offer_card {
   background: $white;
   border-radius: 8px;
@@ -12,6 +33,7 @@
   padding: 32px 28px;
   box-sizing: border-box;
   text-align: center;
+  justify-content: space-between;
 
   @media (max-width: $screeen-md) {
     margin-right: 0;
@@ -42,14 +64,18 @@
     line-height: 24px;
   }
 
+
+
   .gatsby-image-wrapper {
     display: block;
     width: 128px;
     height: 128px;
-    border-radius: 128px!important;
+    border-radius: 128px !important;
+    margin: 0 auto;
+
     margin-bottom: 24px;
 
-    img{
+    img {
       border-radius: 128px;
     }
   }

@@ -202,7 +202,7 @@ const SzczecinBadanieZnamionPage = ({ graph }) => {
       />
       <Offer className="home_offer" data={OFFERS} />
       <Melanoma className="home_melanoma" />
-      <WhyUs className="home_why_us" />
+      <WhyUs className="home_why_us with_no_padding_top" />
       <PriceList className="home_price_list" data={PRICES} />
       <Covid className="home_covid">
         <ol>
@@ -258,13 +258,13 @@ const SzczecinBadanieZnamionPage = ({ graph }) => {
         h2="Przebieg badania wideodermatoskopowego w Szczecinie"
       />
       <ImportantInfo className="home_important_info" data={INFOS} />
-      <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
+      <Dermoscopy className="home_two_col_section_right_img with_no_padding_top" reverse={false} />
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
       <Surgery className="home_two_col_section_left_img" reverse={false} />
       <Faq className="home_faq" data={FAQS} />
       <Abcde className="home_abcde" />
-      <Oncology className="home_two_col_section_left_img" />
+      <Oncology className="home_two_col_section_left_img with_no_padding_top with_no_padding_bottom" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
       <CallCta />
     </Layout>

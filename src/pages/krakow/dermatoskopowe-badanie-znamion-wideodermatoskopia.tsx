@@ -59,7 +59,7 @@ const PRICES = [
     categoryName: "Badanie znamion - wideodermatoskopia",
     items: [
       {
-        price: "300",
+        price: "350",
         label:
           "Wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
       },
@@ -74,54 +74,7 @@ const PRICES = [
       },
     ],
   },
-  {
-    isOpened: false,
-    categoryName: "Chirurgiczne usuwanie znamion",
-    items: [
-      {
-        price: "500",
-        label: "Usunięcie 1 zmiany skórnej",
-      },
-      {
-        price: "120",
-        label: "Badanie histopatologiczne 1 zmiany",
-      },
-      {
-        price: "360",
-        label: "Usunięcie kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
-        price: "200",
-        label: "Konsultacja chirurgiczna",
-      },
-      {
-        price: "350",
-        label: "Biopsja z badaniem histopatologicznym",
-      },
-    ],
-  },
-  {
-    isOpened: false,
-    categoryName: "Nieinwazyjne usuwanie znamion",
-    items: [
-      {
-        price: "500",
-        label: "Usuwanie laserowe 1 zmiany skórnej - laser CO2	",
-      },
-      {
-        price: "10",
-        label: "Usuwanie każdej kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
-        price: "250",
-        label: "Krioterapia 1 zmiany skórnej",
-      },
-      {
-        price: "10",
-        label: "Krioterapia każdej kolejnej zmiany w trakcie jednej wizyty",
-      },
-    ],
-  },
+
   {
     isOpened: false,
     categoryName: "Konsultacje Onkologiczne - czerniak",
@@ -136,10 +89,6 @@ const PRICES = [
     isOpened: false,
     categoryName: "Konsultacje dermatologiczne",
     items: [
-      {
-        price: "250",
-        label: "Konsultacja dermatologiczna",
-      },
       {
         price: "150",
         label: "E-wizyta - wideokonferencja",
@@ -207,7 +156,8 @@ const KrakowBadanieZnamionPage = ({ graph }) => {
     {
       image: graph.faqs[1].image,
       imageMobile: graph.faqs[1].imageMobile,
-      title: "Czy badanie wideodermatoskopem wykonuje się jeden raz, czy należy je powtarzać?",
+      title:
+        "Czy badanie wideodermatoskopem wykonuje się jeden raz, czy należy je powtarzać?",
       text:
         "Badanie dermatoskopowe jest profilaktycznym badaniem skóry, które powinno być wykonywane regularnie, Przy ponownym wykonaniu badania znamion można porównać zapamiętany wcześniej przez wideodermatoskop obraz znamienia z aktualnym obrazem i podjąć decyzję dotyczącą ewentualnego usunięcia zmiany. Badanie należy powtarzać co rok, natomiast w przypadku pacjentów z grupy ryzyka lub osób posiadających znamiona podejrzane zalecamy wcześniejszy termin następnego badania dermatoskopowego.",
     },
@@ -236,7 +186,7 @@ const KrakowBadanieZnamionPage = ({ graph }) => {
       />
       <Offer className="home_offer" data={OFFERS} />
       <Melanoma className="home_melanoma" />
-      <WhyUs className="home_why_us" />
+      <WhyUs className="home_why_us with_no_padding_top" />
       <PriceList className="home_price_list" data={PRICES} />
       <Covid className="home_covid">
         <ol>
@@ -293,13 +243,13 @@ const KrakowBadanieZnamionPage = ({ graph }) => {
         h2="Przebieg badania wideodermatoskopowego w Krakowie"
       />
       <ImportantInfo className="home_important_info" data={INFOS} />
-      <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
+      <Dermoscopy className="home_two_col_section_right_img with_no_padding_top" reverse={false} />
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
       <Surgery className="home_two_col_section_left_img" reverse={false} />
       <Faq className="home_faq" data={FAQS} />
       <Abcde className="home_abcde" />
-      <Oncology className="home_two_col_section_left_img" />
+      <Oncology className="home_two_col_section_left_img with_no_padding_top with_no_padding_bottom" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
       <CallCta />
     </Layout>
@@ -311,9 +261,7 @@ export default (props) => (
     query={graphql`
       query {
         ImageGallery1: allFile(
-          filter: {
-            relativePath: { regex: "/kr1.jpg/" }
-          }
+          filter: { relativePath: { regex: "/kr1.jpg/" } }
         ) {
           nodes {
             childImageSharp {
@@ -325,11 +273,7 @@ export default (props) => (
           }
         }
         ImageGallery2: allFile(
-          filter: {
-            relativePath: {
-              regex: "/kr2.jpg/"
-            }
-          }
+          filter: { relativePath: { regex: "/kr2.jpg/" } }
         ) {
           nodes {
             childImageSharp {
@@ -341,11 +285,7 @@ export default (props) => (
           }
         }
         ImageGallery3: allFile(
-          filter: {
-            relativePath: {
-              regex: "/kr3.jpg/"
-            }
-          }
+          filter: { relativePath: { regex: "/kr3.jpg/" } }
         ) {
           nodes {
             childImageSharp {
@@ -357,11 +297,7 @@ export default (props) => (
           }
         }
         ImageGallery4: allFile(
-          filter: {
-            relativePath: {
-              regex: "/kr4.jpg/"
-            }
-          }
+          filter: { relativePath: { regex: "/kr4.jpg/" } }
         ) {
           nodes {
             childImageSharp {
@@ -373,11 +309,7 @@ export default (props) => (
           }
         }
         ImageGallery5: allFile(
-          filter: {
-            relativePath: {
-              regex: "/kr5.jpg/"
-            }
-          }
+          filter: { relativePath: { regex: "/kr5.jpg/" } }
         ) {
           nodes {
             childImageSharp {
@@ -389,11 +321,7 @@ export default (props) => (
           }
         }
         ImageGallery6: allFile(
-          filter: {
-            relativePath: {
-              regex: "/kr6.jpg/"
-            }
-          }
+          filter: { relativePath: { regex: "/kr6.jpg/" } }
         ) {
           nodes {
             childImageSharp {
@@ -405,11 +333,7 @@ export default (props) => (
           }
         }
         ImageGallery7: allFile(
-          filter: {
-            relativePath: {
-              regex: "/kr7.jpg/"
-            }
-          }
+          filter: { relativePath: { regex: "/kr7.jpg/" } }
         ) {
           nodes {
             childImageSharp {
@@ -421,11 +345,7 @@ export default (props) => (
           }
         }
         ImageGallery8: allFile(
-          filter: {
-            relativePath: {
-              regex: "/kr8.jpg/"
-            }
-          }
+          filter: { relativePath: { regex: "/kr8.jpg/" } }
         ) {
           nodes {
             childImageSharp {

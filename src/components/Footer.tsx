@@ -118,9 +118,9 @@ const Footer = () => {
               <Link to="/laserowe-usuwanie-znamion" className="footer_link">
                 Laserowe Usuwanie Znamion
               </Link>
-              <Link to="#" className="footer_link">
+              {/* <Link to="#" className="footer_link">
                 Konsultacje onkologiczne
-              </Link>
+              </Link> */}
               <Link to="/czerniak" className="footer_link">
                 Czerniak
               </Link>
@@ -144,11 +144,11 @@ const Footer = () => {
               <Link to="/cennik" className="footer_link">
                 Cennik
               </Link>
-              <Link to="/o-nas" className="footer_link">
-                O nas
-              </Link>
               <Link to="/kontakt" className="footer_link">
                 Kontakt
+              </Link>
+              <Link to="/o-nas" className="footer_link">
+                O nas
               </Link>
               <Link to="/blog" className="footer_link">
                 Blog

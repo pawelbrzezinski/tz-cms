@@ -6,6 +6,8 @@ import TwoColumnSection, {
   INTRO_TEXT_CLASS_NAME,
 } from "../TwoColumnSection";
 import czerniakImage from "../../img/home_czerniak.svg";
+import Button from "../Button";
+import { Link } from "gatsby";
 
 const CHECKLIST = [
   "Chcesz cieszyć się długim, zdrowym życiem, lecz martwią Cię znamiona na Twoim ciele?",
@@ -13,7 +15,7 @@ const CHECKLIST = [
   "W natłoku codziennych spraw nie znalazłeś jeszcze czasu, aby to sprawdzić?",
 ];
 
-const Melanoma = ({ className = "" }) => (
+const Melanoma = ({ className = "", withCta = false }) => (
   <div className={`${className}`}>
     <TwoColumnSection color="white" containerClassName="container">
       <div className="home_melanoma_left_column">
@@ -21,11 +23,18 @@ const Melanoma = ({ className = "" }) => (
         <h2 className={H2_CLASS_NAME}>Czerniak nie zawsze jest czarny</h2>
         <h5 className={H5_CLASS_NAME}>
           Pamiętaj czerniak nie zawsze jest czarny, nie zawsze szybko rośnie, a
-          zmian możesz nie zauważyć gołym okiem. 
+          zmian możesz nie zauważyć gołym okiem.
         </h5>
         <div>
           <CheckList data={CHECKLIST} />
         </div>
+        {withCta ? (
+          <div className="buttons" style={{ marginTop: "10px" }}>
+            <Button>
+              <Link to="/czerniak">Czerniak - więcej</Link>
+            </Button>
+          </div>
+        ) : null}
       </div>
       <div>
         <img src={czerniakImage} alt="Czerniak" />

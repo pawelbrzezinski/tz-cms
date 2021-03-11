@@ -1,14 +1,13 @@
 import React from "react";
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, Link, StaticQuery } from "gatsby";
 
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import BubbleSection from "../BubbleSection";
 import Button from "../Button";
 
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 import "../../styles/offer_card.scss";
 
-const OfferCard = ({ image, title = "", desc = "" }) => {
+const OfferCard = ({ image, title = "", desc = "", link }) => {
   return (
     <div className="offer_card">
       <div>
@@ -19,9 +18,16 @@ const OfferCard = ({ image, title = "", desc = "" }) => {
             title: title,
           }}
         />
+        <h5>{title}</h5>
+        <div className="smallbody">{desc}</div>
       </div>
-      <h5>{title}</h5>
-      <div className="smallbody">{desc}</div>
+      {link ? (
+        <div className="smallbody">
+          <Link to={link} title={title}>
+            Dowiedz się więcej
+          </Link>
+        </div>
+      ) : null}
     </div>
   );
 };
@@ -30,7 +36,13 @@ const Offer = ({
   data = [],
   className = "",
   h5 = "",
-  graph: { BadanieZnamionImage, UsuwanieZnamionImage, UsuwanieNiechirurgiczneZnamionImage, KonsultacjeImage },
+  graph: {
+    BadanieZnamionImage,
+    UsuwanieZnamionImage,
+    UsuwanieNiechirurgiczneZnamionImage,
+    KonsultacjeImage,
+  },
+  ctaPrimary,
 }) => {
   const IMAGES = {
     badanie: BadanieZnamionImage,
@@ -57,9 +69,15 @@ const Offer = ({
                 image={IMAGES[offer.type]}
                 title={offer.title}
                 desc={offer.desc}
+                link={offer.link}
               />
             ))}
           </div>
+          {ctaPrimary && (
+            <div className="buttons-wrapper">
+              <Button>{ctaPrimary}</Button>
+            </div>
+          )}
         </div>
       </BubbleSection>
     </div>
@@ -95,7 +113,11 @@ export default (props) => (
           }
         }
         UsuwanieNiechirurgiczneZnamionImage: allFile(
-          filter: { relativePath: { regex: "/usuwanie_niechirurgiczne_znamion_offer.png/" } }
+          filter: {
+            relativePath: {
+              regex: "/usuwanie_niechirurgiczne_znamion_offer.png/"
+            }
+          }
         ) {
           nodes {
             childImageSharp {
@@ -127,7 +149,8 @@ export default (props) => (
         graph={{
           BadanieZnamionImage: data.BadanieZnamion.nodes[0],
           UsuwanieZnamionImage: data.UsuwanieZnamion.nodes[0],
-          UsuwanieNiechirurgiczneZnamionImage: data.UsuwanieNiechirurgiczneZnamionImage.nodes[0],
+          UsuwanieNiechirurgiczneZnamionImage:
+            data.UsuwanieNiechirurgiczneZnamionImage.nodes[0],
           KonsultacjeImage: data.Konsultacje.nodes[0],
         }}
         {...props}

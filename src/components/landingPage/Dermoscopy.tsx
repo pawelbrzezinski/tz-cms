@@ -5,7 +5,14 @@ import Button from "../Button";
 import { graphql, StaticQuery } from "gatsby";
 import TwoColumnHomeSection from "./TwoColumnHomeSection";
 
-const Dermoscopy = ({ className = "", graph, Text, H5, reverse = true }) => {
+const Dermoscopy = ({
+  className = "",
+  graph,
+  Text,
+  H5,
+  reverse = true,
+  ctaOffset = 0,
+}) => {
   const TextComponent =
     Text ||
     (() => (
@@ -43,7 +50,7 @@ const Dermoscopy = ({ className = "", graph, Text, H5, reverse = true }) => {
       Buttons={() => (
         <>
           <Button>
-            <AnchorLink href="#kontakt" title="Umów się">
+            <AnchorLink href="#kontakt" title="Umów się" offset={ctaOffset}>
               Umów się
             </AnchorLink>
           </Button>

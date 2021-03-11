@@ -79,46 +79,60 @@ const PRICES = [
     categoryName: "Chirurgiczne usuwanie znamion",
     items: [
       {
-        price: "500",
-        label: "Usunięcie 1 zmiany skórnej",
-      },
-      {
-        price: "120",
-        label: "Badanie histopatologiczne 1 zmiany",
-      },
-      {
-        price: "360",
-        label: "Usunięcie kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
         price: "200",
-        label: "Konsultacja chirurgiczna",
+        label: "konsultacja chirurgiczna",
+        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
+      },
+      {
+        price: "400",
+        label: "usunięcie 1 znamienia do 1,5cm",
+        sub:
+          "w standardowej lokalizacji - tułów/kończyny - w cenie kontrola, zdjęcie szwów",
+      },
+      {
+        price: "500",
+        label: "usunięcie 1 znamienia powyżej 1,5cm",
+        sub:
+          "w szczególnej lokalizacji np. twarz - w cenie kontrola, zdjęcie szwów",
+      },
+      {
+        price: "80",
+        label: "badanie histopatologiczne jednej zmiany",
+      },
+      {
+        price: "250",
+        label:
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty do 1,5cm",
+        sub: "standardowej lokalizacji - tułów/kończyny",
       },
       {
         price: "350",
-        label: "Biopsja z badaniem histopatologicznym",
+        label:
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty powyżej 1,5cm",
+
+        sub: "w szczególnej lokalizacji np. twarz",
+      },
+      {
+        price: "500",
+        label: "chirurgia aparatu paznokciowego",
       },
     ],
   },
   {
     isOpened: false,
-    categoryName: "Nieinwazyjne usuwanie znamion",
+    categoryName: "Nieinwazyjne usuwanie znamion ",
     items: [
       {
-        price: "500",
-        label: "Usuwanie laserowe 1 zmiany skórnej - laser CO2	",
-      },
-      {
-        price: "10",
-        label: "Usuwanie każdej kolejnej zmiany w trakcie jednej wizyty",
-      },
-      {
         price: "250",
-        label: "Krioterapia 1 zmiany skórnej",
+        label: "Krioterapia  1 zmiana",
       },
       {
-        price: "10",
-        label: "Krioterapia każdej kolejnej zmiany w trakcie jednej wizyty",
+        price: "350",
+        label: "Krioterapia  2-5 zmian",
+      },
+      {
+        price: "400",
+        label: "Krioterapia 6-10 zmian",
       },
     ],
   },
@@ -137,8 +151,10 @@ const PRICES = [
     categoryName: "Konsultacje dermatologiczne",
     items: [
       {
-        price: "250",
+        price: "190",
         label: "Konsultacja dermatologiczna",
+        sub:
+          "biopsja zmiany skórnej z badaniem histopatologicznym: 350zł, badanie mikrobiologiczne wymazu +70zł",
       },
       {
         price: "150",
@@ -236,7 +252,7 @@ const LodzBadanieZnamionPage = ({ graph }) => {
       />
       <Offer className="home_offer" data={OFFERS} />
       <Melanoma className="home_melanoma" />
-      <WhyUs className="home_why_us" />
+      <WhyUs className="home_why_us with_no_padding_top" />
       <PriceList className="home_price_list" data={PRICES} />
       <Covid className="home_covid">
         <ol>
@@ -293,13 +309,13 @@ const LodzBadanieZnamionPage = ({ graph }) => {
         h2="Przebieg badania wideodermatoskopowego w Łodzi"
       />
       <ImportantInfo className="home_important_info" data={INFOS} />
-      <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
+      <Dermoscopy className="home_two_col_section_right_img with_no_padding_top" reverse={false} />
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
       <Surgery className="home_two_col_section_left_img" reverse={false} />
       <Faq className="home_faq" data={FAQS} />
       <Abcde className="home_abcde" />
-      <Oncology className="home_two_col_section_left_img" />
+      <Oncology className="home_two_col_section_left_img with_no_padding_top with_no_padding_bottom" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
       <CallCta />
     </Layout>
