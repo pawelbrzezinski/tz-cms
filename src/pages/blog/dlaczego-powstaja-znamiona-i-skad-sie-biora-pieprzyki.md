@@ -12,7 +12,7 @@ description: Czerniak złośliwy jest nowotworem wywodzącym się z komórek
   wiedzieć jak wygląda typowy czerniak.
 keywords:
   - czerniak zdjęcia
-  - czeerniak paznokcia
+  - czerniak paznokcia
   - czerniak podpaznokciowy
   - czerniak guguzkowaty
   - czerniak leczenie
