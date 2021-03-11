@@ -33,7 +33,7 @@ const WhyUs = ({ className = "" }) => (
             Zapisujemy zmiany do obserwacji
           </WhyUsCard>
           <WhyUsCard image={WynikImage}>
-            Wysyłamy <strong>wynik</strong> lekarski
+            Wydajemy <strong>wynik</strong> lekarski
           </WhyUsCard>
           <WhyUsCard image={PrzypomienieImage}>
             Przypominamy o zalecanej <strong>kontroli</strong>

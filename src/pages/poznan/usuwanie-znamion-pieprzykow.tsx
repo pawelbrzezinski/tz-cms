@@ -74,7 +74,9 @@ const OFFERS = [
   },
 ];
 
+
 const PRICES = [
+  
   {
     isOpened: true,
     categoryName: "Chirurgiczne usuwanie znamion",
@@ -82,18 +84,19 @@ const PRICES = [
       {
         price: "200",
         label: "konsultacja chirurgiczna",
+        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
       },
       {
         price: "400",
-        label:
-          "usunięcie 1 znamienia (do 1,5 cm w standardowej lokalizacji - tułów/kończyny)",
-        sub: "w cenie kontrola, zdjęcie szwów",
+        label: "usunięcie 1 znamienia do 1,5cm",
+        sub:
+          "w standardowej lokalizacji - tułów/kończyny - w cenie kontrola, zdjęcie szwów",
       },
       {
         price: "500",
-        label:
-          "usunięcie 1 znamienia (powyżej 1,5 cm lub w szczególnej lokalizacji np. twarz) ",
-        sub: "w cenie kontrola, zdjęcie szwów",
+        label: "usunięcie 1 znamienia powyżej 1,5cm",
+        sub:
+          "w szczególnej lokalizacji np. twarz - w cenie kontrola, zdjęcie szwów",
       },
       {
         price: "80",
@@ -102,17 +105,19 @@ const PRICES = [
       {
         price: "250",
         label:
-          "usunięcie dodatkowego znamienia w trakcie jednej wizyty (do 1,5 cm w standardowej lokalizacji - tułów/kończyny)",
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty do 1,5cm",
+        sub: "standardowej lokalizacji - tułów/kończyny",
       },
       {
         price: "350",
         label:
-          "usunięcie dodatkowego znamienia w trakcie jednej wizyty (powyżej 1,5 cm lub w szczególnej lokalizacji np. twarz)",
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty powyżej 1,5cm",
+
+        sub: "w szczególnej lokalizacji np. twarz",
       },
       {
         price: "500",
         label: "chirurgia aparatu paznokciowego",
-        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
       },
     ],
   },
@@ -161,19 +166,34 @@ const PRICES = [
       {
         price: "250",
         label: "konsultacja onkologiczna - nowotwory skóry",
+        sub:
+          "ponowna konsultacja onkologiczna (w przeciągu 6 miesięcy): 180 zł",
       },
-      {
-        price: "180",
-        label: "ponowna konsultacja onkologiczna",
-        sub: "w przeciągu 6 miesięcy",
-      },
+
       {
         price: "200",
         label: "E-wizyta - wideokonferencja",
       },
     ],
   },
+  {
+    isOpened: false,
+    categoryName: "Konsultacje dermatologiczne",
+    items: [
+      {
+        price: "180",
+        label: "Konsultacja dermatologiczna",
+        sub:
+          "biopsja zmiany skórnej z badaniem histopatologicznym: 350zł, badanie mikrobiologiczne wymazu +40zł",
+      },
+      {
+        price: "150",
+        label: "E-wizyta - wideokonferencja",
+      },
+    ],
+  },
 ];
+
 const INFOS = [
   {
     title: "Ile trwa zabieg?",
@@ -336,7 +356,7 @@ export default (props) => (
       query {
         ImageGallery1: allFile(
           filter: {
-            relativePath: { regex: "/Centrum Badania Znamion w Warszawie.jpg/" }
+            relativePath: { regex: "/poznan-chirurgia1.png/" }
           }
         ) {
           nodes {
@@ -351,7 +371,7 @@ export default (props) => (
         ImageGallery2: allFile(
           filter: {
             relativePath: {
-              regex: "/Centrum Badania Znamion w Warszawie_1.jpg/"
+              regex: "/poznan-chirurgia2.png/"
             }
           }
         ) {
@@ -367,7 +387,23 @@ export default (props) => (
         ImageGallery3: allFile(
           filter: {
             relativePath: {
-              regex: "/Centrum Badania Znamion w Warszawie_2.jpg/"
+              regex: "/poznan-chirurgia3.png/"
+            }
+          }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 550, maxHeight: 350, quality: 90) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        ImageGallery4: allFile(
+          filter: {
+            relativePath: {
+              regex: "/poznan-chirurgia4.png/"
             }
           }
         ) {
@@ -383,7 +419,23 @@ export default (props) => (
         ImageGallery5: allFile(
           filter: {
             relativePath: {
-              regex: "/Centrum Badania Znamion w Warszawie_4.jpg/"
+              regex: "/poznan-chirurgia5.png/"
+            }
+          }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 550, maxHeight: 350, quality: 90) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        ImageGallery6: allFile(
+          filter: {
+            relativePath: {
+              regex: "/poznan-chirurgia6.png/"
             }
           }
         ) {
@@ -442,10 +494,13 @@ export default (props) => (
       <WarszawaUsuwanieZnamionPage
         graph={{
           gallery: [
-            data.ImageGallery1.nodes[0],
             data.ImageGallery2.nodes[0],
             data.ImageGallery3.nodes[0],
+            data.ImageGallery4.nodes[0],
             data.ImageGallery5.nodes[0],
+            data.ImageGallery6.nodes[0],
+            data.ImageGallery1.nodes[0],
+
           ],
           faqs: {
             1: {

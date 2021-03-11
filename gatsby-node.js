@@ -31,13 +31,23 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    createRedirect({ fromPath: '/poznan', toPath: '/poznan/badanie-znamion', isPermanent: true });
-    createRedirect({ fromPath: '/warszawa', toPath: '/warszawa/badanie-znamion', isPermanent: true });
-    createRedirect({ fromPath: '/lodz', toPath: '/lodz/badanie-znamion', isPermanent: true });
-    createRedirect({ fromPath: '/szczecin', toPath: '/szczecin/badanie-znamion', isPermanent: true });
-    createRedirect({ fromPath: '/krakow', toPath: '/krakow/badanie-znamion', isPermanent: true });
-    createRedirect({ fromPath: '/wroclaw', toPath: '/wroclaw/badanie-znamion', isPermanent: true });
-    createRedirect({ fromPath: '/bydgoszcz', toPath: '/bydgoszcz/badanie-znamion', isPermanent: true });
+    createRedirect({ fromPath: '/poznan', toPath: '/poznan/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/poznan/badanie-znamion', toPath: '/poznan/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/warszawa', toPath: '/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/warszawa/badanie-znamion', toPath: '/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/wroclaw', toPath: '/wroclaw/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/wroclaw/badanie-znamion', toPath: '/wroclaw/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/krakow', toPath: '/krakow/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/krakow/badanie-znamion', toPath: '/krakow/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/szczecin', toPath: '/szczecin/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/szczecin/badanie-znamion', toPath: '/szczecin/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/lodz', toPath: '/lodz/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/lodz/badanie-znamion', toPath: '/lodz/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/bydgoszcz', toPath: '/bydgoszcz/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/bydgoszcz/badanie-znamion', toPath: '/bydgoszcz/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/ustka', toPath: '/ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    createRedirect({ fromPath: '/ustka/badanie-znamion', toPath: '/ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia', isPermanent: true });
+    
 
 
     const posts = result.data.allMdx.edges

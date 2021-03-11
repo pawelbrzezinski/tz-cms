@@ -204,6 +204,12 @@ const Footer = () => {
               >
                 Warszawa - Chirurgia
               </Link>
+              <Link
+                to={`/lodz/usuwanie-znamion-pieprzykow`}
+                className="footer_link"
+              >
+                Łódź - Chirurgia
+              </Link>
             </div>
           </div>
         </div>

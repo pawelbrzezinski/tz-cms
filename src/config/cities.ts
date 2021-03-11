@@ -31,7 +31,7 @@ export const LOCATIONS = [
   },
   {
     city: "Kraków",
-    link: "krakow/badanie-znamion",
+    link: "krakow/dermatoskopowe-badanie-znamion-wideodermatoskopia",
     position: {
       left: 57,
       top: 90,
@@ -40,7 +40,7 @@ export const LOCATIONS = [
   },
   {
     city: "Szczecin",
-    link: "szczecin/badanie-znamion",
+    link: "szczecin/dermatoskopowe-badanie-znamion-wideodermatoskopia",
     position: {
       left: 7,
       top: 30,
@@ -49,7 +49,7 @@ export const LOCATIONS = [
   },
   {
     city: "Łódź",
-    link: "lodz/badanie-znamion",
+    link: "lodz/dermatoskopowe-badanie-znamion-wideodermatoskopia",
     position: {
       left: 53,
       top: 57,
@@ -59,7 +59,7 @@ export const LOCATIONS = [
 
   {
     city: "Bydgoszcz",
-    link: "bydgoszcz/badanie-znamion",
+    link: "bydgoszcz/dermatoskopowe-badanie-znamion-wideodermatoskopia",
     position: {
       left: 37,
       top: 35,
@@ -77,12 +77,12 @@ export const LOCATIONS = [
   },
   {
     city: "Ustka",
-    link: undefined,
+    link: "ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia",
     position: {
       left: 28,
       top: 10,
     },
-    type: FUTURE,
+    type: CURRENT,
   },
   {
     city: "Gdańsk",

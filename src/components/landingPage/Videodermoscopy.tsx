@@ -6,23 +6,16 @@ import { graphql, StaticQuery } from "gatsby";
 
 import TwoColumnHomeSection from "./TwoColumnHomeSection";
 
-const Videodermoscopy = ({ className = "", graph, reverse = true }) => (
-  <TwoColumnHomeSection
-    reverse={reverse}
-    className={className}
-    h2="Wideodermatoskopia"
-    H5={() => (
-      <>
-        Wideodermatoskopia - komputerowe badanie znamion to obecnie{" "}
-        <strong>najlepsza metoda profilaktyki</strong> groźnych nowotworów
-        skóry. Badanie pieprzyków na skórze z zastosowaniem wideodermatoskopu
-        polega przede wszystkim na ocenie dynamiki zmian zachodzących w badanych
-        znamionach na podstawie analizy porównawczej zdjęć wykonanych na
-        przestrzeni czasu. Objawy czerniaka mogą być zupełnie nieuchwytne gołym
-        okiem, dlatego tak ważne jest oglądanie znamion w powiększeniu!
-      </>
-    )}
-    Text={() => (
+const Videodermoscopy = ({
+  className = "",
+  graph,
+  Text,
+  H5,
+  reverse = true,
+}) => {
+  const TextComponent =
+    Text ||
+    (() => (
       <>
         Dzięki zaawansowanej technologii lekarz ogląda obraz znamion na ekranie
         komputera po przyłożeniu do skóry pacjenta specjalistycznej kamery,
@@ -32,28 +25,50 @@ const Videodermoscopy = ({ className = "", graph, reverse = true }) => (
         systemie zdjęcia zmian skórnych, które mają atypowy wygląd i powinny
         zostać skontrolowane za kilka miesięcy.
       </>
-    )}
-    Buttons={() => (
+    ));
+  const H5Component =
+    H5 ||
+    (() => (
       <>
-        <Button>
-          <AnchorLink href="#kontakt" title="Umów się">
-            Umów się
-          </AnchorLink>
-        </Button>
-        <Button type="secondary">
-          <Link to="/wideodermatoskopia-komputerowe-badanie-znamion" title="">
-            Wideodermatoskopia
-          </Link>
-        </Button>
+        Wideodermatoskopia - komputerowe badanie znamion to obecnie{" "}
+        <strong>najlepsza metoda profilaktyki</strong> groźnych nowotworów
+        skóry. Badanie pieprzyków na skórze z zastosowaniem wideodermatoskopu
+        polega przede wszystkim na ocenie dynamiki zmian zachodzących w badanych
+        znamionach na podstawie analizy porównawczej zdjęć wykonanych na
+        przestrzeni czasu. Objawy czerniaka mogą być zupełnie nieuchwytne gołym
+        okiem, dlatego tak ważne jest oglądanie znamion w powiększeniu!
       </>
-    )}
-    imageInfo={{
-      image: graph.Image,
-      alt: "Wideodermatoskopowe badanie znamion",
-      title: "Wideodermatoskopowe badanie znamion",
-    }}
-  />
-);
+    ));
+
+  return (
+    <TwoColumnHomeSection
+      reverse={reverse}
+      className={className}
+      h2="Wideodermatoskopia"
+      H5={H5Component}
+      Text={TextComponent}
+      Buttons={() => (
+        <>
+          <Button>
+            <AnchorLink href="#kontakt" title="Umów się">
+              Umów się
+            </AnchorLink>
+          </Button>
+          <Button type="secondary">
+            <Link to="/wideodermatoskopia-komputerowe-badanie-znamion" title="">
+              Wideodermatoskopia
+            </Link>
+          </Button>
+        </>
+      )}
+      imageInfo={{
+        image: graph.Image,
+        alt: "Wideodermatoskopowe badanie znamion",
+        title: "Wideodermatoskopowe badanie znamion",
+      }}
+    />
+  );
+};
 
 export default (props) => (
   <StaticQuery

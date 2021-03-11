@@ -81,18 +81,19 @@ const PRICES = [
       {
         price: "200",
         label: "konsultacja chirurgiczna",
+        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
       },
       {
         price: "400",
-        label:
-          "usunięcie 1 znamienia (do 1,5 cm w standardowej lokalizacji - tułów/kończyny)",
-        sub: "w cenie kontrola, zdjęcie szwów",
+        label: "usunięcie 1 znamienia do 1,5cm",
+        sub:
+          "w standardowej lokalizacji - tułów/kończyny - w cenie kontrola, zdjęcie szwów",
       },
       {
         price: "500",
-        label:
-          "usunięcie 1 znamienia (powyżej 1,5 cm lub w szczególnej lokalizacji np. twarz) ",
-        sub: "w cenie kontrola, zdjęcie szwów",
+        label: "usunięcie 1 znamienia powyżej 1,5cm",
+        sub:
+          "w szczególnej lokalizacji np. twarz - w cenie kontrola, zdjęcie szwów",
       },
       {
         price: "80",
@@ -101,17 +102,19 @@ const PRICES = [
       {
         price: "250",
         label:
-          "usunięcie dodatkowego znamienia w trakcie jednej wizyty (do 1,5 cm w standardowej lokalizacji - tułów/kończyny)",
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty do 1,5cm",
+        sub: "standardowej lokalizacji - tułów/kończyny",
       },
       {
         price: "350",
         label:
-          "usunięcie dodatkowego znamienia w trakcie jednej wizyty (powyżej 1,5 cm lub w szczególnej lokalizacji np. twarz)",
+          "usunięcie dodatkowego znamienia w trakcie jednej wizyty powyżej 1,5cm",
+
+        sub: "w szczególnej lokalizacji np. twarz",
       },
       {
         price: "500",
         label: "chirurgia aparatu paznokciowego",
-        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
       },
     ],
   },
@@ -140,12 +143,10 @@ const PRICES = [
       {
         price: "250",
         label: "konsultacja onkologiczna - nowotwory skóry",
+        sub:
+          "ponowna konsultacja onkologiczna (w przeciągu 6 miesięcy): 180 zł",
       },
-      {
-        price: "180",
-        label: "ponowna konsultacja onkologiczna",
-        sub: "w przeciągu 6 miesięcy",
-      },
+
       {
         price: "200",
         label: "E-wizyta - wideokonferencja",
@@ -159,18 +160,12 @@ const PRICES = [
       {
         price: "180",
         label: "Konsultacja dermatologiczna",
+        sub:
+          "biopsja zmiany skórnej z badaniem histopatologicznym: 350zł, badanie mikrobiologiczne wymazu +40zł",
       },
       {
         price: "150",
         label: "E-wizyta - wideokonferencja",
-      },
-      {
-        price: "350",
-        label: "biopsja zmiany skórnej z badaniem histopatologicznym",
-      },
-      {
-        price: "40",
-        label: "badanie mikrobiologiczne wymazu",
       },
     ],
   },
@@ -235,7 +230,8 @@ const PoznanBadanieZnamionPage = ({ graph }) => {
     {
       image: graph.faqs[1].image,
       imageMobile: graph.faqs[1].imageMobile,
-      title: "Dotychczas musiałem dopłacać do każdego zbadanego znamienia. Jak to wygląda tutaj?",
+      title:
+        "Dotychczas musiałem dopłacać do każdego zbadanego znamienia. Jak to wygląda tutaj?",
       text:
         "W Centrum Twoje Znamiona zostaniesz zbadany od stóp do głów. Lekarz obejrzy każde znamię na Twojej skórze, a koszt badania nie jest uzależniony od liczby znamion. Istotą badania dermatoskopowego jest oglądanie całego ciała i archiwizacja obrazu wszystkich atypowych zmian, które należy w przyszłości poddać badaniu kontrolnemu. Oglądanie jedynie pojedynczych, niepokojących zmian na skórze nie jest pełnowartościowym badaniem profilaktycznym i nie zwalnia z konieczności wykonania pełnej diagnostyki.",
     },
@@ -308,8 +304,7 @@ const PoznanBadanieZnamionPage = ({ graph }) => {
         }}
         hoursInfo={["pon. - pt.: 10:00 - 20:00"]}
         transportationInfo={{
-          data:
-            "Przystanek tramwajowy: Polna, Rynek Jeżycki",
+          data: "Przystanek tramwajowy: Polna, Rynek Jeżycki",
         }}
       />
       <Gallery className="home_gallery" data={graph.gallery} />
@@ -354,9 +349,7 @@ export default (props) => (
         }
         ImageGallery2: allFile(
           filter: {
-            relativePath: {
-              regex: "/Centrum-Badania-Znamion-Poznan_2.png/"
-            }
+            relativePath: { regex: "/Centrum-Badania-Znamion-Poznan_2.png/" }
           }
         ) {
           nodes {
@@ -370,9 +363,7 @@ export default (props) => (
         }
         ImageGallery3: allFile(
           filter: {
-            relativePath: {
-              regex: "/Centrum-Badania-Znamion-Poznan_3.png/"
-            }
+            relativePath: { regex: "/Centrum-Badania-Znamion-Poznan_3.png/" }
           }
         ) {
           nodes {
@@ -386,9 +377,7 @@ export default (props) => (
         }
         ImageGallery4: allFile(
           filter: {
-            relativePath: {
-              regex: "/Centrum-Badania-Znamion-Poznan_4.png/"
-            }
+            relativePath: { regex: "/Centrum-Badania-Znamion-Poznan_4.png/" }
           }
         ) {
           nodes {
@@ -402,9 +391,7 @@ export default (props) => (
         }
         ImageGallery5: allFile(
           filter: {
-            relativePath: {
-              regex: "/Centrum-Badania-Znamion-Poznan_5.png/"
-            }
+            relativePath: { regex: "/Centrum-Badania-Znamion-Poznan_5.png/" }
           }
         ) {
           nodes {
@@ -418,9 +405,7 @@ export default (props) => (
         }
         ImageGallery6: allFile(
           filter: {
-            relativePath: {
-              regex: "/Centrum-Badania-Znamion-Poznan_6.png/"
-            }
+            relativePath: { regex: "/Centrum-Badania-Znamion-Poznan_6.png/" }
           }
         ) {
           nodes {

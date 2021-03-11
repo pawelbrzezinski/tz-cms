@@ -131,6 +131,10 @@
 .home_reviews {
   @include home_section;
 
+  &--add-padding-top {
+    padding-top: 64px;
+  }
+
   .container {
     @include container_section;
 
@@ -165,12 +169,10 @@
 
       grid-gap: 24px;
       grid-template-columns: 1fr 1fr;
-
-     
     }
 
     .alert {
-      margin-top: 20px
+      margin-top: 20px;
     }
   }
 }
@@ -217,7 +219,6 @@
     }
   }
 }
-
 
 .home_two_col_section_right_img {
   @include home_section;
@@ -318,6 +319,10 @@
 
 .home_risk_group {
   @include home_section;
+  
+  &--add-padding-top {
+    padding-top: 64px;
+  }
 
   .container {
     @include container_section;

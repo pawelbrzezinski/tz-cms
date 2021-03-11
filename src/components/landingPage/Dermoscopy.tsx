@@ -5,22 +5,10 @@ import Button from "../Button";
 import { graphql, StaticQuery } from "gatsby";
 import TwoColumnHomeSection from "./TwoColumnHomeSection";
 
-const Dermoscopy = ({ className = "", graph, reverse=true }) => (
-  <TwoColumnHomeSection
-    reverse={reverse}
-    className={className}
-    h2="Dermatoskopia"
-    H5={() => (
-      <>
-        Dermatoskopia pozwala na szczegółową ocenę struktury znamion, a
-        wprowadzenie tej metody badania do rutynowej oceny zmian skórnych
-        <strong> poprawia wykrywalność czerniaka</strong> o około 30%
-        Dermatoskopowe badanie znamion polega na oglądaniu wszystkich znamion na
-        skórze, w dużym powiększeniu, przy zastosowaniu urządzenia zwanego
-        dermatoskopem.
-      </>
-    )}
-    Text={() => (
+const Dermoscopy = ({ className = "", graph, Text, H5, reverse = true }) => {
+  const TextComponent =
+    Text ||
+    (() => (
       <>
         Klasyczny dermatoskop, który stosują często dermatolodzy w trakcie
         badania znamion wygląda jak lupka - szkło powiększające z wbudowanych
@@ -32,26 +20,46 @@ const Dermoscopy = ({ className = "", graph, reverse=true }) => (
         ocenia, które zmiany mogą okazać się niebezpieczne i kieruje pacjenta na
         ich usunięcie chirurgiczne.
       </>
-    )}
-    Buttons={() => (
+    ));
+  const H5Component =
+    H5 ||
+    (() => (
       <>
-        <Button>
-          <AnchorLink href="#kontakt" title="Umów się">
-            Umów się
-          </AnchorLink>
-        </Button>
-        <Button type="secondary">
-          <Link to="/dermatoskopia-badanie-znamion">Dermatoskopia</Link>
-        </Button>
+        Dermatoskopia pozwala na szczegółową ocenę struktury znamion, a
+        wprowadzenie tej metody badania do rutynowej oceny zmian skórnych
+        <strong> poprawia wykrywalność czerniaka</strong> o około 30%
+        Dermatoskopowe badanie znamion polega na oglądaniu wszystkich znamion na
+        skórze, w dużym powiększeniu, przy zastosowaniu urządzenia zwanego
+        dermatoskopem.
       </>
-    )}
-    imageInfo={{
-      image: graph.Image,
-      alt: "Dermatoskopowe badanie znamion",
-      title: "Dermatoskopowe badanie znamion",
-    }}
-  />
-);
+    ));
+  return (
+    <TwoColumnHomeSection
+      reverse={reverse}
+      className={className}
+      h2="Dermatoskopia"
+      H5={H5Component}
+      Text={TextComponent}
+      Buttons={() => (
+        <>
+          <Button>
+            <AnchorLink href="#kontakt" title="Umów się">
+              Umów się
+            </AnchorLink>
+          </Button>
+          <Button type="secondary">
+            <Link to="/dermatoskopia-badanie-znamion">Dermatoskopia</Link>
+          </Button>
+        </>
+      )}
+      imageInfo={{
+        image: graph.Image,
+        alt: "Dermatoskopowe badanie znamion",
+        title: "Dermatoskopowe badanie znamion",
+      }}
+    />
+  );
+};
 
 export default (props) => (
   <StaticQuery
