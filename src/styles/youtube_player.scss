@@ -33,7 +33,6 @@
     }
   }
 
- 
   .disableYoutube {
     z-index: 1;
     position: absolute;
@@ -42,7 +41,6 @@
     background-color: transparent;
     pointer-events: revert;
     width: 100%;
-
   }
 
   .youtube-overlay {
@@ -59,7 +57,7 @@
     flex-direction: column;
     z-index: 2;
 
-    .gatsby-image-wrapper{
+    .gatsby-image-wrapper {
       border-radius: 8px 88px;
 
       @media (max-width: $screeen-xs) {
@@ -83,6 +81,8 @@
       font-size: 14px;
       line-height: 20px;
       z-index: 2;
+      padding: 0 10px;
+      text-align: center;
     }
 
     .play_button {

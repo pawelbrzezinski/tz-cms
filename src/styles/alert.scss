@@ -12,15 +12,13 @@
 
   @media (max-width: $screeen-sm) {
     flex-direction: column;
+    padding: 16px;
   }
 
-  @media (max-width: $screeen-xs) {
-    padding: 32px 16px;
-  }
 
   img{
     @media (max-width: $screeen-sm) {
-      margin-bottom: 24px;
+      display: none;
     }
   }
 
@@ -33,7 +31,7 @@
       text-align: center;
       
       margin: 0;
-      margin-bottom: 24px;
+      margin-bottom: 12px;
     }
   }
 }

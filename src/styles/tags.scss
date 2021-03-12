@@ -56,7 +56,19 @@
 
       &:hover {
         background: $violet10;
-        // color: $violet60;
+        h2 {
+          color: $violet60;
+        }
+      }
+
+      @media (max-width: $screeen-sm) {
+        &:nth-of-type(2n) {
+          background: $violet10;
+
+          &:hover {
+            background: $white;
+          }
+        }
       }
 
       h2 {

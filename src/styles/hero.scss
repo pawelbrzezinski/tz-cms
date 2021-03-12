@@ -54,7 +54,20 @@
         }
 
         @media (max-width: $screeen-sm) {
-          margin-bottom: 20px;
+          display: none;
+        }
+      }
+
+      .one-liner-text-mobile {
+        display: none;
+        color: $gray;
+
+        @media (max-width: $screeen-sm) {
+          display: block;
+          margin-bottom: 16px;
+          &:first-of-type {
+            margin-bottom: 0px;
+          }
         }
       }
 
@@ -66,7 +79,7 @@
             width: 45%;
             margin-right: 0;
           }
-          
+
           @media (max-width: $screeen-xs) {
             width: 80%;
           }
@@ -83,10 +96,19 @@
       @media (max-width: $screeen-sm) {
         order: -1;
         text-align: center;
+        width: 100%;
+        height: 0;
+        padding-top: 76%;
+        position: relative;
       }
 
       img {
         max-width: 100%;
+        @media (max-width: $screeen-sm) {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
       }
     }
   }

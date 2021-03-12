@@ -163,6 +163,10 @@ $scale-down-breakpoint: 1350px;
     padding: 10px 15px;
     white-space: nowrap;
 
+    &.active {
+      color: $violet60;
+    }
+
     &:hover {
       color: $violet60;
     }

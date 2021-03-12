@@ -3,7 +3,7 @@ templateKey: article
 title: Czerniak na dłoniach i podeszwach stóp - czerniak akralny
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 15
+readingTime: 8
 date: 2020-10-08T22:56:47.666Z
 description: Czerniak w okolicach akralnych (dłoni i stóp) rozwija się stosunkowo rzadko, ale  z uwagi na małą świadomość społeczną  jego rozpoznanie w tej lokalizacji jest zwykle opóźnione, co wpływa na  pogorszenie rokowania.
 keywords:

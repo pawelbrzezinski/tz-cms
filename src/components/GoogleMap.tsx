@@ -274,7 +274,7 @@ const mapStyles = [
   },
 ];
 
-const Marker = ({ lat, lng , data = { title: "", data: "", link: ""}}) => {
+const Marker = ({ lat, lng, data = { title: "", data: "", link: "" } }) => {
   return (
     <div className="google_marker_wrapper">
       <div className="marker_bubble">
@@ -297,11 +297,12 @@ const Marker = ({ lat, lng , data = { title: "", data: "", link: ""}}) => {
   );
 };
 
-const GoogleMap = ({marker, coords = { lat: 0, lng: 0 } }) => {
+const GoogleMap = ({ marker, coords = { lat: 0, lng: 0 } }) => {
   return (
     <div className="google_map_wrapper">
       <div className="google_map">
         <GoogleMapReact
+          
           bootstrapURLKeys={{ key: "AIzaSyAu1dg549uAcoFMp27crJ-3NecYbQDSlmk" }}
           defaultCenter={coords}
           defaultZoom={15}

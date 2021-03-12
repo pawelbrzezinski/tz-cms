@@ -9,6 +9,7 @@ import czerniakImage from "../../img/home_czerniak.svg";
 import Button from "../Button";
 import { Link } from "gatsby";
 
+
 const CHECKLIST = [
   "Chcesz cieszyć się długim, zdrowym życiem, lecz martwią Cię znamiona na Twoim ciele?",
   "Obawiasz się, że plamka na Twojej skórze to czerniak?",
@@ -36,7 +37,7 @@ const Melanoma = ({ className = "", withCta = false }) => (
           </div>
         ) : null}
       </div>
-      <div>
+      <div className="image-wrapper">
         <img src={czerniakImage} alt="Czerniak" />
       </div>
     </TwoColumnSection>

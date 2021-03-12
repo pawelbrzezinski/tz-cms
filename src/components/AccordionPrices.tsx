@@ -18,42 +18,41 @@ const AccordionCategory = ({
   label = "",
   items = [],
   toggle = () => null,
-}) => (
-  <div className="accordion_prices_category_wrapper">
-    <div className="accordion_prices_category" onClick={() => toggle()}>
-      <div className="accordion_prices_category_label">{label}</div>
-      <div className="accordion_prices_category_expand">
-        <span className="accordion_label">{isOpened ? "Zwiń" : "Rozwiń"}</span>
-        <span>
-          <img
-            className={isOpened ? "" : "flip"}
-            src={ChevronIcon}
-            alt={isOpened ? "Zwiń" : "Rozwiń"}
-            title={isOpened ? "Zwiń" : "Rozwiń"}
-          />
-        </span>
+}) => {
+  return (
+    <div className="accordion_prices_category_wrapper">
+      <div className="accordion_prices_category" onClick={() => toggle()}>
+        <div className="accordion_prices_category_label">{label}</div>
+        <div className="accordion_prices_category_expand">
+          <span className="accordion_label">{isOpened ? "Zwiń" : "Rozwiń"}</span>
+          <span>
+            <img
+              className={isOpened ? "" : "flip"}
+              src={ChevronIcon}
+              alt={isOpened ? "Zwiń" : "Rozwiń"}
+              title={isOpened ? "Zwiń" : "Rozwiń"}
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        className={
+          isOpened
+            ? "accordion_prices_category_items accordion_prices_category_items--opened"
+            : "accordion_prices_category_items"
+        }
+      >
+        {items.map(({ price, label, sub }, idx) => (
+          <AccordionItem key={idx} label={label} price={price} sub={sub} />
+        ))}
       </div>
     </div>
-    <div
-      className={
-        isOpened
-          ? "accordion_prices_category_items accordion_prices_category_items--opened"
-          : "accordion_prices_category_items"
-      }
-    >
-      {items.map(({ price, label, sub }, idx) => (
-        <AccordionItem key={idx} label={label} price={price} sub={sub} />
-      ))}
-    </div>
-  </div>
-);
+  );
+
+}
 
 const AccordionPrices = ({ priceList = [] }) => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    setData(priceList);
-  }, [priceList]);
+  const [data, setData] = useState(priceList);
 
   const toggle = (index = 0) => {
     setData(

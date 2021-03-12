@@ -269,11 +269,7 @@ const AboutUsPage = ({ graph }) => {
                   "Agnieszka Czyżewska - specjalista onkologii klinicznej, CEO",
               }}
               styles={{
-                minWidth: "350px",
-                width: "100%",
-                height: "100%",
                 position: "absolute",
-                borderRadius: "8px 88px",
               }}
             />
           </div>
@@ -350,12 +346,10 @@ export default (props) => (
             }
           }
         }
-        CeoImage: allFile(
-          filter: { relativePath: { regex: "/ceo.jpg/" } }
-        ) {
+        CeoImage: allFile(filter: { relativePath: { regex: "/ceo.jpg/" } }) {
           nodes {
             childImageSharp {
-              fluid(maxWidth: 300, maxHeight: 300, quality:95) {
+              fluid(maxWidth: 300, maxHeight: 300, quality: 95) {
                 originalName
                 ...GatsbyImageSharpFluid
               }

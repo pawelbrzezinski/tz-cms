@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import TextField from "@material-ui/core/TextField";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { makeStyles } from "@material-ui/core/styles";
@@ -10,7 +10,7 @@ import CallButton from "../CallButton";
 
 import CheckIcon from "../../img/ic_check.svg";
 import "../../styles/contact_section.scss";
-import { Link } from "gatsby";
+import { Link, navigate } from "gatsby";
 
 const MuiPhoneNumber = React.lazy(() => import("material-ui-phone-number"));
 
@@ -122,6 +122,8 @@ const Contact = ({ className = "", where = "" }) => {
     if (validate(form)) {
       console.log(form, "AJAX CALL");
 
+      navigate("#thanks")
+
       setIsSent(true);
       setForm(FORM);
     }
@@ -138,7 +140,7 @@ const Contact = ({ className = "", where = "" }) => {
         <div className="container">
           <div className="columns_wrapper">
             {isSent && (
-              <div className="form_thanks">
+              <div className="form_thanks" id="thanks">
                 <img src={CheckIcon} alt="Dziękujemy za wiadomość" />
                 <h3>Dziękujemy za wiadomość</h3>
                 <div>
@@ -171,6 +173,7 @@ const Contact = ({ className = "", where = "" }) => {
                     id="mail"
                     value={form.mail}
                     error={validation.mail}
+                    type="email"
                     fullWidth
                     InputLabelProps={{
                       classes: labelClasses,
@@ -181,27 +184,29 @@ const Contact = ({ className = "", where = "" }) => {
                     label="Adres e-mail"
                     onChange={handleFormChange}
                   />
-                  {!isSSR && (
-                    <React.Suspense fallback={<div />}>
-                      <MuiPhoneNumber
-                        id="phone"
-                        value={form.phone}
-                        error={validation.phone}
-                        fullWidth
-                        disableAreaCodes={true}
-                        defaultCountry={"pl"}
-                        disableDropdown={true}
-                        InputLabelProps={{
-                          classes: labelClasses,
-                        }}
-                        InputProps={{
-                          classes: inputClasses,
-                        }}
-                        label="Numer telefonu"
-                        onChange={handlePhoneChange}
-                      />
-                    </React.Suspense>
-                  )}
+                  <div className="contact-form-phone-wrapper">
+                    {!isSSR && (
+                      <React.Suspense fallback={<div />}>
+                        <MuiPhoneNumber
+                          id="phone"
+                          value={form.phone}
+                          error={validation.phone}
+                          fullWidth
+                          disableAreaCodes={true}
+                          defaultCountry={"pl"}
+                          disableDropdown={true}
+                          InputLabelProps={{
+                            classes: labelClasses,
+                          }}
+                          InputProps={{
+                            classes: inputClasses,
+                          }}
+                          label="Numer telefonu"
+                          onChange={handlePhoneChange}
+                        />
+                      </React.Suspense>
+                    )}
+                  </div>
                   <TextField
                     id="message"
                     value={form.message}

@@ -12,7 +12,7 @@
 
   @media (max-width: $screeen-sm) {
     // border-radius: 2px 40px;
-    padding: 30px 16px;
+    padding: 16px;
   }
 
   .covid_container {
@@ -50,12 +50,13 @@
         margin-right: 16px;
         @media (max-width: $screeen-sm) {
           margin: 0;
-          margin-bottom: 24px;
+          margin-bottom: 12px;
+        }
+        @media (max-width: $screeen-xs) {
+          display: none;
         }
       }
     }
-
-    
   }
 
   .covid_modal_body {

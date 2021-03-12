@@ -77,8 +77,10 @@ const Abcde = ({ className = "" }) => {
         <div className="container">
           <div className="top_iframe">
             <YoutubePlayer
-              url="https://www.youtube.com/embed/ljtZ99i5QKY"
-              start="76"
+              url="https://www.youtube.com/embed/H-RQqWIOXcI"
+              start="63"
+              end="127"
+              label="Główne cechy czerniaka - A B C D E"
             />
           </div>
           <div className="abcde_tabs">

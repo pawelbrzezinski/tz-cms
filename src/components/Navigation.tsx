@@ -58,23 +58,35 @@ const Navigation = ({ constactCtaComponent = null }) => {
         }`}
       >
         <NavigationItemWithSubmenu label="Diagnostyka Znamion">
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
+          <Link
+            className="navigation-item"
+            to="/dermatoskopia-badanie-znamion"
+            activeClassName="active"
+          >
             Badanie Znamion
           </Link>
-          <Link className="navigation-item" to="/chirurgiczne-usuwanie-znamion">
+          <Link
+            className="navigation-item"
+            to="/chirurgiczne-usuwanie-znamion"
+            activeClassName="active"
+          >
             Usuwanie Znamion
           </Link>
         </NavigationItemWithSubmenu>
 
-        <Link className="navigation-item" to="/czerniak">
+        <Link
+          className="navigation-item"
+          to="/czerniak"
+          activeClassName="active"
+        >
           <div className="heading">Czerniak</div>
         </Link>
 
         {/* <NavigationItemWithSubmenu label="Nowotwory skóry">
-          <Link className="navigation-item" to="/czerniak">
+          <Link className="navigation-item" to="/czerniak" activeClassName="active" >
             Czerniak
           </Link>
-          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion">
+          <Link className="navigation-item" to="/dermatoskopia-badanie-znamion" activeClassName="active" >
             Raki skóry
           </Link>
         </NavigationItemWithSubmenu> */}
@@ -85,19 +97,22 @@ const Navigation = ({ constactCtaComponent = null }) => {
               key={location.city}
               className="navigation-item"
               to={`/${location.link}`}
+              activeClassName="active"
+              partiallyActive={true}
+              
             >
               {location.city}
             </Link>
           ))}
         </NavigationItemWithSubmenu>
 
-        <Link className="navigation-item" to="/o-nas">
+        <Link className="navigation-item" to="/o-nas" activeClassName="active">
           <div className="heading">O nas</div>
         </Link>
-        <Link className="navigation-item" to="/cennik">
+        <Link className="navigation-item" to="/cennik" activeClassName="active">
           <div className="heading">Cennik</div>
         </Link>
-        <Link className="navigation-item" to="/blog">
+        <Link className="navigation-item" to="/blog" activeClassName="active">
           <div className="heading">Blog</div>
         </Link>
       </div>

@@ -10,8 +10,12 @@ class BlogRoll extends React.Component {
       <div className="blog-roll">
         {posts &&
           posts.map(({ node: post }) => (
-            <Link key={post.slug} to={"/" + post.slug}>
-              <article className="blog-roll-item">
+            <Link
+              key={post.slug}
+              to={"/" + post.slug}
+              className="blog-roll-item"
+            >
+              <article>
                 <header>
                   <h2>{post.frontmatter.title}</h2>
                   <AuthorHeader
