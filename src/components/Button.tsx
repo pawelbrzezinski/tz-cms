@@ -4,7 +4,7 @@ import "../styles/button.scss";
 
 const Button = ({
   children,
-  onClick = () => {},
+  onClick = (a?) => {},
   type = "primary",
   size = "L",
   className = "",

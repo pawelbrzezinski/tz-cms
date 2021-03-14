@@ -7,7 +7,7 @@ const PriceList = ({ className = "", data }) => {
   return (
     <div  className={className}>
       <a className="anchor" id="cennik"></a>
-      <BubbleSection h2="Cennik naszych usług" color="gray">
+      <BubbleSection h2="Cennik naszych usług" h5="Rozwiń kategorię, aby umówić się online" color="gray">
         <div className="container">
           <AccordionPrices priceList={data} />
         </div>

@@ -31,6 +31,7 @@ import "../../styles/home.scss";
 
 import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
+import Button from "../../components/Button";
 
 const REVIEWS = [
   {
@@ -53,10 +54,16 @@ const REVIEWS = [
   },
 ];
 
+
 const PRICES = [
   {
     isOpened: true,
     categoryName: "Badanie znamion - wideodermatoskopia",
+    button: () => (
+      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+        <span>Umów się</span>
+      </Button>
+    ),
     items: [
       {
         price: "300",
@@ -77,6 +84,11 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Chirurgiczne usuwanie znamion",
+    button: () => (
+      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+        <span>Umów się</span>
+      </Button>
+    ),
     items: [
       {
         price: "200",
@@ -121,6 +133,11 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Nieinwazyjne usuwanie znamion ",
+    button: () => (
+      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+        <span>Umów się</span>
+      </Button>
+    ),
     items: [
       {
         price: "250",
@@ -145,11 +162,21 @@ const PRICES = [
         label: "konsultacja onkologiczna - nowotwory skóry",
         sub:
           "ponowna konsultacja onkologiczna (w przeciągu 6 miesięcy): 180 zł",
+          button: () => (
+            <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+              <span>Umów się</span>
+            </Button>
+          ),
       },
 
       {
         price: "200",
         label: "E-wizyta - wideokonferencja",
+        button: () => (
+          <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+            <span>Umów się</span>
+          </Button>
+        ),
       },
     ],
   },
@@ -162,10 +189,20 @@ const PRICES = [
         label: "Konsultacja dermatologiczna",
         sub:
           "biopsja zmiany skórnej z badaniem histopatologicznym: 350zł, badanie mikrobiologiczne wymazu +40zł",
+          button: () => (
+            <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+              <span>Umów się</span>
+            </Button>
+          ),
       },
       {
         price: "150",
         label: "E-wizyta - wideokonferencja",
+        button: () => (
+          <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+            <span>Umów się</span>
+          </Button>
+        ),
       },
     ],
   },

@@ -25,10 +25,21 @@
       .accordion_prices_category_label {
         font-size: 16px;
         line-height: 24px;
+        word-break: break-word;
+
+        @media (max-width: $screeen-xs) {
+          font-size: 14px;
+        }
+      }
+
+      .accordion_prices_category_button_wrapper {
+        display: flex;
+        justify-content: space-between;
       }
 
       .accordion_prices_category_expand {
         display: flex;
+        align-items: center;
         font-size: 16px;
         line-height: 24px;
         color: $blue;
@@ -44,6 +55,25 @@
         .accordion_label {
           @media (max-width: $screeen-sm) {
             display: none;
+          }
+        }
+      }
+
+      &--with-button {
+        display: grid;
+        grid-template-columns: auto 200px;
+        grid-gap: 16px;
+
+        @media (max-width: $screeen-sm) {
+          grid-template-columns: auto 110px;
+          grid-gap: 10px;
+        }
+
+        .accordion_prices_category_expand {
+          img {
+            @media (max-width: $screeen-sm) {
+              margin-left: 6px;
+            }
           }
         }
       }
@@ -64,38 +94,73 @@
     margin: 0 32px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid $gray20;
+    border-bottom: 1px solid #f0f1f4;
 
     @media (max-width: $screeen-sm) {
       margin: 0;
       padding: 16px;
     }
+  
 
     .accordion_prices_name {
-      padding-right: 30px;
-    }
+      padding-right: 20px;
 
-    .accordion_prices_item_label {
-      font-size: 16px;
-      line-height: 24px;
+      .accordion_prices_item_label {
+        font-size: 16px;
+        line-height: 24px;
 
-      @media (max-width: $screeen-sm) {
-        font-size: 14px;
-        line-height: 20px;
+        @media (max-width: $screeen-sm) {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        @media (max-width: $screeen-xs) {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+
+      .accordion_prices_item_sub {
+        font-size: 12px;
+        line-height: 18px;
       }
     }
 
-    .accordion_prices_item_sub {
-      font-size: 12px;
-      line-height: 18px;
+    .accordion_prices_item_button_wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @media (max-width: $screeen-xs) {
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .accordion_prices_item_price {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: $violet60;
+        white-space: nowrap;
+
+        @media (max-width: $screeen-xs) {
+          margin-bottom: 6px;
+        }
+      }
     }
 
-    .accordion_prices_item_price {
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 24px;
-      color: $violet60;
-      white-space: nowrap;
+    &--with-button {
+      display: grid;
+      grid-template-columns: auto 160px;
+      grid-gap: 16px;
+      align-items: center;
+
+      @media (max-width: $screeen-xs) {
+        grid-template-columns: auto 85px;
+      }
+
+      .accordion_prices_name {
+        padding-right: 0;
+      }
     }
   }
 }

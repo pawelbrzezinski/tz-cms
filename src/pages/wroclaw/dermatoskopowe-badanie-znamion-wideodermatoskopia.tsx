@@ -31,6 +31,7 @@ import "../../styles/home.scss";
 
 import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
+import Button from "../../components/Button";
 
 const REVIEWS = [
   {
@@ -57,6 +58,11 @@ const PRICES = [
   {
     isOpened: true,
     categoryName: "Badanie znamion - wideodermatoskopia",
+    button: () => (
+      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+        <span>Umów się</span>
+      </Button>
+    ),
     items: [
       {
         price: "300",
@@ -77,6 +83,11 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Nieinwazyjne usuwanie znamion",
+    button: () => (
+      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+        <span>Umów się</span>
+      </Button>
+    ),
     items: [
       {
         price: "250",
@@ -95,6 +106,11 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje Onkologiczne - czerniak",
+    button: () => (
+      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+        <span>Umów się</span>
+      </Button>
+    ),
     items: [
       {
         price: "200",
@@ -105,6 +121,11 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje dermatologiczne",
+    button: () => (
+      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
+        <span>Umów się</span>
+      </Button>
+    ),
     items: [
       {
         price: "150",
@@ -266,7 +287,10 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
         h2="Przebieg badania wideodermatoskopowego we Wrocławiu"
       />
       <ImportantInfo className="home_important_info" data={INFOS} />
-      <Dermoscopy className="home_two_col_section_right_img with_no_padding_top" reverse={false} />
+      <Dermoscopy
+        className="home_two_col_section_right_img with_no_padding_top"
+        reverse={false}
+      />
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
       <Surgery className="home_two_col_section_left_img" reverse={false} />
@@ -299,9 +323,7 @@ export default (props) => (
         }
         ImageGallery2: allFile(
           filter: {
-            relativePath: {
-              regex: "/wroclaw-centrum-badania-znamion_2.jpg/"
-            }
+            relativePath: { regex: "/wroclaw-centrum-badania-znamion_2.jpg/" }
           }
         ) {
           nodes {
@@ -315,9 +337,7 @@ export default (props) => (
         }
         ImageGallery3: allFile(
           filter: {
-            relativePath: {
-              regex: "/wroclaw-centrum-badania-znamion_5.jpg/"
-            }
+            relativePath: { regex: "/wroclaw-centrum-badania-znamion_5.jpg/" }
           }
         ) {
           nodes {
@@ -331,9 +351,7 @@ export default (props) => (
         }
         ImageGallery5: allFile(
           filter: {
-            relativePath: {
-              regex: "/wroclaw-centrum-badania-znamion_4.png/"
-            }
+            relativePath: { regex: "/wroclaw-centrum-badania-znamion_4.png/" }
           }
         ) {
           nodes {

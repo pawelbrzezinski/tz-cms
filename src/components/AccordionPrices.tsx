@@ -2,37 +2,60 @@ import React, { useEffect, useState } from "react";
 import "../styles/accordion_prices.scss";
 
 import ChevronIcon from "../img/chevron-up.svg";
+import Button from "./Button";
 
-const AccordionItem = ({ price, label, sub }) => (
-  <div className="accordion_prices_item">
-    <div className="accordion_prices_name">
-      <div className="accordion_prices_item_label">{label}</div>
-      {sub && <div className="accordion_prices_item_sub">{sub}</div>}
+const AccordionItem = ({ price, label, sub, button = null }) => {
+  const withButton = !!button;
+  const SignInButton = button;
+  const className = withButton
+    ? "accordion_prices_item accordion_prices_item--with-button"
+    : "accordion_prices_item";
+
+  return (
+    <div className={className}>
+      <div className="accordion_prices_name">
+        <div className="accordion_prices_item_label">{label}</div>
+        {sub && <div className="accordion_prices_item_sub">{sub}</div>}
+      </div>
+      <div className="accordion_prices_item_button_wrapper">
+        <div className="accordion_prices_item_price">{price} zł</div>
+        {withButton && <SignInButton />}
+      </div>
     </div>
-    <div className="accordion_prices_item_price">{price} zł</div>
-  </div>
-);
+  );
+};
 
 const AccordionCategory = ({
   isOpened = false,
+  button = null,
   label = "",
   items = [],
   toggle = () => null,
 }) => {
+  const withButton = !!button;
+  const SignInButton = button;
+  const className = withButton && isOpened
+    ? "accordion_prices_category accordion_prices_category--with-button"
+    : "accordion_prices_category";
+
   return (
     <div className="accordion_prices_category_wrapper">
-      <div className="accordion_prices_category" onClick={() => toggle()}>
+      <div className={className} onClick={() => toggle()}>
         <div className="accordion_prices_category_label">{label}</div>
-        <div className="accordion_prices_category_expand">
-          <span className="accordion_label">{isOpened ? "Zwiń" : "Rozwiń"}</span>
-          <span>
+
+        <div className="accordion_prices_category_button_wrapper">
+          {withButton && isOpened && <SignInButton />}
+          <div className="accordion_prices_category_expand">
+            <span className="accordion_label">
+              {isOpened ? "Zwiń" : "Rozwiń"}
+            </span>
             <img
               className={isOpened ? "" : "flip"}
               src={ChevronIcon}
               alt={isOpened ? "Zwiń" : "Rozwiń"}
               title={isOpened ? "Zwiń" : "Rozwiń"}
             />
-          </span>
+          </div>
         </div>
       </div>
       <div
@@ -42,14 +65,13 @@ const AccordionCategory = ({
             : "accordion_prices_category_items"
         }
       >
-        {items.map(({ price, label, sub }, idx) => (
-          <AccordionItem key={idx} label={label} price={price} sub={sub} />
+        {items.map((props, idx) => (
+          <AccordionItem key={idx} {...props} />
         ))}
       </div>
     </div>
   );
-
-}
+};
 
 const AccordionPrices = ({ priceList = [] }) => {
   const [data, setData] = useState(priceList);
@@ -64,12 +86,13 @@ const AccordionPrices = ({ priceList = [] }) => {
 
   return (
     <div className="accordion_prices">
-      {data.map(({ isOpened, categoryName, items }, idx) => (
+      {data.map(({ isOpened, categoryName, items, button }, idx) => (
         <AccordionCategory
           key={idx}
           label={categoryName}
           items={items}
           isOpened={isOpened}
+          button={button}
           toggle={() => toggle(idx)}
         />
       ))}
