@@ -18,7 +18,7 @@ const Hero = ({
         <h1>{h1}</h1>
         <div className="one-liner-text">{oneLiner}</div>
         {oneLinerMore && <div className="one-liner-text">{oneLinerMore}</div>}
-        {oneLinerMore ? <div className="one-liner-text-mobile">{oneLiner} {oneLinerMore}</div> : <div className="one-liner-text-mobile">{oneLinerMore}</div>}
+        {oneLinerMore ? <div className="one-liner-text-mobile">{oneLiner} {oneLinerMore}</div> : <div className="one-liner-text-mobile">{oneLiner}</div>}
         <div className="buttons">
           <Button>{ctaPrimary}</Button>
           {ctaSecondary && (

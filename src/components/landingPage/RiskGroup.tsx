@@ -51,29 +51,29 @@ const RiskGroup = ({ className = "", ctaOffset = 0, graph = { images: [] } }) =>
     >
       <div className="container">
         <div className="cards">
-          <RiskGroupCard image={graph.images[0]}>Jasna karnacja</RiskGroupCard>
-          <RiskGroupCard image={graph.images[1]}>
+          <RiskGroupCard image={graph.images[1]}>Jasna karnacja</RiskGroupCard>
+          <RiskGroupCard image={graph.images[4]}>
             Liczne piegi i pieprzyki na skórze
           </RiskGroupCard>
           <RiskGroupCard image={graph.images[2]}>
             Opalanie się i oparzenia słoneczne
           </RiskGroupCard>
           <RiskGroupCard
-            image={graph.images[3]}
+            image={graph.images[5]}
             title="Srednica znamion > 6 mm"
           >
             Srednica znamion <br /> &gt; 6 mm
           </RiskGroupCard>
-          <RiskGroupCard image={graph.images[4]}>
+          <RiskGroupCard image={graph.images[0]}>
             Znamiona wrodzone
           </RiskGroupCard>
-          <RiskGroupCard image={graph.images[5]}>
+          <RiskGroupCard image={graph.images[7]}>
             Okres ciąży i połogu
           </RiskGroupCard>
           <RiskGroupCard image={graph.images[6]}>
             Czerniak lub raki skóry w rodzinie
           </RiskGroupCard>
-          <RiskGroupCard image={graph.images[7]}>
+          <RiskGroupCard image={graph.images[3]}>
             Zaburzenia odporności
           </RiskGroupCard>
         </div>

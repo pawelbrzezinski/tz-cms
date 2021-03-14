@@ -159,7 +159,7 @@ const DOCTORS = [
     description:
       "Absolwent Uniwersytetu Medycznego w Łodzi, aktualnie prowadzi doktorat oraz specjalizuje się w dziedzinie torakochirurgii w Uniwersyteckim Szpitalu Klinicznym im. Wojskowej Akademii Medycznej. Swoją pracę w zakresie medycyny estetycznej rozpoczął od szkoleń w Europejskim Centrum Lekarzy Estetycznych (ECLEST).  Wciąż podwyższa swoje kwalifikacje w zakresie laseroterapii i liposukcji biorąc udział w licznych szkoleniach i kursach w całej Polsce. Po pracy uwielbia pójść na dobry trening, a wieczorem do kina na jeden z filmów o superbohaterach. Jest ciepłym, empatycznym młodym lekarzem z dużymi ambicjami i chęcią ciągłego rozwoju.",
     city: "Łódź",
-    img: "Konrad_Kędzia.png",
+    img: "Konrad_Kedzia.png",
   },
   {
     name: "Mateusz Koziej",

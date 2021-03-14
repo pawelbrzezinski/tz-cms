@@ -19,6 +19,12 @@
   }
 }
 
+.button {
+  > *:first-child {
+    width: 100%;
+  }
+}
+
 .button-primary {
   background: $violet60;
   &,
