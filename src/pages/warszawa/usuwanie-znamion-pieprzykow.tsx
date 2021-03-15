@@ -24,6 +24,7 @@ import Faq from "../../components/landingPage/Faq";
 import Covid from "../../components/landingPage/Covid";
 import ImportantInfo from "../../components/landingPage/ImportantInfo";
 import Contact from "../../components/landingPage/Contact";
+import ButtonDrw from "../../components/landingPage/ButtonDrw";
 
 //styles
 import "../../styles/home.scss";
@@ -75,9 +76,20 @@ const OFFERS = [
 ];
 
 const PRICES = [
+  
   {
     isOpened: true,
     categoryName: "Chirurgiczne usuwanie znamion",
+    button: () => (
+      <ButtonDrw
+        data-doctor="warszawachirurgiczne usuwanie znamion"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "500",
@@ -104,6 +116,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Nieinwazyjne usuwanie znamion",
+    button: () => (
+      <ButtonDrw
+        data-doctor="warszawa zabiegi nieinwazyjne(laser, krioterapia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "500",
@@ -126,6 +148,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Badanie znamion - wideodermatoskopia",
+    button: () => (
+      <ButtonDrw
+        data-doctor="warszawa badanie znamion(wideodermatoskopia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "300",
@@ -145,11 +177,55 @@ const PRICES = [
   },
   {
     isOpened: false,
-    categoryName: "Konsultacje onkologiczne - czerniak",
+    categoryName: "Konsultacje Onkologiczne - czerniak",
+    button: () => (
+      <ButtonDrw
+        data-doctor="e-konsultacjaonkologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "200",
         label: "E-wizyta - wideokonferencja",
+      },
+    ],
+  },
+  {
+    isOpened: false,
+    categoryName: "Konsultacje dermatologiczne",
+    items: [
+      {
+        price: "250",
+        label: "Konsultacja dermatologiczna",
+        button: () => (
+          <ButtonDrw
+            data-doctor="warszawakonsultacja dermatologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
+      },
+      {
+        price: "150",
+        label: "E-wizyta - wideokonferencja",
+        button: () => (
+          <ButtonDrw
+            data-doctor="e-konsultacjadermatologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
       },
     ],
   },

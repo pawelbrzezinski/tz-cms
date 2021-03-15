@@ -30,6 +30,7 @@ import "../../styles/home.scss";
 
 import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
+import ButtonDrw from "../../components/landingPage/ButtonDrw";
 
 const REVIEWS = [
   {
@@ -80,6 +81,16 @@ const PRICES = [
   {
     isOpened: true,
     categoryName: "Chirurgiczne usuwanie znamion",
+    button: () => (
+      <ButtonDrw
+        data-doctor="chirurgiczne usuwanieznamion"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6MTcyOTd9.p83JsKIacAYtS6eFyuZ3NUOl2y8a6YnZmPRrQW58XMU"
+      />
+    ),
     items: [
       {
         price: "200",
@@ -124,6 +135,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Nieinwazyjne usuwanie znamion ",
+    button: () => (
+      <ButtonDrw
+        data-doctor="poznań zabiegi nieinwazyjne(krioterapia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "250",
@@ -142,6 +163,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Badanie znamion - wideodermatoskopia",
+    button: () => (
+      <ButtonDrw
+        data-doctor="poznań badanie znamion(wideodermatoskopia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "300",
@@ -168,11 +199,31 @@ const PRICES = [
         label: "konsultacja onkologiczna - nowotwory skóry",
         sub:
           "ponowna konsultacja onkologiczna (w przeciągu 6 miesięcy): 180 zł",
+        button: () => (
+          <ButtonDrw
+            data-doctor="poznańkonsultacja onkologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
       },
 
       {
         price: "200",
         label: "E-wizyta - wideokonferencja",
+        button: () => (
+          <ButtonDrw
+            data-doctor="e-konsultacjaonkologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
       },
     ],
   },
@@ -185,10 +236,30 @@ const PRICES = [
         label: "Konsultacja dermatologiczna",
         sub:
           "biopsja zmiany skórnej z badaniem histopatologicznym: 350zł, badanie mikrobiologiczne wymazu +40zł",
+        button: () => (
+          <ButtonDrw
+            data-doctor="poznańkonsultacja dermatologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
       },
       {
         price: "150",
         label: "E-wizyta - wideokonferencja",
+        button: () => (
+          <ButtonDrw
+            data-doctor="e-konsultacjadermatologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
       },
     ],
   },

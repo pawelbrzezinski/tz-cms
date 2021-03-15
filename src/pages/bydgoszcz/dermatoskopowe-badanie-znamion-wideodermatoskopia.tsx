@@ -16,7 +16,6 @@ import Videodermoscopy from "../../components/landingPage/Videodermoscopy";
 import Surgery from "../../components/landingPage/Surgery";
 import Melanoma from "../../components/landingPage/Melanoma";
 import Abcde from "../../components/landingPage/Abcde";
-import Gallery from "../../components/landingPage/Gallery";
 import Offer from "../../components/landingPage/Offer";
 import Faq from "../../components/landingPage/Faq";
 import RiskGroup from "../../components/landingPage/RiskGroup";
@@ -25,6 +24,7 @@ import ImportantInfo from "../../components/landingPage/ImportantInfo";
 import Contact from "../../components/landingPage/Contact";
 import ProcedureDetails from "../../components/landingPage/ProcedureDetails";
 import WhyUs from "../../components/landingPage/WhyUs";
+import ButtonDrw from "../../components/landingPage/ButtonDrw";
 
 //styles
 import "../../styles/home.scss";
@@ -57,6 +57,16 @@ const PRICES = [
   {
     isOpened: true,
     categoryName: "Badanie znamion - wideodermatoskopia",
+    button: () => (
+      <ButtonDrw
+        data-doctor="badanie znamion(wideodermatoskopia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6MTczNDh9.wz2gGRtrB0StU7FiX2Jax61evD90TMvKlkk52MT8KMs"
+      />
+    ),
     items: [
       {
         price: "300",
@@ -77,6 +87,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Nieinwazyjne usuwanie znamion",
+    button: () => (
+      <ButtonDrw
+        data-doctor="nieinwazyjneusuwanie znamion"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6MTczNDh9.wz2gGRtrB0StU7FiX2Jax61evD90TMvKlkk52MT8KMs"
+      />
+    ),
     items: [
       {
         price: "180",
@@ -91,6 +111,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje Onkologiczne - czerniak",
+    button: () => (
+      <ButtonDrw
+        data-doctor="e-konsultacjaonkologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "200",
@@ -101,6 +131,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje dermatologiczne",
+    button: () => (
+      <ButtonDrw
+        data-doctor="e-konsultacjadermatologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "150",
@@ -265,7 +305,6 @@ const BydgoszczBadanieZnamionPage = ({ graph }) => {
           data: "Osiedle Wyżyny. Parking bezpłatny przed Centrum",
         }}
       />
-      {/* <Gallery className="home_gallery" data={graph.gallery} /> */}
 
       <Reviews
         className="home_reviews home_reviews--add-padding-top"

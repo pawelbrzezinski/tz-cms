@@ -25,6 +25,7 @@ import ImportantInfo from "../../components/landingPage/ImportantInfo";
 import Contact from "../../components/landingPage/Contact";
 import ProcedureDetails from "../../components/landingPage/ProcedureDetails";
 import WhyUs from "../../components/landingPage/WhyUs";
+import ButtonDrw from "../../components/landingPage/ButtonDrw";
 
 //styles
 import "../../styles/home.scss";
@@ -57,6 +58,16 @@ const PRICES = [
   {
     isOpened: true,
     categoryName: "Badanie znamion - wideodermatoskopia",
+    button: () => (
+      <ButtonDrw
+        data-doctor="badanie znamion(wideodermatoskopia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6MTcwNzl9.4rvSJzFoOwxrpU0lEQ4Zo5DkNwni_btNHCdf5plUQfE"
+      />
+    ),
     items: [
       {
         price: "350",
@@ -78,6 +89,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje Onkologiczne - czerniak",
+    button: () => (
+      <ButtonDrw
+        data-doctor="e-konsultacjaonkologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "200",
@@ -88,6 +109,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje dermatologiczne",
+    button: () => (
+      <ButtonDrw
+        data-doctor="e-konsultacjadermatologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "150",
@@ -243,7 +274,10 @@ const KrakowBadanieZnamionPage = ({ graph }) => {
         h2="Przebieg badania wideodermatoskopowego w Krakowie"
       />
       <ImportantInfo className="home_important_info" data={INFOS} />
-      <Dermoscopy className="home_two_col_section_right_img with_no_padding_top" reverse={false} />
+      <Dermoscopy
+        className="home_two_col_section_right_img with_no_padding_top"
+        reverse={false}
+      />
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
       <Surgery className="home_two_col_section_left_img" reverse={false} />

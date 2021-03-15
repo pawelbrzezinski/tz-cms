@@ -31,7 +31,7 @@ import "../../styles/home.scss";
 
 import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
-import Button from "../../components/Button";
+import ButtonDrw from "../../components/landingPage/ButtonDrw";
 
 const REVIEWS = [
   {
@@ -59,10 +59,16 @@ const PRICES = [
     isOpened: true,
     categoryName: "Badanie znamion - wideodermatoskopia",
     button: () => (
-      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-        <span>Umów się</span>
-      </Button>
+      <ButtonDrw
+        data-doctor="wrocław badanie znamion(wideodermatoskopia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
     ),
+
     items: [
       {
         price: "300",
@@ -84,9 +90,14 @@ const PRICES = [
     isOpened: false,
     categoryName: "Nieinwazyjne usuwanie znamion",
     button: () => (
-      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-        <span>Umów się</span>
-      </Button>
+      <ButtonDrw
+        data-doctor="wrocław zabiegi nieinwazyjne(krioterapia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
     ),
     items: [
       {
@@ -107,9 +118,14 @@ const PRICES = [
     isOpened: false,
     categoryName: "Konsultacje Onkologiczne - czerniak",
     button: () => (
-      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-        <span>Umów się</span>
-      </Button>
+      <ButtonDrw
+        data-doctor="e-konsultacjaonkologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
     ),
     items: [
       {
@@ -122,9 +138,14 @@ const PRICES = [
     isOpened: false,
     categoryName: "Konsultacje dermatologiczne",
     button: () => (
-      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-        <span>Umów się</span>
-      </Button>
+      <ButtonDrw
+        data-doctor="e-konsultacjadermatologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
     ),
     items: [
       {

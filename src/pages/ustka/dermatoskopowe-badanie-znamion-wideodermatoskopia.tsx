@@ -12,12 +12,10 @@ import PriceList from "../../components/landingPage/PriceList";
 import Reviews from "../../components/landingPage/Reviews";
 import Dermoscopy from "../../components/landingPage/Dermoscopy";
 import Oncology from "../../components/landingPage/Oncology";
-import Videodermoscopy from "../../components/landingPage/Videodermoscopy";
 import Surgery from "../../components/landingPage/Surgery";
 import Melanoma from "../../components/landingPage/Melanoma";
 import Abcde from "../../components/landingPage/Abcde";
 import Gallery from "../../components/landingPage/Gallery";
-import Offer from "../../components/landingPage/Offer";
 import Faq from "../../components/landingPage/Faq";
 import RiskGroup from "../../components/landingPage/RiskGroup";
 import Covid from "../../components/landingPage/Covid";
@@ -25,6 +23,7 @@ import ImportantInfo from "../../components/landingPage/ImportantInfo";
 import Contact from "../../components/landingPage/Contact";
 import ProcedureDetails from "../../components/landingPage/ProcedureDetails";
 import WhyUs from "../../components/landingPage/WhyUs";
+import ButtonDrw from "../../components/landingPage/ButtonDrw";
 
 //styles
 import "../../styles/home.scss";
@@ -57,6 +56,16 @@ const PRICES = [
   {
     isOpened: true,
     categoryName: "Badanie znamion - wideodermatoskopia",
+    button: () => (
+      <ButtonDrw
+        data-doctor="badanie znamion(dermatoskopia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6MTgxMjJ9.9UTX_cNBaAzfoY_ZaI4FG_DOktPh9a62m-mDy-dP-IU"
+      />
+    ),
     items: [
       {
         price: "250",
@@ -78,6 +87,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje Onkologiczne - czerniak",
+    button: () => (
+      <ButtonDrw
+        data-doctor="e-konsultacjaonkologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "200",
@@ -88,6 +107,16 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje dermatologiczne",
+    button: () => (
+      <ButtonDrw
+        data-doctor="e-konsultacjadermatologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "150",
@@ -110,8 +139,7 @@ const INFOS = [
   },
   {
     title: "Jakim urządzeniem badamy?",
-    desc:
-      "Pacjent badany jest za pomocą dermatoskopu ręcznego Heine Delta 30",
+    desc: "Pacjent badany jest za pomocą dermatoskopu ręcznego Heine Delta 30",
   },
 ];
 
@@ -250,7 +278,10 @@ const UstkaBadanieZnamionPage = ({ graph }) => {
         )}
       />
       <ImportantInfo className="home_important_info" data={INFOS} />
-      <Dermoscopy className="home_two_col_section_right_img with_no_padding_top" reverse={false} />
+      <Dermoscopy
+        className="home_two_col_section_right_img with_no_padding_top"
+        reverse={false}
+      />
       <RiskGroup className="home_risk_group home_risk_group--add-padding-top" />
       <Surgery className="home_two_col_section_left_img" reverse={false} />
       <Faq className="home_faq" data={FAQS} />
