@@ -32,6 +32,7 @@ import "../../styles/home.scss";
 import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
 import Button from "../../components/Button";
+import ButtonDrw from "../../components/landingPage/ButtonDrw";
 
 const REVIEWS = [
   {
@@ -54,15 +55,19 @@ const REVIEWS = [
   },
 ];
 
-
 const PRICES = [
   {
     isOpened: true,
     categoryName: "Badanie znamion - wideodermatoskopia",
     button: () => (
-      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-        <span>Umów się</span>
-      </Button>
+      <ButtonDrw
+        data-doctor="poznań badanie znamion(wideodermatoskopia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
     ),
     items: [
       {
@@ -85,9 +90,14 @@ const PRICES = [
     isOpened: false,
     categoryName: "Chirurgiczne usuwanie znamion",
     button: () => (
-      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-        <span>Umów się</span>
-      </Button>
+      <ButtonDrw
+        data-doctor="poznańchirurgiczne usuwanie znamion"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
     ),
     items: [
       {
@@ -134,9 +144,14 @@ const PRICES = [
     isOpened: false,
     categoryName: "Nieinwazyjne usuwanie znamion ",
     button: () => (
-      <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-        <span>Umów się</span>
-      </Button>
+      <ButtonDrw
+        data-doctor="poznań zabiegi nieinwazyjne(krioterapia)"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
     ),
     items: [
       {
@@ -162,20 +177,30 @@ const PRICES = [
         label: "konsultacja onkologiczna - nowotwory skóry",
         sub:
           "ponowna konsultacja onkologiczna (w przeciągu 6 miesięcy): 180 zł",
-          button: () => (
-            <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-              <span>Umów się</span>
-            </Button>
-          ),
+        button: () => (
+          <ButtonDrw
+            data-doctor="poznańkonsultacja onkologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
       },
 
       {
         price: "200",
         label: "E-wizyta - wideokonferencja",
         button: () => (
-          <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-            <span>Umów się</span>
-          </Button>
+          <ButtonDrw
+            data-doctor="e-konsultacjaonkologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
         ),
       },
     ],
@@ -189,19 +214,29 @@ const PRICES = [
         label: "Konsultacja dermatologiczna",
         sub:
           "biopsja zmiany skórnej z badaniem histopatologicznym: 350zł, badanie mikrobiologiczne wymazu +40zł",
-          button: () => (
-            <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-              <span>Umów się</span>
-            </Button>
-          ),
+        button: () => (
+          <ButtonDrw
+            data-doctor="poznańkonsultacja dermatologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
       },
       {
         price: "150",
         label: "E-wizyta - wideokonferencja",
         button: () => (
-          <Button type="secondary" size="S" onClick={(e) => e.stopPropagation()}>
-            <span>Umów się</span>
-          </Button>
+          <ButtonDrw
+            data-doctor="e-konsultacjadermatologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
         ),
       },
     ],
@@ -353,7 +388,10 @@ const PoznanBadanieZnamionPage = ({ graph }) => {
         h2="Przebieg badania wideodermatoskopowego w Poznaniu"
       />
       <ImportantInfo className="home_important_info" data={INFOS} />
-      <Dermoscopy className="home_two_col_section_right_img with_no_padding_top" reverse={false} />
+      <Dermoscopy
+        className="home_two_col_section_right_img with_no_padding_top"
+        reverse={false}
+      />
       <Videodermoscopy className="home_two_col_section_left_img" />
       <RiskGroup className="home_risk_group" />
       <Surgery className="home_two_col_section_left_img" reverse={false} />

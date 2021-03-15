@@ -35,6 +35,11 @@
       .accordion_prices_category_button_wrapper {
         display: flex;
         justify-content: space-between;
+
+        button {
+          visibility: hidden;
+        }
+
       }
 
       .accordion_prices_category_expand {
@@ -76,6 +81,15 @@
             }
           }
         }
+      }
+
+      &--opened{
+        .accordion_prices_category_button_wrapper{
+          button {
+            visibility: visible;
+          }
+        }
+
       }
     }
 

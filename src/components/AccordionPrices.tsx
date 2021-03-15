@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "../styles/accordion_prices.scss";
 
 import ChevronIcon from "../img/chevron-up.svg";
-import Button from "./Button";
 
 const AccordionItem = ({ price, label, sub, button = null }) => {
   const withButton = !!button;
@@ -34,8 +33,10 @@ const AccordionCategory = ({
 }) => {
   const withButton = !!button;
   const SignInButton = button;
-  const className = withButton && isOpened
-    ? "accordion_prices_category accordion_prices_category--with-button"
+  const className = withButton
+    ? isOpened
+      ? "accordion_prices_category accordion_prices_category--with-button accordion_prices_category--opened"
+      : "accordion_prices_category accordion_prices_category--with-button"
     : "accordion_prices_category";
 
   return (
@@ -44,7 +45,7 @@ const AccordionCategory = ({
         <div className="accordion_prices_category_label">{label}</div>
 
         <div className="accordion_prices_category_button_wrapper">
-          {withButton && isOpened && <SignInButton />}
+          {withButton && <SignInButton />}
           <div className="accordion_prices_category_expand">
             <span className="accordion_label">
               {isOpened ? "Zwiń" : "Rozwiń"}

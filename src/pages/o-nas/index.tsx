@@ -346,7 +346,7 @@ export default (props) => (
             }
           }
         }
-        CeoImage: allFile(filter: { relativePath: { regex: "/ceo.jpg/" } }) {
+        CeoImage: allFile(filter: { relativePath: { regex: "/ceo.png/" } }) {
           nodes {
             childImageSharp {
               fluid(maxWidth: 300, maxHeight: 300, quality: 95) {

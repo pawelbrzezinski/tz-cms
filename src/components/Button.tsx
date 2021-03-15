@@ -8,6 +8,7 @@ const Button = ({
   type = "primary",
   size = "L",
   className = "",
+  ...rest
 }) => {
   const types = {
     primary: "button-primary",
@@ -24,6 +25,7 @@ const Button = ({
     <button
       onClick={onClick}
       className={`button ${className} ${types[type]} ${sizes[size]}`}
+      {...rest}
     >
       {children}
     </button>

@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import GoogleMap from "../GoogleMap";
 
 import "../../styles/location.scss";
@@ -16,7 +16,7 @@ const Location = ({
   const [nodeRef, isVisible] = useInViewPort();
   const [showMap, setShowMap] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (isVisible) {
       setShowMap(true);
     }
