@@ -7,7 +7,7 @@ const ButtonDrw = ({ className = "", ...props }) => {
   return (
     <Button
       className={`btn-mydr-pp ${className}`}
-      type="secondary"
+      // type="secondary"
       size="S"
       onClick={onClick}
       {...props}

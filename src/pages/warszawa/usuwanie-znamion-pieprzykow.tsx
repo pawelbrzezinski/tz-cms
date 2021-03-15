@@ -93,23 +93,23 @@ const PRICES = [
     items: [
       {
         price: "500",
-        label: "Usunięcie 1 zmiany skórnej",
+        label: "usunięcie 1 zmiany skórnej",
       },
       {
         price: "120",
-        label: "Badanie histopatologiczne 1 zmiany",
+        label: "badanie histopatologiczne 1 zmiany",
       },
       {
         price: "360",
-        label: "Usunięcie kolejnej zmiany w trakcie jednej wizyty",
+        label: "usunięcie kolejnej zmiany w trakcie jednej wizyty",
       },
       {
         price: "200",
-        label: "Konsultacja chirurgiczna",
+        label: "konsultacja chirurgiczna",
       },
       {
         price: "350",
-        label: "Biopsja z badaniem histopatologicznym",
+        label: "biopsja z badaniem histopatologicznym",
       },
     ],
   },
@@ -129,19 +129,19 @@ const PRICES = [
     items: [
       {
         price: "500",
-        label: "Usuwanie laserowe 1 zmiany skórnej - laser CO2	",
+        label: "usuwanie laserowe 1 zmiany skórnej - laser CO2	",
       },
       {
         price: "10",
-        label: "Usuwanie każdej kolejnej zmiany w trakcie jednej wizyty",
+        label: "usuwanie każdej kolejnej zmiany w trakcie jednej wizyty",
       },
       {
         price: "250",
-        label: "Krioterapia 1 zmiany skórnej",
+        label: "krioterapia 1 zmiany skórnej",
       },
       {
         price: "10",
-        label: "Krioterapia każdej kolejnej zmiany w trakcie jednej wizyty",
+        label: "krioterapia każdej kolejnej zmiany w trakcie jednej wizyty",
       },
     ],
   },
@@ -162,16 +162,16 @@ const PRICES = [
       {
         price: "300",
         label:
-          "Wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
+          "wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
       },
       {
         price: "200",
-        label: "Wideodermatoskopia dziecka do 12 roku życia",
+        label: "wideodermatoskopia dziecka do 12 roku życia",
       },
       {
         price: "200",
         label:
-          "Wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
+          "wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
       },
     ],
   },
@@ -191,7 +191,7 @@ const PRICES = [
     items: [
       {
         price: "200",
-        label: "E-wizyta - wideokonferencja",
+        label: "e-wizyta - wideokonferencja",
       },
     ],
   },
@@ -201,32 +201,33 @@ const PRICES = [
     items: [
       {
         price: "250",
-        label: "Konsultacja dermatologiczna",
-        button: () => (
-          <ButtonDrw
-            data-doctor="warszawakonsultacja dermatologiczna"
-            data-speciality=""
-            data-visitkind=""
-            data-evisit="false"
-            data-appname="drw"
-            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-          />
-        ),
+        label: "konsultacja dermatologiczna",
+        sub: "inne schorzenia skóry: trądzik, łuszczyca, grzybica itp.",
+        // button: () => (
+        //   <ButtonDrw
+        //     data-doctor="warszawakonsultacja dermatologiczna"
+        //     data-speciality=""
+        //     data-visitkind=""
+        //     data-evisit="false"
+        //     data-appname="drw"
+        //     data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+        //   />
+        // ),
       },
-      {
-        price: "150",
-        label: "E-wizyta - wideokonferencja",
-        button: () => (
-          <ButtonDrw
-            data-doctor="e-konsultacjadermatologiczna"
-            data-speciality=""
-            data-visitkind=""
-            data-evisit="false"
-            data-appname="drw"
-            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-          />
-        ),
-      },
+      // {
+      //   price: "150",
+      //   label: "e-wizyta - wideokonferencja",
+      //   button: () => (
+      //     <ButtonDrw
+      //       data-doctor="e-konsultacjadermatologiczna"
+      //       data-speciality=""
+      //       data-visitkind=""
+      //       data-evisit="false"
+      //       data-appname="drw"
+      //       data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      //     />
+      //   ),
+      // },
     ],
   },
 ];

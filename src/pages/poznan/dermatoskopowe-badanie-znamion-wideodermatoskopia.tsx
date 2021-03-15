@@ -73,16 +73,16 @@ const PRICES = [
       {
         price: "300",
         label:
-          "Wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
+          "wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
       },
       {
         price: "200",
-        label: "Wideodermatoskopia dziecka do 12 roku życia",
+        label: "wideodermatoskopia dziecka do 12 roku życia",
       },
       {
         price: "200",
         label:
-          "Wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
+          "wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
       },
     ],
   },
@@ -103,7 +103,7 @@ const PRICES = [
       {
         price: "200",
         label: "konsultacja chirurgiczna",
-        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
+        sub: "zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
       },
       {
         price: "400",
@@ -156,15 +156,15 @@ const PRICES = [
     items: [
       {
         price: "250",
-        label: "Krioterapia  1 zmiana",
+        label: "krioterapia 1 zmiana",
       },
       {
         price: "350",
-        label: "Krioterapia  2-5 zmian",
+        label: "krioterapia 2-5 zmian",
       },
       {
         price: "400",
-        label: "Krioterapia 6-10 zmian",
+        label: "krioterapia 6-10 zmian",
       },
     ],
   },
@@ -191,7 +191,7 @@ const PRICES = [
 
       {
         price: "200",
-        label: "E-wizyta - wideokonferencja",
+        label: "e-wizyta - wideokonferencja",
         button: () => (
           <ButtonDrw
             data-doctor="e-konsultacjaonkologiczna"
@@ -208,37 +208,47 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje dermatologiczne",
+    button: () => (
+      <ButtonDrw
+        data-doctor="poznańkonsultacja dermatologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "180",
-        label: "Konsultacja dermatologiczna",
+        label: "konsultacja dermatologiczna",
         sub:
-          "biopsja zmiany skórnej z badaniem histopatologicznym: 350zł, badanie mikrobiologiczne wymazu +40zł",
-        button: () => (
-          <ButtonDrw
-            data-doctor="poznańkonsultacja dermatologiczna"
-            data-speciality=""
-            data-visitkind=""
-            data-evisit="false"
-            data-appname="drw"
-            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-          />
-        ),
+          "inne schorzenia skóry: trądzik, łuszczyca, grzybica itp.",
+        
       },
       {
-        price: "150",
-        label: "E-wizyta - wideokonferencja",
-        button: () => (
-          <ButtonDrw
-            data-doctor="e-konsultacjadermatologiczna"
-            data-speciality=""
-            data-visitkind=""
-            data-evisit="false"
-            data-appname="drw"
-            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-          />
-        ),
+        price: "350",
+        label: "biopsja zmiany skórnej z badaniem histopatologicznym",
       },
+      {
+        price: "+40",
+        label: "badanie mikrobiologiczne wymazu",
+        
+      },
+      // {
+      //   price: "150",
+      //   label: "e-wizyta - wideokonferencja",
+      //   button: () => (
+      //     <ButtonDrw
+      //       data-doctor="e-konsultacjadermatologiczna"
+      //       data-speciality=""
+      //       data-visitkind=""
+      //       data-evisit="false"
+      //       data-appname="drw"
+      //       data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      //     />
+      //   ),
+      // },
     ],
   },
 ];

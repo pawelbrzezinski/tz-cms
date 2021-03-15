@@ -75,9 +75,7 @@ const OFFERS = [
   },
 ];
 
-
 const PRICES = [
-  
   {
     isOpened: true,
     categoryName: "Chirurgiczne usuwanie znamion",
@@ -95,7 +93,7 @@ const PRICES = [
       {
         price: "200",
         label: "konsultacja chirurgiczna",
-        sub: "Zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
+        sub: "zabiegi chirurgiczne są wykonywane u pacjentów pełnoletnich",
       },
       {
         price: "400",
@@ -148,15 +146,15 @@ const PRICES = [
     items: [
       {
         price: "250",
-        label: "Krioterapia  1 zmiana",
+        label: "krioterapia 1 zmiana",
       },
       {
         price: "350",
-        label: "Krioterapia  2-5 zmian",
+        label: "krioterapia 2-5 zmian",
       },
       {
         price: "400",
-        label: "Krioterapia 6-10 zmian",
+        label: "krioterapia 6-10 zmian",
       },
     ],
   },
@@ -177,16 +175,16 @@ const PRICES = [
       {
         price: "300",
         label:
-          "Wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
+          "wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
       },
       {
         price: "200",
-        label: "Wideodermatoskopia dziecka do 12 roku życia",
+        label: "wideodermatoskopia dziecka do 12 roku życia",
       },
       {
         price: "200",
         label:
-          "Wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
+          "wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
       },
     ],
   },
@@ -213,7 +211,7 @@ const PRICES = [
 
       {
         price: "200",
-        label: "E-wizyta - wideokonferencja",
+        label: "e-wizyta - wideokonferencja",
         button: () => (
           <ButtonDrw
             data-doctor="e-konsultacjaonkologiczna"
@@ -230,37 +228,44 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje dermatologiczne",
+    button: () => (
+      <ButtonDrw
+        data-doctor="poznańkonsultacja dermatologiczna"
+        data-speciality=""
+        data-visitkind=""
+        data-evisit="false"
+        data-appname="drw"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      />
+    ),
     items: [
       {
         price: "180",
-        label: "Konsultacja dermatologiczna",
-        sub:
-          "biopsja zmiany skórnej z badaniem histopatologicznym: 350zł, badanie mikrobiologiczne wymazu +40zł",
-        button: () => (
-          <ButtonDrw
-            data-doctor="poznańkonsultacja dermatologiczna"
-            data-speciality=""
-            data-visitkind=""
-            data-evisit="false"
-            data-appname="drw"
-            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-          />
-        ),
+        label: "konsultacja dermatologiczna",
+        sub: "inne schorzenia skóry: trądzik, łuszczyca, grzybica itp.",
       },
       {
-        price: "150",
-        label: "E-wizyta - wideokonferencja",
-        button: () => (
-          <ButtonDrw
-            data-doctor="e-konsultacjadermatologiczna"
-            data-speciality=""
-            data-visitkind=""
-            data-evisit="false"
-            data-appname="drw"
-            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-          />
-        ),
+        price: "350",
+        label: "biopsja zmiany skórnej z badaniem histopatologicznym",
       },
+      {
+        price: "+40",
+        label: "badanie mikrobiologiczne wymazu",
+      },
+      // {
+      //   price: "150",
+      //   label: "e-wizyta - wideokonferencja",
+      //   button: () => (
+      //     <ButtonDrw
+      //       data-doctor="e-konsultacjadermatologiczna"
+      //       data-speciality=""
+      //       data-visitkind=""
+      //       data-evisit="false"
+      //       data-appname="drw"
+      //       data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+      //     />
+      //   ),
+      // },
     ],
   },
 ];
@@ -410,7 +415,10 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
         data={INFOS}
       />
 
-      <Laser className="home_two_col_section_left_img with_no_padding_top" reverse={false} />
+      <Laser
+        className="home_two_col_section_left_img with_no_padding_top"
+        reverse={false}
+      />
 
       <Faq className="home_faq" data={FAQS} />
       <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
@@ -426,9 +434,7 @@ export default (props) => (
     query={graphql`
       query {
         ImageGallery1: allFile(
-          filter: {
-            relativePath: { regex: "/poznan-chirurgia1.png/" }
-          }
+          filter: { relativePath: { regex: "/poznan-chirurgia1.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -440,11 +446,7 @@ export default (props) => (
           }
         }
         ImageGallery2: allFile(
-          filter: {
-            relativePath: {
-              regex: "/poznan-chirurgia2.png/"
-            }
-          }
+          filter: { relativePath: { regex: "/poznan-chirurgia2.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -456,11 +458,7 @@ export default (props) => (
           }
         }
         ImageGallery3: allFile(
-          filter: {
-            relativePath: {
-              regex: "/poznan-chirurgia3.png/"
-            }
-          }
+          filter: { relativePath: { regex: "/poznan-chirurgia3.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -472,11 +470,7 @@ export default (props) => (
           }
         }
         ImageGallery4: allFile(
-          filter: {
-            relativePath: {
-              regex: "/poznan-chirurgia4.png/"
-            }
-          }
+          filter: { relativePath: { regex: "/poznan-chirurgia4.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -488,11 +482,7 @@ export default (props) => (
           }
         }
         ImageGallery5: allFile(
-          filter: {
-            relativePath: {
-              regex: "/poznan-chirurgia5.png/"
-            }
-          }
+          filter: { relativePath: { regex: "/poznan-chirurgia5.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -504,11 +494,7 @@ export default (props) => (
           }
         }
         ImageGallery6: allFile(
-          filter: {
-            relativePath: {
-              regex: "/poznan-chirurgia6.png/"
-            }
-          }
+          filter: { relativePath: { regex: "/poznan-chirurgia6.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -571,7 +557,6 @@ export default (props) => (
             data.ImageGallery5.nodes[0],
             data.ImageGallery6.nodes[0],
             data.ImageGallery1.nodes[0],
-
           ],
           faqs: {
             1: {

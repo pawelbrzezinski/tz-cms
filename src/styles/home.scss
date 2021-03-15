@@ -217,6 +217,10 @@
 
     padding: 0 24px;
 
+    .buttons {
+      justify-content: flex-start;
+    }
+
     .two_column_section_container {
       flex-direction: column-reverse;
 

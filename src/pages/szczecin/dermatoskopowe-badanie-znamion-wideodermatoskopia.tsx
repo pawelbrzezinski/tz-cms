@@ -73,45 +73,45 @@ const PRICES = [
       {
         price: "300",
         label:
-          "Wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
+          "wideodermatoskopia całego ciała z mapowaniem wytypowanych przez lekarza znamion",
       },
       {
         price: "200",
-        label: "Wideodermatoskopia dziecka do 12 roku życia",
+        label: "wideodermatoskopia dziecka do 12 roku życia",
       },
       {
         price: "200",
         label:
-          "Wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
+          "wczesne, kontrolne badanie wideodermatoskopowe wytypowanych przez lekarza znamion",
       },
     ],
   },
   {
     isOpened: false,
     categoryName: "Nieinwazyjne usuwanie znamion ",
-    button: () => (
-      <ButtonDrw
-        data-doctor="szczecin zabiegi nieinwazyjne(krioterapia)"
-        data-speciality=""
-        data-visitkind=""
-        data-evisit="false"
-        data-appname="drw"
-        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-      />
-    ),
+    // button: () => (
+    //   <ButtonDrw
+    //     data-doctor="szczecin zabiegi nieinwazyjne(krioterapia)"
+    //     data-speciality=""
+    //     data-visitkind=""
+    //     data-evisit="false"
+    //     data-appname="drw"
+    //     data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+    //   />
+    // ),
 
     items: [
       {
         price: "250",
-        label: "Krioterapia  1 zmiana",
+        label: "krioterapia 1 zmiana",
       },
       {
         price: "350",
-        label: "Krioterapia  2-5 zmian",
+        label: "krioterapia 2-5 zmian",
       },
       {
         price: "400",
-        label: "Krioterapia 6-10 zmian",
+        label: "krioterapia 6-10 zmian",
       },
     ],
   },
@@ -131,30 +131,30 @@ const PRICES = [
     items: [
       {
         price: "200",
-        label: "E-wizyta - wideokonferencja",
+        label: "e-wizyta - wideokonferencja",
       },
     ],
   },
-  {
-    isOpened: false,
-    categoryName: "Konsultacje dermatologiczne",
-    button: () => (
-      <ButtonDrw
-        data-doctor="e-konsultacjadermatologiczna"
-        data-speciality=""
-        data-visitkind=""
-        data-evisit="false"
-        data-appname="drw"
-        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-      />
-    ),
-    items: [
-      {
-        price: "150",
-        label: "E-wizyta - wideokonferencja",
-      },
-    ],
-  },
+  // {
+  //   isOpened: false,
+  //   categoryName: "Konsultacje dermatologiczne",
+  //   button: () => (
+  //     <ButtonDrw
+  //       data-doctor="e-konsultacjadermatologiczna"
+  //       data-speciality=""
+  //       data-visitkind=""
+  //       data-evisit="false"
+  //       data-appname="drw"
+  //       data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+  //     />
+  //   ),
+  //   items: [
+  //     {
+  //       price: "150",
+  //       label: "e-wizyta - wideokonferencja",
+  //     },
+  //   ],
+  // },
 ];
 
 const OFFERS = [
