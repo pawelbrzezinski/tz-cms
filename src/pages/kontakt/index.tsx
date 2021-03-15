@@ -119,8 +119,8 @@ const RegistrationInfo = () => (
   </>
 );
 
-const ContactPage = () => (
-  <Layout constactCtaComponent={<ContactInfo />}>
+const ContactPage = ({location}) => (
+  <Layout constactCtaComponent={<ContactInfo />} location={location}>
     <Helmet>
       <title>Kontakt</title>
     </Helmet>

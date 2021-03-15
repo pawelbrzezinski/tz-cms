@@ -241,7 +241,7 @@ const Contact = ({ className = "", where = "" }) => {
             <div className="contact_info_section">
               <div className="online_registration_wrappper">
                 <h3>Zarejestruj sie online</h3>
-                <p>Szybko i łatwo! 24 h/ dobę</p>
+                <p>Szybko i łatwo! 24 h/dobę</p>
                 <Button>
                   <AnchorLink href="#cennik" title="Umów się">
                     Umów się online

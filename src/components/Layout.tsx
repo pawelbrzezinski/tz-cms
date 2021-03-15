@@ -5,11 +5,18 @@ import Navigation from "./Navigation";
 import "../styles/all.scss";
 import useSiteMetadata from "./useSiteMetadata";
 import { withPrefix } from "gatsby";
+import { trimEnd } from "lodash";
 
-const TemplateWrapper = ({ children, constactCtaComponent = null }) => {
-  const { title, description } = useSiteMetadata();
+const TemplateWrapper = ({
+  children,
+  constactCtaComponent = null,
+  location,
+}) => {
+  const { title, description, siteUrl } = useSiteMetadata();
 
   const [offset, setOffset] = useState(0);
+
+  const canonicalUrl = trimEnd(siteUrl + location.pathname, "/");
 
   useEffect(() => {
     window.onscroll = () => {
@@ -26,6 +33,10 @@ const TemplateWrapper = ({ children, constactCtaComponent = null }) => {
       <Helmet bodyAttributes={bodyClass}>
         <html lang="en" />
         <title>{title}</title>
+        <meta charset="utf-8" />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta http-equiv="Expires" content="0" />
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta name="robots" content="index, follow" />
@@ -45,7 +56,7 @@ const TemplateWrapper = ({ children, constactCtaComponent = null }) => {
           href={`${withPrefix("/")}img/apple-touch-icon.png`}
         />
         <link
-          rel="icon"
+          rel="icon shortcut"
           type="image/png"
           href={`${withPrefix("/")}img/favicon-32x32.png`}
           sizes="32x32"

@@ -298,7 +298,7 @@ const CtaCennik = () => {
   );
 };
 
-const WarszawaUsuwanieZnamionPage = ({ graph }) => {
+const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
@@ -317,7 +317,7 @@ const WarszawaUsuwanieZnamionPage = ({ graph }) => {
   ];
 
   return (
-    <Layout constactCtaComponent={<CtaUmowSie />}>
+    <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
         title="Centrum Usuwania Znamion i Pieprzyków - twojeznamiona.pl"
         description="Poznań - Usuwanie Znamion. Czy wiesz, że aby bezpiecznie usunąć znamię należy je wcześniej zbadać? Chirurgiczne usuwanie niepokojących pieprzyków. Usuwanie łagodnych zmian skórnych metodą krioterapii. Ile to kosztuje - cennik. Umów się!"

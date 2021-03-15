@@ -210,7 +210,7 @@ const CtaCennik = () => {
   );
 };
 
-const WarszawaBadanieZnamionPage = ({ graph }) => {
+const WarszawaBadanieZnamionPage = ({ graph, location }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
@@ -229,7 +229,7 @@ const WarszawaBadanieZnamionPage = ({ graph }) => {
   ];
 
   return (
-    <Layout constactCtaComponent={<CtaUmowSie />}>
+    <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
         title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
         description="Wrocław - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."

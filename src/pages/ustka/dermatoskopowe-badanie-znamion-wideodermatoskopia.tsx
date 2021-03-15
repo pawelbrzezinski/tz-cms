@@ -158,7 +158,7 @@ const CtaCennik = () => {
   );
 };
 
-const UstkaBadanieZnamionPage = ({ graph }) => {
+const UstkaBadanieZnamionPage = ({ graph, location }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
@@ -177,7 +177,7 @@ const UstkaBadanieZnamionPage = ({ graph }) => {
   ];
 
   return (
-    <Layout constactCtaComponent={<CtaUmowSie />}>
+    <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
         title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
         description="Ustka - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."

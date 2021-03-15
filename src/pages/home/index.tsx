@@ -76,7 +76,7 @@ const OFFERS = [
 ]
 
 
-const HomePage = ({ graph }) => {
+const HomePage = ({ graph, location }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
@@ -95,7 +95,7 @@ const HomePage = ({ graph }) => {
   ];
 
   return (
-    <Layout>
+    <Layout location={location}>
       <Hero
         h1="Ogólnopolskie Centrum Dermatoskopowego Badania Znamion"
         oneLiner="Upewnij się, że czerniak nie ukrywa się w jednym z niepozornych pieprzyków na Twojej skórze."

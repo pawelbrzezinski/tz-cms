@@ -195,7 +195,7 @@ const DOCTORS = [
   },
 ];
 
-const AboutUsPage = ({ graph }) => {
+const AboutUsPage = ({ graph, location }) => {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
@@ -213,7 +213,7 @@ const AboutUsPage = ({ graph }) => {
   };
 
   return (
-    <Layout>
+    <Layout location={location}>
       <Helmet
         bodyAttributes={{
           "bg-option": "about",

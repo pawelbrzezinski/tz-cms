@@ -8,6 +8,7 @@ import "../../styles/tags.scss"
 
 const TagsPage = ({
   data,
+  location
 }) => {
 
   const {
@@ -18,7 +19,7 @@ const TagsPage = ({
   } = data;
 
   return (
-    <Layout>
+    <Layout location={location}>
       <section className="tags-page">
         <Helmet title={`Tagi | ${title}`} />
         <div>

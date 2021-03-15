@@ -50,11 +50,11 @@ const components = {
 };
 
 const ArticlePage = (props) => {
-  const { title, description, keywords, toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.data.mdx.frontmatter
+  const { title, description, keywords, rawDate, toc = [], sources = [], date, author, authorsTitle, readingTime, tags } = props.data.mdx.frontmatter
 
   return (
     <MDXProvider components={components}>
-      <Layout>
+      <Layout location={props.location}>
         <Helmet
           bodyAttributes={{
             "type": "article",
@@ -64,6 +64,7 @@ const ArticlePage = (props) => {
           title={title}
           description={description}
           keywords={keywords}
+          date={rawDate}
         />
 
         <div className="article_container">
@@ -108,6 +109,7 @@ export const pageQuery = graphql`
       body
       frontmatter {
         date(formatString: "DD.MM.YYYY")
+        rawDate:date
         title
         description
         keywords,

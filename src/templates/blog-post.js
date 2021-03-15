@@ -58,12 +58,12 @@ const components = {
 };
 
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, location }) => {
   const { mdx: post } = data
 
   return (
     <MDXProvider components={components}>
-      <Layout>
+      <Layout location={location}>
         <Helmet bodyAttributes={{
           "type": "blog",
         }} />
@@ -71,12 +71,12 @@ const BlogPost = ({ data }) => {
           title={post.frontmatter.title}
           description={post.frontmatter.description}
           keywords={post.frontmatter.keywords}
+          date={post.frontmatter.rawDate}
         />
         <BlogPostTemplate
           content={post.body}
           date={post.frontmatter.date}
           description={post.frontmatter.description}
-
           tags={post.frontmatter.tags}
           sources={post.frontmatter.sources}
           author={post.frontmatter.author}
@@ -104,6 +104,7 @@ export const pageQuery = graphql`
       body
       frontmatter {
         date(formatString: "DD.MM.YYYY")
+        rawDate: date
         title
         description
         keywords

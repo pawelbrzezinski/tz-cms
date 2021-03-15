@@ -14,8 +14,8 @@ const CityItem = ({ city = "", link = "" }) => (
   </Link>
 );
 
-const PricesPage = () => (
-  <Layout>
+const PricesPage = ({location}) => (
+  <Layout location={location}>
     <Helmet>
       <title>Cennik</title>
     </Helmet>

@@ -211,7 +211,7 @@ const CtaCennik = () => {
   );
 };
 
-const SzczecinBadanieZnamionPage = ({ graph }) => {
+const SzczecinBadanieZnamionPage = ({ graph, location }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
@@ -230,7 +230,7 @@ const SzczecinBadanieZnamionPage = ({ graph }) => {
   ];
 
   return (
-    <Layout constactCtaComponent={<CtaUmowSie />}>
+    <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
         title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
         description="Szczecin - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."

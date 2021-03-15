@@ -280,7 +280,7 @@ const CtaCennik = () => {
   );
 };
 
-const LodzUsuwanieZnamionPage = ({ graph }) => {
+const LodzUsuwanieZnamionPage = ({ graph, location }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
@@ -299,7 +299,7 @@ const LodzUsuwanieZnamionPage = ({ graph }) => {
   ];
 
   return (
-    <Layout constactCtaComponent={<CtaUmowSie />}>
+    <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
         title="Centrum Usuwania Znamion i Pieprzyków - twojeznamiona.pl"
         description="Łódź - Usuwanie Znamion. Czy wiesz, że aby bezpiecznie usunąć znamię należy je wcześniej zbadać? Chirurgiczne usuwanie niepokojących pieprzyków. Laserowe usuwanie łagodnych zmian skórnych. Ile to kosztuje - cennik. Umów się!"

@@ -182,7 +182,7 @@ const CtaCennik = () => {
   );
 };
 
-const KrakowBadanieZnamionPage = ({ graph }) => {
+const KrakowBadanieZnamionPage = ({ graph, location }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
@@ -202,7 +202,7 @@ const KrakowBadanieZnamionPage = ({ graph }) => {
   ];
 
   return (
-    <Layout constactCtaComponent={<CtaUmowSie />}>
+    <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
         title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
         description="Kraków - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."

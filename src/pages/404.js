@@ -2,8 +2,8 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { Link } from "gatsby";
 
-const NotFoundPage = () => (
-  <Layout>
+const NotFoundPage = ({location}) => (
+  <Layout location={location}>
     <div>
       <h1>404 - Nie znaleziono</h1>
       <p>

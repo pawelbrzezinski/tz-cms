@@ -36,7 +36,7 @@ class TagRoute extends React.Component {
     const title = this.props.data.site.siteMetadata.title
 
     return (
-      <Layout>
+      <Layout location={this.props.location}>
         <section className="tags-page">
           <Helmet title={`${tag} | ${title}`} />
           <div>
