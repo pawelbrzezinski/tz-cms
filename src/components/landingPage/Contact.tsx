@@ -41,10 +41,10 @@ const useInputStyles = makeStyles({
 });
 
 const FORM = {
-  name: "Pawel brzezinski",
-  mail: "pawel@wp.pl",
-  phone: "+48 697-137-403",
-  message: "test",
+  name: "",
+  mail: "",
+  phone: "",
+  message: "",
 };
 
 const VALIDATION = {
