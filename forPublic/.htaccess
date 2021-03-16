@@ -12,40 +12,40 @@ RewriteRule .* https://twojeznamiona.pl%{REQUEST_URI} [R=301,L]
 
 RewriteCond %{REQUEST_URI}
 
-RewriteRule ^poznan$ /poznan/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
+# RewriteRule ^poznan/$ /poznan/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 RewriteRule ^poznan/badanie-znamion$ /poznan/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 
-RewriteRule ^wroclaw$ /wroclaw/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
+# RewriteRule ^wroclaw$ /wroclaw/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 RewriteRule ^wroclaw/badanie-znamion$ /wroclaw/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 
-RewriteRule ^szczecin$ /szczecin/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
+# RewriteRule ^szczecin$ /szczecin/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 RewriteRule ^szczecin/badanie-znamion$ /szczecin/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 
-RewriteRule ^warszawa$ /warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
+# RewriteRule ^warszawa$ /warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 RewriteRule ^warszawa/badanie-znamion$ /warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 
-RewriteRule ^krakow$ /krakow/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
+# RewriteRule ^krakow$ /krakow/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 RewriteRule ^krakow/badanie-znamion$ /krakow/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 
-RewriteRule ^bydgoszcz$ /bydgoszcz/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
+# RewriteRule ^bydgoszcz$ /bydgoszcz/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 RewriteRule ^bydgoszcz/badanie-znamion$ /bydgoszcz/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 
-RewriteRule ^lodz$ /lodz/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
+# RewriteRule ^lodz$ /lodz/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 RewriteRule ^lodz/badanie-znamion$ /lodz/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 
-RewriteRule ^ustka$ /ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
+# RewriteRule ^ustka$ /ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 RewriteRule ^ustka/badanie-znamion$ /ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia [R=301]
 
 RewriteRule ^badanie-znamion$ /dermatoskopia-badanie-znamion [R=301]
 RewriteRule ^dermatoskopia$ /dermatoskopia-badanie-znamion [R=301]
 RewriteRule ^niechirurgiczne-usuwanie-znamion$ /laserowe-usuwanie-znamion [R=301]
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} (.+)/$
-RewriteRule ^ %1 [R=301,L]
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_URI} (.+)/$
+#RewriteRule ^ %1 [R=301,L]
 
 :Location *.(gif|jpg|jpeg|png|svg)
 Expires A2592000

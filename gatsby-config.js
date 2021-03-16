@@ -151,7 +151,7 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-client-side-redirect', // keep it in last in list
+    // 'gatsby-plugin-client-side-redirect', // keep it in last in list
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
