@@ -1,7 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import TextField from "@material-ui/core/TextField";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { makeStyles } from "@material-ui/core/styles";
+import ky from "ky";
 
 import Button from "../Button";
 import BubbleSection from "../BubbleSection";
@@ -40,10 +41,10 @@ const useInputStyles = makeStyles({
 });
 
 const FORM = {
-  name: "",
-  mail: "",
-  phone: "",
-  message: "",
+  name: "Pawel brzezinski",
+  mail: "pawel@wp.pl",
+  phone: "+48 697-137-403",
+  message: "test",
 };
 
 const VALIDATION = {
@@ -62,7 +63,7 @@ const isValidPhone = (phone = "") => {
   return phone.length >= 15;
 };
 
-const Contact = ({ className = "", where = "" }) => {
+const Contact = ({ className = "", where = "", city = "" }) => {
   const isSSR = typeof window === "undefined";
 
   const labelClasses = useLabelStyles();
@@ -120,9 +121,21 @@ const Contact = ({ className = "", where = "" }) => {
 
   const submitForm = () => {
     if (validate(form)) {
-      console.log(form, "AJAX CALL");
+      const formData = new FormData();
+      const defaultCity = !isSSR
+        ? window.location.pathname
+        : where || "brak informacji - błąd";
 
-      navigate("#thanks")
+      formData.append("name", form.name);
+      formData.append("surname", form.name);
+      formData.append("mail", form.mail);
+      formData.append("msg", form.message);
+      formData.append("phone", form.phone);
+      formData.append("miasto", city || defaultCity);
+
+      ky.post("https://twojeznamiona.pl/sendmail.php", { body: formData });
+
+      navigate("#thanks");
 
       setIsSent(true);
       setForm(FORM);

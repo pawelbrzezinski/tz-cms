@@ -8,7 +8,6 @@ import fb from "../img/fb_icon.svg";
 import instagram from "../img/instagram_icon.svg";
 import ChevronIcon from "../img/chevron-up.svg";
 
-import { LOCATIONS } from "../config/cities";
 
 import "../styles/footer.scss";
 import { Link } from "gatsby";
@@ -113,32 +112,26 @@ const Footer = () => {
                 Wideodermatoskopia
               </Link>
               <Link to="/chirurgiczne-usuwanie-znamion" className="footer_link">
-                Chirurgiczne Usuwanie Znamion
+                Chirurgiczne usuwanie
               </Link>
               <Link to="/laserowe-usuwanie-znamion" className="footer_link">
-                Laserowe Usuwanie Znamion
+                Laserowe usuwanie
               </Link>
-              {/* <Link to="#" className="footer_link">
-                Konsultacje onkologiczne
-              </Link> */}
               <Link to="/czerniak" className="footer_link">
-                Czerniak
+                Czerniak złośliwy
               </Link>
               <Link
                 to="/czerniak/rodzaje-czerniaka-zdjecia"
                 className="footer_link"
               >
-                Czerniak rodzaje
+                Rodzaje czerniaka
               </Link>
               <Link
                 to="/czerniak/rodzaje-czerniaka/czerniak-na-dloniach-i-podeszwach-stop"
                 className="footer_link"
               >
-                Czerniak akralny
+                Czerniak paznokci
               </Link>
-              {/* <Link to="#" className="footer_link">
-                Raki skóry
-              </Link> */}
             </div>
             <div>
               <Link to="/cennik" className="footer_link">
@@ -181,34 +174,73 @@ const Footer = () => {
             }`}
           >
             <div>
-              {LOCATIONS.filter((location) => location.link).map((location) => (
-                <Link
-                  key={location.city}
-                  to={`/${location.link}`}
-                  className="footer_link"
-                >
-                  {location.city}
-                </Link>
-              ))}
-            </div>
-            <div>
+              <Link
+                to={`/poznan/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
+                className="footer_link"
+              >
+                Poznań - badanie znamion
+              </Link>
               <Link
                 to={`/poznan/usuwanie-znamion-pieprzykow`}
                 className="footer_link"
               >
-                Poznan - Chirurgia
+                Poznań - usuwanie znamion
+              </Link>
+              <Link
+                to={`/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
+                className="footer_link"
+              >
+                Warszawa - badanie znamion
               </Link>
               <Link
                 to={`/warszawa/usuwanie-znamion-pieprzykow`}
                 className="footer_link"
               >
-                Warszawa - Chirurgia
+                Warszawa - usuwanie znamion
+              </Link>
+              <Link
+                to={`/lodz/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
+                className="footer_link"
+              >
+                Łódź - badanie znamion
               </Link>
               <Link
                 to={`/lodz/usuwanie-znamion-pieprzykow`}
                 className="footer_link"
               >
-                Łódź - Chirurgia
+                Łódź - usuwanie znamion
+              </Link>
+            </div>
+            <div>
+              <Link
+                to={`/wroclaw/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
+                className="footer_link"
+              >
+                Wrocław
+              </Link>
+              <Link
+                to={`/krakow/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
+                className="footer_link"
+              >
+                Kraków
+              </Link>
+              <Link
+                to={`/szczecin/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
+                className="footer_link"
+              >
+                Szczecin
+              </Link>
+              <Link
+                to={`/bydgoszcz/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
+                className="footer_link"
+              >
+                Bydgoszcz
+              </Link>
+              <Link
+                to={`/ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
+                className="footer_link"
+              >
+                Ustka
               </Link>
             </div>
           </div>

@@ -283,7 +283,7 @@ const BydgoszczBadanieZnamionPage = ({ graph, location }) => {
           </li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Bydgoszczy" />
+      <Contact className="home_contact" where="w Bydgoszczy" city="Bydgoszcz" />
       <Location
         className="home_location"
         coords={{

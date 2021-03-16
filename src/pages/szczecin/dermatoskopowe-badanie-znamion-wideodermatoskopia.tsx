@@ -269,7 +269,7 @@ const SzczecinBadanieZnamionPage = ({ graph, location }) => {
           <li>Zachęcamy Państwa do płatności bezgotówkowych.</li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Szczecinie" />
+      <Contact className="home_contact" where="w Szczecinie" city="Szczecin" />
       <Location
         className="home_location"
         coords={{

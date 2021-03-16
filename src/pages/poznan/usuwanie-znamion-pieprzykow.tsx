@@ -383,7 +383,7 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
           </li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Poznaniu" />
+      <Contact className="home_contact" where="w Poznaniu" city="Poznan Chirurgia" />
       <Location
         className="home_location"
         coords={{

@@ -269,7 +269,7 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
           <li>Zachęcamy Państwa do płatności bezgotówkowych.</li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="we Wrocławiu" />
+      <Contact className="home_contact" where="we Wrocławiu" city="Wroclaw" />
       <Location
         className="home_location"
         coords={{

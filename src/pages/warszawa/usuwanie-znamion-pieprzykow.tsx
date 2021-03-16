@@ -345,7 +345,7 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
           </li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Warszawie" />
+      <Contact className="home_contact" where="w Warszawie" city="Warszawa Chirurgia" />
       <Location
         className="home_location"
         coords={{

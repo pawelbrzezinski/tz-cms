@@ -230,7 +230,7 @@ const UstkaBadanieZnamionPage = ({ graph, location }) => {
           </li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Ustce" />
+      <Contact className="home_contact" where="w Ustce" city="Ustka" />
       <Location
         className="home_location"
         coords={{

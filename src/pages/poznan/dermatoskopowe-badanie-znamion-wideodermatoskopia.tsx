@@ -367,7 +367,7 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
           <li>Zachęcamy Państwa do płatności bezgotówkowych.</li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Poznaniu" />
+      <Contact className="home_contact" where="w Poznaniu" city="Poznan" />
       <Location
         className="home_location"
         coords={{

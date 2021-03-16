@@ -242,7 +242,7 @@ const KrakowBadanieZnamionPage = ({ graph, location }) => {
           <li>Zachęcamy Państwa do płatności bezgotówkowych.</li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Krakowie" />
+      <Contact className="home_contact" where="w Krakowie" city="Krakow" />
       <Location
         className="home_location"
         coords={{

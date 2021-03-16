@@ -6,6 +6,7 @@ import "../styles/all.scss";
 import useSiteMetadata from "./useSiteMetadata";
 import { withPrefix } from "gatsby";
 import { trimEnd } from "lodash";
+import CookiesInfo from "./CookiesInfo";
 
 const TemplateWrapper = ({
   children,
@@ -77,6 +78,7 @@ const TemplateWrapper = ({
       <Navigation constactCtaComponent={constactCtaComponent} />
       <div>{children}</div>
       <Footer />
+      <CookiesInfo />
     </div>
   );
 };
