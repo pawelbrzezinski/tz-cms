@@ -53,7 +53,7 @@ Najpopularniejszą formą badania jest [dermatoskopia](/dermatoskopia-badanie-zn
 
 Podstawą do wyboru [chirurgicznej](/chirurgiczne-usuwanie-znamion "chirurgicznej") lub [niechirurgicznej](/laserowe-usuwanie-znamion "niechirurgicznej") formy usuwania znamienia jest ocena zmian skórnych dokonana przez lekarza. Złośliwe lub podejrzanie wyglądające formy wymagają interwencji chirurgicznej, gdyż usunięta zmiana poddawana jest badaniu histopatologicznemu. Te problematyczne zmiany są zatem przeciwwskazaniem do laserowego usuwania znamion. Gdy jednak mają one charakter łagodny, dopuszczalne stają się opcje niechirurgiczne jak laserowe usuwanie pieprzyków. Metoda ta jest bezinwazyjna i można wykonywać ją w każdym wieku.
 
-<More link="/laserowe-usuwanie-znamion" text="Niechirurgiczne usuwanie znamion - inne metody" cta="Sprawdź" />
+<More link="/laserowe-usuwanie-znamion" text="Nieinwazyjne Usuwanie Znamion" cta="Dowiedz się więcej" />
 
 ## Laserowe usuwanie znamion – cena
 
