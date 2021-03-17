@@ -59,4 +59,4 @@ Podstawą do wyboru [chirurgicznej](/chirurgiczne-usuwanie-znamion "chirurgiczne
 
 Oferta badań i zabiegów dermatologicznych, w tym usuwania znamion, jest bardzo obszerna. W Warszawie w naszym gabinecie oferujemy atrakcyjne [ceny usług](/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia#cennik "ceny usług"), w tym laserowe usuwanie pieprzyków.
 
-<More link="/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia" text="Zobacz nasz ośrodek w Warszawie i skontaktuj się z nami celem rejestracji wizyty." cta="Sprawdź" />
+<More link="/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia" text="Warszawskie Centrum Badania Znamion" cta="Zobacz" />
