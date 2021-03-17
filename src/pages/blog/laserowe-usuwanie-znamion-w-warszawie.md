@@ -18,7 +18,7 @@ tags:
   - laserowe usuwanie znamion
   - niechirurgiczne usuwanie znamion
   - usuwanie znamion
-  - warszawa
+  - Warszawa
 sources: []
 ---
 **Znamiona stanowią nieodłączną część skóry każdego z nas. Ich różne formy, w tym w szczególności znamiona barwnikowe (pieprzyki), zauważyć możemy w najróżniejszych punktach naszego ciała. Zmiany te mogą być naszym uroczym znakiem rozpoznawczym lub kompleksem, jednak często są także objawem poważnych chorób skóry, w tym nowotworów. Jak możemy zweryfikować, czy niepozorne pieprzyki wymagają laserowego usuwania? Gdzie w Warszawie możemy znaleźć profesjonalną pomoc i pozbyć się niechcianej ozdoby?**
@@ -45,6 +45,8 @@ Ogromna większość zmian skórnych ma charakter łagodny, jednak niektóre z n
 
 Kluczowym elementem, niezbędnym we wczesnym wykrywaniu podejrzanych zmian skórnych, jest regularne samobadanie, jednak okresowe wizyty u dermatologa to najlepsze co możemy zrobić dla zdrowia skóry. Jeżeli chcemy usunąć nieestetyczne znamię, uprzednio musimy poddać się specjalistycznym badaniom, celem jego szczegółowej oceny.
 
+<More link="/laserowe-usuwanie-znamion" text="Nieinwazyjne Usuwanie Znamion" cta="Dowiedz się więcej" />
+
 Najpopularniejszą formą badania jest [dermatoskopia](/dermatoskopia-badanie-znamion "dermatoskopia"), która stanowi skuteczny sposób diagnozowania oraz monitorowania znamion skórnych. W naszym gabinecie w Warszawie, wykonujemy [wideodermatoskopię](/wideodermatoskopia-komputerowe-badanie-znamion "wideodermatoskopię"), czyli komputerowe badanie znamion przy pomocy wideodermatoskopu. Analiza skóry, przeprowadzona dzięki niemu, możliwa jest w bardzo dużym powiększeniu, przez co daje niesamowicie dokładny obraz.
 
 ![Kamera wideodermatoskopu](img/usuwanieznamion-1-.png "Kamera wideodermatoskopu")
@@ -53,7 +55,6 @@ Najpopularniejszą formą badania jest [dermatoskopia](/dermatoskopia-badanie-zn
 
 Podstawą do wyboru [chirurgicznej](/chirurgiczne-usuwanie-znamion "chirurgicznej") lub [niechirurgicznej](/laserowe-usuwanie-znamion "niechirurgicznej") formy usuwania znamienia jest ocena zmian skórnych dokonana przez lekarza. Złośliwe lub podejrzanie wyglądające formy wymagają interwencji chirurgicznej, gdyż usunięta zmiana poddawana jest badaniu histopatologicznemu. Te problematyczne zmiany są zatem przeciwwskazaniem do laserowego usuwania znamion. Gdy jednak mają one charakter łagodny, dopuszczalne stają się opcje niechirurgiczne jak laserowe usuwanie pieprzyków. Metoda ta jest bezinwazyjna i można wykonywać ją w każdym wieku.
 
-<More link="/laserowe-usuwanie-znamion" text="Nieinwazyjne Usuwanie Znamion" cta="Dowiedz się więcej" />
 
 ## Laserowe usuwanie znamion – cena
 
