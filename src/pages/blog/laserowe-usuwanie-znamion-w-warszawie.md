@@ -19,10 +19,7 @@ tags:
   - niechirurgiczne usuwanie znamion
   - usuwanie znamion
   - warszawa
-sources:
-  - label: freepik.com
-  - label: pexels.com
-    link: pexels.com
+sources: []
 ---
 **Znamiona stanowią nieodłączną część skóry każdego z nas. Ich różne formy, w tym w szczególności znamiona barwnikowe (pieprzyki), zauważyć możemy w najróżniejszych punktach naszego ciała. Zmiany te mogą być naszym uroczym znakiem rozpoznawczym lub kompleksem, jednak często są także objawem poważnych chorób skóry, w tym nowotworów. Jak możemy zweryfikować, czy niepozorne pieprzyki wymagają laserowego usuwania? Gdzie w Warszawie możemy znaleźć profesjonalną pomoc i pozbyć się niechcianej ozdoby?**
 
@@ -34,7 +31,7 @@ Różnorodność zmian pojawiających się na skórze wymaga specjalistycznego p
 
 Usuwanie zmian odbywa się w naszej placówce w Warszawie przy pomocy lasera frakcyjnego CO2 lasmed. Łagodne zmiany poddawane są działaniu wiązki lasera CO2, który powoduje odparowanie skóry. Jego efekty kosmetyczne są wyraźnie lepsze w porównaniu z zabiegami dokonywanymi chirurgicznie – jest to szczególnie ważne podczas usuwania znamion [na twarzy](/chirurgiczne-usuwanie-znamion "na twarzy").
 
-![Znamiona na twarzy](img/zrzut-ekranu-2021-03-5-o-14.40.47.png "Znamiona na twarzy")
+![Znamiona na twarzy.](img/zrzut-ekranu-2021-03-5-o-14.40.47.png "Zwykłe znamiona na twarzy.  Źródło: freepik.com")
 
 Laserowe usuwanie pieprzyków nie wymaga stosowania skalpela, narzędzi chirurgicznych, czy zakładania szwów. Metoda laserowa jest bezkontaktowa, a narośle skórne są precyzyjnie odparowywane w sposób ciągły, punktowy lub warstwowy. Jeżeli to możliwe, część usuwanej zmiany oddawana jest do badań, celem wykluczenia nieprawidłowości. Po zabiegu laserowego usuwania znamion gojenie przebiega stosunkowo szybko. A im mniejszy był pieprzyk lub włókniak, tym mniejsza blizna pozostanie. Warto po zabiegu zadbać o odpowiednią pielęgnację skóry, aby nie dopuścić do jej zakażenia. Lekarz może zalecić specjalne maści i kremy przyspieszające regenerację naskórka.
 
@@ -42,9 +39,7 @@ Laserowe usuwanie pieprzyków nie wymaga stosowania skalpela, narzędzi chirurgi
 
 Ogromna większość zmian skórnych ma charakter łagodny, jednak niektóre z nich mogą przybrać formę niebezpiecznego [czerniaka](/czerniak "czerniaka"). Decyzję o ich usunięciu podejmujemy zwykle po wykonaniu badania dermatoskopowego wszystkich znamion na ciele, ze względów zdrowotnych - niepokojące, atypowe pieprzyki lub estetycznych - zmiany łagodne. Pieprzyki to znamiona skórne będące efektem stopniowo namnażających się komórek barwnikowych. Niektóre z nich mamy od urodzenia, inne nabywamy pod wpływem czynników zewnętrznych, jak nadmierna ekspozycja słoneczna, promieniowanie ultrafioletowe UVA/UVB, otarcia, skaleczenia czy zadrapania. Zdarza się także, że dziedziczymy je w genach.
 
-![Znamiona na szyi](img/usuwanieznamion-1-.jpg "Znamiona na szyi")
-
-
+![Zwykłe znamiona na szyi](img/usuwanieznamion-1-.jpg "Zwykłe znamiona na szyi.  Źródło: pexels.com")
 
 ## Diagnostyka a laserowe usuwanie pieprzyków
 
@@ -54,15 +49,11 @@ Najpopularniejszą formą badania jest [dermatoskopia](/dermatoskopia-badanie-zn
 
 ![Kamera wideodermatoskopu](img/usuwanieznamion-1-.png "Kamera wideodermatoskopu")
 
-
-
 ## Laserowe usuwanie znamion - przeciwwskazania
 
 Podstawą do wyboru [chirurgicznej](/chirurgiczne-usuwanie-znamion "chirurgicznej") lub [niechirurgicznej](/laserowe-usuwanie-znamion "niechirurgicznej") formy usuwania znamienia jest ocena zmian skórnych dokonana przez lekarza. Złośliwe lub podejrzanie wyglądające formy wymagają interwencji chirurgicznej, gdyż usunięta zmiana poddawana jest badaniu histopatologicznemu. Te problematyczne zmiany są zatem przeciwwskazaniem do laserowego usuwania znamion. Gdy jednak mają one charakter łagodny, dopuszczalne stają się opcje niechirurgiczne jak laserowe usuwanie pieprzyków. Metoda ta jest bezinwazyjna i można wykonywać ją w każdym wieku.
 
 <More link="/laserowe-usuwanie-znamion" text="Niechirurgiczne usuwanie znamion - inne metody" cta="Sprawdź" />
-
-
 
 ## Laserowe usuwanie znamion – cena
 
