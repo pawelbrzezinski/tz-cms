@@ -32,7 +32,7 @@ Różnorodność zmian pojawiających się na skórze wymaga specjalistycznego p
 
 ## Na czym polega laserowe usuwanie znamion?
 
-Usuwanie zmian odbywa się w naszej placówce w Warszawie przy pomocy lasera frakcyjnego CO2 lasmed. Łagodne zmiany poddawane są działaniu wiązki lasera CO2, który powoduje odparowanie skóry. Jego efekty kosmetyczne są wyraźnie lepsze w porównaniu z zabiegami dokonywanymi chirurgicznie – jest to szczególnie ważne podczas usuwania znamion [na twarzy](/chirurgiczne-usuwanie-znamion "na twarzy").
+Usuwanie zmian odbywa się w naszej placówce w Warszawie przy pomocy lasera frakcyjnego CO2 lasmed. Łagodne zmiany poddawane są działaniu wiązki lasera CO2, który powoduje odparowanie skóry. Jego efekty kosmetyczne są wyraźnie lepsze w porównaniu z zabiegami dokonywanymi chirurgicznie – jest to szczególnie ważne podczas usuwania znamion [na twarzy](/chirurgiczne-usuwanie-znamion#id2 "na twarzy").
 
 ![Znamiona na twarzy](img/zrzut-ekranu-2021-03-5-o-14.40.47.png "Znamiona na twarzy")
 

@@ -368,7 +368,7 @@ const LodzBadanieZnamionPage = ({ graph, location }) => {
             "Pobliskie przystanki: Radwańska - Wólczanka, Politechniki - Radwańska.",
         }}
       />
-      <Gallery className="home_gallery" data={graph.gallery} />
+      <Gallery className="home_gallery" data={graph.gallery} city="lodz" />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

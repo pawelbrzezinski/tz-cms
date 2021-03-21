@@ -265,7 +265,7 @@ const KrakowBadanieZnamionPage = ({ graph, location }) => {
             "Lokalizacja pomiędzy teatrem Bagatelą a rynkiem. Najbliższy parking przy ul. Karmelickiej. Najwygodniejszy dojazd - tramwajem",
         }}
       />
-      <Gallery className="home_gallery" data={graph.gallery} />
+      <Gallery className="home_gallery" data={graph.gallery} city="krakow" />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

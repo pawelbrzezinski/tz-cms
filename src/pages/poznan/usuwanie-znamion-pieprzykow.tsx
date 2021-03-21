@@ -410,7 +410,7 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
           data: "Przystanek tramwajowy: Polna, Rynek Jeżycki",
         }}
       />
-      <Gallery className="home_gallery" data={graph.gallery} />
+      <Gallery className="home_gallery" data={graph.gallery} city="poznan" />
 
       <Reviews className="home_reviews" data={REVIEWS} />
       <Surgery2 className="home_two_col_section_left_img" reverse={false} />

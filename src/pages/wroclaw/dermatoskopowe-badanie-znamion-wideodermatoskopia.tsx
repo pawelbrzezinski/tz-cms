@@ -299,7 +299,7 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
             "W pobliżu przystanku autobusowego: Transbud - dojście od strony ul. Pięknej, Kamienna - dojście od strony ul. Jesionowej",
         }}
       />
-      <Gallery className="home_gallery" data={graph.gallery} />
+      <Gallery className="home_gallery" data={graph.gallery} city="wroclaw" />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

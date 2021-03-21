@@ -291,7 +291,7 @@ const SzczecinBadanieZnamionPage = ({ graph, location }) => {
           data: "Parking - obecny. Wjazd na parking od ul. Bułgarskiej",
         }}
       />
-      <Gallery className="home_gallery" data={graph.gallery} />
+      <Gallery className="home_gallery" data={graph.gallery} city="szczecin" />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

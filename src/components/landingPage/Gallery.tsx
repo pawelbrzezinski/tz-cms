@@ -24,9 +24,9 @@ const GalleryCard = ({ data }) => {
   );
 };
 
-const AlertButton = () => (
+const AlertButton = ({ city = "all" }) => (
   <Button>
-    <Link to="/o-nas" title="Poznaj naszych lekarzy">
+    <Link to={`/o-nas#${city}`} title="Poznaj naszych lekarzy">
       Poznaj Lekarzy
     </Link>
   </Button>
@@ -37,16 +37,12 @@ const Gallery = ({
   color = "blue",
   data = [],
   noAlert = false,
-  introText="Zdjęcia ośrodka",
-  h2="Galeria"
+  introText = "Zdjęcia ośrodka",
+  h2 = "Galeria",
+  city,
 }) => (
   <div className={`${className} gallery`}>
-    <BubbleSection
-      introText={introText}
-      h2={h2}
-      color={color}
-      reverse
-    >
+    <BubbleSection introText={introText} h2={h2} color={color} reverse>
       <div className="container">
         <div className="cards">
           {data.map((item, idx) => (
@@ -54,7 +50,7 @@ const Gallery = ({
           ))}
         </div>
         {!noAlert && (
-          <Alert button={AlertButton}>
+          <Alert button={AlertButton} buttonProps={{city}}>
             Nasz zespół tworzą doświadczeni lekarze, którzy wspólnie, z pasją
             działają na rzecz <strong>zmniejszenia umieralności</strong> z
             powodu nowotworów skóry w Polsce.

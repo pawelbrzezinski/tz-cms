@@ -1,7 +1,7 @@
 import React from "react";
 import Doctor from "./Doctor";
 
-const DoctorList = ({ data = [], graph }) => {
+const DoctorList = ({ data = [], graph, cityAnchor = "" }) => {
   const findImageForDoctor = (doctor) => {
     const found = graph.doctors.filter((image) => {
       return image.childImageSharp.fluid.originalName === doctor.img;
@@ -14,8 +14,9 @@ const DoctorList = ({ data = [], graph }) => {
 
   return (
     <>
-      {data.map((doctor) => (
+      {data.map((doctor, idx) => (
         <Doctor
+          cityAnchor={!idx && cityAnchor ? cityAnchor : false}
           key={doctor.name}
           data={doctor}
           image={findImageForDoctor(doctor)}

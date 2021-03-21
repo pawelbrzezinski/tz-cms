@@ -351,6 +351,7 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
         noAlert
         introText="Galeria"
         h2="Centrum Badania Znamion w Poznaniu"
+        
       />
 
       <MelanomaOncology className="home_two_col_section_right_img with_no_padding_top" />

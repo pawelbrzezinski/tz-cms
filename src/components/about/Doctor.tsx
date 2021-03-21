@@ -21,11 +21,13 @@ const Doctor = ({
   className = "",
   data = { name: "", title: "", img: null, city: "", description: "" },
   image,
+  cityAnchor,
 }) => {
   const [isModalOpened, setModalOpened] = useState(false);
 
   return (
     <div className={className}>
+      {cityAnchor && <span id={cityAnchor} />}
       <div className="doctor_wrapper">
         <div className="doctor_container">
           <div className="doctor_container_text_wrapper">
