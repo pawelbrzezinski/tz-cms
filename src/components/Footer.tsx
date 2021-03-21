@@ -187,6 +187,12 @@ const Footer = () => {
                 Poznań - usuwanie znamion
               </Link>
               <Link
+                to={`/poznan/konsultacje-onkologiczne-leczenie-czerniaka`}
+                className="footer_link"
+              >
+                Poznań - konsultacje onkologiczne
+              </Link>
+              <Link
                 to={`/warszawa/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
                 className="footer_link"
               >

@@ -3,7 +3,7 @@ import React from "react";
 import IconImage from "../img/ic_question.svg";
 import "../styles/alert.scss";
 
-const Alert = ({ children, ctaOffset, button = (x) => null }) => {
+const Alert = ({ children, ctaOffset = 0, button = (x) => null }) => {
   const Button = button;
 
   return (

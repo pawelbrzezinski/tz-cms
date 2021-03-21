@@ -371,7 +371,7 @@ Powikłania po wykonaniu tych rodzajów biopsji zdarzają się sporadycznie. Mog
 
 ## Usuwanie znamion w Ogólnopolskim Centrum Twoje Znamiona
 
-![Ogólnopolskie Centrum Diagnostyki Znamion Twoje Znamiona](img/zdjęcienr23.png "Ogólnopolskie Centrum Diagnostyki Znamion Twoje Znamiona")
+![Ogólnopolskie Centrum Diagnostyki Znamion Twoje Znamiona](img/zdjecienr23.png "Ogólnopolskie Centrum Diagnostyki Znamion Twoje Znamiona")
 
 
 W naszych ośrodkach dążymy do tego, by pacjent miał dostęp do możliwie najszerszej oferty usług chirurgicznych. Przeprowadzamy:

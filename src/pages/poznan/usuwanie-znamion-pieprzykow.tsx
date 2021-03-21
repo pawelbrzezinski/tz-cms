@@ -1,7 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, Link, StaticQuery } from "gatsby";
 
 import Hero from "../../components/landingPage/Hero";
 import Layout from "../../components/Layout";
@@ -31,6 +31,7 @@ import "../../styles/home.scss";
 import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
 import ButtonDrw from "../../components/landingPage/ButtonDrw";
+import Button from "../../components/Button";
 
 const REVIEWS = [
   {
@@ -383,7 +384,11 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
           </li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Poznaniu" city="Poznan Chirurgia" />
+      <Contact
+        className="home_contact"
+        where="w Poznaniu"
+        city="Poznan Chirurgia"
+      />
       <Location
         className="home_location"
         coords={{
@@ -422,7 +427,26 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
 
       <Faq className="home_faq" data={FAQS} />
       <Dermoscopy className="home_two_col_section_right_img" reverse={false} />
-      <Oncology className="home_two_col_section_left_img with_no_padding_bottom" />
+      <Oncology
+        className="home_two_col_section_left_img with_no_padding_bottom"
+        Buttons={() => (
+          <>
+            <Button>
+              <AnchorLink href="#kontakt" title="Umów się" offset={0}>
+                Umów się
+              </AnchorLink>
+            </Button>
+            <Button type="secondary">
+              <Link
+                to="/poznan/konsultacje-onkologiczne-leczenie-czerniaka"
+                title="Konsultacje onkologiczne. Diagnostyka i leczenie czerniaka."
+              >
+                Dowiedz się więcej
+              </Link>
+            </Button>
+          </>
+        )}
+      />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
       <CallCta />
     </Layout>

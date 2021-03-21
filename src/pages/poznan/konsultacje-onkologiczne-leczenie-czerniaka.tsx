@@ -31,8 +31,11 @@ import "../../styles/home.scss";
 
 import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
-import Button from "../../components/Button";
 import ButtonDrw from "../../components/landingPage/ButtonDrw";
+import Button from "../../components/Button";
+import MelanomaOncology from "../../components/landingPage/MelanomaOncology";
+import MelanomaTreatment from "../../components/landingPage/MelanomaTreatment";
+import Doctors from "../../components/landingPage/Doctors";
 
 const REVIEWS = [
   {
@@ -58,6 +61,43 @@ const REVIEWS = [
 const PRICES = [
   {
     isOpened: true,
+    categoryName: "Konsultacje Onkologiczne - czerniak",
+    items: [
+      {
+        price: "250",
+        label: "konsultacja onkologiczna - nowotwory skóry",
+        sub:
+          "ponowna konsultacja onkologiczna (w przeciągu 6 miesięcy): 180 zł",
+        button: () => (
+          <ButtonDrw
+            data-doctor="poznańkonsultacja onkologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
+      },
+
+      {
+        price: "200",
+        label: "e-wizyta - wideokonferencja",
+        button: () => (
+          <ButtonDrw
+            data-doctor="e-konsultacjaonkologiczna"
+            data-speciality=""
+            data-visitkind=""
+            data-evisit="false"
+            data-appname="drw"
+            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+          />
+        ),
+      },
+    ],
+  },
+  {
+    isOpened: false,
     categoryName: "Badanie znamion - wideodermatoskopia",
     button: () => (
       <ButtonDrw
@@ -140,134 +180,26 @@ const PRICES = [
       },
     ],
   },
-  {
-    isOpened: false,
-    categoryName: "Nieinwazyjne usuwanie znamion ",
-    button: () => (
-      <ButtonDrw
-        data-doctor="poznań zabiegi nieinwazyjne(krioterapia)"
-        data-speciality=""
-        data-visitkind=""
-        data-evisit="false"
-        data-appname="drw"
-        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-      />
-    ),
-    items: [
-      {
-        price: "250",
-        label: "krioterapia 1 zmiana",
-      },
-      {
-        price: "350",
-        label: "krioterapia 2-5 zmian",
-      },
-      {
-        price: "400",
-        label: "krioterapia 6-10 zmian",
-      },
-    ],
-  },
-  {
-    isOpened: false,
-    categoryName: "Konsultacje Onkologiczne - czerniak",
-    items: [
-      {
-        price: "250",
-        label: "konsultacja onkologiczna - nowotwory skóry",
-        sub:
-          "ponowna konsultacja onkologiczna (w przeciągu 6 miesięcy): 180 zł",
-        button: () => (
-          <ButtonDrw
-            data-doctor="poznańkonsultacja onkologiczna"
-            data-speciality=""
-            data-visitkind=""
-            data-evisit="false"
-            data-appname="drw"
-            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-          />
-        ),
-      },
-
-      {
-        price: "200",
-        label: "e-wizyta - wideokonferencja",
-        button: () => (
-          <ButtonDrw
-            data-doctor="e-konsultacjaonkologiczna"
-            data-speciality=""
-            data-visitkind=""
-            data-evisit="false"
-            data-appname="drw"
-            data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-          />
-        ),
-      },
-    ],
-  },
-  {
-    isOpened: false,
-    categoryName: "Konsultacje dermatologiczne",
-    button: () => (
-      <ButtonDrw
-        data-doctor="poznańkonsultacja dermatologiczna"
-        data-speciality=""
-        data-visitkind=""
-        data-evisit="false"
-        data-appname="drw"
-        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-      />
-    ),
-    items: [
-      {
-        price: "180",
-        label: "konsultacja dermatologiczna",
-        sub: "inne schorzenia skóry: trądzik, łuszczyca, grzybica itp.",
-      },
-      {
-        price: "350",
-        label: "biopsja zmiany skórnej z badaniem histopatologicznym",
-      },
-      {
-        price: "+40",
-        label: "badanie mikrobiologiczne wymazu",
-      },
-      // {
-      //   price: "150",
-      //   label: "e-wizyta - wideokonferencja",
-      //   button: () => (
-      //     <ButtonDrw
-      //       data-doctor="e-konsultacjadermatologiczna"
-      //       data-speciality=""
-      //       data-visitkind=""
-      //       data-evisit="false"
-      //       data-appname="drw"
-      //       data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-      //     />
-      //   ),
-      // },
-    ],
-  },
 ];
 
 const OFFERS = [
   {
+    type: "onkologia",
+    title: "Konsultacje onkologiczne",
+    desc:
+      "Konsultacja onkologiczna pacjentów z rozpoznaniem czerniaka złośliwego. Pacjent otrzymuje zalecenia dotyczące badań diagnostycznych, leczenia uzupełniającego, a także najskuteczniejszych metod leczenia zaawansowanego czerniaka. ",
+  },
+  {
     type: "badanie",
     title: "Badanie znamion",
     desc:
-      "Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć.",
+      "U pacjentów  z rozpoznaniem czerniaka istnieje duże prawdopodobieństwo rozwoju drugiego niezależnego nowotworu skóry dlatego osoby obciążone chorobą oraz ich najbliższa rodzina wymagają regularnych badań dermatoskopowych.",
   },
   {
     type: "chirurgiczne",
     title: "Usuwanie znamion",
     desc:
-      "Chirurgiczne usuwanie podejrzanych pieprzyków wytypowanych przez lekarza w trakcie badania wideodermatoskopowego z wykonaniem histopatologicznej oceny usuniętej zmiany skórnej. Nieinwazyjne usuwanie łagodnych znamion metodą krioterapii.",
-  },
-  {
-    type: "onkologia",
-    title: "Konsultacje onkologiczne",
-    desc:
-      "Konsultacja onkologiczna w zakresie nowotworów skóry, w tym czerniaka złośliwego. Pacjent otrzymuje zalecenia po usunięciu zmiany nowotworowej, dotyczące badań kontrolnych, leczenia uzupełniającego, a także leczenia zaawansowanego czerniaka.",
+      "Każdy podejrzany pieprzyk wytypowany przez lekarza w trakcie badania wideodermatoskopowego powinien zostać usunięty chirurgicznie z wykonaniem histopatologicznej oceny usuniętej zmiany skórnej. Dopiero na tej podstawie można postawić ostateczne rozpoznanie i zdecydować o dalszym leczeniu. ",
   },
 ];
 
@@ -326,20 +258,43 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
   return (
     <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
-        title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
-        description="Poznan - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."
-        keywords="badanie znamion, poznan, dermatoskopia"
+        title="Konsultacje Onkologiczne - leczenie czerniaka - twojeznamiona.pl"
+        description="Konsultacje onkologiczne pacjentów z rozpoznaniem czerniaka złośliwego. Porozmawiaj o dostępnych metodach leczenia z onkologiem specjalizującym się w leczeniu czerniaka, skonsultuj wyniki badań, dowiedź się jakie są nowoczesne formy leczenia.  Osoby po usunięciu czerniaka i ich najbliższa rodzina powinny regularnie badać znamiona. Wcześnie wykryty czerniak może być całkowicie wyleczony!"
+        keywords="czerniak, leczenie czerniaka, leczenie czerniaka poznań, konsultacje onkologiczne poznań, łukasz galus,  badania kliniczne czerniak"
       />
       <Hero
-        h1="Poznańskie Centrum Dermatoskopowego Badania Znamion"
-        oneLiner="Wszystkie swoje działania skupiamy na kompleksowej diagnostyce znamion aby wyeliminować nowotwory skóry z życia milionów ludzi."
-        oneLinerMore="Upewnij się, że czerniak nie ukrywa się w jednym z niepozornych pieprzyków na Twojej skórze."
+        h1="Konsultacje onkologiczne. Diagnostyka i leczenie czerniaka"
+        oneLiner="Wszystkie swoje działania skupiamy na diagnostyce czerniaka aby zmniejszyć umieralność z powodu nowotworów skóry Polsce."
+        oneLinerMore="Dowiedz się jakie są najlepsze metody leczenia czerniaka i upewnij się, że Twoja terapia jest odpowiednio zaplanowana."
         ctaPrimary={<CtaUmowSie />}
         ctaSecondary={<CtaCennik />}
       />
       <Offer className="home_offer" data={OFFERS} />
-      <Melanoma className="home_melanoma" />
-      <WhyUs className="home_why_us with_no_padding_top" />
+      <Oncology
+        className="home_two_col_section_left_img"
+        intro="Czerniak złośliwy"
+        h2="Konsultacje onkologiczne"
+        reverse={false}
+        H5={() => (
+          <>
+            Po rozpoznaniu czerniaka pacjent wymaga dalszej diagnostyki. Na tym
+            etapie niezbędna jest konsultacja onkologiczna. Odpowiednie
+            zaplanowanie badań diagnostycznych i przebiegu leczenia ma kluczowe
+            znaczenie dla efektów terapii.
+          </>
+        )}
+        Text={() => (
+          <>
+            Skonsultuj się z lekarzem specjalistą onkologii klinicznej, który w
+            codziennej praktyce specjalizuje się w diagnostyce i leczeniu
+            pacjentów z rozpoznaniem czerniaka. Porozmawiaj o dostępnych
+            metodach leczenia oraz o możliwości skorzystania z nowoczesnej
+            terapii.
+          </>
+        )}
+        Buttons={() => null}
+      />
+
       <PriceList className="home_price_list" data={PRICES} />
       <Covid className="home_covid">
         <ol>
@@ -364,6 +319,7 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
           <li>Zachęcamy Państwa do płatności bezgotówkowych.</li>
         </ol>
       </Covid>
+
       <Contact className="home_contact" where="w Poznaniu" city="Poznan" />
       <Location
         className="home_location"
@@ -386,41 +342,28 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
           data: "Przystanek tramwajowy: Polna, Rynek Jeżycki",
         }}
       />
-      <Gallery className="home_gallery" data={graph.gallery} />
 
-      <Reviews className="home_reviews" data={REVIEWS} />
-
-      <ProcedureDetails
-        className="home_two_col_section_right_img"
-        h2="Przebieg badania wideodermatoskopowego w Poznaniu"
+      <Doctors className="home_doctors" graph={graph} />
+      <Gallery
+        className="home_gallery"
+        data={graph.gallery}
+        color="yellow"
+        noAlert
+        introText="Galeria"
+        h2="Centrum Badania Znamion w Poznaniu"
       />
-      <ImportantInfo className="home_important_info" data={INFOS} />
-      <Dermoscopy
-        className="home_two_col_section_right_img with_no_padding_top"
+
+      <MelanomaOncology className="home_two_col_section_right_img with_no_padding_top" />
+      <Dermoscopy className="home_two_col_section_right_img " />
+      <MelanomaTreatment className="home_two_col_section_right_img " />
+
+      <Abcde className="home_abcde" />
+      <RiskGroup className="home_risk_group home_risk_group--onkology" />
+      <Videodermoscopy
+        className="home_two_col_section_left_img"
         reverse={false}
       />
-      <Videodermoscopy className="home_two_col_section_left_img" />
-      <RiskGroup className="home_risk_group" />
-      <Surgery className="home_two_col_section_left_img" reverse={false} />
-      <Faq className="home_faq" data={FAQS} />
-      <Abcde className="home_abcde" />
-      <Oncology
-        className="home_two_col_section_left_img with_no_padding_top with_no_padding_bottom"
-        Buttons={() => (
-          <>
-            <Button>
-              <AnchorLink href="#kontakt" title="Umów się" offset={0}>
-                Umów się
-              </AnchorLink>
-            </Button>
-            <Button type="secondary">
-              <Link to="/poznan/konsultacje-onkologiczne-leczenie-czerniaka" title="Konsultacje onkologiczne. Diagnostyka i leczenie czerniaka.">
-                Dowiedz się więcej
-              </Link>
-            </Button>
-          </>
-        )}
-      />
+      <Surgery className="home_two_col_section_left_img with_no_padding_top with_no_padding_bottom" />
       <Cta className="home_cta" constactCtaComponent={<CtaUmowSie />} />
       <CallCta />
     </Layout>
@@ -555,11 +498,22 @@ export default (props) => (
             }
           }
         }
+        Doctors: allFile(filter: { relativePath: { regex: "/people*/" } }) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 128, maxHeight: 128, quality: 100) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
     `}
     render={(data) => (
       <PoznanBadanieZnamionPage
         graph={{
+          doctors: data.Doctors.nodes,
           gallery: [
             data.ImageGallery6.nodes[0],
             data.ImageGallery5.nodes[0],

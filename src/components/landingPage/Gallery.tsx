@@ -5,7 +5,6 @@ import BubbleSection from "../BubbleSection";
 import Button from "../Button";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
-
 const GalleryCard = ({ data }) => {
   return (
     <div>
@@ -33,12 +32,19 @@ const AlertButton = () => (
   </Button>
 );
 
-const Gallery = ({ className = "", data = []}) => (
+const Gallery = ({
+  className = "",
+  color = "blue",
+  data = [],
+  noAlert = false,
+  introText="Zdjęcia ośrodka",
+  h2="Galeria"
+}) => (
   <div className={`${className} gallery`}>
     <BubbleSection
-      introText="Zdjęcia ośrodka"
-      h2="Galeria"
-      color="blue"
+      introText={introText}
+      h2={h2}
+      color={color}
       reverse
     >
       <div className="container">
@@ -47,11 +53,13 @@ const Gallery = ({ className = "", data = []}) => (
             <GalleryCard key={idx} data={item} />
           ))}
         </div>
-        <Alert button={AlertButton}>
-          Nasz zespół tworzą doświadczeni lekarze, którzy wspólnie, z pasją
-          działają na rzecz <strong>zmniejszenia umieralności</strong> z powodu
-          nowotworów skóry w Polsce.
-        </Alert>
+        {!noAlert && (
+          <Alert button={AlertButton}>
+            Nasz zespół tworzą doświadczeni lekarze, którzy wspólnie, z pasją
+            działają na rzecz <strong>zmniejszenia umieralności</strong> z
+            powodu nowotworów skóry w Polsce.
+          </Alert>
+        )}
       </div>
     </BubbleSection>
   </div>

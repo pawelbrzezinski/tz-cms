@@ -14,6 +14,7 @@ import "../../styles/about.scss";
 
 import { LOCATIONS } from "../../config/cities";
 import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
+import DoctorList from "../../components/about/DoctorList";
 
 const DOCTORS = [
   {
@@ -195,22 +196,14 @@ const DOCTORS = [
   },
 ];
 
+
+
 const AboutUsPage = ({ graph, location }) => {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
     setLocations(LOCATIONS);
   }, [LOCATIONS]);
-
-  const findImageForDoctor = (doctor) => {
-    const found = graph.doctors.filter((image) => {
-      return image.childImageSharp.fluid.originalName === doctor.img;
-    });
-
-    if (found.length) {
-      return found[0];
-    }
-  };
 
   return (
     <Layout location={location}>
@@ -315,13 +308,7 @@ const AboutUsPage = ({ graph, location }) => {
           >
             <div className="container">
               <div className="cards">
-                {DOCTORS.map((doctor) => (
-                  <Doctor
-                    key={doctor.name}
-                    data={doctor}
-                    image={findImageForDoctor(doctor)}
-                  />
-                ))}
+                <DoctorList data={DOCTORS} graph={graph} />
               </div>
             </div>
           </BubbleSection>

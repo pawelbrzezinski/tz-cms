@@ -10,9 +10,14 @@ import { graphql, StaticQuery } from "gatsby";
 import "../../styles/risk_group_card.scss";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
-const RiskGroupCard = ({ image, title = "", children = null }) => {
+const RiskGroupCard = ({
+  className = "",
+  image,
+  title = "",
+  children = null,
+}) => {
   return (
-    <div className="risk_group_card">
+    <div className={`risk_group_card ${className}`}>
       <div>
         <PreviewCompatibleImage
           imageInfo={{
@@ -33,7 +38,7 @@ const RiskGroupCard = ({ image, title = "", children = null }) => {
   );
 };
 
-const AlertButton = ({ctaOffset}) => (
+const AlertButton = ({ ctaOffset }) => (
   <Button>
     <AnchorLink href="#kontakt" title="Umów się" offset={ctaOffset}>
       Umów się
@@ -41,7 +46,11 @@ const AlertButton = ({ctaOffset}) => (
   </Button>
 );
 
-const RiskGroup = ({ className = "", ctaOffset = 0, graph = { images: [] } }) => (
+const RiskGroup = ({
+  className = "",
+  ctaOffset = 0,
+  graph = { images: [] },
+}) => (
   <div className={className}>
     <BubbleSection
       introText="Grupy ryzka"
@@ -70,7 +79,7 @@ const RiskGroup = ({ className = "", ctaOffset = 0, graph = { images: [] } }) =>
           <RiskGroupCard image={graph.images[7]}>
             Okres ciąży i połogu
           </RiskGroupCard>
-          <RiskGroupCard image={graph.images[6]}>
+          <RiskGroupCard image={graph.images[6]} className="melanoma_family">
             Czerniak lub raki skóry w rodzinie
           </RiskGroupCard>
           <RiskGroupCard image={graph.images[3]}>

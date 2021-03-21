@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Koronawirus a onkologia w Polsce
-author: Twoje znamiona
+author: Twoje Znamiona
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 5
 date: 2021-03-01T09:23:03.833Z
