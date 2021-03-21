@@ -18,13 +18,12 @@ const Videodermoscopy = ({
     Text ||
     (() => (
       <>
-        Dzięki zaawansowanej technologii lekarz ogląda obraz znamion na ekranie
-        komputera po przyłożeniu do skóry pacjenta specjalistycznej kamery,
-        umożliwiającej uzyskanie nawet 140 - krotnego powiększenia oraz
-        szczegółową analizę struktur znajdujących się w badanym znamieniu.
-        Dzięki systemowi archiwizacji danych, lekarz mapuje - zapisuje w
-        systemie zdjęcia zmian skórnych, które mają atypowy wygląd i powinny
-        zostać skontrolowane za kilka miesięcy.
+        Objawy czerniaka mogą być zupełnie nieuchwytne gołym okiem, dlatego tak
+        ważne jest oglądanie znamion w powiększeniu! Dzięki zaawansowanej
+        technologii lekarz ogląda obraz znamion na ekranie komputera po
+        przyłożeniu do skóry pacjenta specjalistycznej kamery, umożliwiającej
+        uzyskanie nawet 140 - krotnego powiększenia oraz szczegółową analizę
+        struktur znajdujących się w badanym znamieniu.
       </>
     ));
   const H5Component =
@@ -36,8 +35,7 @@ const Videodermoscopy = ({
         skóry. Badanie pieprzyków na skórze z zastosowaniem wideodermatoskopu
         polega przede wszystkim na ocenie dynamiki zmian zachodzących w badanych
         znamionach na podstawie analizy porównawczej zdjęć wykonanych na
-        przestrzeni czasu. Objawy czerniaka mogą być zupełnie nieuchwytne gołym
-        okiem, dlatego tak ważne jest oglądanie znamion w powiększeniu!
+        przestrzeni czasu.
       </>
     ));
 

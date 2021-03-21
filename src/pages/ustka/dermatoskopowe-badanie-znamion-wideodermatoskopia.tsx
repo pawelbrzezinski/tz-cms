@@ -55,7 +55,7 @@ const REVIEWS = [
 const PRICES = [
   {
     isOpened: true,
-    categoryName: "Badanie znamion - wideodermatoskopia",
+    categoryName: "Badanie znamion - dermatoskopia",
     button: () => (
       <ButtonDrw
         data-doctor="badanie znamion(dermatoskopia)"

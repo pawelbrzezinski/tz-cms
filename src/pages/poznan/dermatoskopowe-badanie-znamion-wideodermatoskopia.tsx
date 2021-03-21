@@ -310,9 +310,9 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
       image: graph.faqs[1].image,
       imageMobile: graph.faqs[1].imageMobile,
       title:
-        "Dotychczas musiałem dopłacać do każdego zbadanego znamienia. Jak to wygląda tutaj?",
+        "Dotychczas dopłacałem do każdego badanego znamienia. Jak to wygląda tutaj?",
       text:
-        "W Centrum Twoje Znamiona zostaniesz zbadany od stóp do głów. Lekarz obejrzy każde znamię na Twojej skórze, a koszt badania nie jest uzależniony od liczby znamion. Istotą badania dermatoskopowego jest oglądanie całego ciała i archiwizacja obrazu wszystkich atypowych zmian, które należy w przyszłości poddać badaniu kontrolnemu. Oglądanie jedynie pojedynczych, niepokojących zmian na skórze nie jest pełnowartościowym badaniem profilaktycznym i nie zwalnia z konieczności wykonania pełnej diagnostyki.",
+        "Lekarz obejrzy każde znamię na Twojej skórze, a koszt badania nie jest uzależniony od liczby znamion. Istotą badania dermatoskopowego jest oglądanie całego ciała i archiwizacja obrazu wszystkich atypowych zmian, które należy w przyszłości poddać badaniu kontrolnemu. Oglądanie jedynie pojedynczych, niepokojących zmian na skórze nie jest pełnowartościowym badaniem profilaktycznym i nie zwalnia z konieczności wykonania pełnej diagnostyki.",
     },
     {
       image: graph.faqs[2].image,

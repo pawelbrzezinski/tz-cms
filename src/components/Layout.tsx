@@ -15,7 +15,9 @@ const TemplateWrapper = ({
 }) => {
   const { title, description, siteUrl } = useSiteMetadata();
 
-  const [offset, setOffset] = useState(0);
+  const [offset, setOffset] = useState(
+    typeof window === "undefined" ? 0 : window.pageYOffset
+  );
 
   const canonicalUrl = trimEnd(siteUrl + location.pathname, "/");
 

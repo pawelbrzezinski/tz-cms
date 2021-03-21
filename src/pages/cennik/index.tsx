@@ -7,14 +7,20 @@ import { Link } from "gatsby";
 import "../../styles/prices.scss";
 
 import { LOCATIONS } from "../../config/cities";
+import Button from "../../components/Button";
 
 const CityItem = ({ city = "", link = "" }) => (
   <Link className="prices_list_item" to={`/${link}/#cennik`} title={city}>
-    <h4>{city}</h4>
+    <div>
+      <h4>{city}</h4>
+    </div>
+    <Button type="secondary" size="M">
+      <span>Wybierz</span>
+    </Button>
   </Link>
 );
 
-const PricesPage = ({location}) => (
+const PricesPage = ({ location }) => (
   <Layout location={location}>
     <Helmet>
       <title>Cennik</title>
@@ -23,9 +29,13 @@ const PricesPage = ({location}) => (
       <div className="prices_instructions">
         <h1>Cennik usług</h1>
         <div className="prices_cities_instructions">
-          <strong>Wybierz miasto</strong>, w którym chcesz się zbadać. W każdym z ośrodków
-          Ogólnopolskiego Centrum Badania Znamion zbadamy Cię od stóp do głów! W
-          trakcie wizyty lekarz ogląda <strong>wszystkie znamiona na skórze pacjenta</strong>.
+          <p className="instructions_cta">
+            <strong>Wybierz miasto</strong>, w którym chcesz się zbadać.
+          </p>
+          <p>
+            Dynamicznie zwiększamy obszar naszej działalności, aby już wkrótce
+            działać w Twoim miejscu zamieszkania!
+          </p>
         </div>
       </div>
       <div className="prices_cities_list_wrapper">

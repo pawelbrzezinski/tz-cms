@@ -119,20 +119,24 @@ const RegistrationInfo = () => (
   </>
 );
 
-const ContactPage = ({location}) => (
+const ContactPage = ({ location }) => (
   <Layout constactCtaComponent={<ContactInfo />} location={location}>
     <Helmet>
       <title>Kontakt</title>
     </Helmet>
     <CallCta />
-    
+
     <div className="contact">
       <div className="contact_cities">
         <h1>Nasze ośrodki</h1>
         <div className="contact_cities_instructions">
-          <strong>Wybierz miasto</strong>, w którym chcesz się zbadać.
-          Dynamicznie zwiększamy obszar naszej działalności, aby już wkrótce
-          działać w Twoim miejscu zamieszkania!
+        <p className="instructions_cta">
+            <strong>Wybierz miasto</strong>, w którym chcesz się zbadać.
+          </p>
+          <p>
+            Dynamicznie zwiększamy obszar naszej działalności, aby już wkrótce
+            działać w Twoim miejscu zamieszkania!
+          </p>
         </div>
         <div className="contact_cities_list_wrapper">
           {LOCATIONS.filter((location) => location.link).map((location) => (

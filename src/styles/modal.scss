@@ -19,6 +19,15 @@
   padding-bottom: 80px;
   background-size: 100% auto;
 
+  ::-webkit-scrollbar {
+    width:0;
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  /* Optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+    background: $gray;
+  }
+
   &--opened {
     right: 0vw;
   }
@@ -47,12 +56,12 @@
 
   .modal_body {
     padding: 0 64px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
     @media (max-width: $screeen-xs) {
       padding: 0 32px;
     }
-
   }
 }
 

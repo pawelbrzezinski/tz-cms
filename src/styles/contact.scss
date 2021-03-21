@@ -168,7 +168,6 @@
     a {
       color: $black;
       font-weight: 400;
-      
     }
     p {
       margin: 0;
@@ -201,8 +200,11 @@
       margin-bottom: 24px;
     }
     .contact_cities_instructions {
-      color: $gray;
+      color: $gray80;
       margin-bottom: 56px;
+      .instructions_cta {
+        color: $black;
+      }
     }
 
     .contact_cities_list_wrapper {

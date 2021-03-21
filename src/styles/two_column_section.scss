@@ -98,5 +98,13 @@
     font-weight: 400;
     color: $black;
     margin-bottom: 24px;
+
+    font-size: 20px;
+    line-height: 32px;
+
+    @media (max-width: $screeen-sm) {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
 }

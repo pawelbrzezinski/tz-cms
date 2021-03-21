@@ -56,7 +56,7 @@ const REVIEWS = [
 const OFFERS = [
   {
     type: "chirurgiczne",
-    title: "Usuwanie znamion",
+    title: "Chirurgiczne Usuwanie Znamion",
     desc:
       "Każda niepokojąca zmiana skórna powinna być usunięta chirurgicznie gdyż tylko na podstawie badania histopatologicznego można postawić jednoznaczną diagnozę. Przed wykonaniem zabiegu pacjent powinien poddać się badaniu dermatoskopowemu.",
   },
@@ -69,9 +69,9 @@ const OFFERS = [
   },
   {
     type: "badanie",
-    title: "Badanie znamion",
+    title: "Dermatoskopowe Badanie Znamion",
     desc:
-      "Dermatoskopowe badanie wszystkich znamion na skórze w formie wideodermatoskopii z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć.",
+      "Wideodermatoskopowe badanie wszystkich znamion na skórze z mapowaniem zmian wytypowanych przez lekarza do obserwacji oraz archiwizacją wykonanych zdjęć jest podstawowym narzędziem profilaktyki nowotworów skóry.",
   },
 ];
 
