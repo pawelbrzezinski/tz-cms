@@ -238,19 +238,17 @@ const UstkaBadanieZnamionPage = ({ graph, location }) => {
           lng: 16.856022243197042,
         }}
         googleMarker={{
-          title: "Instytut Medicus Esthetic",
-          data: "ul. Bulwar Portowy 9, 76-270 Ustka",
+          data: ["ul. Bulwar Portowy 9", "76-270 Ustka"],
           link: "https://goo.gl/maps/Mrba261iLbwPAnCk6",
         }}
-        additionalDetails="Centrum Badania Znamion znajduje się w tym samym pasażu co Auchan - Gabinety Oricea. Przed Auchan są dostępne miejsca parkingowe."
-        locationInfo={{
-          title: "Instytut Medicus Esthetic",
-          data: "ul. Bulwar Portowy 9, 76-270 Ustka",
-        }}
+        additionalDetails=""
+        locationInfo={[
+          "Centrum Medicus",
+          "ul. Bulwar Portowy 9",
+          "76-270 Ustka",
+        ]}
         hoursInfo={["pon. - pt.: 8:00 - 18:00,", "czwartek: 9:00 - 14:00"]}
-        transportationInfo={{
-          data: "-",
-        }}
+        transportationInfo={["Pętla autobusowej PPKS Słupsk"]}
       />
       <Gallery className="home_gallery" data={graph.gallery} />
 

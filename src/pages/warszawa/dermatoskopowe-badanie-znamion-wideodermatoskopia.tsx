@@ -348,20 +348,23 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
           lng: 20.959497315423995,
         }}
         googleMarker={{
-          title: "ul. Sokołowska 9/U-02",
-          data: "Dzielnica - Wola, 01-142 Warszawa",
+          data: ["ul. Sokołowska 9/U-02", "01-142 Warszawa"],
           link: "https://g.page/twoje-znamiona-warszawa?share",
         }}
         additionalDetails="Centrum Badania Znamion znajduje się w tym samym pasażu co Auchan - Gabinety Oricea. Przed Auchan są dostępne miejsca parkingowe."
-        locationInfo={{
-          title: "ul. Sokołowska 9/U-02",
-          data: "Dzielnica - Wola, 01-142 Warszawa",
-        }}
+        locationInfo={[
+          "Gabinety Oricea",
+          "ul. Sokołowska 9/U-02",
+          "Dzielnica - Wola",
+          "01-142 Warszawa",
+        ]}
         hoursInfo={["pon. - pt.: 10:00⁃19:00,", "czwartek: 8:00 - 19:00 "]}
-        transportationInfo={{
-          data:
-            "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
-        }}
+        transportationInfo={[
+          "Przystanek tramwajowy:",
+          "Sokołowska",
+          "Stacja metra:",
+          "Młynów",
+        ]}
       />
       <Gallery className="home_gallery" data={graph.gallery} city="warszawa" />
 

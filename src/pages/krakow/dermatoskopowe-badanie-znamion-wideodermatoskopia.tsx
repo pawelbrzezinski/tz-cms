@@ -250,20 +250,21 @@ const KrakowBadanieZnamionPage = ({ graph, location }) => {
           lng: 19.93467253321539,
         }}
         googleMarker={{
-          title: "Centrum Dobry Lekarz",
-          data: "Pl. Szczepański 3, piętro II, 31-011 Kraków",
+          data: ["Pl. Szczepański 3, piętro II", "31-011 Kraków"],
           link: "https://g.page/twoje-znamiona-krakow?share",
         }}
         additionalDetails="Ośrodek Twoje Znamiona znajduje się w Centrum Nowoczesnych Terapii “Dobry Lekarz” na drugim piętrze - wejście prosto do rejestracji.  Wewnątrz znajduje się winda o szerokości 70 cm."
-        locationInfo={{
-          title: "Centrum Dobry Lekarz",
-          data: "Pl. Szczepański 3, piętro II, 31-011 Kraków",
-        }}
+        locationInfo={[
+          "Centrum Dobry Lekarz",
+          "Pl. Szczepański 3, piętro II",
+          "31-011 Kraków",
+        ]}
         hoursInfo={["pon. - pt.  8:00 - 20:00,", "sobota 8:00 - 12:00"]}
-        transportationInfo={{
-          data:
-            "Lokalizacja pomiędzy teatrem Bagatelą a rynkiem. Najbliższy parking przy ul. Karmelickiej. Najwygodniejszy dojazd - tramwajem",
-        }}
+        transportationInfo={[
+          "Lokalizacja pomiędzy teatrem Bagatelą a rynkiem.",
+          "Najbliższy parking przy ul. Karmelickiej.",
+          "Najwygodniejszy dojazd - tramwajem",
+        ]}
       />
       <Gallery className="home_gallery" data={graph.gallery} city="krakow" />
 

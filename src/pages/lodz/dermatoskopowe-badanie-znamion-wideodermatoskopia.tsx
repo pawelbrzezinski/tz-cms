@@ -353,20 +353,17 @@ const LodzBadanieZnamionPage = ({ graph, location }) => {
           lng: 19.45359902579603,
         }}
         googleMarker={{
-          title: "Klinika Pawlikowski",
-          data: "Radwańska 26, 90-541 Łódź",
+          data: ["Radwańska 26", "90-541 Łódź"],
           link: "https://g.page/twoje-znamiona-lodz?share",
         }}
         additionalDetails="Ośrodek mieści się w Klinice Pawlikowski, w pobliżu Politechniki Łódzkiej i parku im. ks. J. Poniatowskiego, w dzielnicy Polesie. Parking - dostępny dla pacjentów Ośrodka."
-        locationInfo={{
-          title: "Klinika Pawlikowski",
-          data: "Radwańska 26, 90-541 Łódź",
-        }}
+        locationInfo={["Klinika Pawlikowski", "Radwańska 26", "90-541 Łódź"]}
         hoursInfo={["pon. - pt.: 09:00⁃22:00"]}
-        transportationInfo={{
-          data:
-            "Pobliskie przystanki: Radwańska - Wólczanka, Politechniki - Radwańska.",
-        }}
+        transportationInfo={[
+          "Pobliskie przystanki:",
+          "Radwańska - Wólczanka",
+          "Politechniki - Radwańska",
+        ]}
       />
       <Gallery className="home_gallery" data={graph.gallery} city="lodz" />
 

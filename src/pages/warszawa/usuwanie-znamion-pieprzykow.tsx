@@ -76,7 +76,6 @@ const OFFERS = [
 ];
 
 const PRICES = [
-  
   {
     isOpened: true,
     categoryName: "Chirurgiczne usuwanie znamion",
@@ -345,7 +344,11 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
           </li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="w Warszawie" city="Warszawa Chirurgia" />
+      <Contact
+        className="home_contact"
+        where="w Warszawie"
+        city="Warszawa Chirurgia"
+      />
       <Location
         className="home_location"
         coords={{
@@ -353,20 +356,23 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
           lng: 20.959497315423995,
         }}
         googleMarker={{
-          title: "ul. Sokołowska 9/U-02",
-          data: "Dzielnica - Wola, 01-142 Warszawa",
+          data: ["ul. Sokołowska 9/U-02", "01-142 Warszawa"],
           link: "https://g.page/twoje-znamiona-warszawa?share",
         }}
         additionalDetails="Centrum Badania Znamion znajduje się w tym samym pasażu co Auchan - Gabinety Oricea. Przed Auchan są dostępne miejsca parkingowe."
-        locationInfo={{
-          title: "ul. Sokołowska 9/U-02",
-          data: "Dzielnica - Wola, 01-142 Warszawa",
-        }}
+        locationInfo={[
+          "Gabinety Oricea",
+          "ul. Sokołowska 9/U-02",
+          "Dzielnica - Wola",
+          "01-142 Warszawa",
+        ]}
         hoursInfo={["pon. - pt.: 10:00⁃19:00,", "czwartek: 8:00 - 19:00 "]}
-        transportationInfo={{
-          data:
-            "Przystanek tramwajowy Sokołowska. W pobliżu stacji metra Młynów",
-        }}
+        transportationInfo={[
+          "Przystanek tramwajowy:",
+          "Sokołowska",
+          "Stacja metra:",
+          "Młynów",
+        ]}
       />
       <Gallery className="home_gallery" data={graph.gallery} city="warszawa" />
 
@@ -378,7 +384,10 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
         data={INFOS}
       />
 
-      <Laser className="home_two_col_section_left_img with_no_padding_top" reverse={false} />
+      <Laser
+        className="home_two_col_section_left_img with_no_padding_top"
+        reverse={false}
+      />
 
       <Faq className="home_faq" data={FAQS} />
       <Dermoscopy className="home_two_col_section_right_img" reverse={false} />

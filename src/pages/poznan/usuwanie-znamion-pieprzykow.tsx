@@ -395,20 +395,14 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
           lat: 52.41318096681178,
           lng: 16.90436715323331,
         }}
+        additionalDetails=""
+        hoursInfo={["pon. - wt.: 8:00 - 19:00,", "śr. - pt. 8:00-18:00"]}
         googleMarker={{
-          title: "Gabinety Medic-r",
-          data: "Poznańska 3, 60-848 Poznań",
+          data: ["Poznańska 3", "60-848 Poznań"],
           link: "https://g.page/twoje-znamiona-poznan-chirurgia?share",
         }}
-        additionalDetails=""
-        locationInfo={{
-          title: "Gabinety Medic-r",
-          data: "Poznańska 3, 60-848 Poznań",
-        }}
-        hoursInfo={["pon. - wt.: 8:00 - 19:00,", "śr. - pt. 8:00-18:00"]}
-        transportationInfo={{
-          data: "Przystanek tramwajowy: Polna, Rynek Jeżycki",
-        }}
+        locationInfo={["Gabinety Medic-r", "Poznańska 3", "60-848 Poznań"]}
+        transportationInfo={["Przystanek tramwajowy:", "Polna, Rynek Jeżycki"]}
       />
       <Gallery className="home_gallery" data={graph.gallery} city="poznan" />
 

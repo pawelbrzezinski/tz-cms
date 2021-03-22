@@ -328,19 +328,17 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
           lng: 16.9005161,
         }}
         googleMarker={{
-          title: "Nobel Tower",
-          data: "Dąbrowskiego 77A, 60-101 Poznań",
+          data: ["Dąbrowskiego 77A", "60-101 Poznań"],
           link: "https://g.page/twoje-znamiona-poznan?share",
         }}
         additionalDetails="Ośrodek znajduje się na parterze w budynku Nobel Tower - wejście niezależne. Parking płatny na miejscu."
-        locationInfo={{
-          title: "Gabinety Moti-med",
-          data: "Dąbrowskiego 77A, 60-101 Poznań",
-        }}
+        locationInfo={[
+          "Gabinety Moti-med",
+          "Dąbrowskiego 77A",
+          "60-101 Poznań",
+        ]}
         hoursInfo={["pon. - pt.: 10:00 - 20:00"]}
-        transportationInfo={{
-          data: "Przystanek tramwajowy: Polna, Rynek Jeżycki",
-        }}
+        transportationInfo={["Przystanek tramwajowy:", "Polna, Rynek Jeżycki"]}
       />
 
       <Doctors className="home_doctors" graph={graph} />

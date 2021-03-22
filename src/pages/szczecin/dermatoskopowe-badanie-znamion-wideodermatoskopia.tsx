@@ -277,19 +277,23 @@ const SzczecinBadanieZnamionPage = ({ graph, location }) => {
           lng: 14.525558670144864,
         }}
         googleMarker={{
-          title: "Centrum Zdrowia Akal-Med",
-          data: "ul. Arkońska 51/01, 71-455 Szczecin",
+          data: [
+            "ul. Arkońska 51/01",
+            "71-455 Szczecin",
+          ],
           link: "https://g.page/twoje-znamiona-szczecin?share",
         }}
         additionalDetails="Ośrodek znajduje się w Centrum Zdrowia Akal-Med w budynku naprzeciw Szpitala Publicznego przy ul. Arkońskiej. Wejście do budynku od strony parkingu. "
-        locationInfo={{
-          title: "Centrum Zdrowia Akal-Med",
-          data: "ul. Arkońska 51/01, 71-455 Szczecin",
-        }}
+        locationInfo={[
+          "Centrum Akal-Med",
+          "ul. Arkońska 51/01",
+          "71-455 Szczecin",
+        ]}
         hoursInfo={["pon. - pt.: 10:00⁃18:00"]}
-        transportationInfo={{
-          data: "Parking - obecny. Wjazd na parking od ul. Bułgarskiej",
-        }}
+        transportationInfo={[
+          "Parking - obecny.",
+          "Wjazd na parking od ul. Bułgarskiej."
+        ]}
       />
       <Gallery className="home_gallery" data={graph.gallery} city="szczecin" />
 

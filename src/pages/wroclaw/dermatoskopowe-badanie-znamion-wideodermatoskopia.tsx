@@ -277,15 +277,15 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
           lng: 17.056314009859083,
         }}
         googleMarker={{
-          title: "ul. Jesionowa 49/U1",
-          data: "50-504 Wrocław",
+          data: ["ul. Jesionowa 49/U1", "50-504 Wrocław"],
           link: "https://g.page/twoje-znamiona-wroclaw?share",
         }}
         additionalDetails="Ośrodek znajduje się na parterze, wejście niezależne od strony ul. Pięknej.  Możliwość parkowania wzdłuż chodnika  przed budynkiem lub na pobliskim osiedlu."
-        locationInfo={{
-          title: "ul. Jesionowa 49/U1",
-          data: "50-504 Wrocław",
-        }}
+        locationInfo={[
+          "Gabinety City Smile",
+          "ul. Jesionowa 49/U1",
+          "50-504 Wrocław",
+        ]}
         hoursInfo={[
           "poniedziałek: 13:00 - 19:00",
           "wtorek: 13:00 - 19:00",
@@ -294,10 +294,11 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
           "piątek: 8:30 - 14:00",
           "sobota: 9:00 - 15:00",
         ]}
-        transportationInfo={{
-          data:
-            "W pobliżu przystanku autobusowego: Transbud - dojście od strony ul. Pięknej, Kamienna - dojście od strony ul. Jesionowej",
-        }}
+        transportationInfo={[
+          "Przystanek autobusowy:",
+          "Transbud (od strony ul. Pięknej)",
+          "Kamienna (od strony ul. Jesionowej)",
+        ]}
       />
       <Gallery className="home_gallery" data={graph.gallery} city="wroclaw" />
 

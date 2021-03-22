@@ -7,9 +7,9 @@ import useInViewPort from "../useInViewPort";
 const Location = ({
   coords,
   additionalDetails,
-  locationInfo = { title: "", data: "" },
+  locationInfo = [],
   hoursInfo = [],
-  transportationInfo = { data: "" },
+  transportationInfo = [],
   className = "",
   googleMarker,
 }) => {
@@ -32,23 +32,22 @@ const Location = ({
         )}
         <div className="location_info_wrapper">
           <div className="location_info_address">
-            <p className="title">{locationInfo.title}</p>
-            <p>{locationInfo.data}</p>
+            <p className="title">Adres</p>
+            {locationInfo.map((info,idx)=>(
+              <p key={idx}>{info}</p>
+            ))}
           </div>
           <div className="location_info_hours">
             <p className="title">Godziny otwarcia</p>
-            <p>
-              {hoursInfo.map((item, idx) => (
-                <Fragment key={idx}>
-                  <span>{item}</span>
-                  <br />
-                </Fragment>
-              ))}
-            </p>
+            {hoursInfo.map((info,idx)=>(
+              <p key={idx}>{info}</p>
+            ))}
           </div>
           <div className="location_info_transportation">
-            <p className="title">Komunikacja miejska</p>
-            <p>{transportationInfo.data}</p>
+            <p className="title">Dojazd</p>
+            {transportationInfo.map((info,idx)=>(
+              <p key={idx}>{info}</p>
+            ))}
           </div>
         </div>
       </div>

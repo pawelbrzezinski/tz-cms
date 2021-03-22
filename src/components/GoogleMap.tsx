@@ -274,12 +274,17 @@ const mapStyles = [
   },
 ];
 
-const Marker = ({ lat, lng, data = { title: "", data: "", link: "" } }) => {
+const Marker = ({ lat, lng, data = { data: [], link: "" } }) => {
   return (
     <div className="google_marker_wrapper">
       <div className="marker_bubble">
-        <p className="buble_title">{data.title}</p>
-        <p className="buble_address">{data.data}</p>
+        {data.data.map((item, idx) => (
+          <p key={idx} className={!idx ? "buble_title" : "buble_address"}>
+            {item}
+          </p>
+        ))}
+        {/* <p className="buble_title">{data.title}</p>
+        <p className="buble_address">{data.data}</p> */}
         <p className="buble_link">
           <a href={data.link} target="_blank" title="Sprawdź dojazd">
             Sprawdź dojazd
@@ -302,7 +307,6 @@ const GoogleMap = ({ marker, coords = { lat: 0, lng: 0 } }) => {
     <div className="google_map_wrapper">
       <div className="google_map">
         <GoogleMapReact
-          
           bootstrapURLKeys={{ key: "AIzaSyAu1dg549uAcoFMp27crJ-3NecYbQDSlmk" }}
           defaultCenter={coords}
           defaultZoom={15}

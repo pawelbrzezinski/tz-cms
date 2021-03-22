@@ -39,7 +39,7 @@ const Gallery = ({
   noAlert = false,
   introText = "Zdjęcia ośrodka",
   h2 = "Galeria",
-  city,
+  city = "all",
 }) => (
   <div className={`${className} gallery`}>
     <BubbleSection introText={introText} h2={h2} color={color} reverse>

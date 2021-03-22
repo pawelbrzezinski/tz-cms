@@ -291,19 +291,20 @@ const BydgoszczBadanieZnamionPage = ({ graph, location }) => {
           lng: 18.032980262800063,
         }}
         googleMarker={{
-          title: "ul. Glinki 81/4,5 U",
-          data: "85-861 Bydgoszcz",
+          data: ["ul. Glinki 81/4,5 U", "85-861 Bydgoszcz"],
           link: "https://g.page/twoje-znamiona-bydgoszcz?share",
         }}
         additionalDetails="Centrum Badania Znamion znajduje się w Centrum Medycznym Wysoccy, na parterze w budynku mieszkalnym na osiedlu Wyżyny. Wejście do ośrodka znajduje się od strony parkingu.  W pobliżu znajduje się Stadion im. Czesława Kobusa."
-        locationInfo={{
-          title: "ul. Glinki 81/4,5 U",
-          data: "85-861 Bydgoszcz",
-        }}
+        locationInfo={[
+          "Centrum Wysoccy",
+          "ul. Glinki 81/4,5 U",
+          "85-861 Bydgoszcz",
+        ]}
         hoursInfo={["pon. - pt.: 09:00⁃18:00"]}
-        transportationInfo={{
-          data: "Osiedle Wyżyny. Parking bezpłatny przed Centrum",
-        }}
+        transportationInfo={[
+          "Osiedle Wyżyny.",
+          "Parking bezpłatny przed Centrum",
+        ]}
       />
 
       <Reviews
