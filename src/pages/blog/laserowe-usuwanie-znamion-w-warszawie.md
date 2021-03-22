@@ -18,7 +18,7 @@ tags:
   - laserowe usuwanie znamion
   - niechirurgiczne usuwanie znamion
   - usuwanie znamion
-  - Warszawa
+  - warszawa
 sources: []
 ---
 **Znamiona stanowią nieodłączną część skóry każdego z nas. Ich różne formy, w tym w szczególności znamiona barwnikowe (pieprzyki), zauważyć możemy w najróżniejszych punktach naszego ciała. Zmiany te mogą być naszym uroczym znakiem rozpoznawczym lub kompleksem, jednak często są także objawem poważnych chorób skóry, w tym nowotworów. Jak możemy zweryfikować, czy niepozorne pieprzyki wymagają laserowego usuwania? Gdzie w Warszawie możemy znaleźć profesjonalną pomoc i pozbyć się niechcianej ozdoby?**
