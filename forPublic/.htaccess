@@ -40,8 +40,9 @@ RewriteRule ^badanie-znamion$ /dermatoskopia-badanie-znamion [R=301]
 RewriteRule ^dermatoskopia$ /dermatoskopia-badanie-znamion [R=301]
 RewriteRule ^niechirurgiczne-usuwanie-znamion$ /laserowe-usuwanie-znamion [R=301]
 
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.html$ /$1 [L,R=301]
 
 #RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteCond %{REQUEST_URI} (.+)/$
