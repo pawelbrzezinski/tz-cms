@@ -60,12 +60,18 @@ const PRICES = [
     categoryName: "Badanie znamion - wideodermatoskopia",
     button: () => (
       <ButtonDrw
-        data-doctor="warszawa badanie znamion(wideodermatoskopia)"
+        // data-doctor="warszawa badanie znamion(wideodermatoskopia)"
+        // data-speciality=""
+        // data-visitkind=""
+        // data-evisit="false"
+        // data-appname="drw"
+        // data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+        data-doctor=""
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
         data-appname="drw"
-        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6MTc1NzZ9.9DHIifZCrE0Tob8-YZqKuXKcqBytk1wiv-PHk8D5Fl4"
       />
     ),
     items: [
