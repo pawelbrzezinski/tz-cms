@@ -31,17 +31,15 @@
       @media (max-width: $screeen-sm) {
         &:nth-of-type(2n) {
           background: $violet10;
-
-          &:hover {
-            background: $white;
-          }
         }
       }
 
-      &:hover {
-        background: $violet10;
-        h2 {
-          color: $violet60;
+      @media (min-width: $screeen-sm) {
+        &:hover {
+          background: $violet10;
+          h2 {
+            color: $violet60;
+          }
         }
       }
 
