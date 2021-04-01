@@ -34,7 +34,7 @@ const TemplateWrapper = ({
   return (
     <div>
       <Helmet bodyAttributes={bodyClass}>
-        <html lang="en" />
+        <html lang="pl" />
         <title>{title}</title>
         <meta charset="utf-8" />
         <link rel="canonical" href={canonicalUrl} />
