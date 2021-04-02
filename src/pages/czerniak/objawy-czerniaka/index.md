@@ -92,7 +92,7 @@ Nie zapominajmy jednak, że znamiona pomimo braku niepokojących objawów należ
 
 
 
-[Dowiedz się więcej o czerniaku](https://twojeznamiona.pl/czerniak "Czerniak - objawy, diagnostyka, leczenie")
+[Dowiedz się więcej o czerniaku](/czerniak "Czerniak - objawy, diagnostyka, leczenie")
 
 
 <span id="id2" />
@@ -107,11 +107,11 @@ wysięk
 krwawienie spod płytki paznokciowej, ale dotyczy zwykle czerniaków bardziej zaawansowanych
 ciemniejsze zabarwienie skóry wokół paznokcia
 
-[Niepokoi Cię zmiana na paznokciu? Sprawdź to! ](https://twojeznamiona.pl/kontakt "Czerniak - objawy, diagnostyka, leczenie")
+[Niepokoi Cię zmiana na paznokciu? Sprawdź to! ](/kontakt "Czerniak - objawy, diagnostyka, leczenie")
 
 ![Objawy czerniaka podpaznokciowego.](img/Objawy-czerniaka-podpaznokciowego.png "Objawy czerniaka podpaznokciowego. Źródło Diagnostyka dermoskopowa czerniaka podpaznokciowego. G. Kamińska-Winciorek, R. Śpiewak")
 
-[Inne rodzaje czerniaka.](https://twojeznamiona.pl/czerniak/rodzaje-czerniaka-zdjecia "Czerniak - orodzaje - zdjęcia")
+[Inne rodzaje czerniaka.](/czerniak/rodzaje-czerniaka-zdjecia "Czerniak - orodzaje - zdjęcia")
 
 <span id="id3" />
 

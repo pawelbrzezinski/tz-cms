@@ -142,6 +142,12 @@ const Footer = () => {
                 Rodzaje czerniaka
               </Link>
               <Link
+                to="/czerniak/objawy-czerniaka"
+                className="footer_link"
+              >
+                Objawy czerniaka
+              </Link>
+              <Link
                 to="/czerniak/rodzaje-czerniaka/czerniak-na-dloniach-i-podeszwach-stop"
                 className="footer_link"
               >
