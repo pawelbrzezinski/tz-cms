@@ -60,18 +60,12 @@ const PRICES = [
     categoryName: "Badanie znamion - wideodermatoskopia",
     button: () => (
       <ButtonDrw
-        // data-doctor="szczecin badanie znamion(wideodermatoskopia)"
-        // data-speciality=""
-        // data-visitkind=""
-        // data-evisit="false"
-        // data-appname="drw"
-        // data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-        data-doctor=""
+        data-doctor="szczecin badanie znamion(wideodermatoskopia)"
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
         data-appname="drw"
-        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6MTc1NzZ9.9DHIifZCrE0Tob8-YZqKuXKcqBytk1wiv-PHk8D5Fl4"
+        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
       />
     ),
 
@@ -283,10 +277,7 @@ const SzczecinBadanieZnamionPage = ({ graph, location }) => {
           lng: 14.525558670144864,
         }}
         googleMarker={{
-          data: [
-            "ul. Arkońska 51/01",
-            "71-455 Szczecin",
-          ],
+          data: ["ul. Arkońska 51/01", "71-455 Szczecin"],
           link: "https://g.page/twoje-znamiona-szczecin?share",
         }}
         additionalDetails="Ośrodek znajduje się w Centrum Zdrowia Akal-Med w budynku naprzeciw Szpitala Publicznego przy ul. Arkońskiej. Wejście do budynku od strony parkingu. "
@@ -298,7 +289,7 @@ const SzczecinBadanieZnamionPage = ({ graph, location }) => {
         hoursInfo={["pon. - pt.: 10:00⁃18:00"]}
         transportationInfo={[
           "Parking - obecny.",
-          "Wjazd na parking od ul. Bułgarskiej."
+          "Wjazd na parking od ul. Bułgarskiej.",
         ]}
       />
       <Gallery className="home_gallery" data={graph.gallery} city="szczecin" />
