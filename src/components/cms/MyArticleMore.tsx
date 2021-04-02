@@ -5,14 +5,14 @@ import Button from '../Button'
 
 import "../../styles/cms.scss";
 
-const MyArticleMore = ({ link = "", cta = "", text = "" }) => {
+const MyArticleMore = ({ link = "", cta = "", text = "", label ="Zobacz również:" }) => {
   return (
     <Link to={link} title={text} className="more-link">
       <div className="more-wrapper">
         <div className="more-container">
           <img src={MoreIcon} alt={text} />
           <div className="more-content">
-            <p className="label">Zobacz również:</p>
+            <p className="label">{label}</p>
             <div>{text}</div>
           </div>
         </div>

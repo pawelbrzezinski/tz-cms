@@ -33,7 +33,7 @@ toc:
   - link: id6
     label: Czy czerniak może występować genetycznie?
   - link: id7
-    label: Objawy kliniczne czerniaka.
+    label: Objawy czerniaka.
   - link: id8
     label: Diagnostyka - chirurgia, biopsja węzłów wartowniczych.
   - link: id9
@@ -82,7 +82,6 @@ tags:
 ---
 
 Czerniak skóry jest złośliwym nowotworem wywodzącym się z neuroektodermalnych komórek melanocytarnych. Melanina to barwnik, który odpowiada za ciemniejszy odcień skóry w kontakcie z promieniowaniem ultrafioletowym – słonecznym lub w solarium. W związku z tym najczęstszym miejscem występowania tego nowotworu jest skóra, jednak może on występować również w okolicach: ust, nosa, warg sromowych czy w gałce ocznej. Natomiast czerniak w zaawansowanym stadium może dawać przerzuty do wszystkich organów.
-
 
 ![Czerniak](img/1.png "www.mayoclinic.org")
 <br />
@@ -236,15 +235,28 @@ Potwierdzenie w 2002 roku kancerogennej roli mutacji BRAF w powstawaniu czerniak
 
 ## Jakie są objawy czerniaka?
 
-Podejrzenie czerniaka skóry mogą nasuwać zmiany, które rozwinęły się nagle i wcześniej nie było ich na skórze lub zmiany, które zaszły na podłożu znamienia barwnikowego. Jeśli zwykły pieprzyk uległ podrażnieniu, nastąpiło zgrubienie, zmiana powierzchni, zabarwienia i brzegów lub wystąpiło swędzenie czy krwawienie należy niezwłocznie udać się na dermatoskopowe badanie znamion.
+Podejrzenie czerniaka skóry mogą nasuwać zmiany, które rozwinęły się nagle i wcześniej nie było ich na skórze lub zmiany, które zaszły na podłożu znamienia barwnikowego. Główne objawy czerniaka, które powinny nas zaniepokoić to:
+
+- dynamiczny wzrost
+- znacząca zmiana w obrębie znamienia
+- zaczerwienienie i podrażnienie
+- zgrubienie i uwypuklenie
+- zmiana zabarwienia
+-  asymetryczne, nierówne brzegi
+- swędzenie
+- krwawienie
+
+Jeśli pojawią się ww objawy należy niezwłocznie udać się na dermatoskopowe badanie znamion.
+
+<More link="/czerniak/objawy-czerniaka" text="Objawy czerniaka" label="Dowiedz się więcej" cta="Sprawdź" />
 
 Często czerniak spełnia także kryteria syndromu „brzydkiego kaczątka”, wówczas znamię zaczyna znacznie różnić się od pozostałych zmian na skórze. Takie znamię należy zbadać dermatoskopowo i zazwyczaj usunąć chirurgicznie.
 
-![Czerniak na plcach](img/15.png "Czerniak na plcach")
+![Czerniak szerzący się powierzchownie. Wzrost zmiany - objaw czerniaka.](img/15.png "Czerniak szerzący się powierzchownie. Wzrost zmiany - objaw czerniaka.")
 
 Do najtrudniejszych w diagnozie należą czerniaki rozwijające się pod płytką paznokciową. Zniekształcenie paznokcia, często mylone jest z wrastającymi paznokciami czy ich urazem mechanicznym. Bardziej specyficznym objawem czerniaka może być wysięk lub krwawienie spod płytki paznokciowej, ale dotyczy zwykle czerniaków bardziej zaawansowanych.
 
-![Czerniak okolicy paznokcia](img/16.png "Czerniak okolicy paznokcia")
+![Objawy czerniaka podpaznokciowego.](img/16.png "Objawy czerniaka podpaznokciowego.")
 
 ### Czerniak nie zawsze jest czarny!
 
