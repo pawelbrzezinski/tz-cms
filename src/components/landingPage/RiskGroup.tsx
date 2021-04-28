@@ -60,7 +60,7 @@ const RiskGroup = ({
     >
       <div className="container">
         <div className="cards">
-          <RiskGroupCard image={graph.images[1]}>Jasna karnacja</RiskGroupCard>
+          <RiskGroupCard image={graph.images[1]} title="Jasna karnacja">Jasna karnacja</RiskGroupCard>
           <RiskGroupCard image={graph.images[4]}>
             Liczne piegi i pieprzyki na skórze
           </RiskGroupCard>

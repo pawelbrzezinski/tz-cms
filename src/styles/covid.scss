@@ -37,8 +37,10 @@
         text-align: center;
       }
 
-      h5 {
+      h2 {
         color: $white;
+        font-size: 16px;
+        line-height: 24px;
 
         @media (max-width: $screeen-sm) {
           font-weight: 400;
@@ -75,7 +77,9 @@
       }
     }
 
-    h5 {
+    h3 {
+      font-size: 16px;
+      line-height: 24px;
       text-align: center;
       margin-bottom: 40px;
     }

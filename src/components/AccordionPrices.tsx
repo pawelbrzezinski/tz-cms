@@ -42,7 +42,7 @@ const AccordionCategory = ({
   return (
     <div className="accordion_prices_category_wrapper">
       <div className={className} onClick={() => toggle()}>
-        <div className="accordion_prices_category_label">{label}</div>
+        <h3 className="accordion_prices_category_label">{label}</h3>
 
         <div className="accordion_prices_category_button_wrapper">
           {withButton && <SignInButton />}

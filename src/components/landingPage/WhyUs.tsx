@@ -23,7 +23,7 @@ const WhyUsCard = ({ image, desc = "", children = null }) => {
 
 const WhyUs = ({ className = "" }) => (
   <div className={className}>
-    <BubbleSection introText="O nas" h2="Dlaczego my?" color="white">
+    <BubbleSection introText="Dlaczego my?" h2="Badanie znamion w Centrum Twoje Znamiona" color="white">
       <div className="container">
         <div className="cards">
           <WhyUsCard image={BadamyImage}>

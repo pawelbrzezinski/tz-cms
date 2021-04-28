@@ -1,16 +1,12 @@
-import React from 'react'
-import { kebabCase, union, uniqBy } from 'lodash'
-import { Helmet } from 'react-helmet'
-import { Link, graphql } from 'gatsby'
-import Layout from '../../components/Layout'
+import React from "react";
+import { kebabCase, union, uniqBy } from "lodash";
+import { Helmet } from "react-helmet";
+import { Link, graphql } from "gatsby";
+import Layout from "../../components/Layout";
 
-import "../../styles/tags.scss"
+import "../../styles/tags.scss";
 
-const TagsPage = ({
-  data,
-  location
-}) => {
-
+const TagsPage = ({ data, location }) => {
   const {
     allMdx: { group: articleTags },
     site: {
@@ -21,12 +17,21 @@ const TagsPage = ({
   return (
     <Layout location={location}>
       <section className="tags-page">
-        <Helmet title={`Tagi | ${title}`} />
+        <Helmet
+          title={`Tagi | ${title}`}
+          bodyAttributes={{
+            type: "tags",
+          }}
+        />
         <div>
           <h1 className="title is-size-2 is-bold-light">Tagi</h1>
           <div className="article-tags">
             {uniqBy(union(articleTags), "fieldValue").map((tag) => (
-              <Link key={tag.fieldValue} to={`/tags/${kebabCase(tag.fieldValue)}/`} className="tag_item">
+              <Link
+                key={tag.fieldValue}
+                to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                className="tag_item"
+              >
                 {tag.fieldValue}
               </Link>
             ))}
@@ -34,10 +39,10 @@ const TagsPage = ({
         </div>
       </section>
     </Layout>
-  )
-}
+  );
+};
 
-export default TagsPage
+export default TagsPage;
 
 export const tagPageQuery = graphql`
   query TagsQuery {
@@ -52,4 +57,4 @@ export const tagPageQuery = graphql`
       }
     }
   }
-`
+`;

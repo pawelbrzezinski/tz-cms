@@ -6,7 +6,7 @@ import YoutubePlayer from "../YoutubePlayer";
 const TABS = {
   A: {
     label: "A - Asymmetry",
-    h2: "Czy znamię jest asymetryczne?",
+    h2: "Asymetria znamienia",
     sub:
       "Podziel znamię na dwie połówki  i oceń względem dwóch prostopadłych linii czy te dwie części do siebie pasują? Czy znamię jest symetryczne pod względem koloru i struktury?",
     txt:
@@ -125,7 +125,7 @@ const Abcde = ({ className = "" }) => {
           <div className="abcde_tabs_content">
             <div className="abcde_tabs_content_desc">
               <div className="smallbody">{TABS[activeTab].label}</div>
-              <h2>{TABS[activeTab].h2}</h2>
+              <h3>{TABS[activeTab].h2}</h3>
               <div className="abcde_tabs_content_desc_sub">
                 {TABS[activeTab].sub}
               </div>

@@ -20,7 +20,7 @@ const ImportantInfoCard = ({ image, desc = "", children = null }) => {
 
 const IMAGES = [CheckIcoImage1, CheckIcoImage2, CheckIcoImage3];
 
-const ImportantInfo = ({ className = "", h2="Co warto wiedzieć o badaniu", data = [] }) => {
+const ImportantInfo = ({ className = "", h2="Co warto wiedzieć o dermatoskopowym badaniu znamion", data = [] }) => {
   return (
     <div className={className}>
       <BubbleSection
@@ -32,9 +32,9 @@ const ImportantInfo = ({ className = "", h2="Co warto wiedzieć o badaniu", data
           <div className="cards">
             {data.map((item, idx) => (
               <ImportantInfoCard key={idx} image={IMAGES[idx]} desc={item.desc}>
-                <h4>
+                <h3>
                   {item.title}
-                </h4>
+                </h3>
                 <div>{item.desc}</div>
               </ImportantInfoCard>
             ))}

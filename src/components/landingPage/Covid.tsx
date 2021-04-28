@@ -14,10 +14,10 @@ const Covid = ({ className = "", children }) => {
         <div className="covid_container">
           <div className="covid_container_text_wrapper">
             <img src={CovidIcon} alt="Covid - informacje" />
-            <h5>
+            <h2>
               W trosce o Twoje bezpieczeństwo wprowadziliśmy specjalne
-              procedury, które będą obowiązywać przed i podczas wizyty.
-            </h5>
+              procedury, które będą obowiązywać przed i podczas wizyty w Centrum Badania Znamion.
+            </h2>
           </div>
           
           <div>
@@ -33,10 +33,10 @@ const Covid = ({ className = "", children }) => {
                   <img src={CovidIcon} alt="Covid - informacje" />
                 </div>
                 <div>
-                  <h5>
+                  <h3>
                     Specjalne procedury, <br />
-                    obowiązujące przed i podczas wizyty.
-                  </h5>
+                    obowiązujące przed i podczas wizyty w Centrum Badania Znamion.
+                  </h3>
                   {children}
                 </div>
               </div>

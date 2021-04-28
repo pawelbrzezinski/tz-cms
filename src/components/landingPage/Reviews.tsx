@@ -24,8 +24,8 @@ const ReviewCard = ({ author = "", city = "", children = null }) => {
 const Reviews = ({ className = "", data = [] }) => (
   <div className={className}>
     <BubbleSection
-      introText="Opinie pacjentów"
-      h2="Oni nam zaufali"
+      h2="Opinie pacjentów"
+      introText="Oni nam zaufali"
       color="yellow"
       reverse
     >

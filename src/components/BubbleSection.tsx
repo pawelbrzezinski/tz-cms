@@ -20,7 +20,7 @@ const BubbleSection = ({
         <header>
           {introText && <div className="smallbody">{introText}</div>}
           {h2 && <h2>{h2}</h2>}
-          {h5 && <h5>{h5}</h5>}
+          {h5 && <div className="h5">{h5}</div>}
         </header>
       )}
       <div>{children}</div>

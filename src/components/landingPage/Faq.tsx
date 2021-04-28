@@ -29,7 +29,7 @@ const FaqCard = ({ data: { image, imageMobile, title = "", text = "" } }) => {
         />
       </div>
       <div>
-        <h4>{title}</h4>
+        <h3>{title}</h3>
         <div className="smallbody">{text}</div>
       </div>
     </div>

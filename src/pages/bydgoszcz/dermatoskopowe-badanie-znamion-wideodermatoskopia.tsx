@@ -225,7 +225,7 @@ const BydgoszczBadanieZnamionPage = ({ graph, location }) => {
   return (
     <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
-        title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
+        title="Centrum Badania Znamion w Bydgoszczy - Dermatoskopia - twojeznamiona.pl"
         description="Bydgoszcz - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."
         keywords="badanie znamion, bydgoszcz, dermatoskopia"
       />

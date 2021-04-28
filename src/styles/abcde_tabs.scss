@@ -85,8 +85,23 @@
   }
 
   .abcde_tabs_content_desc {
-    h2 {
+    h3 {
+      margin: 0;
       margin-bottom: 16px;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+
+      @media (max-width: $screeen-md) {
+        font-size: 38px;
+        line-height: 48px;
+      }
+    
+      @media (max-width: $screeen-sm) {
+        font-size: 28px;
+        line-height: 36px;
+      }
+    
     }
 
     .abcde_tabs_content_desc_sub {

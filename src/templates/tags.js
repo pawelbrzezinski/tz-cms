@@ -38,7 +38,12 @@ class TagRoute extends React.Component {
     return (
       <Layout location={this.props.location}>
         <section className="tags-page">
-          <Helmet title={`${tag} | ${title}`} />
+          <Helmet
+            title={`${tag} | ${title}`}
+            bodyAttributes={{
+              type: "tags",
+            }}
+          />
           <div>
             <h1>Wyniki dla tagu: <span className="tag-name">{tag}</span></h1>
             <div className="article-tags-preview-wrapper">{links}</div>

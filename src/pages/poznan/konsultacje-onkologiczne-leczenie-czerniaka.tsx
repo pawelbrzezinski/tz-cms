@@ -258,7 +258,7 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
   return (
     <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
-        title="Konsultacje Onkologiczne - leczenie czerniaka - twojeznamiona.pl"
+        title="Konsultacje Onkologiczne w Poznaniu- leczenie czerniaka - twojeznamiona.pl"
         description="Konsultacje onkologiczne pacjentów z rozpoznaniem czerniaka złośliwego. Porozmawiaj o dostępnych metodach leczenia z onkologiem specjalizującym się w leczeniu czerniaka, skonsultuj wyniki badań, dowiedź się jakie są nowoczesne formy leczenia.  Osoby po usunięciu czerniaka i ich najbliższa rodzina powinny regularnie badać znamiona. Wcześnie wykryty czerniak może być całkowicie wyleczony!"
         keywords="czerniak, leczenie czerniaka, leczenie czerniaka poznań, konsultacje onkologiczne poznań, łukasz galus,  badania kliniczne czerniak"
       />

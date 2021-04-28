@@ -231,9 +231,9 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
   return (
     <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
-        title="Centrum Badania Znamion - Dermatoskopia - twojeznamiona.pl"
+        title="Centrum Badania Znamion w Wrocławiu - Dermatoskopia - twojeznamiona.pl"
         description="Wrocław - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."
-        keywords="badanie znamion, warszawa, dermatoskopia"
+        keywords="badanie znamion, wrocław, dermatoskopia"
       />
       <Hero
         h1="Wrocławskie Centrum Dermatoskopowego Badania Znamion"

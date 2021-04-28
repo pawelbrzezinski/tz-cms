@@ -12,7 +12,7 @@ import ChevronIcon from "../img/chevron-up.svg";
 import "../styles/footer.scss";
 import { Link } from "gatsby";
 
-const RATING = 722;
+const RATING = 739;
 
 const Footer = () => {
   const [isOpenedLinks, setIsOpenedLinks] = useState(false);
@@ -263,12 +263,12 @@ const Footer = () => {
               >
                 Bydgoszcz
               </Link>
-              <Link
+              {/* <Link
                 to={`/ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
                 className="footer_link"
               >
                 Ustka
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

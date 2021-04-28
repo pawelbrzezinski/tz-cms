@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, Link, StaticQuery } from "gatsby";
 import Layout from "../../components/Layout";
 import Map from "../../components/Map";
 import Cta from "../../components/Cta";
 import BubbleSection from "../../components/BubbleSection";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import doctroPlaceholderFemale from "../../img/doctor_female.svg";
 import doctroPlaceholderMale from "../../img/doctor_male.svg";
 
@@ -208,9 +207,9 @@ const DOCTORS_STUFF = [
 
 const CtaUmowSie = () => {
   return (
-    <AnchorLink href="#lodz" title="Umów się">
+    <Link to="/kontakt" title="Umów się">
       Umów się
-    </AnchorLink>
+    </Link>
   );
 };
 

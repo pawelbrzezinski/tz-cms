@@ -22,7 +22,11 @@ const CityItem = ({ city = "", link = "" }) => (
 
 const PricesPage = ({ location }) => (
   <Layout location={location}>
-    <Helmet>
+    <Helmet
+      bodyAttributes={{
+        type: "cennik",
+      }}
+    >
       <title>Cennik</title>
     </Helmet>
     <div className="prices">

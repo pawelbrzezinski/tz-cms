@@ -77,12 +77,12 @@ export const LOCATIONS = [
   },
   {
     city: "Ustka",
-    link: "ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia",
+    link: undefined,
     position: {
       left: 28,
       top: 10,
     },
-    type: CURRENT,
+    type: FUTURE,
   },
   {
     city: "Gdańsk",

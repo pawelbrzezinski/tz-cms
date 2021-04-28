@@ -9,7 +9,7 @@ import TwoColumnHomeSection from "./TwoColumnHomeSection";
 const Oncology = ({
   className = "",
   intro = "Diagnostyka czerniaka",
-  h2 = "Konsultacje Onkologiczne",
+  h2 = "Konsultacje Onkologiczne - czerniak",
   ctaOffset = 0,
   graph,
   H5,
@@ -49,12 +49,15 @@ const Oncology = ({
       (() => (
         <>
           <Button>
-            <AnchorLink href="#kontakt" title="Umów się" offset={ctaOffset}>
+            <Link
+              to="/poznan/konsultacje-onkologiczne-leczenie-czerniaka"
+              title="Konsultacje onkologiczne - leczenie czerniaka"
+            >
               Umów się
-            </AnchorLink>
+            </Link>
           </Button>
           <Button type="secondary">
-            <Link to="/czerniak" title="">
+            <Link to="/czerniak" title="Czerniak">
               Czerniak
             </Link>
           </Button>

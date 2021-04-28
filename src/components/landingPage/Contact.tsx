@@ -262,7 +262,7 @@ const Contact = ({ className = "", where = "", city = "" }) => {
                 </Button>
               </div>
               <div className="registration_wrappper">
-                <h4>Rejestracja telefoniczna:</h4>
+                <h3>Rejestracja telefoniczna:</h3>
                 <div className="registration_hours">
                   <p>
                     poniedziałek - wtorek: <strong>10:00⁃18:00</strong>

@@ -11,8 +11,8 @@ const GalleryCard = ({ data }) => {
       <PreviewCompatibleImage
         imageInfo={{
           image: data,
-          alt: "Zdjęcie ośrodka",
-          title: "Zdjęcie ośrodka",
+          alt: "Centrum Badania Znamion",
+          title: "Centrum Badania Znamion",
         }}
         styles={{
           display: "block",
@@ -37,7 +37,7 @@ const Gallery = ({
   color = "blue",
   data = [],
   noAlert = false,
-  introText = "Zdjęcia ośrodka",
+  introText = "Zdjęcia Centrum Badania Znamion",
   h2 = "Galeria",
   city = "all",
 }) => (

@@ -18,7 +18,7 @@ const OfferCard = ({ image, title = "", desc = "", link }) => {
             title: title,
           }}
         />
-        <h5>{title}</h5>
+        <h3>{title}</h3>
         <div className="smallbody">{desc}</div>
       </div>
       {link ? (

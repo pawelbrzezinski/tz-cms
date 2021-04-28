@@ -46,8 +46,8 @@ const Locations = () => {
       </div>
       <div className="cities_section">
         <div className="cities_section_text">
-          <h5>Nasze ośrodki</h5>
-          <h2>Wybierz miasto</h2>
+          <h5>Wybierz miasto</h5>
+          <h2>Nasze ośrodki</h2>
           <p>
             Kliknij na miasto, w którym chcesz się zbadać. Dynamicznie
             zwiększamy obszar naszej działalności, aby już wkrótce działać w
