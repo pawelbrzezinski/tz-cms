@@ -404,7 +404,7 @@ const WarszawaUsuwanieZnamionPage = ({ graph, location }) => {
         locationInfo={["Gabinety Medic-r", "Poznańska 3", "60-848 Poznań"]}
         transportationInfo={["Przystanek tramwajowy:", "Polna, Rynek Jeżycki"]}
       />
-      <Gallery className="home_gallery" data={graph.gallery} city="poznan" />
+      <Gallery className="home_gallery" data={graph.gallery} city="poznan" imageTitlePostfix="w Poznaniu"  />
 
       <Reviews className="home_reviews" data={REVIEWS} />
       <Surgery2 className="home_two_col_section_left_img" reverse={false} />

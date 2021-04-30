@@ -9,7 +9,7 @@ import TwoColumnHomeSection from "./TwoColumnHomeSection";
 const Oncology = ({
   className = "",
   intro = "Diagnostyka czerniaka",
-  h2 = "Konsultacje Onkologiczne - czerniak",
+  h2 = "Konsultacje onkologiczne - leczenie czerniaka",
   ctaOffset = 0,
   graph,
   H5,

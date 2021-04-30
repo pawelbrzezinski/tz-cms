@@ -5,14 +5,14 @@ import BubbleSection from "../BubbleSection";
 import Button from "../Button";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
-const GalleryCard = ({ data }) => {
+const GalleryCard = ({ data, imageTitlePostfix = "" }) => {
   return (
     <div>
       <PreviewCompatibleImage
         imageInfo={{
           image: data,
-          alt: "Centrum Badania Znamion",
-          title: "Centrum Badania Znamion",
+          alt: "Centrum Badania Znamion " + imageTitlePostfix,
+          title: "Centrum Badania Znamion " + imageTitlePostfix,
         }}
         styles={{
           display: "block",
@@ -40,13 +40,14 @@ const Gallery = ({
   introText = "Zdjęcia Centrum Badania Znamion",
   h2 = "Galeria",
   city = "all",
+  imageTitlePostfix = ""
 }) => (
   <div className={`${className} gallery`}>
     <BubbleSection introText={introText} h2={h2} color={color} reverse>
       <div className="container">
         <div className="cards">
           {data.map((item, idx) => (
-            <GalleryCard key={idx} data={item} />
+            <GalleryCard key={idx} data={item} imageTitlePostfix={imageTitlePostfix} />
           ))}
         </div>
         {!noAlert && (

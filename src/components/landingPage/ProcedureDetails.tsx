@@ -49,7 +49,7 @@ const ProcedureDetails = ({
             </AnchorLink>
           </Button>
           <Button type="secondary">
-            <Link to="/wideodermatoskopia-komputerowe-badanie-znamion">
+            <Link to="/wideodermatoskopia-komputerowe-badanie-znamion" title="Przebieg badania wideodermatoskopowego">
               Dowiedz się więcej
             </Link>
           </Button>

@@ -250,7 +250,7 @@ const UstkaBadanieZnamionPage = ({ graph, location }) => {
         hoursInfo={["pon. - pt.: 8:00 - 18:00,", "czwartek: 9:00 - 14:00"]}
         transportationInfo={["Pętla autobusowej PPKS Słupsk"]}
       />
-      <Gallery className="home_gallery" data={graph.gallery} />
+      <Gallery className="home_gallery" data={graph.gallery} imageTitlePostfix="w Ustce" />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

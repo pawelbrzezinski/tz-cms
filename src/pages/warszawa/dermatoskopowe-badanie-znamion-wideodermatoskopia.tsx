@@ -366,7 +366,7 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
           "Młynów",
         ]}
       />
-      <Gallery className="home_gallery" data={graph.gallery} city="warszawa" />
+      <Gallery className="home_gallery" data={graph.gallery} city="warszawa" imageTitlePostfix="w Warszawie"  />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

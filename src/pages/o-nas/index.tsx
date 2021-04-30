@@ -203,6 +203,14 @@ const DOCTORS_STUFF = [
       "Zajmuje się telefoniczną obsługą pacjentów - zapisywaniem na wizyty, udzielaniem informacji dotyczących oferty, przyjmowaniem wszelkich zgłoszeń, udzielaniem pomocy w rozwiązywaniu problemów i informowaniem o przebiegu podjętych działań.  W wolnym czasie chętnie korzysta z różnego typu aktywności - od spacerów, jazdy rowerem, jogi, zumby, po jazdę na nartach. Znajduje również czas na rozwijanie swoich pasji, czytanie książek, dokształcanie się poprzez udział w kursach - obecnie z zakresu administracji, prowadzenia sekretariatu oraz rejestracji.",
     img: "sylwia_andrzejewska.jpg",
   },
+  {
+    name: "Aleksandra Kalenik",
+    title: "Doradca Pacjenta",
+    city: null,
+    description:
+      "Zajmuje się telefoniczną obsługą pacjentów - zapisywaniem na wizyty, udzielaniem informacji dotyczących oferty, przyjmowaniem wszelkich zgłoszeń, udzielaniem pomocy w rozwiązywaniu problemów i informowaniem o przebiegu podjętych działań.  W wolnym czasie chętnie korzysta z różnego typu aktywności - od spacerów, jazdy rowerem, jogi, zumby, po jazdę na nartach. Znajduje również czas na rozwijanie swoich pasji, czytanie książek, dokształcanie się poprzez udział w kursach - obecnie z zakresu administracji, prowadzenia sekretariatu oraz rejestracji.",
+    img: "aleksandra_kalenik.png",
+  },
 ];
 
 const CtaUmowSie = () => {

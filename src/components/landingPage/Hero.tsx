@@ -30,7 +30,7 @@ const Hero = ({
       </div>
 
       <div className="image-wrapper">
-        <img src={heroImage} alt={h1} />
+        <img src={heroImage} alt={h1} title={h1} />
       </div>
     </div>
   </div>

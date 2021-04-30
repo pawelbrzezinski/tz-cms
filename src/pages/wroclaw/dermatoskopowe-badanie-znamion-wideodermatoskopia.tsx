@@ -300,7 +300,7 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
           "Kamienna (od strony ul. Jesionowej)",
         ]}
       />
-      <Gallery className="home_gallery" data={graph.gallery} city="wroclaw" />
+      <Gallery className="home_gallery" data={graph.gallery} city="wroclaw" imageTitlePostfix="we Wrocławiu"   />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

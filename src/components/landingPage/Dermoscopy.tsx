@@ -55,14 +55,14 @@ const Dermoscopy = ({
             </AnchorLink>
           </Button>
           <Button type="secondary">
-            <Link to="/dermatoskopia-badanie-znamion">Dermatoskopia</Link>
+            <Link to="/dermatoskopia-badanie-znamion" title="Dermatoskopia znamion i pieprzyków">Dermatoskopia</Link>
           </Button>
         </>
       )}
       imageInfo={{
         image: graph.Image,
-        alt: "Dermatoskopowe badanie znamion",
-        title: "Dermatoskopowe badanie znamion",
+        alt: "Dermatoskopia znamion i pieprzyków",
+        title: "Dermatoskopia znamion i pieprzyków",
       }}
     />
   );

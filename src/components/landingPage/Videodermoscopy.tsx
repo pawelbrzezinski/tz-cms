@@ -54,7 +54,7 @@ const Videodermoscopy = ({
             </AnchorLink>
           </Button>
           <Button type="secondary">
-            <Link to="/wideodermatoskopia-komputerowe-badanie-znamion" title="">
+            <Link to="/wideodermatoskopia-komputerowe-badanie-znamion" title="Wideodermatoskopia zmian skórnych">
               Wideodermatoskopia
             </Link>
           </Button>
@@ -62,8 +62,8 @@ const Videodermoscopy = ({
       )}
       imageInfo={{
         image: graph.Image,
-        alt: "Wideodermatoskopowe badanie znamion",
-        title: "Wideodermatoskopowe badanie znamion",
+        alt: "Wideodermatoskopia zmian skórnych",
+        title: "Wideodermatoskopia zmian skórnych",
       }}
     />
   );

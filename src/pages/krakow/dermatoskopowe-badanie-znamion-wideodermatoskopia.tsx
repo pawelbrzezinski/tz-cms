@@ -266,7 +266,7 @@ const KrakowBadanieZnamionPage = ({ graph, location }) => {
           "Najwygodniejszy dojazd - tramwajem",
         ]}
       />
-      <Gallery className="home_gallery" data={graph.gallery} city="krakow" />
+      <Gallery className="home_gallery" data={graph.gallery} city="krakow" imageTitlePostfix="w Krakowie"  />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

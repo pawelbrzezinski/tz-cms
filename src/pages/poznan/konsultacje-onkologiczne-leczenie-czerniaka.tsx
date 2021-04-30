@@ -61,7 +61,7 @@ const REVIEWS = [
 const PRICES = [
   {
     isOpened: true,
-    categoryName: "Konsultacje Onkologiczne - czerniak",
+    categoryName: "Konsultacje Onkologiczne - czerniak (doktor Łukasz Galus)",
     items: [
       {
         price: "250",
@@ -269,12 +269,11 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
         ctaPrimary={<CtaUmowSie />}
         ctaSecondary={<CtaCennik />}
       />
-      <Offer className="home_offer" data={OFFERS} />
       <Oncology
-        className="home_two_col_section_left_img"
+        className="home_two_col_section_left_img with_no_padding_bottom with_no_padding_top"
         intro="Czerniak złośliwy"
         h2="Konsultacje onkologiczne"
-        reverse={false}
+        reverse={true}
         H5={() => (
           <>
             Po rozpoznaniu czerniaka pacjent wymaga dalszej diagnostyki. Na tym
@@ -294,7 +293,7 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
         )}
         Buttons={() => null}
       />
-
+      <Doctors className="home_doctors" graph={graph} button={CtaUmowSie} />
       <PriceList className="home_price_list" data={PRICES} />
       <Covid className="home_covid">
         <ol>
@@ -341,7 +340,6 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
         transportationInfo={["Przystanek tramwajowy:", "Polna, Rynek Jeżycki"]}
       />
 
-      <Doctors className="home_doctors" graph={graph} />
       <Gallery
         className="home_gallery"
         data={graph.gallery}
@@ -349,10 +347,11 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
         noAlert
         introText="Galeria"
         h2="Centrum Badania Znamion w Poznaniu"
-        
+        imageTitlePostfix="w Poznaniu" 
       />
+      <Offer className="home_offer" data={OFFERS} />
 
-      <MelanomaOncology className="home_two_col_section_right_img with_no_padding_top" />
+      <MelanomaOncology className="home_two_col_section_right_img " />
       <Dermoscopy className="home_two_col_section_right_img " />
       <MelanomaTreatment className="home_two_col_section_right_img " />
 

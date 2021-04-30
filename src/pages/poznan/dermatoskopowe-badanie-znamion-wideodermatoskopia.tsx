@@ -170,7 +170,7 @@ const PRICES = [
   },
   {
     isOpened: false,
-    categoryName: "Konsultacje Onkologiczne - czerniak",
+    categoryName: "Konsultacje Onkologiczne - czerniak (doktor Łukasz Galus)",
     items: [
       {
         price: "250",
@@ -384,7 +384,7 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
         hoursInfo={["pon. - pt.: 10:00 - 20:00"]}
         transportationInfo={["Przystanek tramwajowy:", "Polna, Rynek Jeżycki"]}
       />
-      <Gallery className="home_gallery" data={graph.gallery} city="poznan" />
+      <Gallery className="home_gallery" data={graph.gallery} city="poznan" imageTitlePostfix="w Poznaniu" />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

@@ -32,34 +32,35 @@ const DOCTORS = [
   },
 ];
 
-const AlertButton = () => (
-  <Button>
+const Doctors = ({ className = "", graph, button = null }) => {
+  const AlertButtonComponent = button || (
     <Link to="/o-nas" title="Poznaj naszych lekarzy">
       Poznaj wszystkich
     </Link>
-  </Button>
-);
+  );
 
-const Doctors = ({ className = "", graph }) => (
-  <div className={`${className} gallery`}>
-    <BubbleSection
-      introText=""
-      h2="Nasz zespół"
-      color="blue"
-      reverse
-    >
-      <div className="container">
-        <div className="cards">
-          <DoctorList data={DOCTORS} graph={graph} />
+  const AlertButton = () => (
+    <Button>
+      <AlertButtonComponent />
+    </Button>
+  );
+
+  return (
+    <div className={`${className} gallery`}>
+      <BubbleSection introText="" h2="Nasz zespół" color="blue" reverse>
+        <div className="container">
+          <div className="cards">
+            <DoctorList data={DOCTORS} graph={graph} />
+          </div>
+          <Alert button={AlertButton}>
+            Nasz zespół tworzą doświadczeni lekarze, którzy wspólnie, z pasją
+            działają na rzecz <strong>zmniejszenia umieralności</strong> z
+            powodu nowotworów skóry w Polsce.
+          </Alert>
         </div>
-        <Alert button={AlertButton}>
-          Nasz zespół tworzą doświadczeni lekarze, którzy wspólnie, z pasją
-          działają na rzecz <strong>zmniejszenia umieralności</strong> z powodu
-          nowotworów skóry w Polsce.
-        </Alert>
-      </div>
-    </BubbleSection>
-  </div>
-);
+      </BubbleSection>
+    </div>
+  );
+};
 
 export default Doctors;

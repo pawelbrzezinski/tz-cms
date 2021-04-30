@@ -88,6 +88,7 @@ const Abcde = ({ className = "" }) => {
               <div
                 className={getLetterWraperClassName("A")}
                 onClick={() => setActiveTab("A")}
+                title="Niesymetryczne"
               >
                 <div className="tabs_letter">A</div>
                 <div className="tabs_letter_label">Niesymetryczne</div>
@@ -95,6 +96,7 @@ const Abcde = ({ className = "" }) => {
               <div
                 className={getLetterWraperClassName("B")}
                 onClick={() => setActiveTab("B")}
+                title="Nierówne brzegi"
               >
                 <div className="tabs_letter">B</div>
                 <div className="tabs_letter_label">Nierówne brzegi</div>
@@ -102,6 +104,7 @@ const Abcde = ({ className = "" }) => {
               <div
                 className={getLetterWraperClassName("C")}
                 onClick={() => setActiveTab("C")}
+                title="Niejednolity kolor"
               >
                 <div className="tabs_letter">C</div>
                 <div className="tabs_letter_label">Niejednolity kolor</div>
@@ -109,6 +112,7 @@ const Abcde = ({ className = "" }) => {
               <div
                 className={getLetterWraperClassName("D")}
                 onClick={() => setActiveTab("D")}
+                title="Większe niż 6 mm"
               >
                 <div className="tabs_letter">D</div>
                 <div className="tabs_letter_label">Większe niż 6 mm</div>
@@ -116,6 +120,7 @@ const Abcde = ({ className = "" }) => {
               <div
                 className={getLetterWraperClassName("E")}
                 onClick={() => setActiveTab("E")}
+                title="Zmienia się w czasie"
               >
                 <div className="tabs_letter">E</div>
                 <div className="tabs_letter_label">Zmienia się w czasie</div>

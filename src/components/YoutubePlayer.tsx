@@ -97,8 +97,8 @@ const YoutubePlayer = ({
       <div className="source_label">{url}</div>
 
       {isOverlay && (
-        <div className="youtube-overlay" onClick={play}>
-          <div className="play_button">
+        <div className="youtube-overlay" onClick={play} title={label}>
+          <div className="play_button" title={label}>
             <div className="play_button_arrow"></div>
           </div>
           {label && <div className="label">{label}</div>}

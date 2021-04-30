@@ -38,7 +38,7 @@ const Melanoma = ({ className = "", withCta = false }) => (
         ) : null}
       </div>
       <div className="image-wrapper">
-        <img src={czerniakImage} alt="Czerniak" />
+        <img src={czerniakImage} alt="Czerniak złośliwy" title="Czerniak złośliwy" />
       </div>
     </TwoColumnSection>
   </div>

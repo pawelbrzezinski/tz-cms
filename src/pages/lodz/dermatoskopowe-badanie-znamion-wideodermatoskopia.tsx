@@ -365,7 +365,12 @@ const LodzBadanieZnamionPage = ({ graph, location }) => {
           "Politechniki - Radwańska",
         ]}
       />
-      <Gallery className="home_gallery" data={graph.gallery} city="lodz" />
+      <Gallery
+        className="home_gallery"
+        data={graph.gallery}
+        city="lodz"
+        imageTitlePostfix="w Łodzi"
+      />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

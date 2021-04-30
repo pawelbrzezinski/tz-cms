@@ -60,11 +60,19 @@ const RiskGroup = ({
     >
       <div className="container">
         <div className="cards">
-          <RiskGroupCard image={graph.images[1]} title="Jasna karnacja">Jasna karnacja</RiskGroupCard>
-          <RiskGroupCard image={graph.images[4]}>
+          <RiskGroupCard image={graph.images[1]} title="Jasna karnacja">
+            Jasna karnacja
+          </RiskGroupCard>
+          <RiskGroupCard
+            image={graph.images[4]}
+            title="Liczne piegi i pieprzyki na skórze"
+          >
             Liczne piegi i pieprzyki na skórze
           </RiskGroupCard>
-          <RiskGroupCard image={graph.images[2]}>
+          <RiskGroupCard
+            image={graph.images[2]}
+            title="Opalanie się i oparzenia słoneczne"
+          >
             Opalanie się i oparzenia słoneczne
           </RiskGroupCard>
           <RiskGroupCard
@@ -73,16 +81,20 @@ const RiskGroup = ({
           >
             Srednica znamion <br /> &gt; 6 mm
           </RiskGroupCard>
-          <RiskGroupCard image={graph.images[0]}>
+          <RiskGroupCard image={graph.images[0]} title="Znamiona wrodzone">
             Znamiona wrodzone
           </RiskGroupCard>
-          <RiskGroupCard image={graph.images[7]}>
+          <RiskGroupCard image={graph.images[7]} title="Okres ciąży i połogu">
             Okres ciąży i połogu
           </RiskGroupCard>
-          <RiskGroupCard image={graph.images[6]} className="melanoma_family">
+          <RiskGroupCard
+            image={graph.images[6]}
+            className="melanoma_family"
+            title="Czerniak lub raki skóry w rodzinie"
+          >
             Czerniak lub raki skóry w rodzinie
           </RiskGroupCard>
-          <RiskGroupCard image={graph.images[3]}>
+          <RiskGroupCard image={graph.images[3]} title="Zaburzenia odporności">
             Zaburzenia odporności
           </RiskGroupCard>
         </div>
