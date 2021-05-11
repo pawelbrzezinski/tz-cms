@@ -27,7 +27,7 @@ const useLabelStyles = makeStyles({
 const useInputStyles = makeStyles({
   root: {
     color: "#454754",
-    fontFamily: "Poppins",
+    fontFamily: "Poppins, Verdana, sans-serif",
     "&.MuiInput-underline:after": {
       borderBottom: "1px solid #493fc7",
     },

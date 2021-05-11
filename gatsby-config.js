@@ -143,7 +143,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Poppins:Bold,400,600']
+          families: ['Poppins:Bold,400,600&display=swap']
         }
       }
     },
