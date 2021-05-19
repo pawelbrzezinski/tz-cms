@@ -39,7 +39,7 @@ sources:
 ---
 **Choroby nowotworowe należą do wyjątkowo podstępnych, a ich przebieg w początkowych stadiach jest bezobjawowy. Dolegliwości pojawiają się w późniejszych etapach ich rozwoju i nie są charakterystyczne. Wczesne wykrycie nieprawidłowości daje jednak szansę na całkowite wyleczenie. W przypadku nowotworów skóry możemy mieć problem z tym, jak odróżnić pieprzyk od czerniaka, jednak poprzez odpowiednią diagnostykę, możliwe jest ocenienie, czy zmiany na skórze, ich kolor, kształt czy wielkość stanowią objawy czerniaka. Zdjęcia czerniaka pozwalają zaobserwować różnorodność tego rodzaju nowotworów.**
 
-![Jasna karnacja - zwiększa ryzyko pojawienia się objawów czerniaka.](img/1.jpg "Jasna karnacja - zwiększa ryzyko pojawienia się objawów czerniaka.")
+![Jasna karnacja - zwiększa ryzyko pojawienia się objawów czerniaka.](img/1a.jpg "Jasna karnacja - zwiększa ryzyko pojawienia się objawów czerniaka.")
 
 ### Czerniak – typowe objawy choroby
 
@@ -63,7 +63,7 @@ Podejrzenie czerniaka mogą nasuwać na myśl zmiany skórne zarówno pojawiają
 
 Objawy we wczesnych stadiach czerniaka mogą być zdradliwe.  Czerniak gołym okiem może przypominać znamię błękitne, plamy, zrogowacenia, znamię Spitza czy zmian pojawiające się w obrębie tatuażu. Oglądając znamiona bez specjalistycznego sprzętu często trudno odróżnić czerniaka od brodawki łojotokowej, włókniaka twardego skóry, naczyniak, wynaczynienia żylnego, ziarniaka, mięsaki, a w obrębie dłoni i stóp np. grzybicy paznokci czy krwiaka podpaznokciowego.
 
-![Czerniak akralny - podpaznokciowy.](img/2.jpg "Czerniak akralny - podpaznokciowy.")
+![Czerniak akralny - podpaznokciowy.](img/2a.jpg "Czerniak akralny - podpaznokciowy.")
 
 <!--StartFragment-->
 
@@ -78,8 +78,6 @@ Dla wczesnej diagnozy konieczne jest przeprowadzenie badania dermatoskopowego, a
 Pierwszym krokiem po zaobserwowaniu nowych znamion lub zmian w ich obrębie powinno być [badanie dermatoskopem](https://twojeznamiona.pl/dermatoskopia-badanie-znamion). W naszej [klinice](https://twojeznamiona.pl/kontakt) pomagamy w kompleksowej ocenie znamion i ich ewentualnym leczeniu. Za sprawą badania dermatoskopowego lekarz może ocenić typ zmiany, stosując np. metodę 3-punktową, określającą kryteria złośliwości według wzorca, ale i dogłębnie przyjrzeć się wyglądowi znamienia (asymetrie koloru i struktury, atypowej siatce barwnikowej, obecności struktur o niebiesko-białawym zabarwieniu). Badanie to pozwala wykryć czerniaka w bardzo wczesnym etapie.
 
 ![Badanie znamion (pieprzyków) za pomocą dermatoskopu.](img/3.jpg "Badanie znamion (pieprzyków) za pomocą dermatoskopu.")
-
-
 
 Dermatoskopia jest metodą diagnostyki w zupełności nieinwazyjną, pozwalającą na precyzyjne uwidocznienie koloru i struktury naskórka, granicy śródnaskórkowej oraz warstwy brodawkowatej skóry właściwej. Dzięki jej wykorzystaniu możliwe jest rozpoznanie melanocytowych, niemelanocytowych, łagodnych i złośliwych zmian skórnych. Stosując dermatoskopię, zwiększamy szansę na rozpoznanie czerniaka o 27% w stosunku do oceny gołym okiem. Poprzez dermatoskopową analizę skóry możliwe jest stwierdzenie, czy podejrzana zmiana wymaga biopsji bądź całkowitego [usunięcia](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion).
 
