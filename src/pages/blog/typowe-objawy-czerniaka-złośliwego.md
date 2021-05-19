@@ -87,12 +87,12 @@ Dermatoskopia jest metodą diagnostyki w zupełności nieinwazyjną, pozwalając
 
 Objawy [czerniaka](https://twojeznamiona.pl/czerniak) mogą być bardzo zróżnicowane, dlatego w przypadku pojawienia się niepokojących zmian lub gdy znajdujemy się grupie ryzyka zachorowania, warto regularnie odwiedzać lekarza i odbywać badania. Na co dzień możemy także samodzielnie dokonywać oceny znamion, korzystając z kryteriów [ABCDE](https://twojeznamiona.pl/dermatoskopia-badanie-znamion#abcde) (czasami również F). Dzięki nim możemy dokładnie opisać zmianę skórną. W kryteriach tych niepokojące znamiona mogą być:
 
-* A (asymmetry) - asymetryczne, np. w postaci znamienia „rozlewającego się” w jedną stronę,
-* B (borders) – o poszarpanych, nierównomiernych, posiadających zgrubienia brzegach,
-* C (color) – w odcieniu czerwonym, czarnym, o niejednolitym kolorze,
-* D (diameter) o niepokojącej średnicy – niepokoić może duży rozmiar, wielkość zmiany powyżej 6mm,
-* E (elevation) - uwypuklone, czyli mogą zachodzić w nich postępujące zmiany,
-* F (feeling) – dziwne w odczuciu, budzące niepokój.
+* **A** (asymmetry) - asymetryczne, np. w postaci znamienia „rozlewającego się” w jedną stronę,
+* **B** (borders) – o poszarpanych, nierównomiernych, posiadających zgrubienia brzegach,
+* **C** (color) – w odcieniu czerwonym, czarnym, o niejednolitym kolorze,
+* **D** (diameter) o niepokojącej średnicy – niepokoić może duży rozmiar, wielkość zmiany powyżej 6mm,
+* **E** (elevation) - uwypuklone, czyli mogą zachodzić w nich postępujące zmiany,
+* **F** (feeling) – dziwne w odczuciu, budzące niepokój.
 
 Aby móc być spokojnym o swoje znamiona, najlepiej jest raz w miesiącu dokładnie je oglądać i jeżeli zauważymy coś niepokojącego, udać się do lekarza na badanie znamion. Każdy powinien odbyć takie badanie przynajmniej raz do roku, a w przypadku gdy lekarz wyznaczył znamiona do kontroli, przestrzegać jej terminów. To da nam pewność i spokój.
 
