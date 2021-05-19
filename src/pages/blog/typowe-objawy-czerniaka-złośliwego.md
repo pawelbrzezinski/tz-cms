@@ -79,7 +79,7 @@ Pierwszym krokiem po zaobserwowaniu nowych znamion lub zmian w ich obrębie powi
 
 ![Badanie znamion (pieprzyków) za pomocą dermatoskopu.](img/3.jpg "Badanie znamion (pieprzyków) za pomocą dermatoskopu.")
 
-Dermatoskopia jest metodą diagnostyki w zupełności nieinwazyjną, pozwalającą na precyzyjne uwidocznienie koloru i struktury naskórka, granicy śródnaskórkowej oraz warstwy brodawkowatej skóry właściwej. Dzięki jej wykorzystaniu możliwe jest rozpoznanie melanocytowych, niemelanocytowych, łagodnych i złośliwych zmian skórnych. Stosując dermatoskopię, zwiększamy szansę na rozpoznanie czerniaka o 27% w stosunku do oceny gołym okiem. Poprzez dermatoskopową analizę skóry możliwe jest stwierdzenie, czy podejrzana zmiana wymaga biopsji bądź całkowitego [usunięcia](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion).
+Dermatoskopia jest metodą diagnostyki w zupełności nieinwazyjną, pozwalającą na precyzyjne uwidocznienie koloru i struktury naskórka, granicy śródnaskórkowej oraz warstwy brodawkowatej skóry właściwej. Dzięki jej wykorzystaniu możliwe jest rozpoznanie melanocytowych, niemelanocytowych, łagodnych i złośliwych zmian skórnych. Stosując dermatoskopię, zwiększamy szansę na rozpoznanie czerniaka o 27% w stosunku do oceny gołym okiem. Poprzez dermatoskopową analizę skóry możliwe jest stwierdzenie, czy podejrzana zmiana wymaga biopsji, bądź całkowitego [usunięcia](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion).
 
 [Zobacz na zdjęciach, jak może wyglądać czerniak](https://twojeznamiona.pl/blog/jak-wyglada-czerniak-zdjecia)
 
