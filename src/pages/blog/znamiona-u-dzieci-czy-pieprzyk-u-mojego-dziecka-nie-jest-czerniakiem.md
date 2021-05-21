@@ -51,7 +51,9 @@ czerniaki wrodzone, niemowlęce (do 1 roku życia) oraz
 wieku dziecięcego (do okresu dojrzewania). 
 Podstawowym czynnikiem rozwoju czerniaka u dzieci jest obecność wrodzonych znamion barwnikowych. Niestety bardzo często czerniak u najmłodszych nie wykazuje specyficznych cech klinicznych i nie daje objawów. U dzieci forma wrodzona czerniaków występuje rzadko - 1 na milion poniżej 15 roku życia, jednak w ostatnich latach niepokojąco zwiększyła się liczba małych pacjentów.
 
-<More link="https://twojeznamiona.pl/kontakt" text="Umów się na badanie ze swoim dzieckiem - nie zwlekaj." cta="Sprawdź" />
+
+
+**[Umów się na badanie ze swoim dzieckiem - nie zwlekaj.](https://twojeznamiona.pl/kontakt)**
 
 ![Znamiona u najmłodszych dzieci.](img/1.jpg "Znamiona u najmłodszych dzieci.")
 
@@ -125,10 +127,16 @@ Znamiona podejrzane i potencjalnie groźne dla zdrowia usuwa się [chirurgicznie
 
 Nie potrzeba się jednak zawczasu martwić - znamiona barwnikowe u dzieci najczęściej są łagodne, szczególnej uwagi wymagają jednak znamiona wrodzone i znamiona Spritza ze względu na możliwość ich rozwoju w czerniaka. Regularne kontrole dermatoskopowe to najlepsza profilaktyka.
 
-<More link="https://twojeznamiona.pl/blog/jak-chronic-sie-przed-nowotworem-skory" text="Sprawdź, jak chronić swoją rodzinę na co dzień" cta="Sprawdź" />
+
+
+**[Sprawdź, jak chronić swoją rodzinę na co dzień](https://twojeznamiona.pl/blog/jak-chronic-sie-przed-nowotworem-skory)**
+
+
 
 ## Ochrona UV a czerniak
 
 Jak wynika z badań, oparzenia słoneczne doznane w dzieciństwie zwiększają ryzyko rozwoju czerniaka, a nawet połowa dzieci, które przeżyły czerniaka doświadczyło oparzeń słonecznych w przeciągu roku od zachorowania. Ochrona przeciwsłoneczna jest zatem jednym z ważnych czynników przeciwdziałania nowotworom skóry u dzieci, dlatego warto zadbać o ich odpowiedni strój, w tym nakrycia głowy, kremy z filtrem, a także unikanie nadmiernej ekspozycji słonecznej.
 
-<More link="https://twojeznamiona.pl/kontakt" text="Skontaktuj się z nami, by umówić się na badanie" cta="Sprawdź" />
+
+
+**[Skontaktuj się z nami, by umówić się na badanie](https://twojeznamiona.pl/kontakt)**
