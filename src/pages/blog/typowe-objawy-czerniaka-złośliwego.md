@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Typowe objawy czerniaka złośliwego.
+title: Typowe objawy czerniaka złośliwego
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 5
