@@ -3,8 +3,8 @@ templateKey: blog-post
 title: Typowe objawy czerniaka złośliwego
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 5
-date: 2021-05-19T11:55:19.147Z
+readingTime: 4
+date: 2021-06-01T11:55:19.147Z
 description: Czerniak złośliwy skóry jest wyjątkowo podstępny, a jego przebieg w
   początkowych stadiach może być trudno uchwytny. Dlatego tak ważne jest wczesne
   rozpoznanie objawów czerniaka złośliwego, dzięki którym można wcześnie wykryć
@@ -53,11 +53,11 @@ Do typowych objawów nasuwających podejrzenie czerniaka należą:
 *  krwawienie 
 * pojawienie się blizny w znamieniu
 
-<More link="https://twojeznamiona.pl/czerniak/objawy-czerniaka" text="Charakterystyczne objawy czerniaka złośliwego.  Zobacz" cta="Dowiedz się więcej" />
+<More link="/czerniak/objawy-czerniaka" text="Charakterystyczne objawy czerniaka złośliwego.  Zobacz" cta="Dowiedz się więcej" />
 
-Podejrzenie czerniaka mogą nasuwać na myśl zmiany skórne zarówno pojawiające się de novo, ale i te na podłożu znamienia barwnikowego, jak np. pieprzyk. Samobadanie lub ocena znamion dokonywana przez lekarza wymaga zatem oceny fizykalnej skóry całego ciała, w tym miejsc trudno dostępnych, jak skóra głowy, stóp, przestrzenie między palcami czy okolice narządów płciowych i odbytu. Symptomatologia nowotworów skóry zależna jest jednak od lokalizacji zmiany oraz jej typu. Istnieje cały szereg [rodzajów czerniaka](https://twojeznamiona.pl/czerniak/rodzaje-czerniaka-zdjecia), dlatego też wymagają one odpowiedniego badania, które pozwoli rozpoznać czy zmiana na naszej skórze to nowotwór czy inny typ znamienia.
+Podejrzenie czerniaka mogą nasuwać na myśl zmiany skórne zarówno pojawiające się de novo, ale i te na podłożu znamienia barwnikowego, jak np. pieprzyk. Samobadanie lub ocena znamion dokonywana przez lekarza wymaga zatem oceny fizykalnej skóry całego ciała, w tym miejsc trudno dostępnych, jak skóra głowy, stóp, przestrzenie między palcami czy okolice narządów płciowych i odbytu. Symptomatologia nowotworów skóry zależna jest jednak od lokalizacji zmiany oraz jej typu. Istnieje cały szereg [rodzajów czerniaka](/czerniak/rodzaje-czerniaka-zdjecia), dlatego też wymagają one odpowiedniego badania, które pozwoli rozpoznać czy zmiana na naszej skórze to nowotwór czy inny typ znamienia.
 
-[Masz podobne objawy. Umów się na badanie.](https://twojeznamiona.pl/kontakt)
+[Masz podobne objawy. Umów się na badanie.](/kontakt)
 
 ## Jak rozpoznać czy na naszej skórze pojawiły się objawy czerniaka? 
 
@@ -67,25 +67,25 @@ Objawy we wczesnych stadiach czerniaka mogą być zdradliwe.  Czerniak gołym o
 
 <!--StartFragment-->
 
-[Czy czerniak boli?](https://twojeznamiona.pl/blog/czy-czerniak-boli) Objawy bólowe w przypadku nowotworów skóry z reguły nie występują. Pojawiają się najczęściej dopiero w wysokim stadiach zaawansowania nowotworu, gdy ten rozrasta w głąb skóry lub daje przerzuty.
+[Czy czerniak boli?](/blog/czy-czerniak-boli) Objawy bólowe w przypadku nowotworów skóry z reguły nie występują. Pojawiają się najczęściej dopiero w wysokim stadiach zaawansowania nowotworu, gdy ten rozrasta w głąb skóry lub daje przerzuty.
 
-Dla wczesnej diagnozy konieczne jest przeprowadzenie badania dermatoskopowego, a podstawą ostatecznego rozpoznania jest badanie histopatologiczne tzw. [biopsja](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion#biopsja), pozwalająca potwierdzić lub wykluczyć czerniak. Objawy, samopoczucie pacjenta, a w konsekwencji wczesna i dokładna diagnoza oraz leczenie pozwalają w wielu przypadkach skutecznie zwalczyć chorobę.
+Dla wczesnej diagnozy konieczne jest przeprowadzenie badania dermatoskopowego, a podstawą ostatecznego rozpoznania jest badanie histopatologiczne tzw. [biopsja](/chirurgiczne-usuwanie-znamion#biopsja), pozwalająca potwierdzić lub wykluczyć czerniak. Objawy, samopoczucie pacjenta, a w konsekwencji wczesna i dokładna diagnoza oraz leczenie pozwalają w wielu przypadkach skutecznie zwalczyć chorobę.
 
-[Sprawdź, jak odróżnić pieprzyk od czerniaka](https://twojeznamiona.pl/blog/jak-odroznic-zwykly-pieprzyk-od-typowego-czerniaka-zdjecia)
+[Sprawdź, jak odróżnić pieprzyk od czerniaka](/blog/jak-odroznic-zwykly-pieprzyk-od-typowego-czerniaka-zdjecia)
 
 ### Badanie dermatoskopowe a objawy czerniaka
 
-Pierwszym krokiem po zaobserwowaniu nowych znamion lub zmian w ich obrębie powinno być [badanie dermatoskopem](https://twojeznamiona.pl/dermatoskopia-badanie-znamion). W naszej [klinice](https://twojeznamiona.pl/kontakt) pomagamy w kompleksowej ocenie znamion i ich ewentualnym leczeniu. Za sprawą badania dermatoskopowego lekarz może ocenić typ zmiany, stosując np. metodę 3-punktową, określającą kryteria złośliwości według wzorca, ale i dogłębnie przyjrzeć się wyglądowi znamienia (asymetrie koloru i struktury, atypowej siatce barwnikowej, obecności struktur o niebiesko-białawym zabarwieniu). Badanie to pozwala wykryć czerniaka w bardzo wczesnym etapie.
+Pierwszym krokiem po zaobserwowaniu nowych znamion lub zmian w ich obrębie powinno być [badanie dermatoskopem](/dermatoskopia-badanie-znamion). W naszej [klinice](/kontakt) pomagamy w kompleksowej ocenie znamion i ich ewentualnym leczeniu. Za sprawą badania dermatoskopowego lekarz może ocenić typ zmiany, stosując np. metodę 3-punktową, określającą kryteria złośliwości według wzorca, ale i dogłębnie przyjrzeć się wyglądowi znamienia (asymetrie koloru i struktury, atypowej siatce barwnikowej, obecności struktur o niebiesko-białawym zabarwieniu). Badanie to pozwala wykryć czerniaka w bardzo wczesnym etapie.
 
 ![Badanie znamion (pieprzyków) za pomocą dermatoskopu.](img/3.jpg "Badanie znamion (pieprzyków) za pomocą dermatoskopu.")
 
-Dermatoskopia jest metodą diagnostyki w zupełności nieinwazyjną, pozwalającą na precyzyjne uwidocznienie koloru i struktury naskórka, granicy śródnaskórkowej oraz warstwy brodawkowatej skóry właściwej. Dzięki jej wykorzystaniu możliwe jest rozpoznanie melanocytowych, niemelanocytowych, łagodnych i złośliwych zmian skórnych. Stosując dermatoskopię, zwiększamy szansę na rozpoznanie czerniaka o 27% w stosunku do oceny gołym okiem. Poprzez dermatoskopową analizę skóry możliwe jest stwierdzenie, czy podejrzana zmiana wymaga biopsji, bądź całkowitego [usunięcia](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion).
+Dermatoskopia jest metodą diagnostyki w zupełności nieinwazyjną, pozwalającą na precyzyjne uwidocznienie koloru i struktury naskórka, granicy śródnaskórkowej oraz warstwy brodawkowatej skóry właściwej. Dzięki jej wykorzystaniu możliwe jest rozpoznanie melanocytowych, niemelanocytowych, łagodnych i złośliwych zmian skórnych. Stosując dermatoskopię, zwiększamy szansę na rozpoznanie czerniaka o 27% w stosunku do oceny gołym okiem. Poprzez dermatoskopową analizę skóry możliwe jest stwierdzenie, czy podejrzana zmiana wymaga biopsji, bądź całkowitego [usunięcia](/chirurgiczne-usuwanie-znamion).
 
-[Zobacz na zdjęciach, jak może wyglądać czerniak](https://twojeznamiona.pl/blog/jak-wyglada-czerniak-zdjecia)
+[Zobacz na zdjęciach, jak może wyglądać czerniak](/blog/jak-wyglada-czerniak-zdjecia)
 
 ### Ocena objawów czerniaka - kryteria ABCDE
 
-Objawy [czerniaka](https://twojeznamiona.pl/czerniak) mogą być bardzo zróżnicowane, dlatego w przypadku pojawienia się niepokojących zmian lub gdy znajdujemy się grupie ryzyka zachorowania, warto regularnie odwiedzać lekarza i odbywać badania. Na co dzień możemy także samodzielnie dokonywać oceny znamion, korzystając z kryteriów [ABCDE](https://twojeznamiona.pl/dermatoskopia-badanie-znamion#abcde) (czasami również F). Dzięki nim możemy dokładnie opisać zmianę skórną. W kryteriach tych niepokojące znamiona mogą być:
+Objawy [czerniaka](/czerniak) mogą być bardzo zróżnicowane, dlatego w przypadku pojawienia się niepokojących zmian lub gdy znajdujemy się grupie ryzyka zachorowania, warto regularnie odwiedzać lekarza i odbywać badania. Na co dzień możemy także samodzielnie dokonywać oceny znamion, korzystając z kryteriów [ABCDE](/dermatoskopia-badanie-znamion#abcde) (czasami również F). Dzięki nim możemy dokładnie opisać zmianę skórną. W kryteriach tych niepokojące znamiona mogą być:
 
 * **A** (asymmetry) - asymetryczne, np. w postaci znamienia „rozlewającego się” w jedną stronę,
 * **B** (borders) – o poszarpanych, nierównomiernych, posiadających zgrubienia brzegach,
@@ -96,4 +96,4 @@ Objawy [czerniaka](https://twojeznamiona.pl/czerniak) mogą być bardzo zróżni
 
 Aby móc być spokojnym o swoje znamiona, najlepiej jest raz w miesiącu dokładnie je oglądać i jeżeli zauważymy coś niepokojącego, udać się do lekarza na badanie znamion. Każdy powinien odbyć takie badanie przynajmniej raz do roku, a w przypadku gdy lekarz wyznaczył znamiona do kontroli, przestrzegać jej terminów. To da nam pewność i spokój.
 
-[Sprawdź, gdzie badamy znamiona](https://twojeznamiona.pl/kontakt)
+[Sprawdź, gdzie badamy znamiona](/kontakt)

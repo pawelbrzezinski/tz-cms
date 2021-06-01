@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Znamiona u dzieci - czy pieprzyk u mojego dziecka nie jest czerniakiem?
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
-readingTime: 5
+readingTime: 6
 date: 2021-05-19T11:14:10.180Z
 description: Znamiona u dzieci. Które są groźne? Czy u dziecka może wystąpić
   czerniak? Znamiona pojawiają się na skórze dziecka od najmłodszych lat i
@@ -20,6 +20,7 @@ keywords:
   - usuwanie znamion u dzieci
   - pieprzyki u dziecka
 tags:
+  - czerniak
   - czerniak u dziecka
   - znamię Spitz u dziecka
   - znamiona wrodzone
@@ -53,7 +54,7 @@ Podstawowym czynnikiem rozwoju czerniaka u dzieci jest obecność wrodzonych zna
 
 
 
-**[Umów się na badanie ze swoim dzieckiem - nie zwlekaj.](https://twojeznamiona.pl/kontakt)**
+**[Umów się na badanie ze swoim dzieckiem - nie zwlekaj.](/kontakt)**
 
 ![Znamiona u najmłodszych dzieci.](img/1.jpg "Znamiona u najmłodszych dzieci.")
 
@@ -89,25 +90,25 @@ Na skórze dzieci i młodzieży mogą pojawiać się różnego rodzaju pieprzyki
 
 ![Znamię Reeda u dziecka. Źródło: www.dermnetnz.org](img/5.jpg "Znamię Reeda u dziecka. Źródło: www.dermnetnz.org")
 
-<More link="https://twojeznamiona.pl/czerniak/rodzaje-czerniaka-zdjecia" text="Inne rodzaje znamion! Sprawdź" cta="Zobacz również:" />
+<More link="/czerniak/rodzaje-czerniaka-zdjecia" text="Inne rodzaje znamion! Sprawdź" cta="Zobacz również" />
 
 ## Znamiona u dziecka - kiedy iść do lekarza?
 
 W chwili, gdy zauważymy na ciele naszej pociechy niepokojącą zmianę, dziecko skarży się na swędzący pieprzyk, rozdrapany pieprzyk niepokojąco krwawi czy też noszenie ubranek podrażnia skórę w określonym miejscu, nie należy zwlekać z wizytą u lekarza. Obserwacja i wczesne wykrywanie zmian skórnych jest kluczowe dla podjęcia skutecznego leczenia.
 
-![](img/6.jpg)
+![ ](img/6.jpg " ")
 
 ## Dermatoskopia pieprzyków u dzieci
 
-Diagnostyka znamion barwnikowych oraz czerniaka u dzieci w uzasadnionych sytuacjach jest nieinwazyjna, bezbolesna i polega na badaniu [dermatoskopowym](https://twojeznamiona.pl/dermatoskopia-badanie-znamion), np. [wideodermatoskopowym](https://twojeznamiona.pl/wideodermatoskopia-komputerowe-badanie-znamion). Wybór odpowiedniego lekarza ze świetnym podejściem do dzieci pozwala na przeprowadzenie badania bez stresu dla dziecka. Problematyczne zmiany skórne należy sprawdzać regularnie, co pozwala oceniać ich obraz na przestrzeni lat. Nie należy też czekać z diagnostyką rozdrapanych pieprzyków na skórze.
+Diagnostyka znamion barwnikowych oraz czerniaka u dzieci w uzasadnionych sytuacjach jest nieinwazyjna, bezbolesna i polega na badaniu [dermatoskopowym](/dermatoskopia-badanie-znamion), np. [wideodermatoskopowym](/wideodermatoskopia-komputerowe-badanie-znamion). Wybór odpowiedniego lekarza ze świetnym podejściem do dzieci pozwala na przeprowadzenie badania bez stresu dla dziecka. Problematyczne zmiany skórne należy sprawdzać regularnie, co pozwala oceniać ich obraz na przestrzeni lat. Nie należy też czekać z diagnostyką rozdrapanych pieprzyków na skórze.
 
-<More link="https://twojeznamiona.pl/kontakt" text="Czy działamy w Twoim mieście.  Umów się." cta="Sprawdź" />
+<More link="/kontakt" text="Czy działamy w Twoim mieście.  Umów się." cta="Sprawdź" />
 
 ## Objawy czerniaka u dziecka - kontroluj dziecko regularnie w domu
 
 W przypadku czerniaka wykorzystywana jest między innymi metoda ABCDE, dzięki której ocenia się cechy charakterystyczne zmiany i którą można stosować również samemu w domu. 
 
-<More link="https://twojeznamiona.pl/czerniak" text="Czerniak - diagnostyka i leczenie" cta="Sprawdź" />
+<More link="/czerniak" text="Czerniak - diagnostyka i leczenie" cta="Sprawdź" />
 
 Rozbieramy dziecko i szukamy znamion na całym ciele, kolejno przyglądając się każdemu z nich. Przy ocenianiu pieprzyków kierujemy się 5 głównymi wskazówkami.
 
@@ -121,15 +122,15 @@ Lekarze, korzystając z tej metody, dodatkowo przyznają punkty, dzięki którym
 
 ## Czy usuwać znamiona u dzieci?
 
-Znamiona podejrzane i potencjalnie groźne dla zdrowia usuwa się [chirurgicznie](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion), a następnie kieruje do [badania histopatologicznego](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion#histopatologia), które pozwala uzyskać pewność co do charakteru znamienia: czy było łagodne czy nowotworowe. Pozwala to na podjęcie ewentualnego szybkiego leczenia, które jest kluczowe przy nowotworach skóry. Odpowiednio wcześnie wykryty czerniak pozwala w większości przypadków na całkowite wyleczenie.
+Znamiona podejrzane i potencjalnie groźne dla zdrowia usuwa się [chirurgicznie](/chirurgiczne-usuwanie-znamion), a następnie kieruje do [badania histopatologicznego](/chirurgiczne-usuwanie-znamion#histopatologia), które pozwala uzyskać pewność co do charakteru znamienia: czy było łagodne czy nowotworowe. Pozwala to na podjęcie ewentualnego szybkiego leczenia, które jest kluczowe przy nowotworach skóry. Odpowiednio wcześnie wykryty czerniak pozwala w większości przypadków na całkowite wyleczenie.
 
-![Badanie wideodermatoskopowe dziecka - lekarz zbliża kamerę do skóry i ogląda znamiona na ekranie komputera. W razie potrzeby wykonuje zdjęcia pieprzyków i zapisuje je do kontroli.](img/7.jpg "Badanie wideodermatoskopowe dziecka - lekarz zbliża kamerę do skóry i ogląda znamiona na ekranie komputera. W razie potrzeby wykonuje zdjęcia pieprzyków i zapisuje je do kontroli.")
+![Badanie wideodermatoskopowe dziecka - lekarz zbliża kamerę do skóry i ogląda znamiona na ekranie komputera.](img/7.jpg "Badanie wideodermatoskopowe dziecka")
 
 Nie potrzeba się jednak zawczasu martwić - znamiona barwnikowe u dzieci najczęściej są łagodne, szczególnej uwagi wymagają jednak znamiona wrodzone i znamiona Spritza ze względu na możliwość ich rozwoju w czerniaka. Regularne kontrole dermatoskopowe to najlepsza profilaktyka.
 
 
 
-**[Sprawdź, jak chronić swoją rodzinę na co dzień](https://twojeznamiona.pl/blog/jak-chronic-sie-przed-nowotworem-skory)**
+**[Sprawdź, jak chronić swoją rodzinę na co dzień](/blog/jak-chronic-sie-przed-nowotworem-skory)**
 
 
 
@@ -139,4 +140,4 @@ Jak wynika z badań, oparzenia słoneczne doznane w dzieciństwie zwiększają r
 
 
 
-**[Skontaktuj się z nami, by umówić się na badanie](https://twojeznamiona.pl/kontakt)**
+**[Skontaktuj się z nami, by umówić się na badanie](/kontakt)**

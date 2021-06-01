@@ -77,6 +77,7 @@ toc:
 tags:
   - komputerowa diagnostyka znamion
   - dermatoskopia
+  - ABCDE
   - wideodermatoskopia
   - badanie znamion
 ---
