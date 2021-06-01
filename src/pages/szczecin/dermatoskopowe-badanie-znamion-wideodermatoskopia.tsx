@@ -26,6 +26,16 @@ import Contact from "../../components/landingPage/Contact";
 import ProcedureDetails from "../../components/landingPage/ProcedureDetails";
 import WhyUs from "../../components/landingPage/WhyUs";
 import ButtonDrw from "../../components/landingPage/ButtonDrw";
+import {
+  GTM_WIDEO,
+  GTM_CHIRURGIA,
+  GTM_DERMATOLOGIA,
+  GTM_E_ONKOLOGIA,
+  GTM_NIECHIRURGIA,
+  GTM_ONKOLOGIA,
+} from "../../config/gtm_classes";
+
+const GTM_LOCATION = "szczecin-dermatoskopowe";
 
 //styles
 import "../../styles/home.scss";
@@ -61,6 +71,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="szczecin badanie znamion(wideodermatoskopia)"
+        className={`${GTM_LOCATION} ${GTM_WIDEO}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
@@ -121,6 +132,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="e-konsultacjaonkologiczna"
+        className={`${GTM_LOCATION} ${GTM_E_ONKOLOGIA}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"

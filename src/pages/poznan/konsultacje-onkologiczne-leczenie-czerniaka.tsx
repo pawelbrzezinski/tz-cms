@@ -1,7 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-import { graphql, Link, StaticQuery } from "gatsby";
+import { graphql, StaticQuery } from "gatsby";
 
 import Hero from "../../components/landingPage/Hero";
 import Layout from "../../components/Layout";
@@ -9,22 +9,24 @@ import Cta from "../../components/Cta";
 
 import Location from "../../components/landingPage/Location";
 import PriceList from "../../components/landingPage/PriceList";
-import Reviews from "../../components/landingPage/Reviews";
 import Dermoscopy from "../../components/landingPage/Dermoscopy";
 import Oncology from "../../components/landingPage/Oncology";
 import Videodermoscopy from "../../components/landingPage/Videodermoscopy";
 import Surgery from "../../components/landingPage/Surgery";
-import Melanoma from "../../components/landingPage/Melanoma";
 import Abcde from "../../components/landingPage/Abcde";
 import Gallery from "../../components/landingPage/Gallery";
 import Offer from "../../components/landingPage/Offer";
-import Faq from "../../components/landingPage/Faq";
 import RiskGroup from "../../components/landingPage/RiskGroup";
 import Covid from "../../components/landingPage/Covid";
-import ImportantInfo from "../../components/landingPage/ImportantInfo";
 import Contact from "../../components/landingPage/Contact";
-import ProcedureDetails from "../../components/landingPage/ProcedureDetails";
-import WhyUs from "../../components/landingPage/WhyUs";
+import {
+  GTM_WIDEO,
+  GTM_CHIRURGIA,
+  GTM_E_ONKOLOGIA,
+  GTM_ONKOLOGIA,
+} from "../../config/gtm_classes";
+
+const GTM_LOCATION = "poznan-onkologia";
 
 //styles
 import "../../styles/home.scss";
@@ -32,7 +34,6 @@ import "../../styles/home.scss";
 import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
 import ButtonDrw from "../../components/landingPage/ButtonDrw";
-import Button from "../../components/Button";
 import MelanomaOncology from "../../components/landingPage/MelanomaOncology";
 import MelanomaTreatment from "../../components/landingPage/MelanomaTreatment";
 import Doctors from "../../components/landingPage/Doctors";
@@ -58,6 +59,8 @@ const REVIEWS = [
   },
 ];
 
+
+
 const PRICES = [
   {
     isOpened: true,
@@ -71,6 +74,7 @@ const PRICES = [
         button: () => (
           <ButtonDrw
             data-doctor="poznańkonsultacja onkologiczna"
+            className={`${GTM_LOCATION} ${GTM_ONKOLOGIA}`}
             data-speciality=""
             data-visitkind=""
             data-evisit="false"
@@ -86,6 +90,7 @@ const PRICES = [
         button: () => (
           <ButtonDrw
             data-doctor="e-konsultacjaonkologiczna"
+            className={`${GTM_LOCATION} ${GTM_E_ONKOLOGIA}`}
             data-speciality=""
             data-visitkind=""
             data-evisit="false"
@@ -102,6 +107,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="poznań badanie znamion(wideodermatoskopia)"
+        className={`${GTM_LOCATION} ${GTM_WIDEO}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
@@ -132,6 +138,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="chirurgiczne usuwanieznamion"
+        className={`${GTM_LOCATION} ${GTM_CHIRURGIA}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"

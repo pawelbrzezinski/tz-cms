@@ -33,6 +33,16 @@ import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
 import Button from "../../components/Button";
 import ButtonDrw from "../../components/landingPage/ButtonDrw";
+import {
+  GTM_WIDEO,
+  GTM_CHIRURGIA,
+  GTM_DERMATOLOGIA,
+  GTM_E_ONKOLOGIA,
+  GTM_NIECHIRURGIA,
+  GTM_ONKOLOGIA,
+} from "../../config/gtm_classes";
+
+const GTM_LOCATION = "poznan-dermatoskopowe";
 
 const REVIEWS = [
   {
@@ -55,6 +65,8 @@ const REVIEWS = [
   },
 ];
 
+
+
 const PRICES = [
   {
     isOpened: true,
@@ -64,6 +76,7 @@ const PRICES = [
         data-doctor="poznań badanie znamion(wideodermatoskopia)"
         data-speciality=""
         data-visitkind=""
+        className={`${GTM_LOCATION} ${GTM_WIDEO}`}
         data-evisit="false"
         data-appname="drw"
         data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
@@ -92,6 +105,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="chirurgiczne usuwanieznamion"
+        className={`${GTM_LOCATION} ${GTM_CHIRURGIA}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
@@ -146,6 +160,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="poznań zabiegi nieinwazyjne(krioterapia)"
+        className={`${GTM_LOCATION} ${GTM_NIECHIRURGIA}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
@@ -180,6 +195,7 @@ const PRICES = [
         button: () => (
           <ButtonDrw
             data-doctor="poznańkonsultacja onkologiczna"
+            className={`${GTM_LOCATION} ${GTM_ONKOLOGIA}`}
             data-speciality=""
             data-visitkind=""
             data-evisit="false"
@@ -195,6 +211,7 @@ const PRICES = [
         button: () => (
           <ButtonDrw
             data-doctor="e-konsultacjaonkologiczna"
+            className={`${GTM_LOCATION} ${GTM_E_ONKOLOGIA}`}
             data-speciality=""
             data-visitkind=""
             data-evisit="false"
@@ -211,6 +228,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="poznańkonsultacja dermatologiczna"
+        className={`${GTM_LOCATION} ${GTM_DERMATOLOGIA}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
@@ -384,7 +402,12 @@ const PoznanBadanieZnamionPage = ({ graph, location }) => {
         hoursInfo={["pon. - pt.: 10:00 - 20:00"]}
         transportationInfo={["Przystanek tramwajowy:", "Polna, Rynek Jeżycki"]}
       />
-      <Gallery className="home_gallery" data={graph.gallery} city="poznan" imageTitlePostfix="w Poznaniu" />
+      <Gallery
+        className="home_gallery"
+        data={graph.gallery}
+        city="poznan"
+        imageTitlePostfix="w Poznaniu"
+      />
 
       <Reviews className="home_reviews" data={REVIEWS} />
 

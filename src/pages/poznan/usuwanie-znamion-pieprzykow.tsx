@@ -25,6 +25,17 @@ import Covid from "../../components/landingPage/Covid";
 import ImportantInfo from "../../components/landingPage/ImportantInfo";
 import Contact from "../../components/landingPage/Contact";
 
+import {
+  GTM_WIDEO,
+  GTM_CHIRURGIA,
+  GTM_DERMATOLOGIA,
+  GTM_E_ONKOLOGIA,
+  GTM_NIECHIRURGIA,
+  GTM_ONKOLOGIA,
+} from "../../config/gtm_classes";
+const GTM_LOCATION = "poznan-usuwanie"
+
+
 //styles
 import "../../styles/home.scss";
 
@@ -76,6 +87,8 @@ const OFFERS = [
   },
 ];
 
+
+
 const PRICES = [
   {
     isOpened: true,
@@ -83,6 +96,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="chirurgiczne usuwanieznamion"
+        className={`${GTM_LOCATION} ${GTM_CHIRURGIA}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
@@ -137,6 +151,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="poznań zabiegi nieinwazyjne(krioterapia)"
+        className={`${GTM_LOCATION} ${GTM_NIECHIRURGIA}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
@@ -165,6 +180,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="poznań badanie znamion(wideodermatoskopia)"
+        className={`${GTM_LOCATION} ${GTM_WIDEO}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"
@@ -201,6 +217,7 @@ const PRICES = [
         button: () => (
           <ButtonDrw
             data-doctor="poznańkonsultacja onkologiczna"
+            className={`${GTM_LOCATION} ${GTM_ONKOLOGIA}`}
             data-speciality=""
             data-visitkind=""
             data-evisit="false"
@@ -216,6 +233,7 @@ const PRICES = [
         button: () => (
           <ButtonDrw
             data-doctor="e-konsultacjaonkologiczna"
+            className={`${GTM_LOCATION} ${GTM_E_ONKOLOGIA}`}
             data-speciality=""
             data-visitkind=""
             data-evisit="false"
@@ -232,6 +250,7 @@ const PRICES = [
     button: () => (
       <ButtonDrw
         data-doctor="poznańkonsultacja dermatologiczna"
+        className={`${GTM_LOCATION} ${GTM_DERMATOLOGIA}`}
         data-speciality=""
         data-visitkind=""
         data-evisit="false"

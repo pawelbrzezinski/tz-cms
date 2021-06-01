@@ -57,8 +57,8 @@ const Footer = () => {
           </div>
           <div
             className="footer_contact_email_wrapper"
-            itemscope
-            itemtype="http://schema.org/Organization"
+            itemScope
+            itemType="http://schema.org/Organization"
           >
             <p className="hide_mobile">Napisz do nas</p>
             <a
@@ -67,7 +67,7 @@ const Footer = () => {
               className="footer_contact_email_address"
             >
               <img src={email} alt="Twoje Znamiona - Napisz do nas" />
-              <span itemprop="email">zbadamy@twojeznamiona.pl</span>
+              <span itemProp="email">zbadamy@twojeznamiona.pl</span>
             </a>
           </div>
           <div className="footer_contact_reviews_wrapper">
@@ -83,15 +83,15 @@ const Footer = () => {
                 </div>
                 <div
                   className="footer_contact_rating_wrapper"
-                  itemprop="aggregateRating"
-                  itemscope
-                  itemtype="http://schema.org/AggregateRating"
+                  itemProp="aggregateRating"
+                  itemScope
+                  itemType="http://schema.org/AggregateRating"
                 >
-                  <meta itemprop="ratingValue" content="5.0" />
-                  <meta itemprop="bestRating" content="5" />
-                  <meta itemprop="worstRating" content="1" />
-                  <span itemprop="ratingValue">5.0</span> (
-                  <span itemprop="ratingCount">{RATING}</span> opinii)
+                  <meta itemProp="ratingValue" content="5.0" />
+                  <meta itemProp="bestRating" content="5" />
+                  <meta itemProp="worstRating" content="1" />
+                  <span itemProp="ratingValue">5.0</span> (
+                  <span itemProp="ratingCount">{RATING}</span> opinii)
                 </div>
               </div>
             </a>

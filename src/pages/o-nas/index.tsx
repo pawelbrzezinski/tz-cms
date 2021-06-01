@@ -97,6 +97,14 @@ const DOCTORS_WARSZAWA = [
     city: "Warszawa",
     img: doctroPlaceholderMale,
   },
+  {
+    name: "Weronika Pietrenko ",
+    title: "specjalista dermatologii i wenerologii",
+    description:
+      "Absolwentka Wydziału Lekarskiego Uniwersytetu Medycznego im. Karola Marcinkowskiego w Poznaniu. Szkolenie specjalizacyjne z zakresu dermatologii i wenerologii odbywała w Szpitalu Klinicznym im. Heliodora Święcickiego w Poznaniu. Autorka i współautorka licznych publikacji naukowych, członkini Polskiego Towarzystwa Dermatologicznego, International Dermoscopy Society, International Trichoscopy Society. Swoje zainteresowania zawodowe poszerza uczestnicząc w licznych konferencjach, kursach i szkoleniach z zakresu dermatologii i wenerologii, ze szczególnym uwzględnieniem tematyki nowotworów skóry i dermatoskopii.",
+    city: "Warszawa",
+    img: doctroPlaceholderFemale,
+  },
 ];
 const DOCTORS_SZCZECIN = [
   {
