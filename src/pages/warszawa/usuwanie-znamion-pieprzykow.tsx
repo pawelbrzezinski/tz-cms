@@ -103,11 +103,11 @@ const PRICES = [
         label: "usunięcie kolejnej zmiany w trakcie jednej wizyty",
       },
       {
-        price: "200",
+        price: "250",
         label: "konsultacja chirurgiczna",
       },
       {
-        price: "350",
+        price: "390",
         label: "biopsja z badaniem histopatologicznym",
       },
     ],

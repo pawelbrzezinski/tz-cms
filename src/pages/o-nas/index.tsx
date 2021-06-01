@@ -67,7 +67,7 @@ const DOCTORS_POZNAN = [
 const DOCTORS_WARSZAWA = [
   {
     name: "Kamila Padlewska",
-    title: "specjalista onkologii klinicznej",
+    title: "specjalista dermatologii i wenerologii",
     description:
       "Swoje doświadczenie zdobywała na Oddziałach Dermatologii, Chirurgii Dermatologicznej i Immunologii w Scripps Clinic and Research Foundation (La Jolla), Klinice Dermatologicznej University of California, USF College of Medicine (San Diego) oraz Ain Shams Hospital (Kair). Prowadziła liczne badania naukowe w Instytucie Pasteura (Paryż).  Od 2005 roku profesor Wyższej Szkoły Zawodowej Kosmetyki i Pielęgnacji Zdrowia w Warszawie. Członek Zarządu Polskiego Towarzystwa Medycyny Estetycznej i Anti-Aging PTL. Należy do Stowarzyszenia Dermatologów Estetycznych, Polskiego Towarzystwa Dermatologicznego oraz European Society for Cosmetic and Aesthetic Dermatology (ESCAD).  Autorka licznych publikacji i książek, wykładowca na licznych kongresach krajowych i zagranicznych. Współpracuje z licznymi firmami farmaceutycznymi i kosmetycznymi. Brała udział w wielu programach telewizyjnych, między innymi w „Sekretach Chirurgii”.",
     city: "Warszawa",
