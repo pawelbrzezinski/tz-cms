@@ -43,15 +43,11 @@ sources:
 
 ![Badanie znamion dermatoskopem ręcznym](img/2.jpg "Badanie znamion dermatoskopem ręcznym")
 
-
-
 **MIT 2 – Każde znamię jest takie samo**
 
 **FAKT** – Nie trzeba być ekspertem, aby zauważyć różnorodność zmian, które pojawiają się na naszej skórze. Mogą przybierać one bardzo różne rozmiary, barwy czy wypukłości. Medyczne kryteria różnicujące znamiona są jeszcze bardziej złożone, bowiem obejmują również struktury skóry, z których znamiona się wywodzą. Można zatem rozróżnić między innymi zmiany barwnikowe, naczyniowe, naskórkowe czy przydatkowe. Najczęściej spotykanymi zmianami są barwnikowe, które z reguły uwarunkowane są genetycznie – są wrodzone, a ich liczba najczęściej zwiększa się wraz z naszym wiekiem.
 
 ![znamię błękitne - źródło: www.dermatologyadvisor.com](img/3.jpg "znamię błękitne - źródło: www.dermatologyadvisor.com")
-
-
 
 **MIT 3 – Badanie znamion należy wykonywać tylko, gdy pojawią się niepokojące zmiany**
 
@@ -62,3 +58,5 @@ sources:
 **MIT 4 – Nie usuwa się znamion z powodów estetycznych**
 
 **FAKT** – W sytuacji, gdy zmiana skórna zostanie uznana przez lekarza jako niegroźna dla naszego zdrowia, nadal mamy możliwość jej usunięcia. Możemy się jej pozbyć, gdy nam przeszkadza bądź jest dla nas źródłem kompleksów i kierujemy się walorami estetycznymi. Usuwanie znamienia można wykonać [laserowo](https://twojeznamiona.pl/laserowe-usuwanie-znamion) po badaniu wideodermatoskopowym (gdy znamię jest niegroźne) lub [chirurgicznie](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion) z badaniem histopatologicznym.
+
+![Laserowe usuwanie znamion źródło: www.nowomed.pl](img/4.jpg "Laserowe usuwanie znamion źródło: www.nowomed.pl")
