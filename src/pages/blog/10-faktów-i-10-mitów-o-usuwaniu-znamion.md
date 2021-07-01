@@ -60,3 +60,13 @@ sources:
 **FAKT** – W sytuacji, gdy zmiana skórna zostanie uznana przez lekarza jako niegroźna dla naszego zdrowia, nadal mamy możliwość jej usunięcia. Możemy się jej pozbyć, gdy nam przeszkadza bądź jest dla nas źródłem kompleksów i kierujemy się walorami estetycznymi. Usuwanie znamienia można wykonać [laserowo](https://twojeznamiona.pl/laserowe-usuwanie-znamion) po badaniu wideodermatoskopowym (gdy znamię jest niegroźne) lub [chirurgicznie](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion) z badaniem histopatologicznym.
 
 ![Laserowe usuwanie znamion źródło: www.nowomed.pl](img/4.jpg "Laserowe usuwanie znamion źródło: www.nowomed.pl")
+
+**MIT 5 – Znamię może zostać usunięte wyłącznie przez chirurga**
+
+**FAKT** – Rozwój medycyny i różnych metod o mniejszej inwazyjności (w tym metod niechirurgicznych) sprawia, że poza chirurgiem, zabiegu usuwania znamienia mogą podjąć się również inni lekarze z doświadczeniem. W zależności od charakteru zmiany, pomocy w tym zakresie może udzielić nam zatem dermatolog lub inny lekarz zabiegowy. Każdy zabieg powinien być jednak każdorazowo poprzedzony badaniem znamion.
+
+**MIT 6 – Każde znamię można usunąć laserem**
+
+**FAKT** – Laserowe usuwanie znamion jest bardzo popularną alternatywą, jednak w sytuacji, gdy zmiana skórna jest atypowa lub pojawia się podejrzenie o jej złośliwym charakterze, jest ono wykluczone. Tutaj konieczne staje się chirurgiczne usuwanie znamion, z których wycinki poddawane są [badaniom histopatologicznym](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion#histopatologia). W przypadku pochopnego użycia metody laserowej, usuwanie znamion może nieść poważne powikłania, w tym niepotrzebne podrażnienie zmiany nowotworowej. Metoda laserowa sprawdza się jednak w likwidowaniu plam i przebarwień, kurzajek, brodawek, blizn itp.
+
+![Badanie histopatologiczne pozwala poznać charakter znamienia i szybko wykryć zmiany nowotworowe źródło: www.zwrotnikraka.pl](img/5.jpg "Badanie histopatologiczne pozwala poznać charakter znamienia i szybko wykryć zmiany nowotworowe źródło: www.zwrotnikraka.pl")
