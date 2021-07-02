@@ -25,7 +25,7 @@ import ImportantInfo from "../../components/landingPage/ImportantInfo";
 import Contact from "../../components/landingPage/Contact";
 import ProcedureDetails from "../../components/landingPage/ProcedureDetails";
 import WhyUs from "../../components/landingPage/WhyUs";
-
+import ButtonDrw from "../../components/landingPage/ButtonDrw";
 import {
   GTM_WIDEO,
   GTM_CHIRURGIA,
@@ -35,33 +35,32 @@ import {
   GTM_ONKOLOGIA,
 } from "../../config/gtm_classes";
 
-const GTM_LOCATION = "wroclaw-dermatoskopowe";
+const GTM_LOCATION = "gdansk-dermatoskopowe";
 
 //styles
 import "../../styles/home.scss";
 
 import SEO from "../../components/SEO";
 import CallCta from "../../components/CallCta";
-import ButtonDrw from "../../components/landingPage/ButtonDrw";
 
 const REVIEWS = [
   {
-    author: "Bożena G.",
-    city: "Wrocław",
+    author: "Marek B.",
+    city: "Gdańsk",
     review:
-      "Ode mnie 5/5. Jedyne takie miejsce, gdzie bez problemu można umówić się na badanie wszystkich znamion, a mam ich naprawdę dużo. Na szczęście nic nie wykazało.",
+      "Byłem tu na wizycie. Pani dermatolog skrupulatnie zapoznała się z moim problemem i wykonała badanie wideodermatoskopowe -  okazało się, że należy pieprzyk usunąć.",
   },
   {
-    author: "Jarek O.",
-    city: "Wrocław",
+    author: "Ala S.",
+    city: "Gdańsk",
     review:
-      "Dziękuję Pani dr za szybki termin wizyty i za tempo wszystkich przeprowadzonych badań oraz możliwość zdalnej konsultacji z onkologiem.",
+      "Byłam na badaniu znamion. Udało się znaleźć niepokojące znamię na plecach, które okazało się być czerniakiem! Dziękuję Pani doktor za precyzyjne badanie! Teraz chodze regularnie na kontrole ze swoja rodziną.",
   },
   {
-    author: "Iga J.",
-    city: "Wrocław",
+    author: "Aron S.",
+    city: "Gdańsk",
     review:
-      "Przeprowadzone badanie dermatoskopowe nie wykazało nic złego. Badanie wykonywane skrupulatnie. Świetne podejście do klienta. Wszyscy mili i uśmiechnięci. Cena konkurencyjna.",
+      "Jesteście najlepszym miejscem w Gdańsku do zbadania zmian skórnych. Wszyscy moi pracownicy, którym wykupiłem pakiet badań zostali bardzo solidnie przebadani, są zadowoleni. Na pewno wrócimy na kolejne kontrole.",
   },
 ];
 
@@ -69,17 +68,17 @@ const PRICES = [
   {
     isOpened: true,
     categoryName: "Badanie znamion - wideodermatoskopia",
-    button: () => (
-      <ButtonDrw
-        data-doctor="wrocław badanie znamion(wideodermatoskopia)"
-        className={`${GTM_LOCATION} ${GTM_WIDEO}`}
-        data-speciality=""
-        data-visitkind=""
-        data-evisit="false"
-        data-appname="drw"
-        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-      />
-    ),
+    // button: () => (
+    //   <ButtonDrw
+    //     data-doctor="gdansk badanie znamion(wideodermatoskopia)"
+    //     className={`${GTM_LOCATION} ${GTM_WIDEO}`}
+    //     data-speciality=""
+    //     data-visitkind=""
+    //     data-evisit="false"
+    //     data-appname="drw"
+    //     data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+    //   />
+    // ),
 
     items: [
       {
@@ -100,18 +99,18 @@ const PRICES = [
   },
   {
     isOpened: false,
-    categoryName: "Nieinwazyjne usuwanie znamion",
-    button: () => (
-      <ButtonDrw
-        data-doctor="wrocław zabiegi nieinwazyjne(krioterapia)"
-        className={`${GTM_LOCATION} ${GTM_NIECHIRURGIA}`}
-        data-speciality=""
-        data-visitkind=""
-        data-evisit="false"
-        data-appname="drw"
-        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-      />
-    ),
+    categoryName: "Nieinwazyjne usuwanie znamion ",
+    // button: () => (
+    //   <ButtonDrw
+    //     data-doctor="gdansk zabiegi nieinwazyjne(krioterapia)"
+    //     data-speciality=""
+    //     data-visitkind=""
+    //     data-evisit="false"
+    //     data-appname="drw"
+    //     data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+    //   />
+    // ),
+
     items: [
       {
         price: "250",
@@ -130,17 +129,17 @@ const PRICES = [
   {
     isOpened: false,
     categoryName: "Konsultacje Onkologiczne - czerniak",
-    button: () => (
-      <ButtonDrw
-        data-doctor="e-konsultacjaonkologiczna"
-        className={`${GTM_LOCATION} ${GTM_E_ONKOLOGIA}`}
-        data-speciality=""
-        data-visitkind=""
-        data-evisit="false"
-        data-appname="drw"
-        data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
-      />
-    ),
+    // button: () => (
+    //   <ButtonDrw
+    //     data-doctor="e-konsultacjaonkologiczna"
+    //     className={`${GTM_LOCATION} ${GTM_E_ONKOLOGIA}`}
+    //     data-speciality=""
+    //     data-visitkind=""
+    //     data-evisit="false"
+    //     data-appname="drw"
+    //     data-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYWNpbGl0eV9pZCI6ODk1N30.REbRVMRE5mlb3RB3K_2uc2p9D2gb2XQr9tZoslDkq8I"
+    //   />
+    // ),
     items: [
       {
         price: "200",
@@ -198,14 +197,14 @@ const INFOS = [
       "Badanie wszystkich znamion - 30-40 min. Badanie kontrolne znamion wyznaczonych przez lekarza - 15-20 min.",
   },
   {
-    title: "Jakim urządzeniem badamy?",
-    desc:
-      "Pacjent badany jest za pomocą nowoczesnego sprzętu - wideodermatoskopu Fotofinder Portable Medicam 1000 Full HD",
-  },
-  {
     title: "Jak się przygotować do badania?",
     desc:
       "Przed badaniem należy wykonać demakijażu oraz skrócić owłosienia w miejscach, w których znajdują się znamiona, celem poprawy jakości obrazu dermatoskopowego.",
+  },
+  {
+    title: "Jakim urządzeniem badamy?",
+    desc:
+      "Pacjent badany jest za pomocą nowoczesnego sprzętu - wideodermatoskopu Fotofinder Portable Medicam 1000 Full HD",
   },
 ];
 
@@ -224,33 +223,33 @@ const CtaCennik = () => {
   );
 };
 
-const WarszawaBadanieZnamionPage = ({ graph, location }) => {
+const GdanskBadanieZnamionPage = ({ graph, location }) => {
   const FAQS = [
     {
       image: graph.faqs[1].image,
       imageMobile: graph.faqs[1].imageMobile,
-      title: "Czy badanie dermatoskopowe boli?",
+      title: "Czy mogę zbadać tylko jedno niepokojące znamię?",
       text:
-        "Nie. Badanie dermatoskopowe to nieinwazyjna metoda oceny znamion polegająca na oglądaniu i fotografowaniu zmian skórnych. Jest to badanie całkowicie bezbolesne i nieinwazyjne. Lekarz przykłada specjalną kamerę wideodermatoskopu do powierzchni skóry i w ten sposób uzyskuje obraz znamion w dużym powiększeniu. ",
+        "W naszym ośrodku lekarz ogląda całe ciało pacjenta, a nie tylko niepokojące znamiona. Bardzo często zdarza się, że pacjenta martwi niegroźna brodawka łojotokowa, która być może nieładnie wygląda, ale nie stwarza żadnego ryzyka onkologicznego. Po dokładnych oględzinach wykonanych przez lekarza, zdarza się, że niepokojące znamię czy nawet rak skóry ukrywa się wśród niepozornych pieprzyków na plecach, które były niejednokrotnie wystawiane na działanie promieniowania UV. Prawidłowo wykonane profilaktyczne badanie wideodermatoskopowe to badanie całego ciała!",
     },
     {
       image: graph.faqs[2].image,
       imageMobile: graph.faqs[2].imageMobile,
-      title: "Jak często powinno się badać znamiona za pomocą dermatoskopu?",
+      title: "Moje znamię okazało się być czerniakiem - co mam teraz zrobić?",
       text:
-        "Każdy z nas powinien na bieżąco kontrolować swoje znamiona, obserwując czy nie zmieniają się w czasie, a ponadto raz do roku poddać badaniu dermatoskopowemu wszystkie obecne na ciele znamiona. Osoby z podwyższonym ryzykiem zachorowania na raka skóry, powinny badać się częściej, zgodnie z zaleceniem lekarskim.",
+        "O zaleceniach odnośnie dalszego postępowania pacjent dowiaduje się od lekarza, który wydaje mu wynik badania histopatologicznego - zwykle jest nim chirurg, który usuwał dane znamię. Zazwyczaj pacjent zostaje skierowany do ośrodka onkologicznego, gdyż dalsze postępowanie uzależnione jest od stopnia zaawansowania usuniętej zmiany. Z naszej strony oferujemy fachowe wsparcie i pozostajemy w stałym kontakcie z naszymi Pacjentami.",
     },
   ];
 
   return (
     <Layout constactCtaComponent={<CtaUmowSie />} location={location}>
       <SEO
-        title="Centrum Badania Znamion we Wrocławiu - Dermatoskopia - twojeznamiona.pl"
-        description="Wrocław - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."
-        keywords="badanie znamion, wrocław, dermatoskopia"
+        title="Centrum Badania Znamion w Gdańsku - Dermatoskopia - twojeznamiona.pl"
+        description="Gdańsk - kompleksowa diagnostyka znamion. Badamy wszystkie pieprzyki na ciele. Wideodermatoskopia z mapowaniem. Dlaczego dermatoskopia jest najlepszą metodą diagnostyki zmian skórnych? Ile to kosztuje - cennik. Dermatologia."
+        keywords="badanie znamion, gdansk, dermatoskopia"
       />
       <Hero
-        h1="Wrocławskie Centrum Dermatoskopowego Badania Znamion"
+        h1="Gdańskie Centrum Dermatoskopowego Badania Znamion"
         oneLiner="Wszystkie swoje działania skupiamy na kompleksowej diagnostyce znamion aby wyeliminować nowotwory skóry z życia milionów ludzi."
         oneLinerMore="Upewnij się, że czerniak nie ukrywa się w jednym z niepozornych pieprzyków na Twojej skórze."
         ctaPrimary={<CtaUmowSie />}
@@ -264,7 +263,7 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
         <ol>
           <li>
             Przyjdź na ustaloną godzinę wizyty bez osób towarzyszących.
-            Maksymalnie w poczekalni może znajdować się jeden pacjent.
+            Maksymalnie w poczekalni może znajdować się 5 pacjentów.
           </li>
           <li>
             Przed wizytą w recepcji otrzymasz maseczkę jednorazowego użytku,
@@ -275,7 +274,6 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
             Skorzystaj z płynu znajdującego się w Ośrodku w celu dezynfekcji
             rąk.
           </li>
-          <li>Pracownik Ośrodka zmierzy temperaturę Twojego ciała.</li>
           <li>
             Nasi lekarze wyposażeni są w specjalne fartuchy, maseczki oraz
             przyłbice.
@@ -283,44 +281,36 @@ const WarszawaBadanieZnamionPage = ({ graph, location }) => {
           <li>Zachęcamy Państwa do płatności bezgotówkowych.</li>
         </ol>
       </Covid>
-      <Contact className="home_contact" where="we Wrocławiu" city="Wroclaw" />
-      <Location
+      <Contact className="home_contact" where="w Gdańsku" city="Gdańsk" />
+      {/* <Location
         className="home_location"
         coords={{
-          lat: 51.08785922228506,
-          lng: 17.056314009859083,
+          lat: 53.45196937478922,
+          lng: 14.525558670144864,
         }}
         googleMarker={{
-          data: ["ul. Jesionowa 49/U1", "50-504 Wrocław"],
-          link: "https://g.page/twoje-znamiona-wroclaw?share",
+          data: ["ul. Arkońska 51/01", "71-455 Gdańsk"],
+          link: "https://g.page/twoje-znamiona-gdansk?share",
         }}
-        additionalDetails="Ośrodek znajduje się na parterze, wejście niezależne od strony ul. Pięknej.  Możliwość parkowania wzdłuż chodnika  przed budynkiem lub na pobliskim osiedlu."
+        additionalDetails="Ośrodek znajduje się w Centrum Zdrowia Akal-Med w budynku naprzeciw Szpitala Publicznego przy ul. Arkońskiej. Wejście do budynku od strony parkingu. "
         locationInfo={[
-          "Gabinety City Smile",
-          "ul. Jesionowa 49/U1",
-          "50-504 Wrocław",
+          "Centrum Akal-Med",
+          "ul. Arkońska 51/01",
+          "71-455 Gdańsk",
         ]}
-        hoursInfo={[
-          "poniedziałek: 13:00 - 19:00",
-          "wtorek: 13:00 - 19:00",
-          "środa: 8:30 - 14:00 ",
-          "czwartek: 13:00 - 21:00",
-          "piątek: 8:30 - 14:00",
-          "sobota: 9:00 - 15:00",
-        ]}
+        hoursInfo={["pon. - pt.: 10:00⁃18:00"]}
         transportationInfo={[
-          "Przystanek autobusowy:",
-          "Transbud (od strony ul. Pięknej)",
-          "Kamienna (od strony ul. Jesionowej)",
+          "Parking - obecny.",
+          "Wjazd na parking od ul. Bułgarskiej.",
         ]}
-      />
-      <Gallery className="home_gallery" data={graph.gallery} city="wroclaw" imageTitlePostfix="we Wrocławiu"   />
+      /> */}
+      {/* <Gallery className="home_gallery" data={graph.gallery} city="gdansk" imageTitlePostfix="w Gdańsku"  /> */}
 
       <Reviews className="home_reviews" data={REVIEWS} />
 
       <ProcedureDetails
         className="home_two_col_section_right_img"
-        h2="Przebieg badania wideodermatoskopowego we Wrocławiu"
+        h2="Przebieg badania wideodermatoskopowego w Gdańsku"
       />
       <ImportantInfo className="home_important_info" data={INFOS} />
       <Dermoscopy
@@ -344,9 +334,7 @@ export default (props) => (
     query={graphql`
       query {
         ImageGallery1: allFile(
-          filter: {
-            relativePath: { regex: "/wroclaw-centrum-badania-znamion_1.jpg/" }
-          }
+          filter: { relativePath: { regex: "/szczecin1.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -358,9 +346,7 @@ export default (props) => (
           }
         }
         ImageGallery2: allFile(
-          filter: {
-            relativePath: { regex: "/wroclaw-centrum-badania-znamion_2.jpg/" }
-          }
+          filter: { relativePath: { regex: "/szczecin2.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -372,9 +358,19 @@ export default (props) => (
           }
         }
         ImageGallery3: allFile(
-          filter: {
-            relativePath: { regex: "/wroclaw-centrum-badania-znamion_5.jpg/" }
+          filter: { relativePath: { regex: "/szczecin3.png/" } }
+        ) {
+          nodes {
+            childImageSharp {
+              fluid(maxWidth: 550, maxHeight: 350, quality: 90) {
+                originalName
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
+        }
+        ImageGallery4: allFile(
+          filter: { relativePath: { regex: "/szczecin4.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -386,9 +382,7 @@ export default (props) => (
           }
         }
         ImageGallery5: allFile(
-          filter: {
-            relativePath: { regex: "/wroclaw-centrum-badania-znamion_4.png/" }
-          }
+          filter: { relativePath: { regex: "/szczecin5.png/" } }
         ) {
           nodes {
             childImageSharp {
@@ -442,13 +436,14 @@ export default (props) => (
       }
     `}
     render={(data) => (
-      <WarszawaBadanieZnamionPage
+      <GdanskBadanieZnamionPage
         graph={{
           gallery: [
+            data.ImageGallery3.nodes[0],
+            data.ImageGallery4.nodes[0],
+            data.ImageGallery5.nodes[0],
             data.ImageGallery1.nodes[0],
             data.ImageGallery2.nodes[0],
-            data.ImageGallery3.nodes[0],
-            data.ImageGallery5.nodes[0],
           ],
           faqs: {
             1: {

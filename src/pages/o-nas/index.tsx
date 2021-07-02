@@ -90,12 +90,20 @@ const DOCTORS_WARSZAWA = [
     img: "Małgorzata_Dominiak.png",
   },
   {
+    name: "Piotr Celmer",
+    title: "specjalista dermatologii i wenerologii",
+    description:
+      "Absolwent I wydziału lekarskiego Warszawskiego Uniwersytetu Medycznego, aktualnie pracuje na oddziale okulistycznym szpitala MSWiA gdzie w przyszłości chciałby się zająć mikrochirurgią oka. W swojej pracy wykorzystuje najnowsze doniesienia naukowe, uczestniczy w konferencjach i szkoleniach poświęconych między innymi nowotworom skóry. Posiada doświadczenie w ocenie dermatoskopowej znamion. Współautor licznych prac z zakresu dermatologii, w tym nagrodzonej: Imikwimod w leczeniu lentigo maligna na V Ogólnopolskiej Konferencji Naukowej 'Interdyscyplinarne aspekty chorób skóry i błon śluzowych'. W czasie wolnym poświęca się działalności naukowej - autor '30 dni do matury z chemii - kursoksiążka' - przygotowanej z wydawnictwem Krzysztof Pazdro.",
+    city: "Warszawa",
+    img: "piotr_celmer.jpeg",
+  },
+  {
     name: "Dariusz Dziedzic",
     title: "specjalista chirurgii ogólnej i chirurgii klatki piersiowej",
     description:
       "Jest absolwentem Akademii Medycznej we Wrocławiu. W roku 1996 uzyskał specjalizację z chirurgii ogólnej, a w 2000 roku specjalizację z chirurgii klatki piersiowej. W 2007 roku otrzymał certyfikat European Board of Thoracic and Cardio-Vascular Surgeons, członek Polskiego Towarzystwa Kardio-Torakochirurgów oraz European Association for Cardiothoracic Surgery. W 2018 roku uzyskał stopień doktora habilitowanego nauk medycznych za cykl prac zatytułownych: 'Nowe czynniki prognostyczne w chirurgicznym leczeniu niedrobnokomórkowego raka płuca i ich wpływ na klasyfikację TNM' nadanym przez Radę Naukową Instytutu Gruźlicy i Chorób Płuc w Warszawie.  Od wielu lat zajmuje sie tematyką diagnostyki i leczenia schorzeń nowotworowych. Współautor publikacji 'Zalecenia postepowania diagnostyczno- terapeutycznego w nowotworach złośliwych u dorosłych' pod auspicjami Polskiej Unii Onkologicznej stanowiącej obecnie w Polsce najważniejszy przewodnik postępowania terapuetycznego w onkologii.",
     city: "Warszawa",
-    img: doctroPlaceholderMale,
+    img: "Dariusz_Dziedzic.jpg",
   },
   {
     name: "Weronika Pietrenko ",

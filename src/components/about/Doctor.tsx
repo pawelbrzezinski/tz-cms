@@ -9,8 +9,8 @@ const SplitedDescription = ({ text = "" }) => {
 
   return sentences.length > 5 ? (
     <>
-      <p>{sentences.slice(0, sentences.length / 2).join(" ")}</p>
-      <p>{sentences.slice(sentences.length / 2).join(" ")}</p>
+      <p>{sentences.slice(0, sentences.length / 2).join(".")}.</p>
+      <p>{sentences.slice(sentences.length / 2).join(".")}</p>
     </>
   ) : (
     <p>{text}</p>

@@ -86,11 +86,11 @@ export const LOCATIONS = [
   },
   {
     city: "Gdańsk",
-    link: undefined,
+    link: "gdansk/dermatoskopowe-badanie-znamion-wideodermatoskopia",
     position: {
       left: 43,
       top: 11,
     },
-    type: FUTURE,
+    type: CURRENT,
   },
 ];

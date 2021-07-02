@@ -263,12 +263,12 @@ const Footer = () => {
               >
                 Bydgoszcz
               </Link>
-              {/* <Link
-                to={`/ustka/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
+              <Link
+                to={`/gdansk/dermatoskopowe-badanie-znamion-wideodermatoskopia`}
                 className="footer_link"
               >
-                Ustka
-              </Link> */}
+                Gdańsk
+              </Link>
             </div>
           </div>
         </div>
