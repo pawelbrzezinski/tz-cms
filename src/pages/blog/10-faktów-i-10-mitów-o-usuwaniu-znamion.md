@@ -55,7 +55,7 @@ sources:
 
 **FAKT** – O ile pojawienie się niepokojącej zmiany na skórze jest dobrym pretekstem do wykonania badania znamion, to profilaktycznie zaleca się również regularne badania skóry całego ciała przynajmniej raz do roku. Nie jesteśmy w stanie samodzielnie ocenić wszystkich pojawiających się zmian na skórze. Poddając się komputerowemu badaniu znamion - [widedermatoskopii](https://twojeznamiona.pl/wideodermatoskopia-komputerowe-badanie-znamion) , możemy uzyskać pełną analizę występujących na naszym ciele zmian. Pojawiające się asymetrie, nieregularne krawędzie, niejednolita barwa, większa niż do tej pory średnica zmiany itp., mogą zostać podczas badania zauważone nawet w trudno dostępnych miejscach. W razie niepokojących objawów, lekarz może skierować nas do usunięcia znamienia dobraną do jego charakteru metodą niechirurgiczną lub chirurgiczną.
 
-[Zobacz, jakie są rodzaje czerniaka](https://twojeznamiona.pl/czerniak/rodzaje-czerniaka-zdjecia)
+<More link="" text="" cta="Sprawdź" />
 
 **MIT 4 – Nie usuwa się znamion z powodów estetycznych**
 
