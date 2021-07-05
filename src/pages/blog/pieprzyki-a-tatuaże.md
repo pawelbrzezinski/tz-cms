@@ -28,11 +28,11 @@ sources:
   - label: https://www.jprasurg.com/article/0007-1226(74)90025-3/pdf
     link: https://www.jprasurg.com/article/0007-1226(74)90025-3/pdf
   - link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138458/
-    label: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138458/
+    label: www.ncbi.nlm.nih.gov
   - link: https://pubmed.ncbi.nlm.nih.gov/29171408/
     label: https://pubmed.ncbi.nlm.nih.gov/29171408/
   - link: https://jamanetwork.com/article.aspx?articleid=1722816#Abstract
-    label: https://jamanetwork.com/article.aspx?articleid=1722816#Abstract
+    label: www.jamanetwork.com
 ---
 **Tatuaże to bez wątpienia jeden z najpopularniejszych sposobów zdobienia ciała na świecie. Ich wykonywanie niesie niewielkie ryzyko powikłań, jednak jak wykazują liczne przypadki, mogą być one sporym utrudnieniem w precyzyjnych badaniach skóry, a tym samym także kamuflażem dla czerniaka złośliwego.**
 
