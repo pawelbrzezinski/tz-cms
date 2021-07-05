@@ -29,9 +29,9 @@ tags:
   - znamię
   - nowotwory skóry
 sources:
-  - label: "źródło: www.zwrotnikraka.pl"
-  - label: "źródło: www.dermatologyadvisor.com"
   - label: "źródło: www.nowomed.pl"
+  - label: www.dermatologyadvisor.com
+  - label: www.nowomed.pl
 ---
 **Każdy z nas na swojej skórze może znaleźć z powodzeniem od kilkunastu do nawet kilkudziesięciu znamion, pieprzyków, brodawek i im podobnych zmian skórnych. Niektóre z nich dodają nam uroku, inne stanowią problem estetyczny, a jeszcze inne mogą stać się zagrożeniem dla naszego zdrowia, a nawet życia. Usuwanie znamion stało się jedną z opcji poradzenia sobie z problemem, jednak liczne mity z nim związane sprawiają, że wiele osób ma sporo obaw. Poniżej przedstawiamy popularne mity oraz fakty, które rozwieją wątpliwości na temat usuwania znamion!**
 
