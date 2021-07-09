@@ -4,7 +4,7 @@ title: Pieprzyki a tatuaże
 author: Agnieszka Czyżewska
 authorsTitle: specjalista onkologii klinicznej
 readingTime: 5
-date: 2021-07-05T08:03:15.552Z
+date: 2021-07-09T08:03:15.552Z
 description: >
   Tatuaże to bez wątpienia jeden z najpopularniejszych sposobów zdobienia ciała
   na świecie. Ich wykonywanie niesie niewielkie ryzyko powikłań, jednak jak
@@ -42,7 +42,7 @@ Szczególnie problematyczne są tatuaże ciemne, silnie napigmentowane oraz zajm
 
 ## Mam tatuaż na pieprzyku – czy to bezpieczne?
 
-Jak wynika z danych, średnio co 3 osoba posiada co najmniej jeden tatuaż. Faktem jest, że tatuowanie może prowadzić do powstawania stanów zapalnych i infekcji, jednak nie stanowią one bezpośredniej przyczyny powstawania [czerniaka](https://twojeznamiona.pl/czerniak). Ich obecność może jednak skutecznie maskować rozwijające się na skórze niebezpieczne zmiany. Przykładem może być wytatuowany pieprzyk - nietypowa wewnątrzskórna proliferacja melanocytów, odkryta w maskującym tatuażu pokrywającym sporą część pleców 39-letniego mężczyzny, który zgłosił się ma badanie dermatologiczne. Podobną sytuację przeżył 55-letni mężczyzna, odkrywając po 5 latach od wykonania tatuażu bezobjawową zmianę skórną, która z czasem owrzodziała i zaczęła krwawić. [Biopsja](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion#biopsja) zmiany wykazała powierzchownego czerniaka. Coraz częstsze liczne przypadki czerniaka w tatuażu sprawiają, że badanie skóry pacjentów z tatuażami jest niebywale ważne dla profilaktyki przeciwnowotworowej.
+Jak wynika z danych, średnio co 3 osoba posiada co najmniej jeden tatuaż. Faktem jest, że tatuowanie może prowadzić do powstawania stanów zapalnych i infekcji, jednak nie stanowią one bezpośredniej przyczyny powstawania [czerniaka](https://twojeznamiona.pl/czerniak). Ich obecność może jednak skutecznie maskować rozwijające się na skórze niebezpieczne zmiany. Przykładem może być wytatuowany pieprzyk - nietypowa wewnątrzskórna proliferacja melanocytów, odkryta w maskującym tatuażu pokrywającym sporą część pleców 39-letniego mężczyzny, który zgłosił się ma badanie dermatologiczne. Podobną sytuację przeżył 55-letni mężczyzna, odkrywając po 5 latach od wykonania tatuażu bezobjawową zmianę skórną, która z czasem owrzodziała i zaczęła krwawić. [Biopsja](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion#id10) zmiany wykazała powierzchownego czerniaka. Coraz częstsze liczne przypadki czerniaka w tatuażu sprawiają, że badanie skóry pacjentów z tatuażami jest niebywale ważne dla profilaktyki przeciwnowotworowej.
 
 ![Atypowe znamię skryte w tatuażu](img/2.png "Atypowe znamię skryte w tatuażu")
 
@@ -63,7 +63,5 @@ Warto pamiętać, że leczenie zmian barwnikowych laserem opóźnia rozpoznanie 
 ## Badanie wytatuowanej skóry – profilaktyka przeciwnowotworowa
 
 Osoby posiadające tatuaże powinny szczególnie zadbać o regularne oglądanie i badanie skóry pod kątem znamion. Każda nowa zmiana czy powiększenie się pieprzyka, powinno zostać skontrolowane u dermatologa. Wiele osób nie zdaje sobie sprawy z zagrożeń, jakie niesie wykonanie tatuażu, w tym w szczególności jego dermatologicznych następstw. Szczególnie czujne powinny być osoby z licznymi znamionami, piegami, pieprzykami, atypowym zespołem znamion czy czerniakiem występującym u członków rodziny. Konsekwentne monitorowanie skóry, w szczególności tej w obrębie tatuażu to spore ułatwienie dla wczesnej diagnostyki i leczenie rozwijających się nowotworów skóry.
-
-[Sprawdź, czy badamy znamiona w Twoim mieście](https://twojeznamiona.pl/kontakt)
 
 <More link="https://twojeznamiona.pl/kontakt" text="Sprawdź, czy badamy znamiona w Twoim mieście" cta="Sprawdź" />

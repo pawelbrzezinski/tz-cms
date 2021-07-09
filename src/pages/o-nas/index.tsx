@@ -113,6 +113,14 @@ const DOCTORS_WARSZAWA = [
     city: "Warszawa",
     img: doctroPlaceholderFemale,
   },
+  {
+    name: "Anna Bagińska",
+    title: "Specjalistka chirurgii plastycznej",
+    description:
+      "Jest absolwentką Wydziału Lekarskiego Warszawskiego Uniwersytetu Medycznego i Uniwersytetu Warszawskiego, gdzie ukończyła prawo medyczne. Specjalizację z zakresu chirurgii plastycznej uzyskała w Oddziale Chirurgii Plastycznej Specjalistycznego Centrum Medycznego S.A w Polanicy-Zdroju, najstarszym i jednym z najbardziej prestiżowych ośrodku chirurgii plastycznej w Polsce, gdzie pracuje do dzisiaj. Swoje doświadczenie i umiejętności zdobywała przez wiele lat pod okiem wybitnych chirurgów plastycznych. W ramach swojej pracy zawodowej wykonała kilkaset zabiegów operacyjnych z zakresu chirurgii plastycznej, rekonstrukcyjnej, estetycznej. Uczestniczyła w wielu kursach i indywidualnych stażach w renomowanych ośrodkach. Regularnie uczestniczy w kursach i kongresach z zakresu chirurgii plastycznej oraz medycyny estetycznej organizowanych zarówno w kraju, jak i za granicą. Członek Polskiego Towarzystwa Chirurgii Plastycznej i Rekonstrukcyjnej.",
+    city: "Warszawa",
+    img: "anna_baginska.jpeg",
+  },
 ];
 const DOCTORS_SZCZECIN = [
   {

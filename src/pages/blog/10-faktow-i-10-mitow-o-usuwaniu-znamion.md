@@ -35,7 +35,7 @@ sources:
 ---
 **Każdy z nas na swojej skórze może znaleźć z powodzeniem od kilkunastu do nawet kilkudziesięciu znamion, pieprzyków, brodawek i im podobnych zmian skórnych. Niektóre z nich dodają nam uroku, inne stanowią problem estetyczny, a jeszcze inne mogą stać się zagrożeniem dla naszego zdrowia, a nawet życia. Usuwanie znamion stało się jedną z opcji poradzenia sobie z problemem, jednak liczne mity z nim związane sprawiają, że wiele osób ma sporo obaw. Poniżej przedstawiamy popularne mity oraz fakty, które rozwieją wątpliwości na temat usuwania znamion!**
 
-![Usuwanie znamion - mity vs fakty](img/1.jpg)
+![Usuwanie znamion - mity vs fakty](img/fakty-mity.jpg)
 
 ## **Usuwanie znamion - mity vs fakty**
 
@@ -53,9 +53,9 @@ sources:
 
 **MIT 3 – Badanie znamion należy wykonywać tylko, gdy pojawią się niepokojące zmiany**
 
-**FAKT** – O ile pojawienie się niepokojącej zmiany na skórze jest dobrym pretekstem do wykonania badania znamion, to profilaktycznie zaleca się również regularne badania skóry całego ciała przynajmniej raz do roku. Nie jesteśmy w stanie samodzielnie ocenić wszystkich pojawiających się zmian na skórze. Poddając się komputerowemu badaniu znamion - [widedermatoskopii](https://twojeznamiona.pl/wideodermatoskopia-komputerowe-badanie-znamion) , możemy uzyskać pełną analizę występujących na naszym ciele zmian. Pojawiające się asymetrie, nieregularne krawędzie, niejednolita barwa, większa niż do tej pory średnica zmiany itp., mogą zostać podczas badania zauważone nawet w trudno dostępnych miejscach. W razie niepokojących objawów, lekarz może skierować nas do usunięcia znamienia dobraną do jego charakteru metodą niechirurgiczną lub chirurgiczną.
+**FAKT** – O ile pojawienie się niepokojącej zmiany na skórze jest dobrym pretekstem do wykonania badania znamion, to profilaktycznie zaleca się również regularne badania skóry całego ciała przynajmniej raz do roku. Nie jesteśmy w stanie samodzielnie ocenić wszystkich pojawiających się zmian na skórze. Poddając się komputerowemu badaniu znamion - [widedermatoskopii](https://twojeznamiona.pl/wideodermatoskopia-komputerowe-badanie-znamion), możemy uzyskać pełną analizę występujących na naszym ciele zmian. Pojawiające się asymetrie, nieregularne krawędzie, niejednolita barwa, większa niż do tej pory średnica zmiany itp., mogą zostać podczas badania zauważone nawet w trudno dostępnych miejscach. W razie niepokojących objawów, lekarz może skierować nas do usunięcia znamienia dobraną do jego charakteru metodą niechirurgiczną lub chirurgiczną.
 
-<More link="" text="" cta="Sprawdź" />
+<More link="https://twojeznamiona.pl/czerniak/rodzaje-czerniaka-zdjecia" text="Jakie są rodzaje czerniaka - zdjęcia" cta="Zobacz" />
 
 **MIT 4 – Nie usuwa się znamion z powodów estetycznych**
 
@@ -77,7 +77,7 @@ sources:
 
 **FAKT** – To czy na miejscu usuwanego znamienia pozostanie blizna, zależy od metody zabiegowej. W laserowym zabiegu, rana najczęściej jest niewielka, a co za tym idzie, często nie wymaga nawet zastosowania szwów czy opatrunków, przez co szybko się goi niemal bez śladu. W chirurgicznym usuwaniu znamion, gojenie przebiega nieco dłużej – szczególnie, gdy zmiana była spora. Warto jednak pamiętać, że obecne techniki i stosowane w chirurgii szwy (w tym te wchłanialne), czynią ślady po usuniętej zmianie o wiele mniej widocznymi.
 
-[Wszystko o usuwaniu znamion znajdziesz tutaj](https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion)
+<More link="https://twojeznamiona.pl/chirurgiczne-usuwanie-znamion" text="Wszystko o usuwaniu znamion" cta="Sprawdź" />
 
 **MIT 8 – Usuwanie znamion boli**
 
@@ -87,7 +87,8 @@ sources:
 
 **FAKT** – Niestety nie jest prawdą, że tylko duże, ciemne i odstające pieprzyki są groźne. Często to właśnie te niepozorne, płaskie i niewielkie zmiany mogą okazać się niebezpieczne. Co więcej, w sytuacji gdy nowy lub istniejący na skórze od lat pieprzyk zaczyna swędzieć, krwawić czy rosnąć, nie można go zlekceważyć, tylko niezwłocznie udać się do lekarza.
 
-[Porównaj zdjęcia czerniaków i zwykłych pieprzyków](https://twojeznamiona.pl/blog/jak-odroznic-zwykly-pieprzyk-od-typowego-czerniaka-zdjecia)
+<More link="https://twojeznamiona.pl/blog/jak-odroznic-zwykly-pieprzyk-od-typowego-czerniaka-zdjecia" text="Porównaj zdjęcia czerniaków i zwykłych pieprzyków" cta="Zobacz" />
+
 
 **MIT 10 – Czerniaki pojawiają się wyłącznie na istniejących znamionach**
 

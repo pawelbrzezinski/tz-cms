@@ -45,22 +45,22 @@ import CallCta from "../../components/CallCta";
 
 const REVIEWS = [
   {
-    author: "Marek B.",
+    author: "Paweł K.",
     city: "Gdańsk",
     review:
-      "Byłem tu na wizycie. Pani dermatolog skrupulatnie zapoznała się z moim problemem i wykonała badanie wideodermatoskopowe -  okazało się, że należy pieprzyk usunąć.",
+      "Wizyta sprawna, ale dokładna i kompletna. Wynik dostępny online, nowocześnie i profesjonalnie. Miejsce sprostało moim oczekiwaniom, kolejne badanie z pewnością tutaj.",
   },
   {
-    author: "Ala S.",
+    author: "Monika Z.",
     city: "Gdańsk",
     review:
-      "Byłam na badaniu znamion. Udało się znaleźć niepokojące znamię na plecach, które okazało się być czerniakiem! Dziękuję Pani doktor za precyzyjne badanie! Teraz chodze regularnie na kontrole ze swoja rodziną.",
+      "Badanie znamion bardzo dokładne, wyciętę niepokojące znamię na plecach, które na szczęście okazało się nie być rakiem! Teraz chodze regularnie na kontrole razem z mężem, żeby się nie stresować.",
   },
   {
-    author: "Aron S.",
+    author: "Franciszek E.",
     city: "Gdańsk",
     review:
-      "Jesteście najlepszym miejscem w Gdańsku do zbadania zmian skórnych. Wszyscy moi pracownicy, którym wykupiłem pakiet badań zostali bardzo solidnie przebadani, są zadowoleni. Na pewno wrócimy na kolejne kontrole.",
+      "Profesjonalizm na każdym kroku, przemiłe i pomocne Panie z rejestracji. Pani Doktor cierpliwa i dokładna, przebadała wszystkie moje znamiona, co nie jest takie łatwe. Do zobaczenia na kolejnej kontroli.",
   },
 ];
 

@@ -265,13 +265,13 @@ const Contact = ({ className = "", where = "", city = "" }) => {
                 <h3>Rejestracja telefoniczna:</h3>
                 <div className="registration_hours">
                   <p>
-                    poniedziałek - wtorek: <strong>10:00⁃18:00</strong>
+                    poniedziałek - wtorek: <strong>9:00⁃19:00</strong>
                   </p>
                   <p>
                     środa: <strong>12:00⁃20:00</strong>
                   </p>
                   <p>
-                    czwartek - piątek: <strong>10:00⁃18:00</strong>
+                    czwartek - piątek: <strong>9:00⁃19:00</strong>
                   </p>
                 </div>
                 <div className="contact_info_wrapper">
