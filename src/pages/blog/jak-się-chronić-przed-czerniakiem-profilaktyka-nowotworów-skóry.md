@@ -12,6 +12,22 @@ description: >
   opalające w solariach. Wyniki badań naukowych wskazują, że oparzenia słoneczne
   w okresie dzieciństwa aż kilkukrotnie zwiększają ryzyko rozwoju nowotworów
   skóry i czerniaka.
+keywords:
+  - badanie znamion
+  - czerniak
+  - bioderma
+  - dermatologia
+  - UV
+  - promieniowanie UV
+tags:
+  - usuwanie znamion
+  - pieprzyki
+  - czerniak
+  - znamię
+  - nowotwory skóry
+  - twoje znamiona
+  - znamiona
+  - dermatologia
 ---
 ![Logo Biodermy - autor Bioderma](img/image4-1-.jpeg "Logo Biodermy - autor Bioderma")
 
@@ -23,7 +39,7 @@ Najważniejszym udowodnionym naukowo czynnikiem ryzyka rozwoju czerniaka złośl
 
 Według obserwacji międzynarodowej Agencji Badań Nowotworów (IARC, International Agency for Research on Cancer), promieniowanie UVA i UVB zalicza się do czynników rakotwórczych. Odległe działania niepożądane UVR wynikają z jego zdolności do uszkadzania DNA w komórkach naskórka i skóry właściwej. W ciągu całego roku narażeni jesteśmy na działanie długich promieni UVA (320-400 nm), które wnikają głęboko do skóry właściwej i mają zdolność uszkadzania włókien kolagenowych, natomiast promienie krótkie UVB (290-320 nm) wpływają na naszą skórę (głównie naskórek) w miesiącach wiosenno-letnich. 
 
-<More link="\\[Jakie są objawy czerniaka złośliwego?](https://twojeznamiona.pl/blog/typowe-objawy-czerniaka-zlosliwego)" text="Jakie są objawy czerniaka złośliwego" cta="Sprawdź" />
+<More link="\\\[Jakie są objawy czerniaka złośliwego?](https://twojeznamiona.pl/blog/typowe-objawy-czerniaka-zlosliwego)" text="Jakie są objawy czerniaka złośliwego" cta="Sprawdź" />
 
 ## Fotoprotekcja - jak uchronić się przed nowotworami skóry
 
@@ -59,11 +75,11 @@ Do niedawna uważano, że słońce ma zbawczy wpływ na łojotokową i trądziko
 
 ## Profilaktyka starzenia się skóry a fotoprotekcja
 
-Ponieważ proces starzenia jest nieodwracalny i dotyczy to również fotostarzenia się skóry, podczas którego powstałe zmarszczki i bruzdy można uznać za trwałe blizny, to najważniejsze jest pamiętanie o starej zasadzie, że” lepiej jest zapobiegać niż leczyć”. Profilaktyka starzenia i fotostarzenia się skóry powinna rozpocząć się już w zasadzie w dzieciństwie i powinna być systematycznie kontynuowana przez całe życie. Najważniejsze jest stosowanie racjonalnej fotoprotekcji, która polega na unikaniu nadmiernej ekspozycji na naturalne promieniowanie ultrafioletowe, szczególnie w miesiącach letnich, pomiędzy godziną 11 a 16, noszeniu odzieży ochronnej oraz stosowaniu kremów/balsamów z filtrami UVA/UVB. Ze względu na obecność UVA przez cały rok, stosowanie kremów ochronnych, szczególnie na twarz i grzbiety rąk jest uzasadnione przez cały rok. Takie postępowanie pozwala na opóźnienie procesu starzenia oraz zmniejszenie ryzyka rozwoju zmian przednowotworowych oraz nowotworów skóry. 
+Ponieważ proces starzenia jest nieodwracalny i dotyczy to również fotostarzenia się skóry, podczas którego powstałe zmarszczki i bruzdy można uznać za trwałe blizny, to najważniejsze jest pamiętanie o starej zasadzie, że” lepiej jest zapobiegać niż leczyć”. Profilaktyka starzenia i fotostarzenia się skóry powinna rozpocząć się już w zasadzie w dzieciństwie i powinna być systematycznie kontynuowana przez całe życie. Najważniejsze jest stosowanie racjonalnej fotoprotekcji, która polega na unikaniu nadmiernej ekspozycji na naturalne promieniowanie ultrafioletowe, szczególnie w miesiącach letnich, pomiędzy godziną 11 a 16, noszeniu odzieży ochronnej oraz stosowaniu kremów/balsamów z filtrami UVA/UVB. Ze względu na obecność UVA przez cały rok, stosowanie kremów ochronnych, szczególnie na twarz i grzbiety rąk jest uzasadnione przez cały rok. Takie postępowanie pozwala na opóźnienie procesu starzenia oraz zmniejszenie ryzyka rozwoju zmian przed nowotworowych oraz nowotworów skóry. 
 
 ## Jakie są rodzaje filtrów UV?
 
-Spośród dostępnych obecnie na rynku filtrów wyróżnia się filtry fizyczne, które odbijają i rozpraszają promienie ultrafioletoweoraz chemiczne, które absorbują oraz rozpraszają promienie UV. Nowoczesne kremy ochronne stanowią mieszankę filtrów fizycznych i chemicznych. Dostępne są jednakże również tylko filtry fizyczne, które ze względu na minimalną toksyczność szczególnie zalecane są do stosowania u małych dzieci oraz u osób ze skóra wrażliwą, skłonną do podrażnień oraz rozwoju reakcji alergicznych.  Nowoczesne filtry UVB/UVA są bezpieczne, niezmiernie rzadko powodują powstanie reakcji fotoalergicznych. W celu uzyskania prawidłowej protekcji należy jednak używać ich w sposób właściwy. Oznacza to aplikację preparatu około 30 minut przed wyjściem na dwór, a następnie powtarzanie tej aplikacji co najmniej co 2-3 godziny, w tym zawsze po długiej kąpieli w wodzie. Ważne jest również to, żeby wiedzieć, że prawidłowa ochrona zostanie zapewniona jedynie przy stosowaniu preparatu co najmniej w ilości 2 mg/cm2, czyli aplikacja równoważna 1 łyżeczki do herbaty na skórę twarzy.
+Spośród dostępnych obecnie na rynku filtrów wyróżnia się filtry fizyczne, które odbijają i rozpraszają promienie ultrafioletowe oraz chemiczne, które absorbują oraz rozpraszają promienie UV. Nowoczesne kremy ochronne stanowią mieszankę filtrów fizycznych i chemicznych. Dostępne są jednakże również tylko filtry fizyczne, które ze względu na minimalną toksyczność szczególnie zalecane są do stosowania u małych dzieci oraz u osób ze skóra wrażliwą, skłonną do podrażnień oraz rozwoju reakcji alergicznych.  Nowoczesne filtry UVB/UVA są bezpieczne, niezmiernie rzadko powodują powstanie reakcji fotoalergicznych. W celu uzyskania prawidłowej protekcji należy jednak używać ich w sposób właściwy. Oznacza to aplikację preparatu około 30 minut przed wyjściem na dwór, a następnie powtarzanie tej aplikacji co najmniej co 2-3 godziny, w tym zawsze po długiej kąpieli w wodzie. Ważne jest również to, żeby wiedzieć, że prawidłowa ochrona zostanie zapewniona jedynie przy stosowaniu preparatu co najmniej w ilości 2 mg/cm2, czyli aplikacja równoważna 1 łyżeczki do herbaty na skórę twarzy.
 
 ## Starzenie się skóry pod wpływem słońca
 
