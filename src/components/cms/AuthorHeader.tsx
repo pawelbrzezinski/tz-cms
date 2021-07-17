@@ -20,6 +20,9 @@ const AuthorHeader = ({
           {author.indexOf("Agnieszka") !== -1 && (
             <p className="title">{authorsTitle}</p>
           )}
+          {authorsTitle.indexOf("sponsorowany") !== -1 && (
+            <p className="title">{authorsTitle}</p>
+          )}
           {readingTime !== 0 ? (
             <p className="reading_time">
               {date} · {readingTime} min

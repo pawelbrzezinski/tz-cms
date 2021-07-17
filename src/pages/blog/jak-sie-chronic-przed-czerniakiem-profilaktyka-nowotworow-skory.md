@@ -2,9 +2,9 @@
 templateKey: blog-post
 title: Jak się chronić przed czerniakiem - profilaktyka nowotworów skóry
 author: Bioderma
-authorsTitle: Marka dermatologiczna
+authorsTitle: artykuł sponsorowany
 readingTime: 5
-date: 2021-07-13T07:15:16.978Z
+date: 2021-07-16T07:15:16.978Z
 description: >
   Najważniejszym udowodnionym naukowo czynnikiem ryzyka rozwoju czerniaka
   złośliwego jest ekspozycja na promieniowanie UV, zarówno to pochodzenia
@@ -23,13 +23,13 @@ tags:
   - usuwanie znamion
   - pieprzyki
   - czerniak
+  - profilaktyka
   - znamię
   - nowotwory skóry
-  - twoje znamiona
   - znamiona
   - dermatologia
 ---
-![Logo Biodermy - autor Bioderma](img/image4-1-.jpeg "Logo Biodermy - autor Bioderma")
+![Bioderma](img/image4-1-.jpeg "Bioderma")
 
 Najważniejszym udowodnionym naukowo czynnikiem ryzyka rozwoju czerniaka złośliwego jest ekspozycja na promieniowanie UV, zarówno to pochodzenia naturalnego - promienie słoneczne jak i pochodzenia sztucznego - lampy opalające w solariach. Wyniki badań naukowych wskazują, że oparzenia słoneczne w okresie dzieciństwa aż kilkukrotnie zwiększają ryzyko rozwoju nowotworów skóry i czerniaka. 
 
@@ -39,7 +39,7 @@ Najważniejszym udowodnionym naukowo czynnikiem ryzyka rozwoju czerniaka złośl
 
 Według obserwacji międzynarodowej Agencji Badań Nowotworów (IARC, International Agency for Research on Cancer), promieniowanie UVA i UVB zalicza się do czynników rakotwórczych. Odległe działania niepożądane UVR wynikają z jego zdolności do uszkadzania DNA w komórkach naskórka i skóry właściwej. W ciągu całego roku narażeni jesteśmy na działanie długich promieni UVA (320-400 nm), które wnikają głęboko do skóry właściwej i mają zdolność uszkadzania włókien kolagenowych, natomiast promienie krótkie UVB (290-320 nm) wpływają na naszą skórę (głównie naskórek) w miesiącach wiosenno-letnich. 
 
-<More link="\\\[Jakie są objawy czerniaka złośliwego?](https://twojeznamiona.pl/blog/typowe-objawy-czerniaka-zlosliwego)" text="Jakie są objawy czerniaka złośliwego" cta="Sprawdź" />
+<More link="/blog/typowe-objawy-czerniaka-zlosliwego" text="Jakie są objawy czerniaka złośliwego" cta="Sprawdź" />
 
 ## Fotoprotekcja - jak uchronić się przed nowotworami skóry
 
@@ -55,7 +55,8 @@ Ekspozycja na słońce często powoduje pojawianie się nowych znamion na skórz
 
 ![Zbadaj się](img/zrzut-ekranu-2021-07-10-o-01.48.04.png)
 
-**[Sprawdź, gdzie możesz zbadać swoje znamiona](https://twojeznamiona.pl/kontakt)**
+
+<More link="/kontakt" text="Gdzie możesz zbadać swoje znamiona" cta="Sprawdź" />
 
 ## Jakie inne problemy powoduje promieniowanie UV?
 
