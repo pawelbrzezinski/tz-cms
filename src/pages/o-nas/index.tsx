@@ -48,6 +48,14 @@ const DOCTORS_POZNAN = [
     img: "lukasz_urbanski.jpg",
   },
   {
+    name: "Michał Sawicki",
+    title: "specjalizuje się w chirurgii dziecieńcej",
+    description:
+      "Ukończył wydział lekarski Uniwersytetu Medycznego w Poznaniu. Jest chirurgiem dziecięcym, obecnie odbywa specjalizację Chirurgii Dziecięcej w Klinice Chirurgii Dziecięcej w Poznaniu. Również tutaj w Podyplomowej Wyższej Szkole Estetyki Twarzy rozwija swoje zainteresowania medycyną estetyczną. Jest lekarzem medycyny estetycznej, pracuje w prywatnym gabinecie medycyny estetycznej w Poznaniu. Jest członkiem Polskiego Towarzystwa Chirurgii Dziecięcej oraz Polskiego Towarzystwa Medycyny Estetycznej i Anti-Aging.",
+    city: "Poznań",
+    img: "michal_sawicki.jpg",
+  },
+  {
     name: "Agnieszka Kopeć",
     title: "specjalizuje się w dermatologii i wenerologii",
     description:
